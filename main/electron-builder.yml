@@ -3,7 +3,7 @@ publish:
   - provider: "github"
     owner: "SlowQuasar"
     repo: "unawakened-poe-trade"
-    releaseType: "release"
+    releaseType: "draft"
 appId: "io.github.slowquasar.unawakened-poe-trade"
 productName: "Unawakened PoE Trade"
 npmRebuild: false
