@@ -15,7 +15,7 @@ const AUTO_CLEAR = [
 
 export function typeInChat (text: string, send: boolean, clipboard: HostClipboard) {
   clipboard.restoreShortly((clipboard) => {
-    const modifiers = process.platform === 'darwin' ? [Key.Meta] : [Key.Ctrl]
+    const modifiers = [Key.Ctrl]
 
     if (text.startsWith(PLACEHOLDER_LAST)) {
       text = text.slice(`${PLACEHOLDER_LAST} `.length)
@@ -59,7 +59,7 @@ export function stashSearch (
     overlay.assertGameActive()
     clipboard.writeText(text)
     uIOhook.keyTap(Key.F, [Key.Ctrl])
-    uIOhook.keyTap(Key.V, [process.platform === 'darwin' ? Key.Meta : Key.Ctrl])
+    uIOhook.keyTap(Key.V, [Key.Ctrl])
     uIOhook.keyTap(Key.Enter)
   })
 }

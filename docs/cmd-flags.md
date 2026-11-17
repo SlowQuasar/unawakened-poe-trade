@@ -7,7 +7,7 @@ title: Command-line options
 
 - `--no-overlay`
 Disables the creation of the Overlay Window completely.
-Can be useful for Linux users using APT in the browser.
+Useful if you want to use the app only in the browser.
 
 - `--listen=[host][:port]`
 Changes the listening address for the built-in server.

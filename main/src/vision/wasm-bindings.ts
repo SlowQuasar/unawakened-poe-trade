@@ -10,11 +10,6 @@ const langMap = new Map([
 ])
 
 export async function init (binDir: string) {
-  if (process.platform !== 'win32') {
-    // so far only tested on Windows with BGRA images
-    throw new Error('Unsupported platform')
-  }
-
   const tessInstantiate = (await import('file://' + binDir + '/tesseract-core-simd.js')).default
   tessModule = await tessInstantiate()
   tessApi = new tessModule.TessBaseAPI()

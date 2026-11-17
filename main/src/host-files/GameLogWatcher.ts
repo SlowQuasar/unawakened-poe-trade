@@ -1,20 +1,15 @@
 import { promises as fs, watchFile, unwatchFile } from 'fs'
-import path from 'path'
-import { app } from 'electron'
 import { guessFileLocation } from './utils'
 import { ServerEvents } from '../server'
 import { Logger } from '../RemoteLogger'
 
-const POSSIBLE_PATH =
-  (process.platform === 'win32') ? [
-    'C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\logs\\Client.txt',
-    'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Path of Exile\\logs\\Client.txt'
-  ] : (process.platform === 'linux') ? [
-    path.join(app.getPath('home'), '.wine/drive_c/Program Files (x86)/Grinding Gear Games/Path of Exile/logs/Client.txt'),
-    path.join(app.getPath('home'), '.local/share/Steam/steamapps/common/Path of Exile/logs/Client.txt')
-  ] : (process.platform === 'darwin') ? [
-    path.join(app.getPath('home'), 'Library/Caches/com.GGG.PathOfExile/Logs/Client.txt')
-  ] : []
+// Read-only: the log file is only watched, never written.
+const POSSIBLE_PATH = [
+  'C:\\Daum Games\\Path of Exile\\logs\\KakaoClient.txt',
+  'C:\\Daum Games\\Path of Exile\\logs\\Client.txt',
+  'C:\\Program Files (x86)\\Grinding Gear Games\\Path of Exile\\logs\\Client.txt',
+  'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Path of Exile\\logs\\Client.txt'
+]
 
 export class GameLogWatcher {
   private _wantedPath: string | null = null

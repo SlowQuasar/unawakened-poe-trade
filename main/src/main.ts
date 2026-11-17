@@ -20,9 +20,7 @@ if (!app.requestSingleInstanceLock()) {
   app.exit()
 }
 
-if (process.platform !== 'darwin') {
-  app.disableHardwareAcceleration()
-}
+app.disableHardwareAcceleration()
 app.enableSandbox()
 
 let tray: AppTray
@@ -58,7 +56,6 @@ app.on('ready', async () => {
       overlay.loadAppPage(port)
       tray.serverPort = port
     },
-    // fixes(linux): window is black instead of transparent
-    process.platform === 'linux' ? 1000 : 0
+    0
   )
 })

@@ -41,7 +41,3 @@ title: Common issues
 - 🔥[Nothing happens when I try to price check](/nothing-happens)
 - Can't open settings via tray icon when game is active
 
-## Linux
-
-- Tray icon is not shown
-- 🔥Screen is black

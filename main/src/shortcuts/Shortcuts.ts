@@ -175,8 +175,6 @@ export class Shortcuts {
             this.gameConfig.showModsKey
           )
         } else if (entry.action.type === 'ocr-text' && entry.action.target === 'heist-gems') {
-          if (process.platform !== 'win32') return
-
           const { action } = entry
           const pressTime = Date.now()
           const imageData = this.poeWindow.screenshot()
@@ -219,15 +217,8 @@ function pressKeysToCopyItemText (pressedModKeys: string[] = [], showModsKey: st
 
   let keys = mergeTwoHotkeys('Ctrl + C', showModsKey).split(' + ')
   keys = keys.filter(key => key !== 'C')
-  if (process.platform !== 'darwin') {
-    // On non-Mac platforms, don't toggle keys that are already being pressed.
-    //
-    // For unknown reasons, we need to toggle pressed keys on Mac for advanced
-    // mod descriptions to be copied. You can test this by setting the shortcut
-    // to "Alt + any letter". They'll work with this line, but not if it's
-    // commented out.
-    keys = keys.filter(key => !pressedModKeys.includes(key))
-  }
+  // don't toggle keys that are already being pressed
+  keys = keys.filter(key => !pressedModKeys.includes(key))
 
   for (const key of keys) {
     uIOhook.keyToggle(UiohookKey[key as UiohookKeyT], 'down')

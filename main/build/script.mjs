@@ -14,9 +14,6 @@ const electronRunner = (() => {
 
       if (handle) handle.kill()
       const args = ['.']
-      if (process.platform === 'linux') {
-        args.unshift('--ozone-platform', 'x11')
-      }
       handle = child_process.spawn(String(electron), args, {
         stdio: 'inherit'
       })

@@ -36,15 +36,7 @@ export class HostClipboard {
     let textBefore = clipboard.readText()
     if (isPoeItem(textBefore)) {
       textBefore = ''
-      if (process.platform !== 'linux') {
-        clipboard.writeText('')
-      } else {
-        // workaround KDE's "Prevent empty clipboard" feature
-        clipboard.writeText(`__APT_FORCE_EMPTY_${Date.now()}`)
-      }
-    } else if (process.platform === 'linux') {
-      // workaround bug in Proton 10+
-      clipboard.writeText(`__APT_FORCE_EMPTY_${Date.now()}`)
+      clipboard.writeText('')
     }
 
     this.pollPromise = new Promise((resolve, reject) => {

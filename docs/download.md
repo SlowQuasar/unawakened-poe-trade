@@ -15,13 +15,11 @@ to the developer, downloading from them may be unsafe.
 |---------------|-------------------|--------------|
 | <a :href="`${theme.github.releasesUrl}/download/v${theme.appVersion}/Unawakened-PoE-Trade-Setup-${theme.appVersion}.exe`">Windows 10+ (installer)</a> | ✔ | Fast |
 | <a :href="`${theme.github.releasesUrl}/download/v${theme.appVersion}/Unawakened-PoE-Trade-${theme.appVersion}.exe`">Windows 10+ (portable)</a> | ❌ | Slower |
-| <a :href="`${theme.github.releasesUrl}/download/v${theme.appVersion}/Unawakened-PoE-Trade-${theme.appVersion}.AppImage`">Linux (AppImage)</a> | ✔ | n/a |
-| <a :href="`${theme.github.releasesUrl}/download/v${theme.appVersion}/Unawakened-PoE-Trade-${theme.appVersion}-universal.dmg`">macOS (dmg)</a> | ❌ | n/a |
 
 Latest version is <span class="bg-gray-100 border rounded px-1">{{ theme.appVersion }}</span>
 
 *The app is unsigned, which means you'll have to bypass security
-warnings on Windows and [macOS](https://support.apple.com/en-us/HT202491#openanyway) to open it.{:.text-sm}
+warnings on Windows to open it. Windows only: macOS and Linux are not supported.{:.text-sm}
 
 ---
 

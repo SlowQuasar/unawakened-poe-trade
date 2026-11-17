@@ -15,21 +15,15 @@ export class WidgetAreaTracker {
   ) {
     this.server.onEventAnyClient('OVERLAY->MAIN::track-area', (opts) => {
       this.holdKey = opts.holdKey
-      if (process.platform === 'win32') {
-        this.closeThreshold = opts.closeThreshold * opts.dpr
-        this.from = screen.dipToScreenPoint(opts.from)
-        // NOTE: bug in electron accepting only integers
-        this.area = screen.dipToScreenRect(null, {
-          x: Math.round(opts.area.x),
-          y: Math.round(opts.area.y),
-          width: Math.round(opts.area.width),
-          height: Math.round(opts.area.height)
-        })
-      } else {
-        this.closeThreshold = opts.closeThreshold
-        this.from = opts.from
-        this.area = opts.area
-      }
+      this.closeThreshold = opts.closeThreshold * opts.dpr
+      this.from = screen.dipToScreenPoint(opts.from)
+      // NOTE: bug in electron accepting only integers
+      this.area = screen.dipToScreenRect(null, {
+        x: Math.round(opts.area.x),
+        y: Math.round(opts.area.y),
+        width: Math.round(opts.area.width),
+        height: Math.round(opts.area.height)
+      })
 
       this.removeListeners()
       uIOhook.addListener('mousemove', this.handleMouseMove)
