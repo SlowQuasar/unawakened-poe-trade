@@ -14,6 +14,12 @@ files:
     filter: ["main.js", "vision.js"]
   - from: "../renderer/dist"
     to: "."
+# MIT: ship the license and third-party notices with every copy
+extraFiles:
+  - from: "../LICENSE"
+    to: "LICENSE.txt"
+  - from: "build/THIRD_PARTY_NOTICES.txt"
+    to: "THIRD_PARTY_NOTICES.txt"
 extraMetadata:
   main: "main.js"
 nsis:

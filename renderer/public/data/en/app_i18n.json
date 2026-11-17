@@ -22,7 +22,8 @@
     "quit": "Quit",
     "tagline": "Not quite awakened. Still checks prices.",
     "footer_joke": "Bugs are just features that haven't awakened yet.",
-    "disclaimer": "Unofficial. Not affiliated with Grinding Gear Games or Kakao Games."
+    "disclaimer": "Unofficial. Not affiliated with Grinding Gear Games or Kakao Games.",
+    "license_notice": "MIT License. Includes the original MIT copyright notice; third-party notices are in THIRD_PARTY_NOTICES.txt in the install folder."
   },
 
   "map.mods.heist": "heist",

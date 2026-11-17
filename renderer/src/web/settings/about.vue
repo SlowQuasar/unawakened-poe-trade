@@ -19,6 +19,9 @@
     <div class="text-center mt-auto py-8 text-gray-400">
       <p>{{ t('app.footer_joke') }}</p>
       <p class="text-xs text-gray-500 mt-2">{{ t('app.disclaimer') }}</p>
+      <p class="text-xs text-gray-500 mt-1">
+        <a class="border-b" :href="`${REPO_URL}/blob/master/LICENSE`" target="_blank">{{ t('app.license_notice') }}</a>
+      </p>
     </div>
   </div>
 </template>
