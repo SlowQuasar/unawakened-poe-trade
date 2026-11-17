@@ -1,7 +1,7 @@
 <template>
   <div class="p-2 flex flex-col h-full items-center">
     <div class="flex flex-col items-center p-2 mb-4">
-      <img class="w-12 h-12 grayscale opacity-75" src="/images/TransferOrb.png" :title="t('app.tagline')">
+      <img class="w-12 h-12" src="/images/VaalOrb.png" :title="t('app.tagline')">
       <p class="text-base">Unawakened PoE Trade</p>
       <p class="text-gray-400 italic">{{ t('app.tagline') }}</p>
       <p class="">{{ t('app.version', [version]) }}</p>

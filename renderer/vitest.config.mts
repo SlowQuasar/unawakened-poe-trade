@@ -8,7 +8,7 @@ export default defineConfig({
     // Vitest exposes import.meta.env through its worker environment.
     env: { BASE_URL: new URL('./public/', import.meta.url).href },
     environment: 'node',
-    include: ['test/parser.*.test.ts'],
+    include: ['test/*.test.ts'],
     globalSetup: [fileURLToPath(new URL('./test/global-setup.mts', import.meta.url))],
     setupFiles: ['./test/setup.ts'],
     isolate: true

@@ -160,7 +160,11 @@ export function initUiModFilters (
     filterBasePercentile(ctx)
   }
   filterMemoryStrands(ctx, 'hide_memory_strands')
-  if (item.info.refName !== 'Split Personality') {
+  if (
+    item.info.refName !== 'Split Personality' &&
+    // Viscera carry a single implicit; search by the exact stat, not a pseudo total
+    item.category !== ItemCategory.Viscera
+  ) {
     filterPseudo(ctx)
   }
   if (item.uniqueBase?.refName === 'Timeless Jewel') {

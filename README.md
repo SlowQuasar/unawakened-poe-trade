@@ -1,4 +1,4 @@
-# <img src="renderer/public/images/TransferOrb.png" width="32" height="32" alt=""> Unawakened PoE Trade
+# <img src="renderer/public/images/VaalOrb.png" width="32" height="32" alt=""> Unawakened PoE Trade
 
 > **아직 덜 깼습니다. 그래도 시세는 봅니다.**
 > *Not quite awakened. Still checks prices.*

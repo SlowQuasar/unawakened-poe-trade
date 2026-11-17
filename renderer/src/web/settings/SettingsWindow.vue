@@ -29,7 +29,7 @@
         <button v-if="menuItems.length >= 4"
           :class="$style['quit-btn']" @click="quit">{{ t('app.quit') }}</button>
         <div class="text-gray-400 text-center mt-auto pr-3 pt-4 pb-12" style="max-width: fit-content; min-width: 100%;">
-          <img class="mx-auto mb-1" src="/images/peepoLove2x.webp">
+          <img class="mx-auto mb-1 w-16 h-16" src="/images/sad-heart.png">
           <span class="italic">{{ t('app.tagline') }}</span>
         </div>
       </div>
