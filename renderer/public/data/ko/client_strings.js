@@ -1,6 +1,12 @@
 // @ts-check
 /** @type{import('../../../src/assets/data/interfaces').TranslationDict} */
 export default {
+  MAP_ATLAS_DROPS: '아틀라스 획득물: ',
+  VISCERA_CLASS: '살덩이',
+  VISCERA_SLOT_HEAD: '머리',
+  VISCERA_SLOT_ARM: '상지',
+  VISCERA_SLOT_BODY: '몸통', // unverified
+  VISCERA_SLOT_LEG: '하지', // unverified
   RARITY_NORMAL: '일반',
   RARITY_MAGIC: '마법',
   RARITY_RARE: '희귀',

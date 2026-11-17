@@ -1,6 +1,12 @@
 // @ts-check
 /** @type{import('../../../src/assets/data/interfaces').TranslationDict} */
 export default {
+  MAP_ATLAS_DROPS: 'Atlas Drops: ', // unverified; English fallback
+  VISCERA_CLASS: 'Viscera', // unverified
+  VISCERA_SLOT_HEAD: 'Head', // unverified
+  VISCERA_SLOT_ARM: 'Arm', // unverified
+  VISCERA_SLOT_BODY: 'Body', // unverified
+  VISCERA_SLOT_LEG: 'Leg', // unverified
   RARITY_NORMAL: '普通',
   RARITY_MAGIC: '魔法',
   RARITY_RARE: '稀有',

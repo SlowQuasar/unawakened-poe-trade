@@ -55,6 +55,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseFoil,
   parseInfluence,
   parseMap,
+  parseVisceraSlot,
   parseSockets,
   parseHeistContract,
   parseHeistBlueprint,
@@ -194,6 +195,12 @@ function findInDatabase (item: ParserState) {
   } else {
     info = ITEM_BY_TRANSLATED('ITEM', item.baseType ?? item.name)
   }
+  if (!info?.length && item.category === ItemCategory.Viscera) {
+    const baseType = magicBasetype(item.name)
+    if (baseType) {
+      info = ITEM_BY_TRANSLATED('ITEM', baseType)
+    }
+  }
   if (!info?.length) {
     return err('item.unknown')
   }
@@ -244,7 +251,10 @@ function parseMapTier (item: ParserState) {
 }
 
 function parseAreaPropNested (line: string, item: ParsedItem): boolean {
-  if (line.startsWith(_$.MAP_ITEM_QUANTITY)) {
+  if (line.startsWith(_$.MAP_ATLAS_DROPS)) {
+    item.areaAtlasDrops = parseInt(line.slice(_$.MAP_ATLAS_DROPS.length), 10)
+    return true
+  } else if (line.startsWith(_$.MAP_ITEM_QUANTITY)) {
     item.areaItemQuantity = parseInt(line.slice(_$.MAP_ITEM_QUANTITY.length), 10)
     return true
   } else if (line.startsWith(_$.MAP_ITEM_RARITY)) {
@@ -255,6 +265,22 @@ function parseAreaPropNested (line: string, item: ParsedItem): boolean {
     return true
   }
   return false
+}
+
+function parseVisceraSlot (section: string[], item: ParsedItem): SectionParseResult {
+  if (item.category !== ItemCategory.Viscera) return 'PARSER_SKIPPED'
+  if (section.length !== 1) return 'SECTION_SKIPPED'
+
+  const slots: Array<[string, NonNullable<ParsedItem['visceraSlot']>]> = [
+    [_$.VISCERA_SLOT_HEAD, 'head'],
+    [_$.VISCERA_SLOT_ARM, 'arm'],
+    [_$.VISCERA_SLOT_BODY, 'body'],
+    [_$.VISCERA_SLOT_LEG, 'leg']
+  ]
+  const slot = slots.find(([text]) => text === section[0])
+  if (!slot) return 'SECTION_SKIPPED'
+  item.visceraSlot = slot[1]
+  return 'SECTION_PARSED'
 }
 
 function parseMap (section: string[], item: ParsedItem) {
@@ -351,6 +377,7 @@ function parseNamePlate (section: string[]) {
     return err('item.parse_error')
   }
 
+  const isViscera = line.slice(_$.ITEM_CLASS.length) === _$.VISCERA_CLASS
   line = section.shift()
   let rarityText: string | undefined
   if (line?.startsWith(_$.RARITY)) {
@@ -370,7 +397,7 @@ function parseNamePlate (section: string[]) {
 
   const item: ParserState = {
     rarity: undefined,
-    category: undefined,
+    category: isViscera ? ItemCategory.Viscera : undefined,
     name: name,
     baseType: baseType,
     isUnidentified: false,
@@ -798,7 +825,8 @@ function parseModifiers (section: string[], item: ParsedItem) {
     item.rarity !== ItemRarity.Normal &&
     item.rarity !== ItemRarity.Magic &&
     item.rarity !== ItemRarity.Rare &&
-    item.rarity !== ItemRarity.Unique
+    item.rarity !== ItemRarity.Unique &&
+    item.category !== ItemCategory.Viscera
   ) {
     return 'PARSER_SKIPPED'
   }

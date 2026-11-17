@@ -1,4 +1,4 @@
-import type { ItemInfluence, ItemCategory } from '@/parser'
+import type { ItemInfluence, ItemCategory, ParsedItem } from '@/parser'
 import { ModifierType, ModifierMechanic, type StatCalculated } from '@/parser/modifiers'
 
 export interface FilterPreset {
@@ -21,6 +21,7 @@ interface SearchFilterSub extends SearchFilter {
 }
 
 export interface ItemFilters {
+  visceraSlot?: ParsedItem['visceraSlot']
   searchExact: SearchFilterSub
   searchRelaxed?: SearchFilterSub & { disabled: boolean }
   rarity?: {
@@ -156,6 +157,7 @@ const _INTERNAL_TRADE_IDS = [
   'item.aps',
   'item.has_empty_modifier',
   'item.mercenary_6link',
+  'item.map_atlas_drops',
   'item.map_item_quantity',
   'item.map_item_rarity',
   'item.map_pack_size',

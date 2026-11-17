@@ -12,6 +12,7 @@ import { Cache } from './Cache'
 
 export const CATEGORY_TO_TRADE_ID = new Map([
   [ItemCategory.Map, 'map'],
+  [ItemCategory.Viscera, 'viscera'],
   [ItemCategory.AbyssJewel, 'jewel.abyss'],
   [ItemCategory.Amulet, 'accessory.amulet'],
   [ItemCategory.Belt, 'accessory.belt'],
@@ -162,6 +163,7 @@ interface TradeRequest {
       map_filters?: {
         filters: {
           map_tier?: FilterRange
+          map_bonus?: FilterRange
           map_iiq?: FilterRange
           map_iir?: FilterRange
           map_packsize?: FilterRange
@@ -321,7 +323,9 @@ export function createTradeRequest (filters: ItemFilters, stats: FilterOrGroup[]
   }
 
   if (activeSearch.category) {
-    const id = CATEGORY_TO_TRADE_ID.get(activeSearch.category)
+    const id = activeSearch.category === ItemCategory.Viscera && filters.visceraSlot
+      ? `viscera.${filters.visceraSlot}`
+      : CATEGORY_TO_TRADE_ID.get(activeSearch.category)
     if (id) {
       propSet(query.filters, 'type_filters.filters.category.option', id)
     } else {
@@ -495,6 +499,10 @@ export function createTradeRequest (filters: ItemFilters, stats: FilterOrGroup[]
       case 'item.aps':
         propSet(query.filters, 'weapon_filters.filters.aps.min', typeof input.min === 'number' ? input.min : undefined)
         propSet(query.filters, 'weapon_filters.filters.aps.max', typeof input.max === 'number' ? input.max : undefined)
+        break
+      case 'item.map_atlas_drops':
+        propSet(query.filters, 'map_filters.filters.map_bonus.min', typeof input.min === 'number' ? input.min : undefined)
+        propSet(query.filters, 'map_filters.filters.map_bonus.max', typeof input.max === 'number' ? input.max : undefined)
         break
       case 'item.map_item_quantity':
         propSet(query.filters, 'map_filters.filters.map_iiq.min', typeof input.min === 'number' ? input.min : undefined)

@@ -56,6 +56,15 @@ export function createFilters (
   if (item.category === ItemCategory.Gem) {
     return createGemFilters(item, filters, opts)
   }
+  if (item.category === ItemCategory.Viscera) {
+    filters.searchExact = {
+      baseType: item.info.name,
+      baseTypeTrade: t(opts, item.info),
+      category: ItemCategory.Viscera
+    }
+    filters.visceraSlot = item.visceraSlot
+    return filters
+  }
   if (item.category === ItemCategory.CapturedBeast) {
     filters.searchExact = {
       baseType: item.info.name,

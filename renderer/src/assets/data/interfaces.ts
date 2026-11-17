@@ -132,6 +132,12 @@ export interface TranslationDict {
   RARITY_DIVCARD: string
   RARITY_QUEST: string
   MAP_TIER: RegExp
+  MAP_ATLAS_DROPS: string
+  VISCERA_CLASS: string
+  VISCERA_SLOT_HEAD: string
+  VISCERA_SLOT_ARM: string
+  VISCERA_SLOT_BODY: string
+  VISCERA_SLOT_LEG: string
   MAP_ITEM_QUANTITY: string
   MAP_ITEM_RARITY: string
   MAP_MONSTER_PACK_SIZE: string

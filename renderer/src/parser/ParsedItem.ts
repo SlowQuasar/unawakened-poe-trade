@@ -37,6 +37,8 @@ export interface ParsedItem {
 
   mapArea?: BaseType
   areaLevel?: number
+  areaAtlasDrops?: number
+  visceraSlot?: 'head' | 'arm' | 'body' | 'leg'
   areaItemQuantity?: number
   areaItemRarity?: number
   areaPackSize?: number

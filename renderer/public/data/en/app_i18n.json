@@ -58,6 +58,7 @@
     "elemental_dps": "Elemental DPS: {0}",
     "crit": "Critical Strike Chance: {0}%",
     "aps": "Attacks per Second: {0}",
+    "map_atlas_drops": "Atlas Drops: {0}%",
     "map_item_quantity": "Item Quantity: {0}%",
     "map_item_rarity": "Item Rarity: {0}%",
     "map_pack_size": "Monster Pack Size: {0}%",

@@ -1,5 +1,6 @@
 export enum ItemCategory {
   Map = 'Map',
+  Viscera = 'Viscera',
   CapturedBeast = 'Captured Beast',
   MetamorphSample = 'Metamorph Sample',
   Helmet = 'Helmet',
