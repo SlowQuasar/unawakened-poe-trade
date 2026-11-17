@@ -1,13 +1,8 @@
 name: Docs
 
+# Manual only until GitHub Pages is set up for this repository.
 on:
-  push:
-    branches:
-      - '**'
-    tags-ignore:
-      - '**'
-    paths:
-      - 'docs/**'
+  workflow_dispatch:
 
 jobs:
   deploy:

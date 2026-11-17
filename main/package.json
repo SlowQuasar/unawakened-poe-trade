@@ -1,12 +1,11 @@
 {
   "name": "unawakened-poe-trade",
-  "version": "3.29.108",
+  "version": "3.30.0",
   "private": true,
   "scripts": {
     "dev": "node build/script.mjs",
     "build": "tsc --noEmit && node build/script.mjs --prod",
-    "package": "electron-builder build",
-    "postinstall": "patch-package --patch-dir build"
+    "package": "electron-builder build"
   },
   "author": {
     "name": "Alexander Drozdov"

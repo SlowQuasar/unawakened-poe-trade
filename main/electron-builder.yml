@@ -3,12 +3,10 @@ publish:
   - provider: "github"
     owner: "SlowQuasar"
     repo: "unawakened-poe-trade"
+    releaseType: "release"
 appId: "io.github.slowquasar.unawakened-poe-trade"
 productName: "Unawakened PoE Trade"
 npmRebuild: false
-toolsets:
-  appimage: 1.0.3
-artifactBuildCompleted: "build/apprun-patch.test.mjs"
 files:
   - "package.json"
   - from: "dist"
@@ -28,13 +26,3 @@ win:
   target:
   - "nsis"
   - "portable"
-linux:
-  target:
-  - "AppImage"
-mac:
-  target:
-  - target: "dmg"
-    arch:
-    - "universal"
-  identity: null
-  x64ArchFiles: "*"
