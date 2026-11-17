@@ -125,7 +125,8 @@
 | PHASE 0 산출물 | 커밋·푸시 완료 (`7ce1c56`) |
 | 데이터 원천 | 로컬 한국어 클라이언트(`C:\Daum Games\Path of Exile`, Kakao) + **PoEDB 사이트** 조사 (PHASE 1) |
 | 변경 반영 방식 | **GitHub PR 사용 안 함.** 작업은 로컬 브랜치에서 하고, Claude Code 리뷰 후 `master`에 rebase/fast-forward로 합쳐 `git pull --rebase` → `git push`. (마스터 프롬프트의 "브랜치+PR" 규칙을 대체) |
-| 원본과의 연결 | GitHub 포크 네트워크에서 분리 예정(사용자가 Settings → Leave fork network 실행) |
+| 원본과의 연결 | **분리 완료**(2026-11-17, GitHub API `fork: false`). 저장소 내 원본 링크·후원 링크 제거, publish 대상 고정, 로컬 pre-push 가드 |
+| 원본 앱 설정 가져오기 | **불필요** — 새로 설치해서 쓴다. 앱 정체성 즉시 변경: package `name` `unawakened-poe-trade`(설정 폴더 `%APPDATA%\unawakened-poe-trade`), `productName` "Unawakened PoE Trade", `appId` `io.github.slowquasar.unawakened-poe-trade`, 설치 파일 `Unawakened-PoE-Trade-Setup-${version}.exe` |
 
 **브라우저 "웹 버전"이란** ✅: 별도 제품이 아니라, 앱이 띄우는 로컬 서버(`http://localhost:<포트>`)를 **일반 브라우저로 열어 같은 UI를 쓰는 모드**다. 트레이 메뉴 "Open in Browser"(`main/src/AppTray.ts:48-50`)로 열리고, `--no-overlay`·`--listen` 옵션(`docs/cmd-flags.md`)과 함께 오버레이가 안 뜨는 환경(주로 Linux, VPN 문제, 듀얼 모니터)의 대안으로 쓰인다. 렌더러 코드의 `Host.isElectron` 분기(`IPC.ts:78`, `OverlayWindow.vue:56` 등)가 이 모드를 지원한다.
 → **권장: 유지하되 보안 수정과 함께.** 추가 비용이 거의 없고(같은 코드), Windows에서도 오버레이가 붙지 않을 때(관리자 권한/전체화면 문제)의 비상 수단이 된다. 단 C1/H1 수정 시 **세션 토큰을 URL에 포함**(오버레이 로드 URL과 트레이 "Open in Browser" URL 모두)하고 WebSocket은 토큰 + Origin 검사를 통과해야만 연결되게 한다. 이렇게 하면 웹 버전을 유지하면서 악성 웹페이지 접근을 막을 수 있다.

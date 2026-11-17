@@ -3,7 +3,8 @@ publish:
   - provider: "github"
     owner: "SlowQuasar"
     repo: "unawakened-poe-trade"
-productName: "Awakened PoE Trade"
+appId: "io.github.slowquasar.unawakened-poe-trade"
+productName: "Unawakened PoE Trade"
 npmRebuild: false
 toolsets:
   appimage: 1.0.3
@@ -18,8 +19,11 @@ files:
 extraMetadata:
   main: "main.js"
 nsis:
+  artifactName: "Unawakened-PoE-Trade-Setup-${version}.${ext}"
   oneClick: false
   allowToChangeInstallationDirectory: true
+portable:
+  artifactName: "Unawakened-PoE-Trade-${version}.${ext}"
 win:
   target:
   - "nsis"

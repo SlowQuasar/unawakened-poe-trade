@@ -14,7 +14,7 @@ title: Common issues
     If the app works for you with DirectX11/12 renderer,
     then problem is old Vulkan drivers for sure.
 
-4. Delete `%appdata%\awakened-poe-trade`
+4. Delete `%appdata%\unawakened-poe-trade`
 
     If needed, backup `apt-data` folder with your configuration inside.
 
