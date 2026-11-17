@@ -38,14 +38,91 @@
       "category": "Abyss Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2300399854",
-        "explicit.stat_2891184298",
-        "explicit.stat_2135335407",
-        "explicit.stat_2561836520"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "주문 시전 시 카오스 피해 8~12 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2300399854",
+        "mods": [
+          {
+            "name": "- 손상",
+            "tier": "S4",
+            "level": 48,
+            "magnitudes": [
+              {
+                "min": "7",
+                "max": "10"
+              },
+              {
+                "min": "12",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "시전 속도 3% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2891184298",
+        "mods": [
+          {
+            "name": "- 인챈트",
+            "tier": "S1",
+            "level": 50,
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "양손 무기를 장착하는 동안 주문 시전 시 화염 피해 15~20 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2135335407",
+        "mods": [
+          {
+            "name": "작열하는",
+            "tier": "P4",
+            "level": 48,
+            "magnitudes": [
+              {
+                "min": "13",
+                "max": "16"
+              },
+              {
+                "min": "18",
+                "max": "21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "1초마다 에너지 보호막 9 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2561836520",
+        "mods": [
+          {
+            "name": "매혹적인",
+            "tier": "P3",
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "텅 빈 활시위",
@@ -86,14 +163,91 @@
       "category": "Abyss Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1535626285",
-        "explicit.stat_215124030",
-        "explicit.stat_1040269876",
-        "explicit.stat_3081816887"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "힘 및 지능 +10",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1535626285",
+        "mods": [
+          {
+            "name": "- 혼백",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "활 공격 시 냉기 피해 9~14 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_215124030",
+        "mods": [
+          {
+            "name": "얼어붙은",
+            "tier": "P4",
+            "level": 47,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "9"
+              },
+              {
+                "min": "14",
+                "max": "16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "활 공격 시 번개 피해 2~40 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1040269876",
+        "mods": [
+          {
+            "name": "방전의",
+            "tier": "P2",
+            "level": 70,
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "4"
+              },
+              {
+                "min": "40",
+                "max": "43"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 상태 이상 효과 12% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3081816887",
+        "mods": [
+          {
+            "name": "- 감전",
+            "tier": "S1",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "으스스한 눈",
@@ -134,14 +288,80 @@
       "category": "Abyss Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_328541901",
-        "explicit.stat_809229260",
-        "explicit.stat_214001793",
-        "explicit.stat_1101206134"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "지능 +12",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_328541901",
+        "mods": [
+          {
+            "name": "- 지능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 +42",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_809229260",
+        "mods": [
+          {
+            "name": "옻칠한",
+            "tier": "P4",
+            "magnitudes": [
+              {
+                "min": "36",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "쌍수 장착 시 지속 피해 11% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_214001793",
+        "mods": [
+          {
+            "name": "퇴화하는",
+            "tier": "P2",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "최근 4초 이내 피격 피해를 받은 경우 주문 피해 막기 확률 +4%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1101206134",
+        "mods": [
+          {
+            "name": "- 본능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "매혹하는 바늘",
@@ -176,13 +396,75 @@
       "category": "Abyss Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4231842891",
-        "explicit.stat_4191067677",
-        "explicit.stat_3441501978"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "클로 공격 시 번개 피해 2~29 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4231842891",
+        "mods": [
+          {
+            "name": "전호의",
+            "tier": "P4",
+            "level": 48,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "3"
+              },
+              {
+                "min": "28",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "클로 공격의 카오스 피해 6~13 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4191067677",
+        "mods": [
+          {
+            "name": "흐릿한",
+            "tier": "P4",
+            "level": 42,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "7"
+              },
+              {
+                "min": "11",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 및 번개 저항 +10%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3441501978",
+        "mods": [
+          {
+            "name": "- 절연",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "매혹하는 갈증",
@@ -223,13 +505,94 @@
       "category": "Abyss Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4067062424",
-        "explicit.stat_311030839",
-        "explicit.stat_2461965653",
-        "explicit.stat_908516597"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "공격 시 냉기 피해 9~15 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4067062424",
+        "mods": [
+          {
+            "name": "- 흰서리",
+            "tier": "S3",
+            "level": 53,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "9"
+              },
+              {
+                "min": "14",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "도끼 공격 시 물리 피해 3~4 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_311030839",
+        "mods": [
+          {
+            "name": "번뜩이는",
+            "tier": "P4",
+            "level": 42,
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              },
+              {
+                "min": "4",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "도끼 공격 시 화염 피해 7~15 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2461965653",
+        "mods": [
+          {
+            "name": "불을 뿜는",
+            "tier": "P5",
+            "level": 40,
+            "magnitudes": [
+              {
+                "min": "7",
+                "max": "8"
+              },
+              {
+                "min": "13",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 중일 때 1초마다 생명력의 0.5% 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_908516597",
+        "mods": [
+          {
+            "name": "- 활발함",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "0.5",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

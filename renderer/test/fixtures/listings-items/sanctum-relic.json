@@ -20,11 +20,31 @@
       "category": "Sanctum Relic",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "sanctum.stat_1960517795"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "고난을 획득해야 할 때 3%의 확률로 획득하지 않음",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_1960517795",
+        "mods": [
+          {
+            "name": "- 헌신",
+            "tier": "S4",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -47,11 +67,32 @@
       "category": "Sanctum Relic",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "sanctum.stat_2549512259"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "sanctum.stat_2549512259",
+        "explicit.stat_3007862517"
+      ]
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "몬스터가 받는 피해 6% 증가",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_2549512259",
+        "mods": [
+          {
+            "name": "타쇄하는",
+            "tier": "P3",
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "최초의 문양",
@@ -80,12 +121,45 @@
       "category": "Sanctum Relic",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "sanctum.stat_1307773596",
-        "sanctum.stat_3182333322"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "sanctum.stat_1307773596"
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "스컬지의 전령 처치 시 아우레우스 코인이 경험치로 전환됨",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_1307773596",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이 아이템은 성역에 적용되면 파괴됨",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_3182333322",
+        "mods": [
+          {
+            "level": 80,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -108,11 +182,31 @@
       "category": "Sanctum Relic",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "sanctum.stat_3926246735"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "상자에서 4%의 확률로 아우레우스 코인이 2배로 등장",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_3926246735",
+        "mods": [
+          {
+            "name": "- 하사품",
+            "tier": "S4",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "힘과 약속",
@@ -159,14 +253,89 @@
       "category": "Sanctum Relic",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "sanctum.stat_1059486105",
-        "sanctum.stat_3381591146",
-        "sanctum.stat_624917333",
-        "sanctum.stat_1512067281",
-        "sanctum.stat_3182333322"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "sanctum.stat_1512067281"
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "스컬지의 전령이 영원한 지옥을 떨어뜨림",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_1059486105",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영감 획득 불가",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_3381591146",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "투지 회복 불가",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_624917333",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "80레벨 미만인 경우 금지된 책 사용 불가",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_1512067281",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "80",
+                "max": "80"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이 아이템은 성역에 적용되면 파괴됨",
+        "domain": "sanctum",
+        "hash": "stat.sanctum.stat_3182333322",
+        "mods": [
+          {
+            "level": 80,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -47,7 +47,8 @@
       "enabled": [
         "pseudo.pseudo_logbook_faction_mercenaries"
       ]
-    }
+    },
+    "frameType": 0
   },
   {
     "name": "",
@@ -130,7 +131,8 @@
       "enabled": [
         "pseudo.pseudo_logbook_faction_knights"
       ]
-    }
+    },
+    "frameType": 0
   },
   {
     "name": "",
@@ -193,7 +195,8 @@
       "enabled": [
         "pseudo.pseudo_logbook_faction_mercenaries"
       ]
-    }
+    },
+    "frameType": 0
   },
   {
     "name": "",
@@ -257,7 +260,8 @@
       "enabled": [
         "pseudo.pseudo_logbook_faction_druids"
       ]
-    }
+    },
+    "frameType": 0
   },
   {
     "name": "전설적인 유물",
@@ -353,17 +357,120 @@
         "implicit.stat_1871805225",
         "implicit.stat_4160330571",
         "implicit.stat_3289828378",
-        "implicit.stat_1539368271",
-        "explicit.stat_1026390635",
-        "explicit.stat_4103440490",
-        "explicit.stat_2306522833",
-        "explicit.stat_1913583994",
-        "explicit.stat_2488361432",
-        "explicit.stat_1629869774"
+        "implicit.stat_1539368271"
       ],
       "enabled": [
         "pseudo.pseudo_logbook_faction_knights"
       ]
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "플레이어가 노출 유발 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1026390635",
+        "mods": [
+          {
+            "name": "- 균형",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 쇠약화 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4103440490",
+        "mods": [
+          {
+            "name": "- 쇠약",
+            "tier": "S1",
+            "level": 73,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 27% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2306522833",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P1",
+            "level": 78,
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 속도 39% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1913583994",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P1",
+            "level": 78,
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 시전 속도 37% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2488361432",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P1",
+            "level": 78,
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

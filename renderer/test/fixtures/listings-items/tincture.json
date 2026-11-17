@@ -40,14 +40,78 @@
       "category": "Tincture",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3529940209",
-        "explicit.stat_2499808413",
-        "implicit.stat_4206255461",
-        "implicit.stat_3935936274"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "implicitMods": [
+      {
+        "description": "근접 무기 사용 시 27%의 확률로 점화 유발",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_4206255461",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기로 유발하는 점화의 피해 74% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3935936274",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "90"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "효과 11% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3529940209",
+        "mods": [
+          {
+            "name": "약초",
+            "tier": "P4",
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기 피해가 원소 저항 7% 관통",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2499808413",
+        "mods": [
+          {
+            "name": "- 촉진",
+            "tier": "S5",
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -84,13 +148,61 @@
       "category": "Tincture",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_6637015",
-        "implicit.stat_2791825817",
-        "implicit.stat_2912587137"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "implicitMods": [
+      {
+        "description": "근접 무기 사용 시 적 기절 한계치 40% 감소",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2791825817",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기로 유발하는 기절의 지속시간 19% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2912587137",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "근접 무기 처치로 얻는 플라스크 충전량 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_6637015",
+        "mods": [
+          {
+            "name": "- 재고 보충",
+            "tier": "S4",
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -113,11 +225,27 @@
       "category": "Tincture",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_2012294704"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "implicitMods": [
+      {
+        "description": "근접 무기 명중 시 격노 3 획득",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2012294704",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -154,13 +282,62 @@
       "category": "Tincture",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2230910022",
-        "implicit.stat_2795267150",
-        "implicit.stat_1808507379"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "implicitMods": [
+      {
+        "description": "근접 무기로 명중 시 25%의 확률로 적 실명 유발",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2795267150",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기로 유발한 실명 효과 29% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1808507379",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "근접 무기로 처치한 적 하나당 마나 4 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2230910022",
+        "mods": [
+          {
+            "name": "- 삼투",
+            "tier": "S3",
+            "level": 50,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -203,13 +380,78 @@
       "category": "Tincture",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_116232170",
-        "explicit.stat_2507321875",
-        "implicit.stat_2791825817",
-        "implicit.stat_2912587137"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "implicitMods": [
+      {
+        "description": "근접 무기 사용 시 적 기절 한계치 40% 감소",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2791825817",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기로 유발하는 기절의 지속시간 17% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2912587137",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "마나 연소 속도 15% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_116232170",
+        "mods": [
+          {
+            "name": "오래가는",
+            "tier": "P4",
+            "magnitudes": [
+              {
+                "min": "17",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "근접 무기로 처치한 적 하나당 생명력 18 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2507321875",
+        "mods": [
+          {
+            "name": "- 승리",
+            "tier": "S3",
+            "level": 35,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -26,12 +26,44 @@
       "category": "Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_328541901",
-        "explicit.stat_2075199521"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "explicit.stat_328541901"
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "지능 +17",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_328541901",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "반경 내 패시브 스킬로 획득하는 민첩을 지능으로 전환",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2075199521",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "앗지리의 치세",
@@ -60,12 +92,45 @@
       "category": "Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_547412107",
         "explicit.stat_2833218772"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "바알 스킬의 스킬 효과 지속시간 19% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_547412107",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "바알 스킬 사용 시 15%의 확률로 소모한 영혼을 돌려받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2833218772",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "무력함",
@@ -88,11 +153,29 @@
       "category": "Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_227523295"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "권능 충전 최대치 -1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_227523295",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "-1",
+                "max": "-1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "활력의 방어구",
@@ -121,12 +204,44 @@
       "category": "Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2866361420",
-        "explicit.stat_2605119037"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "explicit.stat_2866361420"
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "방어도 16% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2866361420",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "반경 내 에너지 보호막 증가 및 감소가 변형되어 해당 값의 200%가 방어도에 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2605119037",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "먼지처럼 사라져라",
@@ -173,14 +288,92 @@
       "category": "Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_1331384105",
         "explicit.stat_1589917703",
         "explicit.stat_3413085237",
         "explicit.stat_2725259389",
         "explicit.stat_3295031203"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "해골 지속시간 19% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1331384105",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "-20",
+                "max": "-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "소환수가 주는 피해 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1589917703",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해골의 공격 속도 7% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3413085237",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "7",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해골의 시전 속도 9% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2725259389",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "7",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해골의 이동 속도 3% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3295031203",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

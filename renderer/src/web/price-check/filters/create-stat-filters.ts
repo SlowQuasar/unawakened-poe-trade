@@ -28,12 +28,13 @@ export function createExactStatFilters (
   statsByType: StatCalculated[],
   opts: { searchStatRange: number, mode?: 'props' | 'bulk' }
 ): StatFilter[] {
+  const rareMap = item.category === ItemCategory.Map && item.rarity === ItemRarity.Rare && opts.mode !== 'bulk'
+
   if (
-    item.info.area?.blighted ||
+    // rare blighted maps list their map mods like other rare maps (user report, 3.30.4)
+    (item.info.area?.blighted && !rareMap) ||
     item.category === ItemCategory.Invitation
   ) return []
-
-  const rareMap = item.category === ItemCategory.Map && item.rarity === ItemRarity.Rare && opts.mode !== 'bulk'
   const keepByType = [ModifierType.Pseudo, ModifierType.Fractured, ModifierType.Enchant, ModifierType.Necropolis, ModifierType.Imbued]
 
   if (

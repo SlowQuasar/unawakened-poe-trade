@@ -12,7 +12,28 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "15~46 번개 피해"
+      },
+      {
+        "description": "4초간 덫 지속"
+      },
+      {
+        "description": "투사체 9개 발사"
+      },
+      {
+        "description": "원형으로 투사체 발사"
+      },
+      {
+        "description": "20%의 확률로 적을 감전"
+      },
+      {
+        "description": "감전된 적에 대한 치명타 확률 80% 증가"
+      }
+    ]
   },
   {
     "name": "",
@@ -27,7 +48,19 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "1~28 번개 피해"
+      },
+      {
+        "description": "기본 지속시간 2.00초"
+      },
+      {
+        "description": "투사체 4개 발사"
+      }
+    ]
   },
   {
     "name": "",
@@ -42,7 +75,37 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "1~27 번개 피해"
+      },
+      {
+        "description": "감전 불가"
+      },
+      {
+        "description": "기본 지속시간 6.00초"
+      },
+      {
+        "description": "0.10초마다 광선 발사"
+      },
+      {
+        "description": "0.50초마다 한 번만 각 적을 대상으로 지정 가능"
+      },
+      {
+        "description": "장이 생성될 때 적에게 유발된 감전 효과 5%당 장의 명중 피해 10% 증폭"
+      },
+      {
+        "description": "장이 생성될 때 적에게 유발된 감전 효과 10%당 장의 반경 +0.1미터"
+      },
+      {
+        "description": "장 최대 1개"
+      },
+      {
+        "description": "버프 시 50%의 확률로 적을 감전"
+      }
+    ]
   },
   {
     "name": "",
@@ -57,7 +120,22 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "기본적으로 사용 불가\n명중을 막아낼 시 2초 동안 한 번 사용 가능"
+      },
+      {
+        "description": "회피 불가"
+      },
+      {
+        "description": "재사용 대기시간 회복 속도 8% 증가"
+      },
+      {
+        "description": "적에게 8번 피해를 줌"
+      }
+    ]
   },
   {
     "name": "",
@@ -72,6 +150,15 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "적 기절 한계치 25% 감소"
+      },
+      {
+        "description": "대상에 가까울수록 명중 시 주는 피해 최대 40% 증폭"
+      }
+    ]
   }
 ]

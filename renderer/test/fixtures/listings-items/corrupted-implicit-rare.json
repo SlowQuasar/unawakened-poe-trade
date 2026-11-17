@@ -50,16 +50,122 @@
       "category": "Boots",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3484657501",
-        "explicit.stat_3299347043",
-        "explicit.stat_3917489142",
-        "explicit.stat_3372524247",
-        "explicit.stat_1671376347",
-        "explicit.stat_2250533757"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "방어도 +25",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3484657501",
+        "mods": [
+          {
+            "name": "징 박힌",
+            "tier": "P6",
+            "level": 11,
+            "magnitudes": [
+              {
+                "min": "13",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +97",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "name": "퉁퉁한",
+            "tier": "P3",
+            "level": 36,
+            "magnitudes": [
+              {
+                "min": "85",
+                "max": "99"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] +9%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "name": "- 약탈",
+            "tier": "S2",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 저항 +18%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3372524247",
+        "mods": [
+          {
+            "name": "- 비룡",
+            "tier": "S6",
+            "level": 24,
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 저항 +24%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1671376347",
+        "mods": [
+          {
+            "name": "- 뇌운",
+            "tier": "S5",
+            "level": 37,
+            "magnitudes": [
+              {
+                "min": "24",
+                "max": "29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 속도 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2250533757",
+        "mods": [
+          {
+            "name": "주자의",
+            "tier": "P6",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "적의 수호",
@@ -124,18 +230,158 @@
       "category": "Helmet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_803737631",
-        "explicit.stat_3484657501",
-        "explicit.stat_3321629045",
-        "explicit.stat_3299347043",
-        "explicit.stat_3325883026",
-        "explicit.stat_1050105434",
-        "explicit.stat_3917489142",
-        "explicit.stat_2511217560"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "정확도 +145",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_803737631",
+        "mods": [
+          {
+            "name": "- 정밀함",
+            "tier": "S5",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "165"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 +21",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3484657501",
+        "mods": [
+          {
+            "name": "굴의",
+            "tier": "P3",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "32"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 및 에너지 보호막 12% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3321629045",
+        "mods": [
+          {
+            "name": "픽시의",
+            "tier": "P6",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +18",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "name": "굴의",
+            "tier": "P3",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "1초마다 생명력 21.8 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3325883026",
+        "mods": [
+          {
+            "name": "- 불가사리",
+            "tier": "S6",
+            "level": 31,
+            "magnitudes": [
+              {
+                "min": "16.1",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "마나 최대치 +26",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1050105434",
+        "mods": [
+          {
+            "name": "담청색",
+            "tier": "P10",
+            "level": 17,
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] +12%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "name": "- 습격",
+            "tier": "S3",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "기절 및 막기 회복 6% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2511217560",
+        "mods": [
+          {
+            "name": "픽시의",
+            "tier": "P6",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "피의 손",
@@ -188,16 +434,122 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3261801346",
-        "explicit.stat_803737631",
-        "explicit.stat_53045048",
-        "explicit.stat_3299347043",
-        "explicit.stat_3917489142",
-        "explicit.stat_3372524247"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "민첩 +20",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "name": "- 여우",
+            "tier": "S8",
+            "level": 22,
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "정확도 +57",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_803737631",
+        "mods": [
+          {
+            "name": "- 안정감",
+            "tier": "S6",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +71",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_53045048",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 23,
+            "magnitudes": [
+              {
+                "min": "64",
+                "max": "82"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +55",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "name": "완강한",
+            "tier": "P5",
+            "level": 24,
+            "magnitudes": [
+              {
+                "min": "55",
+                "max": "69"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] +10%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "name": "까치의",
+            "tier": "P2",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 저항 +13%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3372524247",
+        "mods": [
+          {
+            "name": "- 불도마뱀",
+            "tier": "S7",
+            "level": 12,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "기적의 차양",
@@ -252,16 +604,119 @@
       "category": "Helmet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3261801346",
-        "explicit.stat_3484657501",
-        "explicit.stat_53045048",
-        "explicit.stat_44972811",
-        "explicit.stat_2511217560",
-        "implicit.stat_1263695895"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "시야 반경 25% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1263695895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +38",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "name": "- 재규어",
+            "tier": "S3",
+            "level": 66,
+            "magnitudes": [
+              {
+                "min": "38",
+                "max": "42"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 +106",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3484657501",
+        "mods": [
+          {
+            "name": "튼튼한",
+            "tier": "P1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "86",
+                "max": "145"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +140",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_53045048",
+        "mods": [
+          {
+            "name": "튼튼한",
+            "tier": "P1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "86",
+                "max": "145"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 재생 속도 18% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_44972811",
+        "mods": [
+          {
+            "name": "- 청춘",
+            "tier": "S2",
+            "level": 76,
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "기절 및 막기 회복 24% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2511217560",
+        "mods": [
+          {
+            "name": "- 아다만타이트 가죽",
+            "tier": "S2",
+            "level": 56,
+            "magnitudes": [
+              {
+                "min": "23",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "강풍의 장막",
@@ -326,17 +781,158 @@
       "category": "Body Armour",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3639275092",
-        "explicit.stat_3484657501",
-        "explicit.stat_53045048",
-        "explicit.stat_2451402625",
-        "explicit.stat_3299347043",
-        "explicit.stat_3325883026",
-        "explicit.stat_1671376347",
-        "explicit.stat_2511217560"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "능력치 요구사항 18% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3639275092",
+        "mods": [
+          {
+            "name": "- 자격자",
+            "tier": "S2",
+            "level": 36,
+            "magnitudes": [
+              {
+                "min": "-18",
+                "max": "-18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 +103",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3484657501",
+        "mods": [
+          {
+            "name": "튼튼한",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "86",
+                "max": "145"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +99",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_53045048",
+        "mods": [
+          {
+            "name": "튼튼한",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "86",
+                "max": "145"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 및 회피 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2451402625",
+        "mods": [
+          {
+            "name": "게의",
+            "tier": "P5",
+            "level": 19,
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +46",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "name": "건장한",
+            "tier": "P10",
+            "level": 18,
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "54"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "1초마다 생명력 13 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3325883026",
+        "mods": [
+          {
+            "name": "- 편형동물",
+            "tier": "S9",
+            "level": 19,
+            "magnitudes": [
+              {
+                "min": "8.1",
+                "max": "16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 저항 +16%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1671376347",
+        "mods": [
+          {
+            "name": "- 돌풍",
+            "tier": "S7",
+            "level": 13,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "기절 및 막기 회복 9% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2511217560",
+        "mods": [
+          {
+            "name": "게의",
+            "tier": "P5",
+            "level": 19,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -1,0 +1,6987 @@
+{
+  "abyss-jewel": [
+    {
+      "index": 0,
+      "name": "속삭이는 전조",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "텅 빈 활시위",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "으스스한 눈",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "매혹하는 바늘",
+      "base": "살인적인 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "매혹하는 눈",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "텅 빈 전조",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "속삭이는 눈",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "으스스한 구체",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "속삭이는 파멸",
+      "base": "살인적인 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "속삭이는 공성",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "소름 끼치는 시각",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "매혹하는 중재자",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "고대의 통찰력",
+      "base": "최면 거는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "소름 끼치는 격발",
+      "base": "살인적인 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "지저분한 구체",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "고대의 쐐기털",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "지저분한 구체",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "소름 끼치는 시선",
+      "base": "탐색하는 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "매혹하는 갈증",
+      "base": "살인적인 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "속삭이는 구체",
+      "base": "살인적인 눈 주얼",
+      "parsed": true,
+      "category": "Abyss Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "cluster-jewel": [
+    {
+      "index": 0,
+      "name": "불사조 반짝임",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|48"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "강풍의 눈",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|47"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "엔트로피 조각",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|35"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|23"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "선명한 눈",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|55"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "망각 갈망",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|21"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "역병 눈",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|47"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "불사조 돌",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|40"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "명예의 눈",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|48"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "강풍의 유적",
+      "base": "대형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|2"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|21"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "가시나무 희망",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|23"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "역병 희망",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|22"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "대재앙 별",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|39"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "거대한 파편",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|23"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "종말의 반짝임",
+      "base": "대형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|10"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "가시나무 상처",
+      "base": "중형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|38"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "솔 상처",
+      "base": "대형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|15"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "거대한 반짝임",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|45"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "혼백 기쁨",
+      "base": "소형 스킬 군 주얼",
+      "parsed": true,
+      "category": "Cluster Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3086156145",
+        "enchant.stat_3948993189|47"
+      ]
+    }
+  ],
+  "corrupted-implicit-rare": [
+    {
+      "index": 0,
+      "name": "소름 끼치는 밑창",
+      "base": "거인 각반",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "적의 수호",
+      "base": "병사 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "피의 손",
+      "base": "장어가죽 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "기적의 차양",
+      "base": "홈이 긴 배서닛",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "종말의 몰이 막대",
+      "base": "양모 신발",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "혼란 유발의 뿔",
+      "base": "왕 시해자 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "격노 수호",
+      "base": "병사 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "지독한 쐐기털",
+      "base": "깃 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "거대한 상인",
+      "base": "가슴 보호 갑옷",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "지독한 앞챙",
+      "base": "할리퀸 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "고통 바늘",
+      "base": "관통 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "강풍의 장막",
+      "base": "경기병 브리간딘",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "영혼 손톱",
+      "base": "히드라 비늘 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "진노의 이마",
+      "base": "샐릿",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "타락한 바위",
+      "base": "칠흑의 거대 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "가시나무 미트",
+      "base": "실크 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "폭풍 발톱",
+      "base": "청동 비늘 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "괴로운 돔",
+      "base": "냉담한 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "소름 끼치는 탑",
+      "base": "옻칠한 버클러",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "고통의 광환",
+      "base": "신살자 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    }
+  ],
+  "gem-active": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "바알 번개 덫",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "바알 전기불꽃",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "충격장",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "검의 폭풍",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "얼음 창",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "바알 권능 착취",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "바알 권능 착취",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "빛의 방패",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "바알 화살비",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "바알 회전베기",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "바알 용암 타격",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "바알 질풍의 칼날",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "천공",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "바알 번개 덫",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "바알 화살비",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "",
+      "base": "바알 번개 덫",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "",
+      "base": "번개 도관",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "바알 번개 덫",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "빛의 방패",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "바알 대지 강타",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "gem-support": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "실명 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "꿰뚫기 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "에너지 흡수 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "정확도 추가 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "근접 사격 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "유혈 충동 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "다중 덫 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "제어된 불길 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "출혈 확률 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "화염 피해 추가 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "냉기 피해 추가 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "효과 집중 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "지옥불 군단 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "마나 흡수 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "실명 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "",
+      "base": "출혈 확률 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "",
+      "base": "촉발 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "분광 격발 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "마나 흡수 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "분광 격발 보조",
+      "parsed": true,
+      "category": "Gem",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "heist-contract": [
+    {
+      "index": 0,
+      "name": "강풍의 증서",
+      "base": "계약: 터널",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "거대한 선서",
+      "base": "계약: 기록 보관소",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "야수의 증서",
+      "base": "계약: 벙커",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "최면의 유대",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "타락한 성명서",
+      "base": "계약: 밀수범 소굴",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "역병 맹세",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "폭풍 선서",
+      "base": "계약: 벙커",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "침울한 성서",
+      "base": "계약: 벙커",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "야수의 맹약",
+      "base": "계약: 터널",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "솔 증서",
+      "base": "계약: 밀수범 소굴",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "지옥 맹세",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "독사의 명령서",
+      "base": "계약: 기록 보관소",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "룬 문자 선서",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "격노 계약",
+      "base": "계약: 기록 보관소",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "마음의 유대",
+      "base": "계약: 터널",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "휴거 명령서",
+      "base": "계약: 저장소",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "혼란스러운 성서",
+      "base": "계약: 밀수범 소굴",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "역병 계약",
+      "base": "계약: 벙커",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "가시나무 맹세",
+      "base": "계약: 취약 지점",
+      "parsed": true,
+      "category": "Heist Contract",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "logbook": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_1915989164",
+        "implicit.stat_1640965354",
+        "implicit.stat_3051490307"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_3051490307",
+        "implicit.stat_1915989164",
+        "implicit.stat_1871805225",
+        "implicit.stat_1539368271",
+        "implicit.stat_2991413918",
+        "implicit.stat_1640965354"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_knights"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1915989164",
+        "implicit.stat_2991413918",
+        "implicit.stat_4219583418",
+        "implicit.stat_1160596338",
+        "implicit.stat_3051490307"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1640965354",
+        "implicit.stat_1539368271",
+        "implicit.stat_3239978999",
+        "implicit.stat_2991413918",
+        "implicit.stat_4219583418",
+        "implicit.stat_4160330571"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3289828378",
+        "implicit.stat_3936576079",
+        "implicit.stat_2991413918"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3051490307",
+        "implicit.stat_1539368271",
+        "implicit.stat_3289828378",
+        "implicit.stat_1915989164"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_4160330571",
+        "implicit.stat_3289828378",
+        "implicit.stat_1871805225",
+        "implicit.stat_1640965354",
+        "implicit.stat_1539368271"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4160330571",
+        "implicit.stat_1915989164",
+        "implicit.stat_3051490307",
+        "implicit.stat_1539368271",
+        "implicit.stat_4219583418",
+        "implicit.stat_3289828378"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1915989164",
+        "implicit.stat_2991413918",
+        "implicit.stat_4219583418",
+        "implicit.stat_3289828378"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_1640965354",
+        "implicit.stat_1539368271",
+        "implicit.stat_2991413918"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3051490307",
+        "implicit.stat_1915989164",
+        "implicit.stat_4219583418"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_1539368271",
+        "implicit.stat_1915989164",
+        "implicit.stat_3289828378",
+        "implicit.stat_1640965354",
+        "implicit.stat_1871805225"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1539368271",
+        "implicit.stat_2991413918",
+        "implicit.stat_3289828378",
+        "implicit.stat_1871805225"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_order"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4160330571",
+        "implicit.stat_1539368271",
+        "implicit.stat_1915989164",
+        "implicit.stat_4219583418",
+        "implicit.stat_2991413918"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_knights"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "고대의 황무지",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3239978999",
+        "implicit.stat_3289828378",
+        "implicit.stat_4219583418",
+        "implicit.stat_2991413918",
+        "implicit.stat_3051490307"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "고립된 항해",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4160330571",
+        "implicit.stat_3051490307",
+        "implicit.stat_3289828378",
+        "implicit.stat_1871805225"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "전설적인 유물",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3051490307",
+        "implicit.stat_1871805225",
+        "implicit.stat_4160330571",
+        "implicit.stat_3289828378",
+        "implicit.stat_1539368271"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_knights"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_4160330571",
+        "implicit.stat_3239978999",
+        "implicit.stat_1915989164"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_1871805225",
+        "implicit.stat_3051490307"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_order"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "탐험 일지",
+      "parsed": true,
+      "category": "Expedition Logbook",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3239978999",
+        "implicit.stat_3051490307",
+        "implicit.stat_1640965354",
+        "implicit.stat_1915989164",
+        "implicit.stat_1539368271"
+      ],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    }
+  ],
+  "magic-flask": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "초대형 마나 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_700317374",
+        "explicit.stat_2503377690",
+        "explicit.stat_1526933524"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "영원의 마나 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "축성된 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "강옥 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "대형 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "중형 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_700317374",
+        "explicit.stat_2503377690",
+        "explicit.stat_1526933524"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "수은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "대형 마나 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_700317374",
+        "explicit.stat_2503377690",
+        "explicit.stat_1526933524"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "초거대 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "초대형 마나 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "아쿠아마린 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "implicit.stat_3311869501",
+        "explicit.stat_2448920197",
+        "explicit.stat_3529940209"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "수은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "대형 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "강옥 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "축성된 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "",
+      "base": "초대형 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "",
+      "base": "대용량 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "거대 마나 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_700317374",
+        "explicit.stat_4204954479"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "비스무트 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "축성된 생명력 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "mycelium-core": [
+    {
+      "index": 0,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": [
+        "enchant.stat_3599615742|41305",
+        "enchant.stat_3599615742|4918",
+        "enchant.stat_3599615742|59976"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "rare-accessory": [
+    {
+      "index": 0,
+      "name": "혼백 올가미",
+      "base": "파우아 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "혐오스러운 우상",
+      "base": "호박 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "망각 갑 목걸이",
+      "base": "호박 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "크라켄의 장악",
+      "base": "황금 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "솔 목걸이",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "골렘 묵주",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "혼란스러운 고리",
+      "base": "산호 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "악마 손톱",
+      "base": "토파즈 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "비애의 채찍",
+      "base": "사슬 허리띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "죽음의 잠금",
+      "base": "소박한 띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "혼란스러운 관절",
+      "base": "사파이어 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "키메라의 혁대",
+      "base": "헝겊 허리띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "독수리의 구슬",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "마엘스트롬 고리",
+      "base": "파우아 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "매복 족쇄",
+      "base": "소박한 띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "키메라의 갑 목걸이",
+      "base": "터키석 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_chaos_resistance"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "혼란 혁대",
+      "base": "가죽 허리띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "격노 회전",
+      "base": "쌍보석 반지",
+      "parsed": true,
+      "category": "Ring",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "괴로운 올가미",
+      "base": "헝겊 허리띠",
+      "parsed": true,
+      "category": "Belt",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "불안의 목걸이",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "rare-armour": [
+    {
+      "index": 0,
+      "name": "기적의 손길",
+      "base": "사슬 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "격노 곁눈질",
+      "base": "왕 시해자 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "휴거 발톱",
+      "base": "장어가죽 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "진노의 보조",
+      "base": "고대 각반",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "키메라의 보조",
+      "base": "스트랩형 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "크라켄의 찬가",
+      "base": "방울 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "최면의 행진",
+      "base": "판금 각반",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "룬 문자 외투",
+      "base": "피의 의복",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "역병 배지",
+      "base": "광택을 낸 가시 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "침울한 이마",
+      "base": "폐쇄형 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_chaos_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "고통 구원",
+      "base": "광환의 가죽 갑옷",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "슬픔의 성역",
+      "base": "구리 판금 갑옷",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "기적의 질주",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "지옥 가디언",
+      "base": "외투 고리 갑옷",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "죽음의 겉옷",
+      "base": "사슬 더블릿",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "용의 차양",
+      "base": "도금 샐릿",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "지독한 행진",
+      "base": "사슬 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "유황 가디언",
+      "base": "폐쇄형 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "해골 통로",
+      "base": "섀클 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "혐오스러운 가죽모",
+      "base": "사슬 튜닉",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    }
+  ],
+  "rare-jewel": [
+    {
+      "index": 0,
+      "name": "엔트로피 돌",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "영혼 그릇",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "찬란한 심장",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "휴거 조각",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "역병 유적",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "혐오스러운 별",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "명예의불꽃",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "용의 피의",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "최면의 위안",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "혼란 유발의 광채",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "천공인 흉터",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "혼란 유발의 잉걸불",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "거대한 신념",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "아마겟돈의 골동품",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "선명한 분광기",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "독수리의 그릇",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "독사의 영액",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "마엘스트롬 꿈",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "망각 광채",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "rare-weapon": [
+    {
+      "index": 0,
+      "name": "불안의 분리",
+      "base": "라브리스",
+      "parsed": true,
+      "category": "Two-Handed Axe",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "혼란스러운 쐐기털",
+      "base": "반곡궁",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "비애의 파멸",
+      "base": "유리 단도",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "독사의 포효",
+      "base": "고기 망치",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "골렘 갈이개",
+      "base": "선대의 곤봉",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "비애의 활",
+      "base": "수목원 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "혐오스러운 갈이개",
+      "base": "철제 셉터",
+      "parsed": true,
+      "category": "Sceptre",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "괴로운 파괴자",
+      "base": "참수자 도끼",
+      "parsed": true,
+      "category": "Two-Handed Axe",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "파멸 연발 사격",
+      "base": "레인저 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "부패하는 이빨",
+      "base": "녹슨 검",
+      "parsed": true,
+      "category": "One-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "거대한 일격",
+      "base": "부족 곤봉",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "소름 끼치는 뿔",
+      "base": "명문가의 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "명예의 도살자",
+      "base": "가로날도끼",
+      "parsed": true,
+      "category": "One-Handed Axe",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "복수의 갈증",
+      "base": "바스타드",
+      "parsed": true,
+      "category": "Two-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "불안의 포효",
+      "base": "나무 망치",
+      "parsed": true,
+      "category": "Two-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "혐오스러운 기둥",
+      "base": "원시의 지팡이",
+      "parsed": true,
+      "category": "Staff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "격노 활시위",
+      "base": "잡목림 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "영혼 갈증",
+      "base": "돌도끼",
+      "parsed": true,
+      "category": "Two-Handed Axe",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "증오의 부적",
+      "base": "부름의 마법봉",
+      "parsed": true,
+      "category": "Wand",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "상형 문자의 주문",
+      "base": "염소의 뿔",
+      "parsed": true,
+      "category": "Wand",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "sanctum-relic": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "촛대 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1960517795"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "촛대 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_2549512259",
+        "explicit.stat_3007862517"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "최초의 문양",
+      "base": "궤짝 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1307773596"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "향로 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_3926246735"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "향로 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_231205265",
+        "sanctum.stat_2393318075"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "단지 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_889527415"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "향로 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_231205265",
+        "sanctum.stat_3102760194"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_4057192895"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "부서진 향로",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_3878191575",
+        "sanctum.stat_1512067281"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "단지 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_3102760194"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "부서진 향로",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_3878191575",
+        "sanctum.stat_1512067281"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_2284543592"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "단지 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_2393318075"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "힘과 약속",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1512067281"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "힘과 약속",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1512067281"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "최초의 문양",
+      "base": "궤짝 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1307773596"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "최초의 문양",
+      "base": "궤짝 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_1307773596"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "단지 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "부서진 향로",
+      "base": "책 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_3878191575",
+        "sanctum.stat_1512067281"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "향로 유물",
+      "parsed": true,
+      "category": "Sanctum Relic",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "sanctum.stat_889527415"
+      ]
+    }
+  ],
+  "socketed-support-effect": [
+    {
+      "index": 0,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2416650879",
+        "explicit.effect_3512123051",
+        "explicit.stat_369650395",
+        "explicit.indexable_support_28"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "증오의 탄생",
+      "base": "고대의 건틀릿",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "tincture": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "재껍질 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "참나무가지 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "포자꽃 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "포자꽃 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "섬전암 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "섬전암 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_116232170"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_239144",
+        "explicit.stat_1004011302"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "섬전암 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "독딸기 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "포자꽃 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "북풍목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "포자꽃 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "철목 팅크",
+      "parsed": true,
+      "category": "Tincture",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "unique-accessory": [
+    {
+      "index": 0,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "빅타리오의 예리함",
+      "base": "터키석 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "에일러덱스",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "보복 부적",
+      "base": "황수정 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "겨울심장",
+      "base": "황금 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "말리가로의 잔혹성",
+      "base": "터키석 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "이키아호의 약속",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "이키아호의 약속",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "이키아호의 약속",
+      "base": "산호 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "에일러덱스",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "보복 부적",
+      "base": "황수정 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "정신 추출기",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "에일러덱스",
+      "base": "마노 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "보복 부적",
+      "base": "황수정 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "보복 부적",
+      "base": "황수정 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "말리가로의 잔혹성",
+      "base": "터키석 목걸이",
+      "parsed": true,
+      "category": "Amulet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "unique-armour-corrupted": [
+    {
+      "index": 0,
+      "name": "검은 섬광",
+      "base": "맹렬한 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_681332047",
+        "explicit.stat_2144192055",
+        "explicit.stat_1050105434",
+        "explicit.stat_1533563525",
+        "explicit.stat_3120164895"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "새무스의 선물",
+      "base": "깃 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_2891184298",
+        "explicit.stat_3299347043",
+        "explicit.stat_4262448838",
+        "explicit.stat_990219738",
+        "explicit.stat_1671376347",
+        "explicit.stat_1942151132"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "샤브론의 보폭",
+      "base": "학자 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_328541901",
+        "explicit.stat_2250533757",
+        "explicit.stat_3393547195",
+        "explicit.stat_2511217560"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "노믹의 태풍",
+      "base": "끈 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_2250533757",
+        "explicit.stat_969865219",
+        "explicit.stat_2825197711",
+        "explicit.stat_4220027924",
+        "explicit.stat_496075050"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "프레시아의 화관",
+      "base": "철제 관",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1138742368",
+        "explicit.stat_1263695895"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "새무스의 선물",
+      "base": "깃 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_2891184298",
+        "explicit.stat_3299347043",
+        "explicit.stat_4262448838",
+        "explicit.stat_990219738",
+        "explicit.stat_1671376347",
+        "explicit.stat_1942151132"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "새무스의 선물",
+      "base": "깃 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_2891184298",
+        "explicit.stat_3299347043",
+        "explicit.stat_4262448838",
+        "explicit.stat_990219738",
+        "explicit.stat_1671376347",
+        "explicit.stat_1942151132"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "폭풍 탐구자",
+      "base": "매복 미트",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1050105434",
+        "explicit.stat_898270877",
+        "explicit.stat_3578946428"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "의지의 충돌",
+      "base": "황금 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_816458107",
+        "explicit.stat_1482070333"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "남작",
+      "base": "폐쇄형 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3604946673",
+        "explicit.stat_770672621",
+        "explicit.stat_4056985119",
+        "explicit.stat_2802263253"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "부서진 잿더미",
+      "base": "사슴가죽 튜닉",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_766615564",
+        "explicit.stat_3441651621",
+        "explicit.stat_3372524247",
+        "explicit.stat_763311546"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "연설가의 화관",
+      "base": "예언자 왕관",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_3377888098",
+        "explicit.stat_4047895119",
+        "explicit.stat_4017879067"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "사그라든 빛의 의복",
+      "base": "화려한 고리 갑옷",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_490098963",
+        "explicit.stat_189451991",
+        "explicit.stat_1263695895",
+        "explicit.stat_3685028559"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "천 개의 이빨 테무",
+      "base": "바알 버클러",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3299347043",
+        "explicit.stat_3593843976",
+        "explicit.stat_1445684883"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "세 마리의 용",
+      "base": "황금 가면",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "implicit.stat_150668988",
+        "explicit.stat_2901986750"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "implicit.stat_1011760251",
+        "explicit.stat_2891184298"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "베루소의 야심",
+      "base": "섀클 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [
+        "20레벨 굶주림 부여"
+      ],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_388828889"
+      ],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2923486259",
+        "explicit.stat_2250533757"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "트롤나무 꼭대기",
+      "base": "삼나무 거대 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3299347043",
+        "explicit.stat_869436347",
+        "explicit.stat_3812562802",
+        "explicit.stat_1496370423"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "태풍 돌격대",
+      "base": "판금 각반",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2250533757",
+        "explicit.stat_1484471543",
+        "explicit.stat_3081816887",
+        "explicit.stat_1671376347",
+        "explicit.stat_1942151132"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "원소포식",
+      "base": "늑대 가죽모",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3005472710",
+        "explicit.stat_1807705940",
+        "explicit.stat_3680664274",
+        "explicit.stat_492027537"
+      ]
+    }
+  ],
+  "unique-armour": [
+    {
+      "index": 0,
+      "name": "불운아의 족쇄",
+      "base": "사슬 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "불운아의 족쇄",
+      "base": "사슬 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "불운아의 족쇄",
+      "base": "사슬 장갑",
+      "parsed": true,
+      "category": "Gloves",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "검은 섬광",
+      "base": "맹렬한 화살통",
+      "parsed": true,
+      "category": "Quiver",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "붉은 계약의 징표",
+      "base": "부족 관",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "샤브론의 보폭",
+      "base": "학자 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "트롤나무 꼭대기",
+      "base": "삼나무 거대 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "부서진 잿더미",
+      "base": "사슴가죽 튜닉",
+      "parsed": true,
+      "category": "Body Armour",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "순리의 운명",
+      "base": "호두나무 영혼 방패",
+      "parsed": true,
+      "category": "Shield",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "사슴 추적자",
+      "base": "사슴가죽 장화",
+      "parsed": true,
+      "category": "Boots",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "에조미어의 면갑",
+      "base": "철제 투구",
+      "parsed": true,
+      "category": "Helmet",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "unique-flask": [
+    {
+      "index": 0,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "금단의 맛",
+      "base": "석영 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "금단의 맛",
+      "base": "석영 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "공포의 마녀의 성체",
+      "base": "현무암 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "금단의 맛",
+      "base": "석영 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "코랄리토의 서명",
+      "base": "다이아몬드 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "키아라의 결의",
+      "base": "은 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "금단의 맛",
+      "base": "석영 플라스크",
+      "parsed": true,
+      "category": "Flask",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "unique-jewel": [
+    {
+      "index": 0,
+      "name": "풍요로운 마음",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_328541901"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "앗지리의 치세",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_547412107",
+        "explicit.stat_2833218772"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "무력함",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_227523295"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "활력의 방어구",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2866361420"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "완력 해결",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_328541901"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "흥분한 마음",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_328541901",
+        "explicit.stat_3430460307"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "유체 운동",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "풍요로운 마음",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_328541901"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "관성",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4080418644"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "허약",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1515657623"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "평화주의",
+      "base": "진청록색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4078695"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "효율적인 훈련",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4080418644"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "무력함",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_227523295"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "먼지처럼 사라져라",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1331384105",
+        "explicit.stat_1589917703",
+        "explicit.stat_3413085237",
+        "explicit.stat_2725259389",
+        "explicit.stat_3295031203"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "구역질 나는 씨앗",
+      "base": "균사체 핵",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811"
+      ],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "효율적인 훈련",
+      "base": "진홍색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4080418644"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "무모한 방어",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1702195217",
+        "explicit.stat_19803471",
+        "explicit.stat_4270096386",
+        "explicit.stat_165218607"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "무모한 방어",
+      "base": "코발트색 주얼",
+      "parsed": true,
+      "category": "Jewel",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1702195217",
+        "explicit.stat_19803471",
+        "explicit.stat_4270096386",
+        "explicit.stat_165218607"
+      ]
+    }
+  ],
+  "unique-weapon-corrupted": [
+    {
+      "index": 0,
+      "name": "파편의 영주",
+      "base": "사문석 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4016885052",
+        "explicit.stat_1379411836",
+        "explicit.stat_2901986750",
+        "explicit.stat_1839076647",
+        "explicit.stat_1263695895"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "이워의 신기루",
+      "base": "앤티크 레이피어",
+      "parsed": true,
+      "category": "One-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2466604008",
+        "explicit.stat_387439868",
+        "explicit.stat_4209631466",
+        "explicit.stat_2105048696"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "늪 감긴 가지",
+      "base": "울퉁불퉁한 나뭇가지",
+      "parsed": true,
+      "category": "Staff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_819529588",
+        "explicit.stat_983749596",
+        "explicit.stat_2748665614",
+        "explicit.effect_1854569159",
+        "explicit.stat_1122134690",
+        "explicit.indexable_support_8"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "파편의 영주",
+      "base": "사문석 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_4016885052",
+        "explicit.stat_1379411836",
+        "explicit.stat_2901986750",
+        "explicit.stat_1839076647",
+        "explicit.stat_1263695895"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "갇힌 신의 기둥",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1307972622",
+        "explicit.stat_889691035",
+        "explicit.stat_2594215131"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "영역 형성자",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_339179093",
+        "explicit.stat_1645459191",
+        "explicit.stat_3141070085",
+        "explicit.effect_3756080110",
+        "explicit.stat_550444281",
+        "explicit.indexable_support_99"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "속박된 여신",
+      "base": "고래뼈 레이피어",
+      "parsed": true,
+      "category": "One-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_829382474",
+        "explicit.stat_587431675",
+        "explicit.stat_2144192055",
+        "explicit.stat_3917489142",
+        "explicit.stat_649025131"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "초버 차버",
+      "base": "대형 나무 망치",
+      "parsed": true,
+      "category": "Two-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_829382474",
+        "explicit.stat_3604946673",
+        "explicit.stat_295075366",
+        "explicit.stat_2748665614",
+        "explicit.stat_770672621",
+        "explicit.stat_3377888098"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "춤추는 수도승",
+      "base": "강탈자 검",
+      "parsed": true,
+      "category": "Two-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2250533757",
+        "explicit.stat_4007938693"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "접근하는 공포",
+      "base": "가로날도끼",
+      "parsed": true,
+      "category": "One-Handed Axe",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2250533757",
+        "explicit.stat_3372524247",
+        "explicit.stat_763311546",
+        "explicit.stat_654274615",
+        "explicit.stat_338121249",
+        "explicit.stat_338121249"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "implicit.effect_3737592146",
+        "implicit.stat_3720936304"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "늪 감긴 가지",
+      "base": "울퉁불퉁한 나뭇가지",
+      "parsed": true,
+      "category": "Staff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_819529588",
+        "explicit.stat_983749596",
+        "explicit.stat_2748665614",
+        "explicit.effect_1854569159",
+        "explicit.stat_1122134690",
+        "explicit.indexable_support_8"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "리브",
+      "base": "공포의 클로",
+      "parsed": true,
+      "category": "Claw",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1519615863",
+        "explicit.stat_555311393",
+        "explicit.stat_1030835421",
+        "explicit.stat_2072206041"
+      ]
+    },
+    {
+      "index": 13,
+      "name": "유혈 분쇄기",
+      "base": "가시 박힌 곤봉",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1443060084",
+        "explicit.stat_2517001139"
+      ]
+    },
+    {
+      "index": 14,
+      "name": "강력한 가죽칼",
+      "base": "박피 단도",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "implicit.stat_3562211447",
+        "explicit.stat_4080418644",
+        "explicit.stat_821021828"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "유혈 분쇄기",
+      "base": "가시 박힌 곤봉",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1443060084",
+        "explicit.stat_2517001139"
+      ]
+    },
+    {
+      "index": 16,
+      "name": "피의 오락",
+      "base": "스틸레토",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_3261801346",
+        "explicit.stat_1519615863"
+      ]
+    },
+    {
+      "index": 17,
+      "name": "액시옴의 무기징역",
+      "base": "청동 셉터",
+      "parsed": true,
+      "category": "Sceptre",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_1133016593",
+        "explicit.stat_2469416729",
+        "explicit.stat_2831165374",
+        "explicit.stat_2891184298",
+        "explicit.stat_737908626"
+      ]
+    },
+    {
+      "index": 18,
+      "name": "영역 형성자",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_339179093",
+        "explicit.stat_1645459191",
+        "explicit.stat_3141070085",
+        "explicit.effect_3756080110",
+        "explicit.stat_550444281",
+        "explicit.indexable_support_99"
+      ]
+    },
+    {
+      "index": 19,
+      "name": "카메리아의 대형 망치",
+      "base": "의사봉",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": [
+        "explicit.stat_2138434718",
+        "explicit.stat_860668586"
+      ]
+    }
+  ],
+  "unique-weapon": [
+    {
+      "index": 0,
+      "name": "유혈 관통",
+      "base": "무두질용 단도",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "철의 지휘관",
+      "base": "죽음의 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "피의 오락",
+      "base": "스틸레토",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "영역 형성자",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "고블린날",
+      "base": "매복자",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "라비앙가의 지혜",
+      "base": "전쟁 망치",
+      "parsed": true,
+      "category": "One-Handed Mace",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "피의 오락",
+      "base": "스틸레토",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "아버라스의 뿔",
+      "base": "염소의 뿔",
+      "parsed": true,
+      "category": "Wand",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "늪 감긴 가지",
+      "base": "울퉁불퉁한 나뭇가지",
+      "parsed": true,
+      "category": "Staff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "고블린날",
+      "base": "매복자",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "피의 오락",
+      "base": "스틸레토",
+      "parsed": true,
+      "category": "Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "웅힐의 투박함",
+      "base": "주머니 단도",
+      "parsed": true,
+      "category": "Rune Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "오한의 검",
+      "base": "바스타드",
+      "parsed": true,
+      "category": "Two-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "늪 감긴 가지",
+      "base": "울퉁불퉁한 나뭇가지",
+      "parsed": true,
+      "category": "Staff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "갇힌 신의 기둥",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "속박된 여신",
+      "base": "고래뼈 레이피어",
+      "parsed": true,
+      "category": "One-Handed Sword",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "철의 지휘관",
+      "base": "죽음의 활",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "웅힐의 투박함",
+      "base": "주머니 단도",
+      "parsed": true,
+      "category": "Rune Dagger",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "갇힌 신의 기둥",
+      "base": "철제 지팡이",
+      "parsed": true,
+      "category": "Warstaff",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "태풍 구름",
+      "base": "장궁",
+      "parsed": true,
+      "category": "Bow",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ],
+  "viscera": [
+    {
+      "index": 0,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 1,
+      "name": "",
+      "base": "하위 카오스 골렘의 핵",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 2,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 3,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 4,
+      "name": "",
+      "base": "하위 골렘 돌",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 5,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 6,
+      "name": "",
+      "base": "용사의 깃발",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 7,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 8,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 9,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 10,
+      "name": "",
+      "base": "사막 여왕의 왕관",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 11,
+      "name": "",
+      "base": "검게 변한 폐",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 12,
+      "name": "",
+      "base": "법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 13,
+      "name": "",
+      "base": "용사의 깃발",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 14,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 15,
+      "name": "",
+      "base": "하위 골렘 돌",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 16,
+      "name": "",
+      "base": "결합된 사냥개 머리",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 17,
+      "name": "",
+      "base": "하위 골렘 돌",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 18,
+      "name": "",
+      "base": "악령의 발톱",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    },
+    {
+      "index": 19,
+      "name": "",
+      "base": "하위 법관의 투구",
+      "parsed": true,
+      "category": "Viscera",
+      "error": "",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "requestError": "",
+      "enabled": []
+    }
+  ]
+}

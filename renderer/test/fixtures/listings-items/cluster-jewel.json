@@ -44,16 +44,90 @@
       "category": "Cluster Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2474836297",
-        "explicit.stat_2643685329",
-        "explicit.stat_3721672021"
-      ],
+      "missing": [],
       "enabled": [
         "enchant.stat_3086156145",
         "enchant.stat_3948993189|48"
       ]
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "추가되는 소형 패시브 스킬이 마나 재생 속도 4% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2474836297",
+        "mods": [
+          {
+            "name": "- 흥분",
+            "tier": "S5",
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 에너지 보호막 최대치 +7 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2643685329",
+        "mods": [
+          {
+            "name": "깜박이는",
+            "tier": "P4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 1초마다 생명력의 0.15%만큼 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3721672021",
+        "mods": [
+          {
+            "name": "- 도마뱀",
+            "tier": "S4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "0.15",
+                "max": "0.15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "패시브 스킬 3개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3086156145",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 소형 패시브 스킬 효과: +15% to Lightning Resistance",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3948993189|48"
+      }
+    ]
   },
   {
     "name": "강풍의 눈",
@@ -100,16 +174,90 @@
       "category": "Cluster Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1719521705",
-        "explicit.stat_4100161067",
-        "explicit.stat_2250780084"
-      ],
+      "missing": [],
       "enabled": [
         "enchant.stat_3086156145",
         "enchant.stat_3948993189|47"
       ]
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "추가되는 소형 패시브 스킬이 주는 피해 2% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1719521705",
+        "mods": [
+          {
+            "name": "해로운",
+            "tier": "P5",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 회피 +30 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4100161067",
+        "mods": [
+          {
+            "name": "춤꾼의",
+            "tier": "P4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "21",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 번개 저항 +5% 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2250780084",
+        "mods": [
+          {
+            "name": "- 돌풍",
+            "tier": "S4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "패시브 스킬 2개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3086156145",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 소형 패시브 스킬 효과: +15% to Cold Resistance",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3948993189|47"
+      }
+    ]
   },
   {
     "name": "엔트로피 조각",
@@ -162,16 +310,104 @@
       "category": "Cluster Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2090413987",
-        "explicit.stat_4100161067",
-        "explicit.stat_3198006994"
-      ],
+      "missing": [],
       "enabled": [
         "enchant.stat_3086156145",
         "enchant.stat_3948993189|35"
       ]
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "추가되는 소형 패시브 스킬이 민첩 +3 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2090413987",
+        "mods": [
+          {
+            "name": "- 몽구스",
+            "tier": "S3",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 회피 +13 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4100161067",
+        "mods": [
+          {
+            "name": "날렵한",
+            "tier": "P3",
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[affliction_notable_brand_loyalty|충성의 방향 패시브 스킬 1개 추가]",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3198006994",
+        "mods": [
+          {
+            "name": "주요",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "패시브 스킬 6개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3086156145",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "주얼 슬롯 패시브 스킬 1개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_4079888060",
+        "mods": [
+          {
+            "name": "- 잠재력",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 소형 패시브 스킬 효과: 12% increased Brand Damage",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3948993189|35"
+      }
+    ]
   },
   {
     "name": "",
@@ -209,7 +445,46 @@
         "enchant.stat_3086156145",
         "enchant.stat_3948993189|23"
       ]
-    }
+    },
+    "frameType": 2,
+    "enchantMods": [
+      {
+        "description": "패시브 스킬 5개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3086156145",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "주얼 슬롯 패시브 스킬 1개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_4079888060",
+        "mods": [
+          {
+            "name": "- 잠재력",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 소형 패시브 스킬 효과: 10% increased Effect of Non-Damaging Ailments",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3948993189|23"
+      }
+    ]
   },
   {
     "name": "혼백 기쁨",
@@ -262,16 +537,107 @@
       "category": "Cluster Jewel",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4036575250",
-        "explicit.stat_2474836297",
-        "explicit.stat_3994193163",
-        "explicit.stat_2294919888"
-      ],
+      "missing": [],
       "enabled": [
         "enchant.stat_3086156145",
         "enchant.stat_3948993189|47"
       ]
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "추가되는 소형 패시브 스킬이 모든 능력치 +3 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4036575250",
+        "mods": [
+          {
+            "name": "- 하늘",
+            "tier": "S4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 마나 재생 속도 4% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2474836297",
+        "mods": [
+          {
+            "name": "- 흥분",
+            "tier": "S5",
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가되는 소형 패시브 스킬이 최대 마나 +8 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3994193163",
+        "mods": [
+          {
+            "name": "코발트색",
+            "tier": "P4",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[affliction_notable_hibernator|동면 패시브 스킬 1개 추가]",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2294919888",
+        "mods": [
+          {
+            "name": "주요",
+            "tier": "P1",
+            "level": 50,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "패시브 스킬 2개 추가",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3086156145",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 소형 패시브 스킬 효과: +15% to Cold Resistance",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3948993189|47"
+      }
+    ]
   }
 ]

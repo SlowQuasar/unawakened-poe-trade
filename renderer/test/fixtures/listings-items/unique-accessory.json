@@ -58,17 +58,121 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_2023107756",
-        "explicit.stat_1924591908",
-        "explicit.stat_3607444087",
-        "explicit.stat_2453026567",
-        "explicit.stat_562371749",
-        "implicit.stat_1535626285"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "힘 및 지능 +20",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1535626285",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +38",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 생명력의 1% 회복",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2023107756",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 맹공 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1924591908",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 혼돈의 완력 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3607444087",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 맹공 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2453026567",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 혼돈의 완력 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_562371749",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "정신 추출기",
@@ -129,17 +233,121 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_2023107756",
-        "explicit.stat_1924591908",
-        "explicit.stat_3607444087",
-        "explicit.stat_2453026567",
-        "explicit.stat_562371749",
-        "implicit.stat_1535626285"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "힘 및 지능 +18",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1535626285",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +32",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 생명력의 1% 회복",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2023107756",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 맹공 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1924591908",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 혼돈의 완력 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3607444087",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 맹공 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2453026567",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 혼돈의 완력 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_562371749",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "정신 추출기",
@@ -200,17 +408,121 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_2023107756",
-        "explicit.stat_1924591908",
-        "explicit.stat_3607444087",
-        "explicit.stat_2453026567",
-        "explicit.stat_562371749",
-        "implicit.stat_1535626285"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "힘 및 지능 +19",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1535626285",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +33",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 생명력의 1% 회복",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2023107756",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 맹공 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1924591908",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 2미터 내의 적에게 5%의 확률로 혼돈의 완력 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3607444087",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 맹공 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2453026567",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 10초 동안 혼돈의 완력 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_562371749",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "빅타리오의 예리함",
@@ -271,17 +583,121 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1671376347",
-        "explicit.stat_2923486259",
-        "explicit.stat_1826802197",
-        "explicit.stat_2483795307",
-        "explicit.stat_3159161267",
-        "explicit.stat_3816512110",
-        "implicit.stat_2300185227"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "민첩 및 지능 +19",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2300185227",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "번개 저항 +38%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1671376347",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "카오스 저항 +8%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2923486259",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 격분 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1826802197",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "처치 시 10%의 확률로 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2483795307",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격분 충전 하나당 투사체 속도 5% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3159161267",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 하나당 투사체 피해 5% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3816512110",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "에일러덱스",
@@ -348,17 +764,135 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3299347043",
-        "explicit.stat_1050105434",
-        "explicit.stat_227523295",
-        "explicit.stat_2847548062",
-        "explicit.stat_3872306017",
-        "explicit.stat_1325047894",
-        "explicit.stat_2102212273",
-        "implicit.stat_1535626285"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "힘 및 지능 +19",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1535626285",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "생명력 최대치 +31",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "마나 최대치 +52",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1050105434",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 최대치 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_227523295",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 하나당 마나 재생 속도 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2847548062",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 지속시간 82% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3872306017",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "80",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 하나당 받는 피해의 1%를 생명력 대신 마나 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1325047894",
+        "mods": [
+          {
+            "level": 40,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "권능 충전 하나당 치명타 확률 40% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2102212273",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

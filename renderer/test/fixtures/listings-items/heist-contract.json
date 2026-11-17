@@ -38,14 +38,83 @@
       "category": "Heist Contract",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1890519597",
-        "explicit.stat_1309819744",
-        "explicit.stat_3448216135",
-        "explicit.stat_1629869774"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "몬스터 피해 15% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1890519597",
+        "mods": [
+          {
+            "name": "야만적인",
+            "tier": "P3",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 59%의 추가 물리 피해를 냉기 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3448216135",
+        "mods": [
+          {
+            "name": "동결의",
+            "tier": "P3",
+            "level": 68,
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "69"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "거대한 선서",
@@ -98,16 +167,119 @@
       "category": "Heist Contract",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2306522833",
-        "explicit.stat_1913583994",
-        "explicit.stat_2488361432",
-        "explicit.stat_406353061",
-        "explicit.stat_1541224187",
-        "explicit.stat_816367946"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "몬스터의 이동 속도 11% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2306522833",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 속도 17% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1913583994",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 시전 속도 19% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2488361432",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 48%의 확률로 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S2",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격이 명중 시 15%의 확률로 꿰뚫음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1541224187",
+        "mods": [
+          {
+            "name": "꿰뚫는",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 몬스터의 적중 피해가 항상 점화 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_816367946",
+        "mods": [
+          {
+            "name": "불태우는",
+            "tier": "P1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "야수의 증서",
@@ -166,17 +338,135 @@
       "category": "Heist Contract",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1708461270",
-        "explicit.stat_1339532482",
-        "explicit.stat_1843941387",
-        "explicit.stat_1342271987",
-        "explicit.stat_1541224187",
-        "explicit.stat_2138205941",
-        "explicit.stat_2450628570"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "몬스터의 효과 범위 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1708461270",
+        "mods": [
+          {
+            "name": "- 거인",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지원군의 공격 속도 36% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1339532482",
+        "mods": [
+          {
+            "name": "보충된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지원군의 시전 속도 44% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1843941387",
+        "mods": [
+          {
+            "name": "보충된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지원군의 이동 속도 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1342271987",
+        "mods": [
+          {
+            "name": "보충된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격이 명중 시 15%의 확률로 꿰뚫음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1541224187",
+        "mods": [
+          {
+            "name": "꿰뚫는",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 주문 피해 억제 확률 +20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2138205941",
+        "mods": [
+          {
+            "name": "억제하는",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 비-저주 오라 스킬로 받는 효과 15% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2450628570",
+        "mods": [
+          {
+            "name": "- 의심",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "-15",
+                "max": "-15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "최면의 유대",
@@ -241,18 +531,153 @@
       "category": "Heist Contract",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_839186746",
-        "explicit.stat_1238382441",
-        "explicit.stat_365540634",
-        "explicit.stat_1054098949",
-        "explicit.stat_1106651798",
-        "explicit.stat_1629869774",
-        "explicit.stat_798009319",
-        "explicit.stat_4181072906"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "몬스터의 물리 피해 감소 +15%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_839186746",
+        "mods": [
+          {
+            "name": "장갑을 두른",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "경보 레벨 25%당 플레이어의 회피 5% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1238382441",
+        "mods": [
+          {
+            "name": "- 우려",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "-5",
+                "max": "-5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 카오스 저항 +10%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_365540634",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P4",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 원소 저항 +15%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1054098949",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P4",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 도발 면역",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1106651798",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 동작 속도가 기본 수치 밑으로 내려가지 않음\n몬스터의 이동 속도가 기본 수치 밑으로 내려가지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_798009319",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 생명력 및 에너지 보호막 회복 속도 20% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4181072906",
+        "mods": [
+          {
+            "name": "- 질식",
+            "tier": "S3",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "룬 문자 선서",
@@ -323,18 +748,171 @@
       "category": "Heist Contract",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2306522833",
-        "explicit.stat_1913583994",
-        "explicit.stat_2488361432",
-        "explicit.stat_3350803563",
-        "explicit.stat_839556554",
-        "explicit.stat_1238382441",
-        "explicit.stat_4056408881",
-        "explicit.stat_272758639",
-        "explicit.stat_3729221884"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "몬스터의 이동 속도 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2306522833",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1913583994",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 시전 속도 18% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2488361432",
+        "mods": [
+          {
+            "name": "쾌속의",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 명중 시 중독",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3350803563",
+        "mods": [
+          {
+            "name": "- 독액",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "보물 창고 몬스터가 받는 피해 17% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_839556554",
+        "mods": [
+          {
+            "name": "적대적인",
+            "tier": "P4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "-18",
+                "max": "-16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "경보 레벨 25%당 플레이어의 회피 5% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1238382441",
+        "mods": [
+          {
+            "name": "- 우려",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "-5",
+                "max": "-5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "보물 창고의 몬스터 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4056408881",
+        "mods": [
+          {
+            "name": "배치된",
+            "tier": "P5",
+            "magnitudes": [
+              {
+                "min": "13",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 방어도 15% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_272758639",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 막기 확률 10% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3729221884",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S4",
+            "level": 46,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -27,11 +27,32 @@
       "unknown": [],
       "mismatched": [],
       "missing": [
-        "explicit.stat_3418580811",
-        "explicit.stat_2255402066"
+        "explicit.stat_3418580811"
       ],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "성유를 부으면 무작위 패시브 스킬 4개 성장\n성장한 패시브 스킬은 성유를 부을 때 사용한 성유의 영향을 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3418580811",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "12"
+              },
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "구역질 나는 씨앗",
@@ -61,11 +82,32 @@
       "unknown": [],
       "mismatched": [],
       "missing": [
-        "explicit.stat_3418580811",
-        "explicit.stat_2255402066"
+        "explicit.stat_3418580811"
       ],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "성유를 부으면 무작위 패시브 스킬 4개 성장\n성장한 패시브 스킬은 성유를 부을 때 사용한 성유의 영향을 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3418580811",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "12"
+              },
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "구역질 나는 씨앗",
@@ -121,11 +163,94 @@
       "unknown": [],
       "mismatched": [],
       "missing": [
-        "explicit.stat_3418580811",
-        "explicit.stat_2255402066"
+        "explicit.stat_3418580811"
       ],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "성유를 부으면 무작위 패시브 스킬 4개 성장\n성장한 패시브 스킬은 성유를 부을 때 사용한 성유의 영향을 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3418580811",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "12"
+              },
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "추가된 패시브 스킬 1개가 [path_of_the_warrior1537|전사의 길]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|12702",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_3|전투의 흐름]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|56330",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_5|무차별적인 복수]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|4918",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_2|준비된 응답]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|2599",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "구역질 나는 씨앗",
@@ -175,15 +300,83 @@
       "unknown": [],
       "mismatched": [],
       "missing": [
-        "explicit.stat_3418580811",
-        "explicit.stat_2255402066"
+        "explicit.stat_3418580811"
       ],
       "enabled": [
         "enchant.stat_3599615742|41305",
         "enchant.stat_3599615742|4918",
         "enchant.stat_3599615742|59976"
       ]
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "성유를 부으면 무작위 패시브 스킬 4개 성장\n성장한 패시브 스킬은 성유를 부을 때 사용한 성유의 영향을 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3418580811",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "12"
+              },
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enchantMods": [
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_6|타쇄하는 대응]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|41305",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_5|무차별적인 복수]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|4918",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "추가된 패시브 스킬 1개가 [Retaliation_notable_1|조심스러운 반격]",
+        "domain": "enchant",
+        "hash": "stat.enchant.stat_3599615742|59976",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "구역질 나는 씨앗",
@@ -213,10 +406,31 @@
       "unknown": [],
       "mismatched": [],
       "missing": [
-        "explicit.stat_3418580811",
-        "explicit.stat_2255402066"
+        "explicit.stat_3418580811"
       ],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "성유를 부으면 무작위 패시브 스킬 4개 성장\n성장한 패시브 스킬은 성유를 부을 때 사용한 성유의 영향을 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3418580811",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "12"
+              },
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

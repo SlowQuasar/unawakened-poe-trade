@@ -44,15 +44,88 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3512123051",
-        "explicit.stat_1062208444",
-        "explicit.stat_1103075489",
-        "explicit.stat_2416650879",
-        "explicit.stat_683365179"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 30레벨 [SupportRage::30|격노 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3512123051",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 141% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1062208444",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "120",
+                "max": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 직접 사용하는 바알 공격 스킬이 영혼 대신 격노 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1103075489",
+        "mods": [
+          {
+            "level": 90,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격노 소모 효율 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2416650879",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영혼 획득 방지 중 격노 획득 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_683365179",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "증오의 탄생",
@@ -99,15 +172,88 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3512123051",
-        "explicit.stat_1062208444",
-        "explicit.stat_1103075489",
-        "explicit.stat_2416650879",
-        "explicit.stat_683365179"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 30레벨 [SupportRage::30|격노 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3512123051",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 132% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1062208444",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "120",
+                "max": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 직접 사용하는 바알 공격 스킬이 영혼 대신 격노 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1103075489",
+        "mods": [
+          {
+            "level": 90,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격노 소모 효율 28% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2416650879",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영혼 획득 방지 중 격노 획득 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_683365179",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "증오의 탄생",
@@ -154,15 +300,88 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3512123051",
-        "explicit.stat_1062208444",
-        "explicit.stat_1103075489",
-        "explicit.stat_2416650879",
-        "explicit.stat_683365179"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 30레벨 [SupportRage::30|격노 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3512123051",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 125% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1062208444",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "120",
+                "max": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 직접 사용하는 바알 공격 스킬이 영혼 대신 격노 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1103075489",
+        "mods": [
+          {
+            "level": 90,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격노 소모 효율 26% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2416650879",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영혼 획득 방지 중 격노 획득 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_683365179",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "증오의 탄생",
@@ -209,15 +428,88 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3512123051",
-        "explicit.stat_1062208444",
-        "explicit.stat_1103075489",
-        "explicit.stat_2416650879",
-        "explicit.stat_683365179"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 30레벨 [SupportRage::30|격노 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3512123051",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 148% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1062208444",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "120",
+                "max": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 직접 사용하는 바알 공격 스킬이 영혼 대신 격노 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1103075489",
+        "mods": [
+          {
+            "level": 90,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격노 소모 효율 28% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2416650879",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영혼 획득 방지 중 격노 획득 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_683365179",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "증오의 탄생",
@@ -264,14 +556,87 @@
       "category": "Gloves",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3512123051",
-        "explicit.stat_1062208444",
-        "explicit.stat_1103075489",
-        "explicit.stat_2416650879",
-        "explicit.stat_683365179"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 30레벨 [SupportRage::30|격노 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3512123051",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 146% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1062208444",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "120",
+                "max": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 직접 사용하는 바알 공격 스킬이 영혼 대신 격노 소모",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1103075489",
+        "mods": [
+          {
+            "level": 90,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "격노 소모 효율 37% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2416650879",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "영혼 획득 방지 중 격노 획득 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_683365179",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

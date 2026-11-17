@@ -58,17 +58,125 @@
       "category": "Warstaff",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_4016885052",
-        "explicit.stat_967556848",
         "explicit.stat_1379411836",
         "explicit.stat_2901986750",
         "explicit.stat_1839076647",
-        "explicit.stat_1263695895",
-        "implicit.effect_3232631539"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_1263695895"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "장착된 젬에 10레벨 [SupportElementalPenetration::10|원소 관통 보조] 보조 효과 적용",
+        "domain": "implicit",
+        "hash": "stat.implicit.effect_3232631539",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 젬이 투사체 4개를 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4016885052",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "장착된 젬이 원형으로 투사체 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_967556848",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 능력치 +19",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1379411836",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 원소 저항 +5%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2901986750",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "투사체 피해 91% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1839076647",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "시야 반경 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1263695895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "이워의 신기루",
@@ -123,16 +231,113 @@
       "category": "One-Handed Sword",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3336890334",
-        "explicit.stat_210067635",
+      "missing": [],
+      "enabled": [
         "explicit.stat_2466604008",
-        "explicit.stat_2105048696",
         "explicit.stat_387439868",
-        "implicit.stat_2101383955"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_4209631466",
+        "explicit.stat_2105048696"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "피해가 10%의 원소 저항 관통",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2101383955",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "번개 피해 1~48 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3336890334",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              },
+              {
+                "min": "45",
+                "max": "55"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 21% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "주 무기로 장착 시 연쇄 공격 1회 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2466604008",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "보조 장비로 장착하면 공격 시 투사체 1개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2105048696",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 스킬의 원소 피해 51% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_387439868",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "55"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "늪 감긴 가지",
@@ -181,15 +386,96 @@
       "category": "Staff",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_1854569159",
+      "missing": [],
+      "enabled": [
         "explicit.stat_819529588",
         "explicit.stat_983749596",
         "explicit.stat_2748665614",
-        "implicit.effect_3232631539"
-      ],
-      "enabled": []
-    }
+        "explicit.effect_1854569159",
+        "explicit.stat_1122134690",
+        "explicit.indexable_support_8"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "장착된 젬에 10레벨 [SupportElementalPenetration::10|원소 관통 보조] 보조 효과 적용",
+        "domain": "implicit",
+        "hash": "stat.implicit.effect_3232631539",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 8레벨 [SupportTrap::8|덫 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_1854569159",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 피해 42% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_819529588",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "최대 생명력 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_983749596",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "최대 마나 11% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2748665614",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "파편의 영주",
@@ -250,17 +536,125 @@
       "category": "Warstaff",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_4016885052",
-        "explicit.stat_967556848",
         "explicit.stat_1379411836",
         "explicit.stat_2901986750",
         "explicit.stat_1839076647",
-        "explicit.stat_1263695895",
-        "implicit.stat_2375316951"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_1263695895"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "치명타 확률 15% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2375316951",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 젬이 투사체 4개를 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4016885052",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "장착된 젬이 원형으로 투사체 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_967556848",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 능력치 +17",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1379411836",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 원소 저항 +5%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2901986750",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "투사체 피해 76% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1839076647",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "시야 반경 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1263695895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "속박된 여신",
@@ -339,19 +733,173 @@
       "category": "One-Handed Sword",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_829382474",
-        "explicit.stat_2846730569",
-        "explicit.stat_1509134228",
-        "explicit.stat_709508406",
-        "explicit.stat_210067635",
         "explicit.stat_587431675",
         "explicit.stat_2144192055",
         "explicit.stat_3917489142",
-        "explicit.stat_649025131",
-        "implicit.stat_3556824919"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_649025131"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 피해 배율 +25%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3556824919",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 근접 젬 레벨 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_829382474",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "무기 슬롯 양쪽 모두 사용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2846730569",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 284% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "300"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 피해 3~7 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_709508406",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              },
+              {
+                "min": "7",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 치명타 확률 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_587431675",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +25",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2144192055",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] -20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "-20",
+                "max": "-20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "낮은 생명력 상태일 때 이동 속도 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_649025131",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

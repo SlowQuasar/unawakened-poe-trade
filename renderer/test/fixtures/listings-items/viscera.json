@@ -20,11 +20,27 @@
       "category": "Viscera",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_680068163"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 15,
+    "implicitMods": [
+      {
+        "description": "기절 한계치 18% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_680068163",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -47,11 +63,27 @@
       "category": "Viscera",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_3762784591"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 15,
+    "implicitMods": [
+      {
+        "description": "받는 지속 카오스 피해 4% 감소",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3762784591",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -74,11 +106,27 @@
       "category": "Viscera",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_680068163"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 15,
+    "implicitMods": [
+      {
+        "description": "기절 한계치 21% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_680068163",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -101,11 +149,27 @@
       "category": "Viscera",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_680068163"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 15,
+    "implicitMods": [
+      {
+        "description": "기절 한계치 23% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_680068163",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -128,10 +192,26 @@
       "category": "Viscera",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "implicit.stat_680068163"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 15,
+    "implicitMods": [
+      {
+        "description": "기절 한계치 21% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_680068163",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

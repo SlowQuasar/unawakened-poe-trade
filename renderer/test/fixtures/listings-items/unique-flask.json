@@ -38,14 +38,72 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2777278657",
-        "explicit.stat_2893557981",
-        "explicit.stat_1691221049",
-        "explicit.stat_308618188"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "효과를 받는 동안 명중 시 25%의 확률로 중독 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2777278657",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 추가 피해 없음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2893557981",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 독 지속 피해 배율 +25%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1691221049",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 1초마다 250 카오스 피해를 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_308618188",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "코랄리토의 서명",
@@ -86,14 +144,72 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2777278657",
-        "explicit.stat_2893557981",
-        "explicit.stat_1691221049",
-        "explicit.stat_308618188"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "효과를 받는 동안 명중 시 25%의 확률로 중독 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2777278657",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 추가 피해 없음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2893557981",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 독 지속 피해 배율 +21%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1691221049",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 1초마다 250 카오스 피해를 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_308618188",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "코랄리토의 서명",
@@ -134,14 +250,72 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2777278657",
-        "explicit.stat_2893557981",
-        "explicit.stat_1691221049",
-        "explicit.stat_308618188"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "효과를 받는 동안 명중 시 25%의 확률로 중독 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2777278657",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 추가 피해 없음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2893557981",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 독 지속 피해 배율 +26%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1691221049",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 1초마다 250 카오스 피해를 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_308618188",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "코랄리토의 서명",
@@ -182,14 +356,72 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2777278657",
-        "explicit.stat_2893557981",
-        "explicit.stat_1691221049",
-        "explicit.stat_308618188"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "효과를 받는 동안 명중 시 25%의 확률로 중독 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2777278657",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 추가 피해 없음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2893557981",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 독 지속 피해 배율 +26%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1691221049",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 1초마다 250 카오스 피해를 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_308618188",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "코랄리토의 서명",
@@ -230,13 +462,71 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2777278657",
-        "explicit.stat_2893557981",
-        "explicit.stat_1691221049",
-        "explicit.stat_308618188"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "효과를 받는 동안 명중 시 25%의 확률로 중독 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2777278657",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 추가 피해 없음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2893557981",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 치명타로 주는 독 지속 피해 배율 +22%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1691221049",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 1초마다 250 카오스 피해를 받음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_308618188",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "250"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

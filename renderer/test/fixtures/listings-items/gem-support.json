@@ -12,7 +12,13 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "보조 대상 스킬 명중 시 10%의 확률로 적 실명 유발"
+      }
+    ]
   },
   {
     "name": "",
@@ -27,7 +33,13 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "보조 대상 공격이 명중 시 60%의 확률로 적 꿰뚫음"
+      }
+    ]
   },
   {
     "name": "",
@@ -42,7 +54,16 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "보조 대상 스킬이 피해의 1.5%를 에너지 보호막으로 흡수"
+      },
+      {
+        "description": "에너지 보호막이 최대일 때 보조 대상 스킬로 주는 피해 15% 증폭"
+      }
+    ]
   },
   {
     "name": "",
@@ -57,7 +78,13 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "보조 대상 스킬의 정확도 +74"
+      }
+    ]
   },
   {
     "name": "",
@@ -72,6 +99,12 @@
       "mismatched": [],
       "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 4,
+    "explicitMods": [
+      {
+        "description": "보조 대상 스킬로 명중 시 분광 격발 발동"
+      }
+    ]
   }
 ]

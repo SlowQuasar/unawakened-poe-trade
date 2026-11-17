@@ -56,17 +56,113 @@
       "category": "Dagger",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3261801346",
-        "explicit.stat_1509134228",
-        "explicit.stat_1940865751",
-        "explicit.stat_2375316951",
-        "explicit.stat_3944782785",
-        "explicit.stat_513681673",
-        "implicit.stat_587431675"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 확률 45% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_587431675",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +13",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 53% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 2~3 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1940865751",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "2"
+              },
+              {
+                "min": "3",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "치명타 확률 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2375316951",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "출혈 중인 적에 대한 공격 피해 40% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3944782785",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "치명타 명중 시 50%의 확률로 출혈 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_513681673"
+      }
+    ]
   },
   {
     "name": "철의 지휘관",
@@ -127,17 +223,127 @@
       "category": "Bow",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1940865751",
-        "explicit.stat_210067635",
-        "explicit.stat_686254215",
-        "explicit.stat_3374165039",
-        "explicit.stat_2125178364",
-        "explicit.stat_2066426995",
-        "implicit.stat_2375316951"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "치명타 확률 37% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2375316951",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "물리 피해 10~21 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1940865751",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              },
+              {
+                "min": "16",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 17% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "토템 생명력 18% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_686254215",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "토템 설치 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3374165039",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "민첩 200당 공성 쇠뇌의 소환 가능한 토템 최대치 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2125178364",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "민첩 25당 공격 시 물리 피해 1~3 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2066426995",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              },
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "피의 오락",
@@ -198,17 +404,123 @@
       "category": "Dagger",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3261801346",
-        "explicit.stat_1509134228",
-        "explicit.stat_1940865751",
-        "explicit.stat_210067635",
-        "explicit.stat_1519615863",
-        "explicit.stat_3403461239",
-        "implicit.stat_587431675"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 확률 41% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_587431675",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +20",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 38% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 3~12 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1940865751",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "6"
+              },
+              {
+                "min": "9",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "명중 시 30%의 확률로 출혈 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1519615863",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "잔인함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3403461239",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "영역 형성자",
@@ -269,17 +581,127 @@
       "category": "Warstaff",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.effect_3756080110",
-        "explicit.stat_339179093",
-        "explicit.stat_1645459191",
-        "explicit.stat_709508406",
-        "explicit.stat_1037193709",
-        "explicit.stat_3141070085",
-        "implicit.stat_1702195217"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "공격 피해 막기 확률 +20%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1702195217",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 젬에 5레벨 [SupportColdToFire::5|냉기 화염 전환 보조] 보조 효과 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_3756080110",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "장착된 화염 속성 젬 레벨 +2",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_339179093",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "장착된 냉기 속성 젬 레벨 +2",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1645459191",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 피해 12~20 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_709508406",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "15"
+              },
+              {
+                "min": "20",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "냉기 피해 12~25 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1037193709",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "15"
+              },
+              {
+                "min": "20",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "원소 피해 41% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3141070085",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "속박된 여신",
@@ -358,19 +780,167 @@
       "category": "One-Handed Sword",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_829382474",
-        "explicit.stat_2846730569",
-        "explicit.stat_1509134228",
-        "explicit.stat_709508406",
-        "explicit.stat_210067635",
-        "explicit.stat_587431675",
-        "explicit.stat_2144192055",
-        "explicit.stat_3917489142",
-        "explicit.stat_649025131",
-        "implicit.stat_3556824919"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 피해 배율 +25%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3556824919",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 근접 젬 레벨 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_829382474",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "무기 슬롯 양쪽 모두 사용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2846730569",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 266% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "250",
+                "max": "300"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 피해 3~7 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_709508406",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              },
+              {
+                "min": "7",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 치명타 확률 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_587431675",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +28",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2144192055",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] -20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "-20",
+                "max": "-20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "낮은 생명력 상태일 때 이동 속도 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_649025131",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

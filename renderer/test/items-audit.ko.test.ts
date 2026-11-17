@@ -1,5 +1,6 @@
 import { beforeAll, expect, it, vi } from 'vitest'
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { itemListingToClipboard, type ItemListing } from './helpers/listing-to-clipboard'
 import { init } from '@/assets/data'
 import { parseClipboard } from '@/parser'
 import { createPresets } from '@/web/price-check/filters/create-presets'
@@ -10,24 +11,21 @@ vi.mock('@/web/background/IPC', () => ({ Host: {} }))
 beforeAll(async () => { await init('ko') })
 const options = { league: 'Covens', merchantOnly: false, currency: null, collapseListings: 'app' as const, activateStockFilter: false, useEn: true, searchStatRange: 0 }
 const dir = process.env.ITEM_AUDIT_FULL ? new URL('../../tools/data-generator/out/item-listings/', import.meta.url) : new URL('./fixtures/listings-items/', import.meta.url)
-interface Listing {
+interface Listing extends ItemListing {
   name: string
   baseType: string
   sourceIndex?: number
   expectedAudit?: { category: string, unknown: string[], mismatched: unknown[], missing: string[], enabled: string[] }
   extended: { text: string, hashes?: Record<string, Array<[string, number[]]>> }
 }
-export function clipboardText (encoded: string) {
-  return Buffer.from(encoded, 'base64').toString('utf8').replace(/\r\n/g, '\n').replace(/\n--------\n메모:[\s\S]*$/, '').trimEnd() + '\n'
-}
-it('audits real Korean item clipboard text and trade identities', () => {
+it('audits reconstructed advanced Korean item clipboard text and trade identities', () => {
   const report: Record<string, ReturnType<typeof audit>[]> = {}
   const expectedFull = process.env.ITEM_AUDIT_FULL && !process.env.ITEM_AUDIT_DISCOVERY
-    ? JSON.parse(readFileSync(new URL('../../docs/analysis/phase2/12-item-audit-details.json', import.meta.url), 'utf8')) as Record<string, Listing['expectedAudit'][]>
+    ? JSON.parse(readFileSync(new URL('../../docs/analysis/phase2/13-item-audit-advanced-details.json', import.meta.url), 'utf8')) as Record<string, Listing['expectedAudit'][]>
     : undefined
   function audit (listing: Listing, index: number) {
     const row = { index, name: listing.name, base: listing.baseType, parsed: false, category: '', error: '', unknown: [] as string[], mismatched: [] as unknown[], missing: [] as string[], requestError: '', enabled: [] as string[] }
-    const result = parseClipboard(clipboardText(listing.extended.text))
+    const result = parseClipboard(itemListingToClipboard(listing))
     if (result.isErr()) { row.error = result.error; return row }
     const item = result.value
     row.parsed = true
@@ -36,7 +34,8 @@ it('audits real Korean item clipboard text and trade identities', () => {
     const expected = new Set(Object.values(listing.extended.hashes ?? {}).flatMap(entries => entries.map(([id]) => id)))
     const recognized = new Set<string>()
     for (const calc of item.statsByType) {
-      const ids = calc.stat.trade.ids[calc.type] ?? []
+      // Trade IDs may carry request value transforms, which are not part of API identity.
+      const ids = (calc.stat.trade.ids[calc.type] ?? []).map(id => id.replace(/^\{[^}]+\}/, ''))
       ids.forEach(id => recognized.add(id))
       if (ids.length && !ids.some(id => expected.has(id))) row.mismatched.push({ ref: calc.stat.ref, ids, type: calc.type })
     }
@@ -56,7 +55,7 @@ it('audits real Korean item clipboard text and trade identities', () => {
       expect(listings.length).toBeGreaterThanOrEqual(3)
       expect(listings.length).toBeLessThanOrEqual(5)
       for (const listing of listings) {
-        expect(Object.keys(listing).sort()).toEqual(['baseType', 'expectedAudit', 'extended', 'name', 'sourceIndex'])
+        expect(Object.keys(listing).every(key => ['baseType', 'expectedAudit', 'extended', 'name', 'sourceIndex', 'frameType', 'implicitMods', 'explicitMods', 'craftedMods', 'fracturedMods', 'enchantMods'].includes(key))).toBe(true)
         expect(Object.keys(listing.extended).sort()).toEqual(listing.extended.hashes ? ['hashes', 'text'] : ['text'])
         expect(Buffer.from(listing.extended.text, 'base64').toString('utf8')).not.toMatch(/(?:^|\n)메모:/)
       }
@@ -77,4 +76,18 @@ it('audits real Korean item clipboard text and trade identities', () => {
     expect(row.requestError, `${type}[${row.index}] request`).toBe('')
   }
   expect(Object.keys(report)).toHaveLength(24)
+})
+
+it('searches Ravenous with the current effect ID and its level value', () => {
+  const listings: Listing[] = JSON.parse(readFileSync(new URL('./fixtures/listings-items/unique-armour-corrupted.json', import.meta.url), 'utf8'))
+  const listing = listings.find(listing => listing.sourceIndex === 16)!
+  const result = parseClipboard(itemListingToClipboard(listing))
+  if (result.isErr()) throw new Error(result.error)
+  const presets = createPresets(result.value, options)
+  const preset = presets.presets.find(preset => preset.id === presets.active)!
+  const skill = preset.stats.find(filter => !('group' in filter) && filter.tradeId.includes('explicit.effect_388828889'))!
+  expect(skill).toBeDefined()
+  skill.disabled = false
+  const request = createTradeRequest(preset.filters, preset.stats)
+  expect(request.query.stats.flatMap(group => group.filters)).toContainEqual(expect.objectContaining({ id: 'explicit.effect_388828889', disabled: false, value: { min: 20 } }))
 })

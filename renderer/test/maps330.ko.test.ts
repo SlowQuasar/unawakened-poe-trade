@@ -105,5 +105,7 @@ it('includes influenced rare-map implicits only outside bulk and preserves bligh
   expect(createExactStatFilters(unique, unique.statsByType, { searchStatRange: 0, mode: 'props' })
     .some(filter => filter.sources.some(source => source.modifier.info.type === ModifierType.Explicit))).toBe(false)
   const blighted = { ...item, info: { ...item.info, area: { ...item.info.area!, blighted: true } } }
-  expect(createExactStatFilters(blighted, blighted.statsByType, { searchStatRange: 0, mode: 'props' })).toEqual([])
+  // rare blighted maps now list map mods too (user report after 3.30.4); bulk mode still has none
+  expect(createExactStatFilters(blighted, blighted.statsByType, { searchStatRange: 0, mode: 'props' }).length).toBeGreaterThan(0)
+  expect(createExactStatFilters(blighted, blighted.statsByType, { searchStatRange: 0, mode: 'bulk' })).toEqual([])
 })

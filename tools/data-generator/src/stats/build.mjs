@@ -7,6 +7,7 @@ import { parseCsd, makeMatcher, uniqueMatchers, plainText } from './csd.mjs';
 import { readAreaMods, classifyArea } from './area-mods.mjs';
 import { readSupportEffects, expandSupportDescription } from './support-effects.mjs';
 import { readPassiveOptions, expandPassiveDescription, addMixedClusterMatchers } from './item-options.mjs';
+import { readGrantedSkillDescriptions } from './granted-skills.mjs';
 
 const root = new URL('../../../../', import.meta.url);
 const staging = new URL('tools/data-generator/out/staging/', root);
@@ -148,6 +149,7 @@ function compile(description, tradeByText, report) {
     if (ref.includes('#') && !matcher.string.includes('#')) continue;
     for (const entry of tradeByText.get(key(matcher.string)) ?? []) {
       if (description.supportEffect && entry.id.includes('.effect_') && !entry.id.endsWith(`.effect_${description.supportEffect.hash}`)) continue;
+      if (description.grantedEffect && entry.id.includes('.effect_') && !entry.id.endsWith(`.effect_${description.grantedEffect}`)) continue;
       (ids[entry.type] ??= []).push(entry.id);
     }
   }
@@ -264,7 +266,7 @@ function merge(rows, generated, lang, report) {
           dest.push(id);
           changed.add(stat.ref);
         }
-        if (candidate.description.supportEffect) dest.sort((a, b) => Number(b.includes('.effect_')) - Number(a.includes('.effect_')));
+        if (candidate.description.supportEffect || candidate.description.grantedEffect) dest.sort((a, b) => Number(b.includes('.effect_')) - Number(a.includes('.effect_')));
       }
     }
   }
@@ -294,6 +296,10 @@ export async function build() {
   const supportEffects = await readSupportEffects(process.argv[2]);
   const passiveOptions = await readPassiveOptions(snapshot, process.argv[2]);
   const generated = [];
+  for (const description of await readGrantedSkillDescriptions(snapshot, report.englishBaseline, process.argv[2])) {
+    const candidate = compile(description, byText, report);
+    if (candidate) generated.push(candidate);
+  }
   for (const source of await readSources(process.argv[2])) {
     const parsed = parseCsd(source.text, source.path);
     report.sources.push({ path: source.path, descriptions: parsed.descriptions.length, includes: parsed.includes, suppressed: parsed.suppressed });

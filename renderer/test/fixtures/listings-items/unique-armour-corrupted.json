@@ -52,16 +52,115 @@
       "category": "Quiver",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_681332047",
         "explicit.stat_2144192055",
         "explicit.stat_1050105434",
         "explicit.stat_1533563525",
-        "explicit.stat_3120164895",
-        "implicit.stat_979246511"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_3120164895"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "물리 피해의 8%를 추가 냉기 피해로 획득",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_979246511",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "공격 속도 10% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_681332047",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +83",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2144192055",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "80",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "마나 최대치 +14",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1050105434",
+        "mods": [
+          {
+            "level": 28,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해의 50%를 화염 피해로 전환",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1533563525",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "활 공격 시 화염 피해 5~10 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3120164895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "5"
+              },
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "새무스의 선물",
@@ -122,17 +221,129 @@
       "category": "Quiver",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_3261801346",
         "explicit.stat_2891184298",
         "explicit.stat_3299347043",
-        "explicit.stat_1671376347",
         "explicit.stat_4262448838",
         "explicit.stat_990219738",
-        "implicit.stat_80079005"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_1671376347",
+        "explicit.stat_1942151132"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "번개 피해의 0.5%를 생명력으로 흡수",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_80079005",
+        "mods": [
+          {
+            "level": 50,
+            "magnitudes": [
+              {
+                "min": "0.5",
+                "max": "0.5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +36",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "level": 57,
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "시전 속도 8% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2891184298",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +36",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 저항 +30%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1671376347",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "20%의 확률로 기절 긴급회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4262448838",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지능 10당 번개 피해 1% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_990219738",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "샤브론의 보폭",
@@ -179,15 +390,92 @@
       "category": "Boots",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_328541901",
-        "explicit.stat_4015621042",
         "explicit.stat_2250533757",
         "explicit.stat_3393547195",
         "explicit.stat_2511217560"
-      ],
-      "enabled": []
-    }
+      ]
+    },
+    "frameType": 3,
+    "explicitMods": [
+      {
+        "description": "지능 +28",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_328541901",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막 127% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4015621042",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "140"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 속도 15% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2250533757",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력이 최대일 때 이동 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3393547195",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "기절 및 막기 회복 169% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2511217560",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "150",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "노믹의 태풍",
@@ -254,72 +542,299 @@
       "category": "Boots",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_3261801346",
-        "explicit.stat_53045048",
-        "explicit.stat_4052037485",
-        "explicit.stat_4220027924",
         "explicit.stat_2250533757",
         "explicit.stat_969865219",
         "explicit.stat_2825197711",
-        "implicit.stat_2551600084"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_4220027924",
+        "explicit.stat_496075050"
+      ]
+    },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "장착된 효과 범위 젬 레벨 +2",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2551600084",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +26",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 +41",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_53045048",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막 최대치 +20",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4052037485",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "냉기 저항 +20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4220027924",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2250533757",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막이 최대일 때 받는 피해 15% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_969865219",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막이 최대일 때 이동 속도 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2825197711",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
-    "name": "프레시아의 화관",
-    "baseType": "철제 관",
-    "sourceIndex": 4,
+    "name": "베루소의 야심",
+    "baseType": "섀클 장화",
+    "sourceIndex": 16,
     "extended": {
-      "text": "7JWE7J207YWcIOyiheulmDog7Yis6rWsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtlITroIjsi5zslYTsnZgg7ZmU6rSACuyyoOygnCDqtIAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDgKLS0tLS0tLS0K7ZmIOiBXLVcgUiAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjEKLS0tLS0tLS0K64ql66Cl7LmYIOyalOq1rOyCrO2VrSDsl4bsnYwK7Iuc7JW8IOuwmOqyvSDspp3qsIAg67CPIOqwkOyGjCDsiJjsuZjsnZggNTAl66W8IO2aqOqzvCDrspTsnITsl5Drj4Qg7KCB7JqpCuyLnOyVvCDrsJjqsr0g7Kad6rCAIOuwjyDqsJDshowg7IiY7LmY66W8IO2UvO2VtOyXkOuPhCDsoIHsmqkK7Iuc7JW8IOuwmOqyvSAxNyUg7Kad6rCACuyjvOuKlCDsubTsmKTsiqQg7ZS87ZW0IOyXhuydjAotLS0tLS0tLQrruZvsnbQg7Jqw66as7J2YIOuVheqzvCDsmrDrpqzsnZgg66eI7J2M7JeQ7IScIOyWtOuRoOydhCDrqrDslYTrgrTsl4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l7ZmUCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrsqDro6jshozsnZgg7JW87IusCuyEgO2BtCDsnqXtmZQKLS0tLS0tLS0K7ZqM7ZS8OiAxNDAgKGF1Z21lbnRlZCkK7JeQ64SI7KeAIOuztO2YuOuniTogMjkgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDM0CuuvvOyyqTogMzQK7KeA64qlOiAzNAotLS0tLS0tLQrtmYg6IFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDU1Ci0tLS0tLS0tCuyepeywqeuQnCDshoztmZjsiJgg7KCsIOugiOuyqCArMgotLS0tLS0tLQoyMOugiOuyqCDigIvqtbbso7zrprwg67aA7JesCuyggeyXkOqyjCDrqqzsiqTthLAg7Jyg7ZiVIO2RnOyLnOuQqArtmoztlLwg67CPIOyXkOuEiOyngCDrs7TtmLjrp4kgMTA5JSDspp3qsIAK7Lm07Jik7IqkIOyggO2VrSArMTMlCuydtOuPmSDsho3rj4QgMjQlIOymneqwgAotLS0tLS0tLQoi7J6Q7Iug6rO8IOqwgOyhseydtCDrjZQg7J6YIOyCtOq4sOulvCDrsJTrnoDri6TrqbQK64KY66W8IOuUsOudvOudvC4g7J2067O064ukIOuNlCDrp47snYAg6rKD7J2EIOybkO2VnOuLpOuptCDrp5DsnbTri6QhIgotLS0tLS0tLQrtg4Drnb0K",
       "hashes": {
         "explicit": [
           [
-            "explicit.stat_2739148464",
+            "explicit.effect_388828889",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4164361381",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1999113824",
             [
               1
             ]
           ],
           [
-            "explicit.stat_1138742368",
+            "explicit.stat_2923486259",
             [
               2
             ]
           ],
           [
-            "explicit.stat_3519807287",
+            "explicit.stat_2250533757",
             [
               3
             ]
-          ],
+          ]
+        ],
+        "implicit": [
           [
-            "explicit.stat_1263695895",
+            "implicit.stat_3604946673",
             [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_1896269067",
-            [
-              5
+              0
             ]
           ]
         ]
       }
     },
+    "frameType": 3,
+    "implicitMods": [
+      {
+        "description": "장착된 소환수 젬 레벨 +2",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3604946673",
+        "mods": [
+          {
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "20레벨 [Ravenous::20|굶주림] 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.effect_388828889",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "적에게 몬스터 유형 표시됨",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4164361381",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 및 에너지 보호막 109% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1999113824",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "80",
+                "max": "120"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "카오스 저항 +13%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2923486259",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "13",
+                "max": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 속도 24% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2250533757",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "expectedAudit": {
-      "category": "Helmet",
+      "category": "Boots",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2739148464",
-        "explicit.stat_1138742368",
-        "explicit.stat_3519807287",
-        "explicit.stat_1263695895",
-        "explicit.stat_1896269067"
-      ],
-      "enabled": []
+      "missing": [],
+      "enabled": [
+        "explicit.stat_2923486259",
+        "explicit.stat_2250533757",
+        "explicit.effect_388828889",
+        "explicit.stat_636370122"
+      ]
     }
   }
 ]

@@ -46,15 +46,100 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_328541901",
-        "explicit.stat_3325883026",
-        "explicit.stat_387439868",
-        "implicit.stat_789117908"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "마나 재생 속도 25% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_789117908",
+        "mods": [
+          {
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +9",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "name": "- 짐승",
+            "tier": "S9",
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지능 +9",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_328541901",
+        "mods": [
+          {
+            "name": "- 제자",
+            "tier": "S9",
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "1초마다 생명력 5.8 재생",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3325883026",
+        "mods": [
+          {
+            "name": "- 도마뱀",
+            "tier": "S7",
+            "level": 7,
+            "magnitudes": [
+              {
+                "min": "2.1",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 스킬의 원소 피해 5% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_387439868",
+        "mods": [
+          {
+            "name": "촉진시키는",
+            "tier": "P6",
+            "level": 4,
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "혐오스러운 우상",
@@ -103,15 +188,101 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_2974417149",
-        "explicit.stat_2106365538",
-        "explicit.stat_3489782002",
-        "implicit.stat_4080418644"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "힘 +30",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_4080418644",
+        "mods": [
+          {
+            "level": 7,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +9",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "name": "- 짐승",
+            "tier": "S9",
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "주문 피해 5% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2974417149",
+        "mods": [
+          {
+            "name": "성가대원의",
+            "tier": "P5",
+            "level": 5,
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회피 8% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2106365538",
+        "mods": [
+          {
+            "name": "날렵한",
+            "tier": "P7",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막 최대치 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3489782002",
+        "mods": [
+          {
+            "name": "반짝이는",
+            "tier": "P12",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "망각 갑 목걸이",
@@ -166,16 +337,124 @@
       "category": "Amulet",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3261801346",
-        "explicit.stat_1754445556",
-        "explicit.stat_587431675",
-        "explicit.stat_2866361420",
-        "explicit.stat_3489782002",
-        "implicit.stat_4080418644"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "힘 +28",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_4080418644",
+        "mods": [
+          {
+            "level": 7,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "민첩 +20",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3261801346",
+        "mods": [
+          {
+            "name": "- 여우",
+            "tier": "S7",
+            "level": 22,
+            "magnitudes": [
+              {
+                "min": "18",
+                "max": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 시 번개 피해 1~28 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1754445556",
+        "mods": [
+          {
+            "name": "치직대는",
+            "tier": "P6",
+            "level": 28,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "2"
+              },
+              {
+                "min": "27",
+                "max": "28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 치명타 확률 21% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_587431675",
+        "mods": [
+          {
+            "name": "- 관통",
+            "tier": "S4",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "방어도 8% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2866361420",
+        "mods": [
+          {
+            "name": "보강된",
+            "tier": "P7",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "에너지 보호막 최대치 +15",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3489782002",
+        "mods": [
+          {
+            "name": "타오르는",
+            "tier": "P9",
+            "level": 23,
+            "magnitudes": [
+              {
+                "min": "13",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "크라켄의 장악",
@@ -224,15 +503,108 @@
       "category": "Ring",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4067062424",
-        "explicit.stat_3917489142",
-        "explicit.stat_3372524247",
-        "explicit.stat_387439868",
-        "implicit.stat_3917489142"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance"
+      ]
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] +13%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3917489142",
+        "mods": [
+          {
+            "level": 25,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "공격 시 냉기 피해 11~18 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4067062424",
+        "mods": [
+          {
+            "name": "동결의",
+            "tier": "P5",
+            "level": 36,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "11"
+              },
+              {
+                "min": "16",
+                "max": "19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[PlayerItemRarity|아이템 희귀도] +8%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3917489142",
+        "mods": [
+          {
+            "name": "까치의",
+            "tier": "P4",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "화염 저항 +12%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3372524247",
+        "mods": [
+          {
+            "name": "- 불도마뱀",
+            "tier": "S7",
+            "level": 12,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 스킬의 원소 피해 16% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_387439868",
+        "mods": [
+          {
+            "name": "주입하는",
+            "tier": "P4",
+            "level": 15,
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "격노 회전",
@@ -299,17 +671,161 @@
       "category": "Ring",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4067062424",
-        "explicit.stat_624954515",
-        "explicit.stat_3299347043",
-        "explicit.stat_1050105434",
-        "explicit.stat_2901986750",
-        "explicit.stat_4220027924",
-        "explicit.stat_1263695895",
-        "implicit.stat_2915988346"
-      ],
-      "enabled": []
-    }
+      "missing": [],
+      "enabled": [
+        "pseudo.pseudo_total_elemental_resistance",
+        "pseudo.pseudo_total_life"
+      ]
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "화염 및 냉기 저항 +12%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2915988346",
+        "mods": [
+          {
+            "level": 25,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "16"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "공격 시 냉기 피해 7~16 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4067062424",
+        "mods": [
+          {
+            "name": "차디찬",
+            "tier": "P6",
+            "level": 29,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "9"
+              },
+              {
+                "min": "13",
+                "max": "16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 정확도 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_624954515",
+        "mods": [
+          {
+            "name": "- 빛",
+            "tier": "S2",
+            "level": 15,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "생명력 최대치 +6",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3299347043",
+        "mods": [
+          {
+            "name": "정정한",
+            "tier": "P8",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "마나 최대치 +38",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1050105434",
+        "mods": [
+          {
+            "name": "진청색",
+            "tier": "P9",
+            "level": 29,
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "39"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "모든 원소 저항 +7%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2901986750",
+        "mods": [
+          {
+            "name": "- 분광기",
+            "tier": "S4",
+            "level": 24,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "냉기 저항 +17%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4220027924",
+        "mods": [
+          {
+            "name": "- 봉인",
+            "tier": "S7",
+            "level": 14,
+            "magnitudes": [
+              {
+                "min": "12",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "시야 반경 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1263695895",
+        "mods": [
+          {
+            "name": "- 빛",
+            "tier": "S2",
+            "level": 15,
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -44,15 +44,110 @@
       "category": "Two-Handed Axe",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1037193709",
-        "explicit.stat_3336890334",
-        "explicit.stat_210067635",
-        "explicit.stat_3556824919",
-        "explicit.stat_821021828"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "explicitMods": [
+      {
+        "description": "냉기 피해 2~6 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1037193709",
+        "mods": [
+          {
+            "name": "서리 내린",
+            "tier": "P10",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "3"
+              },
+              {
+                "min": "6",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 피해 11~232 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3336890334",
+        "mods": [
+          {
+            "name": "전호의",
+            "tier": "P5",
+            "level": 42,
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "14"
+              },
+              {
+                "min": "208",
+                "max": "242"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 11% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "name": "- 숙련",
+            "tier": "S6",
+            "level": 22,
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 치명타 피해 배율 +13%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3556824919",
+        "mods": [
+          {
+            "name": "- 노여움",
+            "tier": "S6",
+            "level": 8,
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "명중한 적 하나당 생명력 4 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_821021828",
+        "mods": [
+          {
+            "name": "- 재생",
+            "tier": "S7",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "혼란스러운 쐐기털",
@@ -101,15 +196,104 @@
       "category": "Bow",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3336890334",
-        "explicit.stat_2375316951",
-        "explicit.stat_3556824919",
-        "explicit.stat_691932474",
-        "implicit.stat_3556824919"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 피해 배율 +25%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_3556824919",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "번개 피해 3~49 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3336890334",
+        "mods": [
+          {
+            "name": "웅웅대는",
+            "tier": "P9",
+            "level": 13,
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              },
+              {
+                "min": "46",
+                "max": "53"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "치명타 확률 14% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2375316951",
+        "mods": [
+          {
+            "name": "- 바느질",
+            "tier": "S6",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "일반 치명타 피해 배율 +17%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3556824919",
+        "mods": [
+          {
+            "name": "- 분노",
+            "tier": "S5",
+            "level": 21,
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "정확도 +192",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_691932474",
+        "mods": [
+          {
+            "name": "- 정밀함",
+            "tier": "S5",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "131",
+                "max": "215"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "비애의 파멸",
@@ -164,16 +348,122 @@
       "category": "Dagger",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_1645459191",
-        "explicit.stat_328541901",
-        "explicit.stat_1509134228",
-        "explicit.stat_3336890334",
-        "explicit.stat_691932474",
-        "implicit.stat_587431675"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "일반 치명타 확률 42% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_587431675",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 냉기 속성 젬 레벨 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1645459191",
+        "mods": [
+          {
+            "name": "서리술사의",
+            "tier": "P2",
+            "level": 2,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지능 +10",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_328541901",
+        "mods": [
+          {
+            "name": "- 제자",
+            "tier": "S9",
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 23% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "name": "숙련공의",
+            "tier": "P7",
+            "level": 11,
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "번개 피해 1~6 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3336890334",
+        "mods": [
+          {
+            "name": "윙윙대는",
+            "tier": "P10",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              },
+              {
+                "min": "5",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "정확도 +43",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_691932474",
+        "mods": [
+          {
+            "name": "숙련공의",
+            "tier": "P7",
+            "level": 11,
+            "magnitudes": [
+              {
+                "min": "21",
+                "max": "46"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "독사의 포효",
@@ -222,15 +512,105 @@
       "category": "One-Handed Mace",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_4080418644",
-        "explicit.stat_1940865751",
-        "explicit.stat_210067635",
-        "explicit.stat_2517001139",
-        "implicit.stat_1443060084"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "적 기절 한계치 10% 감소",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1443060084",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "힘 +32",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4080418644",
+        "mods": [
+          {
+            "name": "- 고릴라",
+            "tier": "S5",
+            "level": 44,
+            "magnitudes": [
+              {
+                "min": "28",
+                "max": "32"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 11~22 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1940865751",
+        "mods": [
+          {
+            "name": "번뜩이는",
+            "tier": "P5",
+            "level": 36,
+            "magnitudes": [
+              {
+                "min": "11",
+                "max": "14"
+              },
+              {
+                "min": "21",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 17% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "name": "- 갈채",
+            "tier": "S4",
+            "level": 37,
+            "magnitudes": [
+              {
+                "min": "17",
+                "max": "19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "적에게 적용되는 기절 지속시간 35% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2517001139",
+        "mods": [
+          {
+            "name": "- 비틀거림",
+            "tier": "S1",
+            "level": 58,
+            "magnitudes": [
+              {
+                "min": "31",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "거대한 일격",
@@ -291,16 +671,137 @@
       "category": "One-Handed Mace",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_829382474",
-        "explicit.stat_1509134228",
-        "explicit.stat_1940865751",
-        "explicit.stat_210067635",
-        "explicit.stat_2375316951",
-        "explicit.stat_691932474",
-        "implicit.stat_1443060084"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 2,
+    "implicitMods": [
+      {
+        "description": "적 기절 한계치 10% 감소",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1443060084",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "장착된 근접 젬 레벨 +1",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_829382474",
+        "mods": [
+          {
+            "name": "전투원의",
+            "tier": "P2",
+            "level": 8,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 16% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1509134228",
+        "mods": [
+          {
+            "name": "종자의",
+            "tier": "P8",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "물리 피해 4~9 추가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1940865751",
+        "mods": [
+          {
+            "name": "윤이 나는",
+            "tier": "P8",
+            "level": 13,
+            "magnitudes": [
+              {
+                "min": "4",
+                "max": "5"
+              },
+              {
+                "min": "8",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "공격 속도 8% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_210067635",
+        "mods": [
+          {
+            "name": "- 쉬움",
+            "tier": "S7",
+            "level": 11,
+            "magnitudes": [
+              {
+                "min": "8",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "치명타 확률 12% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2375316951",
+        "mods": [
+          {
+            "name": "- 바느질",
+            "tier": "S6",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "정확도 +19",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_691932474",
+        "mods": [
+          {
+            "name": "종자의",
+            "tier": "P8",
+            "magnitudes": [
+              {
+                "min": "16",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

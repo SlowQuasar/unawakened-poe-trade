@@ -38,14 +38,88 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_700317374",
-        "explicit.stat_1526933524",
-        "explicit.stat_4003593289",
-        "explicit.stat_4232582040"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_2503377690",
+        "explicit.stat_1526933524"
+      ]
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "회복량 66% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_700317374",
+        "mods": [
+          {
+            "name": "끓어오르는",
+            "tier": "P1",
+            "level": 7,
+            "magnitudes": [
+              {
+                "min": "-66",
+                "max": "-66"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "즉시 회복",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1526933524",
+        "mods": [
+          {
+            "name": "끓어오르는",
+            "tier": "P1",
+            "level": 7,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 방해 상태에서 사용 시 6초 동안 이동 방해 면역 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4003593289",
+        "mods": [
+          {
+            "name": "- 이동",
+            "tier": "S4",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "힘줄 절단 상태에서 사용 시 6초 동안 힘줄 절단 면역 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4232582040",
+        "mods": [
+          {
+            "name": "- 이동",
+            "tier": "S4",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -80,13 +154,66 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_700317374",
-        "explicit.stat_173226756",
-        "explicit.stat_2503377690"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "회복량 53% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_700317374",
+        "mods": [
+          {
+            "name": "보글거리는",
+            "tier": "P5",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "-55",
+                "max": "-52"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회복 속도 135% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_173226756",
+        "mods": [
+          {
+            "name": "보글거리는",
+            "tier": "P5",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "135",
+                "max": "135"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "회복량의 50%를 즉시 회복",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2503377690",
+        "mods": [
+          {
+            "name": "보글거리는",
+            "tier": "P5",
+            "level": 3,
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -109,11 +236,30 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_2361218755"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "점화 상태에서 사용 시 11초 동안 점화 면역 부여\n사용 시 모든 화상 제거",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2361218755",
+        "mods": [
+          {
+            "name": "- 짓누르기",
+            "tier": "S3",
+            "level": 30,
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -148,13 +294,66 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
-        "explicit.stat_3196823591",
-        "explicit.stat_2448920197",
-        "explicit.stat_1173558568"
-      ],
+      "missing": [],
       "enabled": []
-    }
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "충전 회복 54% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3196823591",
+        "mods": [
+          {
+            "name": "측정되는",
+            "tier": "P3",
+            "level": 52,
+            "magnitudes": [
+              {
+                "min": "49",
+                "max": "54"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과 25% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2448920197",
+        "mods": [
+          {
+            "name": "측정되는",
+            "tier": "P3",
+            "level": 52,
+            "magnitudes": [
+              {
+                "min": "-25",
+                "max": "-25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과를 받는 동안 공격 피해의 0.5%를 생명력으로 흡수",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1173558568",
+        "mods": [
+          {
+            "name": "- 선혈",
+            "tier": "S4",
+            "level": 20,
+            "magnitudes": [
+              {
+                "min": "0.5",
+                "max": "0.5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "",
@@ -195,13 +394,86 @@
       "category": "Flask",
       "unknown": [],
       "mismatched": [],
-      "missing": [
+      "missing": [],
+      "enabled": [
         "explicit.stat_700317374",
-        "explicit.stat_4204954479",
-        "explicit.stat_4003593289",
-        "explicit.stat_4232582040"
-      ],
-      "enabled": []
-    }
+        "explicit.stat_4204954479"
+      ]
+    },
+    "frameType": 1,
+    "explicitMods": [
+      {
+        "description": "회복량 66% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_700317374",
+        "mods": [
+          {
+            "name": "불길한",
+            "tier": "P1",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "66",
+                "max": "66"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "효과가 끝나면 마나 회복 즉시 발동",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4204954479",
+        "mods": [
+          {
+            "name": "불길한",
+            "tier": "P1",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "이동 방해 상태에서 사용 시 7초 동안 이동 방해 면역 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4003593289",
+        "mods": [
+          {
+            "name": "- 이동",
+            "tier": "S4",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "힘줄 절단 상태에서 사용 시 6초 동안 힘줄 절단 면역 부여",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4232582040",
+        "mods": [
+          {
+            "name": "- 이동",
+            "tier": "S4",
+            "level": 16,
+            "magnitudes": [
+              {
+                "min": "6",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
