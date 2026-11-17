@@ -30,6 +30,7 @@ for (const lang of ['en', 'ko']) test(`${lang}: preserve every baseline row, gro
     for (let i = 0; i < before.length; i++) {
       const { matchers, trade, ...manual } = before[i];
       const { matchers: actualMatchers, trade: actualTrade, ...actualManual } = after[i];
+      if (!manual.fromAreaMods) delete actualManual.fromAreaMods;
       assert.deepEqual(actualManual, manual);
       const { ids, ...tradeManual } = trade, { ids: actualIds, ...actualTradeManual } = actualTrade;
       assert.deepEqual(actualTradeManual, tradeManual);
@@ -39,7 +40,7 @@ for (const lang of ['en', 'ko']) test(`${lang}: preserve every baseline row, gro
   }
   const known = new Set(flatten(baseline.rows).map(s => s.ref));
   for (const stat of flatten(output.rows)) {
-    if (!known.has(stat.ref)) assert.ok(Object.values(stat.trade.ids).flat().length > 0);
+    if (!known.has(stat.ref)) assert.ok(stat.fromAreaMods || Object.values(stat.trade.ids).flat().length > 0);
   }
   assert.deepEqual(collisions(output.rows), []);
 });

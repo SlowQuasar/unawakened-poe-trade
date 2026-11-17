@@ -2,23 +2,24 @@
   <ui-popover tag-name="div" trigger="click" placement="bottom" boundary="#price-window">
     <template #target>
       <button class="bg-gray-700 px-2 py-1 text-gray-400 leading-none opacity-50" :class="{ 'rounded-l': option === 'low', 'rounded-r': option === 'high' }"
-        >{{ option }}</button>
+        >{{ t(`prediction.${option}`) }}</button>
     </template>
     <template #content>
       <form @submit.prevent="submit" class="w-64 p-2">
         <div>{{ text }}</div>
         <textarea v-if="option !== 'fair'"
           v-model="feedbackText"
-          placeholder="Why do you think so? (Not required)"
+          :placeholder="t('prediction.feedback_placeholder')"
           rows="5" class="w-full bg-gray-700 text-gray-100 p-1"></textarea>
-        <button class="btn" type="submit">Send feedback</button>
-        <span class="ml-2">to poeprices.info</span>
+        <button class="btn" type="submit">{{ t('prediction.send_feedback') }}</button>
+        <span class="ml-2">{{ t('prediction.feedback_to', ['poeprices.info']) }}</span>
       </form>
     </template>
   </ui-popover>
 </template>
 
 <script lang="ts">
+import { useI18n } from 'vue-i18n'
 import { computed, defineComponent, PropType, ref } from 'vue'
 import UiPopover from '@/web/ui/Popover.vue'
 import { ParsedItem } from '@/parser'
@@ -42,15 +43,16 @@ export default defineComponent({
     }
   },
   setup (props, ctx) {
+    const { t } = useI18n()
     const feedbackText = ref('')
 
     const text = computed(() => {
       if (props.option === 'low') {
-        return 'Predicted price is too low.'
+        return t('prediction.price_low')
       } else if (props.option === 'high') {
-        return 'Predicted price is too high.'
+        return t('prediction.price_high')
       } else {
-        return 'Predicted price is fair.'
+        return t('prediction.price_fair')
       }
     })
 
@@ -67,6 +69,7 @@ export default defineComponent({
     }
 
     return {
+      t,
       feedbackText,
       text,
       submit

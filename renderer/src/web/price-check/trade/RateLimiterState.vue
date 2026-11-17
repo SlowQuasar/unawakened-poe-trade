@@ -1,15 +1,15 @@
 <template>
   <button :class="[$style.button, { [$style.limited]: isLimited }]"
-    @click="showRateLimitState = !showRateLimitState" v-bind="$attrs">Rate limiting</button>
+    @click="showRateLimitState = !showRateLimitState" v-bind="$attrs">{{ t('rate_limit.title') }}</button>
   <div v-if="showRateLimitState"
     class="font-sans p-4 bg-gray-800 text-gray-400 mb-8 border border-gray-900 absolute bottom-0"
     style="border-width: 0.25rem;" v-bind="$attrs">
     <div v-for="limit in limits" :key="limit.policy">
-      <div :class="{ 'text-red-400': limit.hasQueue }">Policy: {{ limit.policy }}</div>
+      <div :class="{ 'text-red-400': limit.hasQueue }">{{ t('rate_limit.policy', [limit.policy]) }}</div>
       <div>
         <div v-for="(rule, idx) in limit.rules" :key="idx">
-          <span>{{ rule.active }} / {{ rule.max }} over {{ rule.window }}s</span>
-          <span v-if="rule.queue" class="pl-1">(queue: {{ rule.queue }})</span>
+          <span>{{ t('rate_limit.window', [rule.active, rule.max, rule.window]) }}</span>
+          <span v-if="rule.queue" class="pl-1">{{ t('rate_limit.queue', [rule.queue]) }}</span>
         </div>
       </div>
     </div>
@@ -17,6 +17,7 @@
 </template>
 
 <script lang="ts">
+import { useI18n } from 'vue-i18n'
 import { computed, defineComponent } from 'vue'
 import { RATE_LIMIT_RULES } from './common'
 import { PriceCheckWidget } from '@/web/overlay/interfaces'
@@ -25,6 +26,7 @@ import { AppConfig } from '@/web/Config'
 export default defineComponent({
   inheritAttrs: false,
   setup () {
+    const { t } = useI18n()
     const widget = computed(() => AppConfig<PriceCheckWidget>('price-check')!)
 
     const limits = computed(() => {
@@ -58,6 +60,7 @@ export default defineComponent({
     })
 
     return {
+      t,
       limits,
       showRateLimitState,
       isLimited

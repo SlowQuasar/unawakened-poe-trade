@@ -28,7 +28,8 @@ const configPath = new URL('vitest.config.mts', copy);
 const config = await readFile(configPath, 'utf8');
 await writeFile(configPath, config.replace('export default defineConfig({', "export default defineConfig({\n  cacheDir: '.validation-cache',"));
 function run(label) {
-  const result = spawnSync(process.execPath, [fileURLToPath(new URL('node_modules/vitest/vitest.mjs', renderer)), 'run', '--config', 'vitest.config.mts'], {
+  const result = spawnSync('npm.cmd', ['test'], {
+    shell: true,
     cwd: fileURLToPath(copy), encoding: 'utf8', env: { ...process.env, NO_COLOR: '1' }, maxBuffer: 8 * 1024 * 1024
   });
   return { label, status: result.status, stdout: result.stdout, stderr: result.stderr, error: result.error?.message };
@@ -44,9 +45,45 @@ try {
   const old = `      expect(item.newMods).toHaveLength(1)\n      expect(item.newMods[0].info.type).toBe(ModifierType.Implicit)\n      if (slot === 'head') {\n        expect(item.unknownModifiers).toHaveLength(2)\n        expect(item.unknownModifiers.every(mod => mod.type === ModifierType.Implicit)).toBe(true)`;
   const replacement = `      expect(item.newMods).toHaveLength(1)\n      expect(item.newMods.every(mod => mod.info.type === ModifierType.Implicit)).toBe(true)\n      if (slot === 'head') {\n        expect(item.unknownModifiers).toEqual([])\n        expect(item.newMods[0].stats).toHaveLength(2)\n        expect(item.newMods.flatMap(mod => mod.stats).map(stat => stat.roll?.value)).toEqual([4, 5])`;
   test = test.replace(/\r\n/g, '\n');
-  assert.ok(test.includes(old), 'Known-gap test changed: review temporary acceptance patch');
-  await writeFile(testPath, test.replace(old, replacement));
-  results.push(run('staging: existing tests + head unknownModifiers=[] and rolls 4/5'));
+  if (test.includes(old)) await writeFile(testPath, test.replace(old, replacement));
+  await writeFile(new URL('test/map-generator.test.ts', copy), `
+import { beforeAll, expect, it } from 'vitest'
+import { readFileSync, writeFileSync } from 'node:fs'
+import { init, STATS_ITERATOR, STAT_BY_MATCH_STR } from '@/assets/data'
+import { parseClipboard } from '@/parser'
+import { prepareMapStat } from '@/web/map-check/prepare-map-stats'
+
+beforeAll(async () => { await init('ko') })
+it('all four fixture modifiers retain area metadata and prepare for map-check', () => {
+  const result = parseClipboard(readFileSync(new URL('./fixtures/ko/3.30-rare-map-atlas-drops.txt', import.meta.url), 'utf8'))
+  if (result.isErr()) throw new Error(result.error)
+  const item = result.value
+  expect(item.newMods).toHaveLength(4)
+  expect(item.unknownModifiers).toEqual([])
+  const mods = item.newMods.map(mod => mod.stats.map(s => ({ ref: s.stat.ref, fromAreaMods: s.stat.fromAreaMods })))
+  expect(mods.flat().every(s => !!s.fromAreaMods)).toBe(true)
+  expect(item.statsByType.map(prepareMapStat).every(s => !!s.matcher)).toBe(true)
+  writeFileSync(new URL('../../map-fixture.json', import.meta.url), JSON.stringify(mods, null, 2))
+})
+for (const lang of ['en', 'ko']) it(lang + ': nine new suffixes and Delirious are indexed for map-check', async () => {
+  await init(lang)
+  const stats = [...STATS_ITERATOR('fromAreaMods')]
+  const refs = [
+    'Area contains a buried Pandemonium Sentinel', 'Area contains a buried Apex Sentinel',
+    'Area contains a buried Stalker Sentinel', 'Area contains the Viridian Wildwood',
+    'Area contains an Evocator of Beidat', "Area contains an Evocator of K'Tash",
+    'Area contains an Evocator of Ghorr', 'Areas contain a Mirror of Delirium',
+    'Area contains an Empowered Mirage which covers the entire Map', 'Players in Area are #% Delirious'
+  ]
+  for (const ref of refs) {
+    const stat = stats.find(s => s.ref === ref)!
+    expect(stat?.fromAreaMods, ref).toBe('yes')
+    expect(stat.matchers.length).toBeGreaterThan(0)
+    for (const matcher of stat.matchers) expect(STAT_BY_MATCH_STR(matcher.string)?.stat.ref).toBe(ref)
+  }
+})
+`);
+  results.push(run('staging: existing tests + map fixture and bilingual map-check indexing'));
 } finally {
   const after = await digestTree(new URL('public/data/', renderer));
   assert.deepEqual(after, original, 'Original renderer/public/data changed');

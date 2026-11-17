@@ -4,6 +4,7 @@ import { OverlayController, OVERLAY_WINDOW_OPTS } from 'electron-overlay-window'
 import type { ServerEvents } from '../server'
 import type { Logger } from '../RemoteLogger'
 import type { GameWindow } from './GameWindow'
+import { mainMessages } from '../i18n'
 
 export class OverlayWindow {
   public isInteractable = false
@@ -141,11 +142,8 @@ export class OverlayWindow {
       this.logger.write('error [Overlay] PoE is running with administrator rights')
 
       dialog.showErrorBox(
-        'PoE window - No access',
-        // ----------------------
-        'Path of Exile is running with administrator rights.\n' +
-        '\n' +
-        'You need to restart Unawakened PoE Trade with administrator rights.'
+        mainMessages().noAccessTitle,
+        mainMessages().noAccessMessage
       )
     } else {
       this.server.sendEventTo('broadcast', {

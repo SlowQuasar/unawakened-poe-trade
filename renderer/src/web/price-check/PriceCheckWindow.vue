@@ -20,7 +20,7 @@
               item-img="/images/divine.png"
             />
             <div v-for="i in 9" :key="i">
-              <div class="pl-1">{{ i / 10 }} div ⇒ {{ Math.round(stableOrbCost * i / 10) }} c</div>
+              <div class="pl-1">{{ i / 10 }} {{ t('currency_short.divine') }} ⇒ {{ Math.round(stableOrbCost * i / 10) }} {{ t('currency_short.chaos') }}</div>
             </div>
           </template>
         </ui-popover>

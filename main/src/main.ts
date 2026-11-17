@@ -14,6 +14,7 @@ import { AppTray } from './AppTray'
 import { OverlayVisibility } from './windowing/OverlayVisibility'
 import { GameLogWatcher } from './host-files/GameLogWatcher'
 import { HttpProxy } from './proxy'
+import { setLanguage } from './i18n'
 
 if (!app.requestSingleInstanceLock()) {
   app.exit()
@@ -41,12 +42,14 @@ app.on('ready', async () => {
       new OverlayVisibility(eventPipe, overlay, gameConfig)
       const shortcuts = await Shortcuts.create(logger, overlay, poeWindow, gameConfig, eventPipe)
       eventPipe.onEventAnyClient('CLIENT->MAIN::update-host-config', (cfg) => {
+        setLanguage(cfg.language)
         overlay.updateOpts(cfg.overlayKey, cfg.windowTitle)
         shortcuts.updateActions(cfg.shortcuts, cfg.stashScroll, cfg.logKeys, cfg.restoreClipboard, cfg.language)
         gameLogWatcher.restart(cfg.clientLog ?? '')
         gameConfig.readConfig(cfg.gameConfig ?? '')
         appUpdater.checkAtStartup()
         tray.overlayKey = cfg.overlayKey
+        tray.rebuildMenu()
       })
       uIOhook.start()
       const port = await startServer(appUpdater, logger)

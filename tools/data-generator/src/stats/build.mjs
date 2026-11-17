@@ -4,6 +4,7 @@ import { performance } from 'node:perf_hooks';
 import fnv1a from '../../../../renderer/node_modules/@sindresorhus/fnv1a/index.js';
 import { readSources } from './source.mjs';
 import { parseCsd, makeMatcher, uniqueMatchers, plainText } from './csd.mjs';
+import { readAreaMods, classifyArea } from './area-mods.mjs';
 
 const root = new URL('../../../../', import.meta.url);
 const staging = new URL('tools/data-generator/out/staging/', root);
@@ -146,7 +147,7 @@ function merge(rows, generated, lang, report) {
       const matches = new Set(Object.values(candidate.ids).flat().flatMap(id => [...(byId.get(id) ?? [])]));
       if (matches.size === 1) { targets = byRef.get([...matches][0]); method = 'stable-trade-id'; }
     }
-    if (!targets && !Object.keys(candidate.ids).length) continue;
+    if (!targets && !Object.keys(candidate.ids).length && !candidate.area) continue;
     if (!targets) {
       const occupied = candidate.matchers[lang].filter(m => owner.has(m.string));
       if (occupied.length) {
@@ -155,6 +156,10 @@ function merge(rows, generated, lang, report) {
       }
       const better = /(?:Damage taken|Lose |reduced|less |Duration of Ailments on You)/i.test(candidate.ref) ? -1 : 1;
       const stat = { ref: candidate.ref, better, matchers: candidate.matchers[lang], trade: { ids: structuredClone(candidate.ids) } };
+      if (candidate.area) {
+        stat.fromAreaMods = candidate.area.value;
+        report.areaMods.added.push({ lang, ref: stat.ref, ...candidate.area, stats: candidate.description.stats });
+      }
       output.push(stat); stats.push(stat); add(byRef, stat.ref, stat); statRow.set(stat, stat);
       for (const matcher of stat.matchers) add(owner, matcherKey(matcher), stat);
       added.add(stat.ref);
@@ -162,6 +167,14 @@ function merge(rows, generated, lang, report) {
       continue;
     }
     for (const stat of targets) {
+      if (candidate.area) {
+        report.areaMods.baselineMatches.push({ lang, ref: stat.ref, baseline: originals.get(stat.ref)?.fromAreaMods, inferred: candidate.area.value, mods: candidate.area.mods });
+        if (!stat.fromAreaMods) {
+          stat.fromAreaMods = candidate.area.value;
+          changed.add(stat.ref);
+          report.areaMods.added.push({ lang, ref: stat.ref, ...candidate.area, stats: candidate.description.stats });
+        }
+      }
       if (originals.has(stat.ref)) regenerated.add(stat.ref);
       const row = statRow.get(stat), old = stat.matchers;
       // Match the existing roll convention; increased/reduced can be canonical
@@ -224,13 +237,18 @@ export async function build() {
   const baseline = {};
   for (const lang of ['en', 'ko']) baseline[lang] = (await readFile(new URL(`tools/data-generator/baseline/${lang}/stats.ndjson`, root), 'utf8')).trimEnd().split('\n').map(JSON.parse);
   const report = { sources: [], languages: {}, generated: [], unsupported: {}, deferred: [], englishBaseline: flatten(baseline.en) };
+  const area = await readAreaMods(process.argv[2]);
+  report.areaMods = { ...area.evidence, added: [], baselineMatches: [], descriptions: [] };
   const byText = tradeIndex(await load('tools/data-generator/snapshots/kakao-2026-11-17/stats.json'));
   const generated = [];
   for (const source of await readSources(process.argv[2])) {
     const parsed = parseCsd(source.text, source.path);
     report.sources.push({ path: source.path, descriptions: parsed.descriptions.length, includes: parsed.includes, suppressed: parsed.suppressed });
     for (const description of parsed.descriptions.flatMap(splitStaticDescription)) {
+      const classification = classifyArea(description, area.byStat);
       const candidate = compile(description, byText, report);
+      if (classification) report.areaMods.descriptions.push({ stats: description.stats, source: description.source, ref: candidate?.ref, compiled: !!candidate, ...classification });
+      if (candidate) candidate.area = classification;
       if (candidate) generated.push(candidate);
     }
   }
@@ -251,6 +269,17 @@ export async function build() {
     report.languages[lang].added -= removed.size;
     report.generated = report.generated.filter(r => r.lang !== lang || !removed.has(r.ref));
     report.languages[lang].hashCollisions = collisions(rows);
+    const finalStats = flatten(rows);
+    const finalRefs = new Set(finalStats.map(s => s.ref));
+    const finalMatchers = new Set(finalStats.flatMap(s => s.matchers.map(m => m.string)));
+    const generatedByRef = new Map(generated.map(c => [c.ref, c]));
+    report.areaMods[lang] = {
+      before: Object.fromEntries(['yes', 'ubermap_exclusive', 'heist_exclusive'].map(value => [value, flatten(baseline[lang]).filter(s => s.fromAreaMods === value).length])),
+      after: Object.fromEntries(['yes', 'ubermap_exclusive', 'heist_exclusive'].map(value => [value, finalStats.filter(s => s.fromAreaMods === value).length])),
+      withoutTradeIds: finalStats.filter(s => s.fromAreaMods && !Object.values(s.trade.ids).flat().length).map(s => s.ref),
+      missingMatchers: finalStats.filter(s => s.fromAreaMods && !s.matchers.length).map(s => s.ref),
+      deferred: report.areaMods.descriptions.filter(d => !d.compiled || !(finalRefs.has(d.ref) || generatedByRef.get(d.ref)?.matchers[lang].some(m => finalMatchers.has(m.string))))
+    };
     await mkdir(new URL(`${lang}/`, staging), { recursive: true });
     await save(`${lang}/stats.ndjson`, rows.map(row => JSON.stringify(row)).join('\n') + '\n');
   }

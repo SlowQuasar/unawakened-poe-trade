@@ -51,3 +51,10 @@
 .font-exo2 {
   font-family: Exo2;
 }
+
+/* Fontin small caps has no Hangul glyphs. Use the system Korean UI font. */
+:lang(ko) .font-poe,
+:lang(ko) .font-poe-sc {
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-variant: normal;
+}

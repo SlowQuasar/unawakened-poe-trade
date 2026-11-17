@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.box">
     <h4 class="text-red-400">
-      <slot name="name">Error comes here.</slot>
+      <slot name="name">{{ t('ui.error') }}</slot>
     </h4>
     <slot />
     <div v-if="$slots.actions" :class="$style.actions">
@@ -12,9 +12,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 export default defineComponent({
-  name: 'UiErrorBox'
+  name: 'UiErrorBox',
+  setup () {
+    const { t } = useI18n()
+    return { t }
+  }
 })
 </script>
 

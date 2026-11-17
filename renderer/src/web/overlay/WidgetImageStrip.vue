@@ -1,7 +1,7 @@
 <template>
   <Widget :config="config" v-slot="{ isEditing, isMoving }" move-handles="top-bottom">
     <div class="widget-default-style p-1" style="min-width: 5rem;">
-      <div v-if="!isEditing" class="text-gray-100 m-1 leading-4 text-center">{{ config.wmTitle || 'Untitled' }}</div>
+      <div v-if="!isEditing" class="text-gray-100 m-1 leading-4 text-center">{{ config.wmTitle || t('Untitled') }}</div>
       <input v-else
         class="leading-4 rounded text-gray-100 p-1 bg-gray-700 w-full mb-1"
         :placeholder="t('widget.title')"

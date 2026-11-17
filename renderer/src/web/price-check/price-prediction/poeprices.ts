@@ -1,3 +1,4 @@
+import { translate as t } from '@/web/i18n'
 import { ParsedItem } from '@/parser'
 import { useLeagues } from '@/web/background/Leagues'
 import { Host } from '@/web/background/IPC'
@@ -41,7 +42,7 @@ export async function requestPoeprices (item: ParsedItem): Promise<RareItemPrice
     try {
       data = await response.json() as PoepricesApiResponse
     } catch {
-      throw new Error(`${response.status}, poeprices.info API is under load or down.`)
+      throw new Error(t('prediction.api_down', [response.status]))
     }
 
     if (data.error !== 0) {
@@ -55,14 +56,14 @@ export async function requestPoeprices (item: ParsedItem): Promise<RareItemPrice
     const { findPriceByQuery, autoCurrency } = usePoeninja()
     const xchgExalted = findPriceByQuery({ ns: 'ITEM', name: 'Exalted Orb', variant: undefined })
     if (!xchgExalted) {
-      throw new Error('poeprices.info gave the price in Exalted Orbs.')
+      throw new Error(t('prediction.exalted_price'))
     }
     const converted = autoCurrency([data.min * xchgExalted.chaos, data.max * xchgExalted.chaos])
     data.min = converted.min
     data.max = converted.max
     data.currency = (converted.currency === 'div') ? 'divine' : 'chaos'
   } else if (data.currency !== 'divine' && data.currency !== 'chaos') {
-    throw new Error('poeprices.info gave the price in unknown currency.')
+    throw new Error(t('prediction.unknown_currency'))
   }
 
   return {

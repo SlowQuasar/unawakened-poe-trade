@@ -1,6 +1,7 @@
 import path from 'path'
 import { app, Tray, Menu, shell, nativeImage, dialog } from 'electron'
 import type { ServerEvents } from './server'
+import { mainMessages } from './i18n'
 
 export class AppTray {
   public overlayKey = 'Shift + Space'
@@ -34,31 +35,32 @@ export class AppTray {
   }
 
   rebuildMenu () {
+    const text = mainMessages()
     const contextMenu = Menu.buildFromTemplate([
       {
-        label: 'Settings/League',
+        label: text.settingsLeague,
         click: () => {
           dialog.showMessageBox({
-            title: 'Settings',
-            message: `Open Path of Exile and press "${this.overlayKey}". Click on the button with cog icon there.`
+            title: mainMessages().settings,
+            message: mainMessages().settingsHint(this.overlayKey)
           })
         }
       },
       {
-        label: 'Open in Browser',
+        label: text.openBrowser,
         click: () => {
           shell.openExternal(`http://localhost:${this.serverPort}`)
         }
       },
       { type: 'separator' },
       {
-        label: 'Open config folder',
+        label: text.openConfig,
         click: () => {
           shell.openPath(path.join(app.getPath('userData'), 'apt-data'))
         }
       },
       {
-        label: 'Quit',
+        label: text.quit,
         click: () => {
           app.quit()
         }

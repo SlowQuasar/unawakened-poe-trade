@@ -13,7 +13,7 @@
         </div>
         <div class="flex gap-x-2 mb-4">
           <div class="text-gray-500">{{ t('settings.private_league') }}</div>
-          <input v-model="customLeagueId" placeholder="My League (PL12345)" class="rounded bg-gray-900 px-1 mb-1 flex-1" />
+          <input v-model="customLeagueId" :placeholder="t(':private_league_placeholder')" class="rounded bg-gray-900 px-1 mb-1 flex-1" />
         </div>
       </template>
     </div>

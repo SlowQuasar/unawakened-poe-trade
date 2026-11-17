@@ -51,3 +51,7 @@ export function useI18nNs (name: string) {
     }) as typeof t
   }
 }
+
+export function translate (key: string, values: Array<string | number> = []): string {
+  return _global.t(key, values)
+}

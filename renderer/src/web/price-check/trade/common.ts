@@ -1,3 +1,4 @@
+import { translate as t } from '@/web/i18n'
 import { shallowReactive } from 'vue'
 import type { ItemFilters, FilterOrGroup } from '../filters/interfaces'
 import { AppConfig } from '@/web/Config'
@@ -135,6 +136,6 @@ export function preventQueueCreation (targets: Array<{ count: number, limiters: 
   }))
 
   if (estimatedMillis >= 1500) {
-    throw new Error(`Retry after ${Math.round(estimatedMillis / 1000)} seconds`)
+    throw new Error(t('rate_limit.retry_after', [Math.round(estimatedMillis / 1000)]))
   }
 }

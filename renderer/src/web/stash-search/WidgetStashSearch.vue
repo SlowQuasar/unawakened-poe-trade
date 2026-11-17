@@ -2,7 +2,7 @@
   <Widget :config="config" move-handles="corners" :inline-edit="false">
     <div class="widget-default-style p-1 flex flex-col overflow-y-auto min-h-0" style="min-width: 5rem;">
       <div class="text-gray-100 p-1 flex items-center justify-between gap-4">
-        <span class="truncate">{{ config.wmTitle || 'Untitled' }}</span>
+        <span class="truncate">{{ config.wmTitle || t('Untitled') }}</span>
         <ui-toggle v-if="hasHotkeys"
           v-model="config.enableHotkeys">{{ t('stash_search.enable_keys') }}</ui-toggle>
       </div>

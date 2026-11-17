@@ -31,7 +31,7 @@
             <button :class="{ 'border': (typeFilter === 'gem') }" class="rounded px-2 bg-gray-900"
               @click="typeFilter = 'gem'">{{ t(':target_gem') }}</button>
             <button :class="{ 'border': (typeFilter === 'replica') }" class="rounded px-2 bg-gray-900"
-              @click="typeFilter = 'replica'">{{ t(':target_replica') }}, <span class="line-through text-gray-600">Base items</span></button>
+              @click="typeFilter = 'replica'">{{ t(':target_replica') }}, <span class="line-through text-gray-600">{{ t('item_search.base_items') }}</span></button>
           </div>
         </div>
         <div class="flex flex-col">

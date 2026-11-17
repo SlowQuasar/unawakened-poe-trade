@@ -33,7 +33,7 @@
               <div class="px-2">{{ t(':price') }}</div>
             </th>
             <th :class="$style.tableHeading">
-              <div class="pl-1 pr-2 flex text-xs" style="line-height: 1.3125rem;"><span class="w-8 inline-block text-right -ml-px mr-px">{{ (selectedCurr === 'xchgChaos') ? 'chaos' : 'div' }}</span><span>{{ '\u2009' }}/{{ '\u2009' }}</span><span class="w-8 inline-block">{{ t(':bulk') }}</span></div>
+              <div class="pl-1 pr-2 flex text-xs" style="line-height: 1.3125rem;"><span class="w-8 inline-block text-right -ml-px mr-px">{{ t(selectedCurr === 'xchgChaos' ? 'currency_short.chaos' : 'currency_short.divine') }}</span><span>{{ '\u2009' }}/{{ '\u2009' }}</span><span class="w-8 inline-block">{{ t(':bulk') }}</span></div>
             </th>
             <th :class="$style.tableHeading">
               <div class="px-1">{{ t(':stock') }}</div>
@@ -87,7 +87,7 @@
   <ui-error-box class="mb-2" v-else>
     <template #name>{{ t(':error') }}</template>
     <p v-if="error.includes('JSON')">{{ t('app.leagues_failed_help') }}</p>
-    <p v-else>Error: {{ error }}</p>
+    <p v-else>{{ t('ui.error') }}: {{ error }}</p>
     <template #actions>
       <button class="btn" @click="execSearch">{{ t('Retry') }}</button>
       <button class="btn" @click="openTradeLink">{{ t('Browser') }}</button>
