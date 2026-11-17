@@ -23,6 +23,8 @@ nsis:
 portable:
   artifactName: "Unawakened-PoE-Trade-${version}.${ext}"
 win:
+  # Kakao PoE client runs elevated; the overlay must too (UIPI)
+  requestedExecutionLevel: "requireAdministrator"
   target:
   - "nsis"
   - "portable"

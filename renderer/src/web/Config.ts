@@ -160,7 +160,7 @@ export const defaultConfig = (): Config => ({
   logKeys: false,
   accountName: '',
   stashScroll: true,
-  language: 'en',
+  language: 'ko',
   realm: 'pc-ggg',
   useIntlSite: false,
   fontSize: 16,
