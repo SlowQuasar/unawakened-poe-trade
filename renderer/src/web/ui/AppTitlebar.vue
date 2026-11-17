@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.titlebar">
     <slot />
-    <button @click="emit('click')" class="truncate">{{ title }}</button>
+    <button @click="emit('click')" class="truncate font-poe-sc">{{ title }}</button>
     <button @click.stop="emit('close')" tabindex="-1"
       :class="[$style.button, $style.close]" :title="t('Close')"><i class="fas fa-window-close"></i></button>
   </div>

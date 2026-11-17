@@ -40,7 +40,7 @@ export const usePoeninja = createGlobalState(() => {
 
   async function load (force: boolean = false) {
     const league = leagues.selected.value
-    if (!league || !league.isPopular || league.realm !== 'pc-ggg') return
+    if (!league || !league.isPopular) return
 
     if (!force && (
       (Date.now() - lastUpdateTime) < UPDATE_INTERVAL_MS ||

@@ -1,32 +1,16 @@
-@font-face{
-  font-family:'FontinSmallCaps';
-  src:url('./font/Fontin-SmallCaps-Hinted.ttf') format("truetype");
-}
-@font-face{
-  font-family:'Fontin';
-  src:url('./font/Fontin-Regular-Hinted.ttf') format("truetype");
-}
-@font-face{
-  font-family:'Fontin';
-  font-style:italic;
-  src:url('./font/Fontin-Italic-Hinted.ttf') format("truetype");
-}
-@font-face{
-  font-family:'Fontin';
-  font-weight:bold;
-  src:url('./font/Fontin-Bold-Hinted.ttf') format("truetype");
-}
 @font-face {
-  font-family: 'FrizQuadrataC';
-  unicode-range: U+400-4FF; /* Cyrillic */
-  src:url('./font/FrizQuadrataITC-Hinted.ttf') format("truetype");
+  font-family: "Marcellus SC";
+  font-weight: normal;
+  font-style: normal;
+  src: url('./font/MarcellusSC-Regular.ttf') format("truetype");
 }
 
 .font-poe {
-  font-family: Fontin, FrizQuadrataC;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
 }
-.font-poe-sc {
-  font-family: FontinSmallCaps, FrizQuadrataC;
+.font-poe-sc,
+.btn {
+  font-family: "Marcellus SC", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
 }
 
 @font-face {
@@ -50,11 +34,4 @@
 
 .font-exo2 {
   font-family: Exo2;
-}
-
-/* Fontin small caps has no Hangul glyphs. Use the system Korean UI font. */
-:lang(ko) .font-poe,
-:lang(ko) .font-poe-sc {
-  font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-  font-variant: normal;
 }

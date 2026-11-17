@@ -3,9 +3,8 @@ import { createGlobalState } from '@vueuse/core'
 import { AppConfig, poeWebApi } from '@/web/Config'
 import { Host } from './IPC'
 
-// pc-ggg, pc-garena
-export const PERMANENT_SC = ['Standard', '標準模式']
-const PERMANENT_HC = ['Hardcore', '專家模式']
+export const PERMANENT_SC = ['Standard']
+const PERMANENT_HC = ['Hardcore']
 
 interface ApiLeague {
   id: string
@@ -40,7 +39,6 @@ export const useLeagues = createGlobalState(() => {
     const listed = tradeLeagues.value.find(league => league.id === leagueId)
     return {
       id: leagueId,
-      realm: AppConfig().realm,
       isPopular: !isPrivateLeague(leagueId) && Boolean(listed?.isPopular)
     }
   })

@@ -8,7 +8,7 @@
             class="bg-gray-800 rounded text-gray-100 p-2 leading-none whitespace-nowrap border"
           >
             <i v-if="widget.icon" class="fas align-bottom" :class="widget.icon" />
-            <template v-if="widget.title">{{ widget.title }}</template>
+            <span v-if="widget.title" class="font-poe-sc">{{ widget.title }}</span>
           </button>
         </template>
         <ui-popover>

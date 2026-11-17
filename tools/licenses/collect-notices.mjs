@@ -71,9 +71,9 @@ const FONTS = `Bundled fonts
 -------------
 Exo 2 (Exo2-*.ttf) - SIL Open Font License 1.1, Copyright (c) 2013 Natanael Gama
   https://openfontlicense.org
-Fontin (Fontin-*.ttf) - exljbris Font Foundry free font license (free for personal and commercial use)
-  https://www.exljbris.com
-Friz Quadrata (FrizQuadrataITC-Hinted.ttf) - ITC typeface, license status unverified by this project`
+Marcellus SC (MarcellusSC-Regular.ttf) - SIL Open Font License 1.1
+
+${readFileSync(path.join(root, 'renderer/src/assets/font/MarcellusSC-OFL.txt'), 'utf8').trim()}`
 
 const parts = [
   'Unawakened PoE Trade - third-party notices',

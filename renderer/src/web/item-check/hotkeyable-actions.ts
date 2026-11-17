@@ -3,10 +3,8 @@ import { AppConfig, Config } from '@/web/Config'
 import { ParsedItem, parseClipboard } from '@/parser'
 
 const POEDB_LANGS: Record<Config['language'], string> = {
-  'en': 'us',
-  'ru': 'ru',
-  'cmn-Hant': 'tw',
-  'ko': 'kr'
+  en: 'us',
+  ko: 'kr'
 }
 
 export function registerActions () {

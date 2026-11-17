@@ -39,8 +39,8 @@
             :is="selectedComponent" :config="configClone" :configWidget="configWidget" />
         </div>
         <div class="border-t bg-gray-900 border-gray-600 p-2 flex justify-end gap-x-2">
-          <button @click="save" class="px-3 bg-gray-800 rounded">{{ t('Save') }}</button>
-          <button @click="cancel" class="px-3">{{ t('Cancel') }}</button>
+          <button @click="save" class="font-poe-sc px-3 bg-gray-800 rounded">{{ t('Save') }}</button>
+          <button @click="cancel" class="font-poe-sc px-3">{{ t('Cancel') }}</button>
         </div>
       </div>
     </div>

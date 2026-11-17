@@ -63,6 +63,7 @@ import { defineComponent, PropType, computed, watch } from 'vue'
 import { useI18nNs } from '@/web/i18n'
 import { usePoeninja } from '@/web/background/Prices'
 import { isValuableBasetype, getDetailsId } from './getDetailsId'
+import { hasPriceHistory } from './confidence'
 import ItemQuickPrice from '@/web/ui/ItemQuickPrice.vue'
 import VueApexcharts from 'vue3-apexcharts'
 import { ParsedItem } from '@/parser'
@@ -98,6 +99,7 @@ export default defineComponent({
       const detailsId = getDetailsId(props.item)
       const trend = detailsId && findPriceByQuery(detailsId)
       if (!trend) return
+      if (isValuableBasetype(props.item) && !hasPriceHistory(trend.graph)) return
 
       const price = (props.item.info.refName === 'Divine Orb')
         ? { min: trend.chaos, max: trend.chaos, currency: 'chaos' as const }

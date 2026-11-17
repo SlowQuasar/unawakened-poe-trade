@@ -90,8 +90,6 @@ export function poeWebApi () {
   }
   switch (language) {
     case 'en': return 'www.pathofexile.com'
-    case 'ru': return 'ru.pathofexile.com'
-    case 'cmn-Hant': return 'pathofexile.tw'
     case 'ko': return 'poe.kakaogames.com'
   }
 }
@@ -114,8 +112,7 @@ export interface Config {
   logKeys: boolean
   accountName: string
   stashScroll: boolean
-  language: 'en' | 'ru' | 'cmn-Hant' | 'ko'
-  realm: 'pc-ggg' | 'pc-garena'
+  language: 'en' | 'ko'
   useIntlSite: boolean
   widgets: widget.Widget[]
   fontSize: number
@@ -123,7 +120,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 18,
+  configVersion: 19,
   overlayKey: 'Shift + Space',
   overlayBackground: 'rgba(129, 139, 149, 0.15)',
   overlayBackgroundClose: true,
@@ -161,7 +158,6 @@ export const defaultConfig = (): Config => ({
   accountName: '',
   stashScroll: true,
   language: 'ko',
-  realm: 'pc-ggg',
   useIntlSite: false,
   fontSize: 16,
   widgets: widgetRegistry.widgets.reduce<widget.Widget[]>((widgets, { widget }) => {
@@ -179,9 +175,9 @@ export const defaultConfig = (): Config => ({
   }, [])
 })
 
-function upgradeConfig (_config: Config): Config {
+export function upgradeConfig (_config: Config): Config {
   /* eslint-disable @typescript-eslint/no-explicit-any */
-  const config = _config as Omit<Config, 'widgets'> & { widgets: Array<Record<string, any>> }
+  const config = _config as Omit<Config, 'widgets' | 'language'> & { language: string, realm?: string, widgets: Array<Record<string, any>> }
 
   if (config.configVersion < 3) {
     config.widgets.push({
@@ -319,11 +315,6 @@ function upgradeConfig (_config: Config): Config {
       wmId: Math.max(0, ...config.widgets.map(_ => _.wmId)) + 1
     })
 
-    config.realm = 'pc-ggg'
-    if (config.language === 'zh_TW' as string) {
-      config.language = 'cmn-Hant'
-    }
-
     config.configVersion = 12
   }
 
@@ -434,6 +425,15 @@ function upgradeConfig (_config: Config): Config {
     config.useIntlSite = (config.language === 'cmn-Hant' && config.realm === 'pc-ggg')
 
     config.configVersion = 18
+  }
+  if (config.configVersion < 19) {
+    if (config.language === 'ru' || config.language === 'cmn-Hant' || config.language === 'zh_TW') {
+      config.language = 'ko'
+      config.useIntlSite = false
+      delete config.leagueId
+    }
+    delete config.realm
+    config.configVersion = 19
   }
   /* eslint-enable */
 

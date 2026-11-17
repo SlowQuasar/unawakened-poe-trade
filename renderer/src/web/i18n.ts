@@ -22,6 +22,7 @@ export async function init (lang: string) {
 }
 
 export async function loadLang (lang: string): Promise<void> {
+  lang = lang === 'en' ? 'en' : 'ko'
   if (lang !== 'en') {
     const messages = await (await fetch(`${import.meta.env.BASE_URL}data/${lang}/app_i18n.json`)).json()
     _global.setLocaleMessage(lang, messages)
