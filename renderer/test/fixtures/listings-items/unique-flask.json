@@ -1,0 +1,242 @@
+[
+  {
+    "name": "코랄리토의 서명",
+    "baseType": "다이아몬드 플라스크",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDqs6DsnKAK7L2U656E66as7Yag7J2YIOyEnOuqhQrri6TsnbTslYTrqqzrk5wg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjbstIgg7KeA7IaNCuyCrOyaqSDsi5wg7Lap7KCEIDQwIOykkSAyMCDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMArsnbzrsJgg7LmY66qF7YOAIO2ZleuloCAxMDAlIOymneqwgAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjcKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzIKLS0tLS0tLS0K7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOykkeuPhSDsnKDrsJwK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg7LmY66qF7YOA66GcIOyjvOuKlCDstpTqsIAg7ZS87ZW0IOyXhuydjArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDsuZjrqoXtg4DroZwg7KO864qUIOuPhSDsp4Dsho0g7ZS87ZW0IOuwsOycqCArMjUlCu2aqOqzvOulvCDrsJvripQg64+Z7JWIIDHstIjrp4jri6QgMjUwIOy5tOyYpOyKpCDtlLztlbTrpbwg67Cb7J2MCi0tLS0tLS0tCiLsnpTsnbjtlajsnZgg7KCV64+E66GcIOyEse2MqOulvCDtjJDri6jtlZjripQsCuq3uOufrO2VnCDrjIDsl4XsnYAg7J2M7KeA7JeQ7IScIOynhO2WieuQmOyWtOyVvCDtlZzri6QuIgotIOy5qOusteydmCDtmJXsoJzri6gg7L2U656E66as7YagCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2777278657",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2893557981",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1691221049",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_308618188",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2777278657",
+        "explicit.stat_2893557981",
+        "explicit.stat_1691221049",
+        "explicit.stat_308618188"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "코랄리토의 서명",
+    "baseType": "다이아몬드 플라스크",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDqs6DsnKAK7L2U656E66as7Yag7J2YIOyEnOuqhQrri6TsnbTslYTrqqzrk5wg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjbstIgg7KeA7IaNCuyCrOyaqSDsi5wg7Lap7KCEIDQwIOykkSAyMCDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMArsnbzrsJgg7LmY66qF7YOAIO2ZleuloCAxMDAlIOymneqwgAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjcKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNjcKLS0tLS0tLS0K7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOykkeuPhSDsnKDrsJwK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg7LmY66qF7YOA66GcIOyjvOuKlCDstpTqsIAg7ZS87ZW0IOyXhuydjArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDsuZjrqoXtg4DroZwg7KO864qUIOuPhSDsp4Dsho0g7ZS87ZW0IOuwsOycqCArMjElCu2aqOqzvOulvCDrsJvripQg64+Z7JWIIDHstIjrp4jri6QgMjUwIOy5tOyYpOyKpCDtlLztlbTrpbwg67Cb7J2MCi0tLS0tLS0tCiLsnpTsnbjtlajsnZgg7KCV64+E66GcIOyEse2MqOulvCDtjJDri6jtlZjripQsCuq3uOufrO2VnCDrjIDsl4XsnYAg7J2M7KeA7JeQ7IScIOynhO2WieuQmOyWtOyVvCDtlZzri6QuIgotIOy5qOusteydmCDtmJXsoJzri6gg7L2U656E66as7YagCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2777278657",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2893557981",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1691221049",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_308618188",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2777278657",
+        "explicit.stat_2893557981",
+        "explicit.stat_1691221049",
+        "explicit.stat_308618188"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "코랄리토의 서명",
+    "baseType": "다이아몬드 플라스크",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDqs6DsnKAK7L2U656E66as7Yag7J2YIOyEnOuqhQrri6TsnbTslYTrqqzrk5wg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjbstIgg7KeA7IaNCuyCrOyaqSDsi5wg7Lap7KCEIDQwIOykkSAyMCDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMArsnbzrsJgg7LmY66qF7YOAIO2ZleuloCAxMDAlIOymneqwgAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjcKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTAKLS0tLS0tLS0K7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOykkeuPhSDsnKDrsJwK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg7LmY66qF7YOA66GcIOyjvOuKlCDstpTqsIAg7ZS87ZW0IOyXhuydjArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDsuZjrqoXtg4DroZwg7KO864qUIOuPhSDsp4Dsho0g7ZS87ZW0IOuwsOycqCArMjYlCu2aqOqzvOulvCDrsJvripQg64+Z7JWIIDHstIjrp4jri6QgMjUwIOy5tOyYpOyKpCDtlLztlbTrpbwg67Cb7J2MCi0tLS0tLS0tCiLsnpTsnbjtlajsnZgg7KCV64+E66GcIOyEse2MqOulvCDtjJDri6jtlZjripQsCuq3uOufrO2VnCDrjIDsl4XsnYAg7J2M7KeA7JeQ7IScIOynhO2WieuQmOyWtOyVvCDtlZzri6QuIgotIOy5qOusteydmCDtmJXsoJzri6gg7L2U656E66as7YagCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2777278657",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2893557981",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1691221049",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_308618188",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2777278657",
+        "explicit.stat_2893557981",
+        "explicit.stat_1691221049",
+        "explicit.stat_308618188"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "코랄리토의 서명",
+    "baseType": "다이아몬드 플라스크",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDqs6DsnKAK7L2U656E66as7Yag7J2YIOyEnOuqhQrri6TsnbTslYTrqqzrk5wg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjbstIgg7KeA7IaNCuyCrOyaqSDsi5wg7Lap7KCEIDQwIOykkSAyMCDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMArsnbzrsJgg7LmY66qF7YOAIO2ZleuloCAxMDAlIOymneqwgAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjcKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzYKLS0tLS0tLS0K7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOykkeuPhSDsnKDrsJwK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg7LmY66qF7YOA66GcIOyjvOuKlCDstpTqsIAg7ZS87ZW0IOyXhuydjArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDsuZjrqoXtg4DroZwg7KO864qUIOuPhSDsp4Dsho0g7ZS87ZW0IOuwsOycqCArMjYlCu2aqOqzvOulvCDrsJvripQg64+Z7JWIIDHstIjrp4jri6QgMjUwIOy5tOyYpOyKpCDtlLztlbTrpbwg67Cb7J2MCi0tLS0tLS0tCiLsnpTsnbjtlajsnZgg7KCV64+E66GcIOyEse2MqOulvCDtjJDri6jtlZjripQsCuq3uOufrO2VnCDrjIDsl4XsnYAg7J2M7KeA7JeQ7IScIOynhO2WieuQmOyWtOyVvCDtlZzri6QuIgotIOy5qOusteydmCDtmJXsoJzri6gg7L2U656E66as7YagCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2777278657",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2893557981",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1691221049",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_308618188",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2777278657",
+        "explicit.stat_2893557981",
+        "explicit.stat_1691221049",
+        "explicit.stat_308618188"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "코랄리토의 서명",
+    "baseType": "다이아몬드 플라스크",
+    "sourceIndex": 17,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDqs6DsnKAK7L2U656E66as7Yag7J2YIOyEnOuqhQrri6TsnbTslYTrqqzrk5wg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjbstIgg7KeA7IaNCuyCrOyaqSDsi5wg7Lap7KCEIDQwIOykkSAyMCDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMArsnbzrsJgg7LmY66qF7YOAIO2ZleuloCAxMDAlIOymneqwgAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjcKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzUKLS0tLS0tLS0K7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOykkeuPhSDsnKDrsJwK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg7LmY66qF7YOA66GcIOyjvOuKlCDstpTqsIAg7ZS87ZW0IOyXhuydjArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDsuZjrqoXtg4DroZwg7KO864qUIOuPhSDsp4Dsho0g7ZS87ZW0IOuwsOycqCArMjIlCu2aqOqzvOulvCDrsJvripQg64+Z7JWIIDHstIjrp4jri6QgMjUwIOy5tOyYpOyKpCDtlLztlbTrpbwg67Cb7J2MCi0tLS0tLS0tCiLsnpTsnbjtlajsnZgg7KCV64+E66GcIOyEse2MqOulvCDtjJDri6jtlZjripQsCuq3uOufrO2VnCDrjIDsl4XsnYAg7J2M7KeA7JeQ7IScIOynhO2WieuQmOyWtOyVvCDtlZzri6QuIgotIOy5qOusteydmCDtmJXsoJzri6gg7L2U656E66as7YagCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2777278657",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2893557981",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1691221049",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_308618188",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2777278657",
+        "explicit.stat_2893557981",
+        "explicit.stat_1691221049",
+        "explicit.stat_308618188"
+      ],
+      "enabled": []
+    }
+  }
+]

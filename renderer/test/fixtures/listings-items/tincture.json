@@ -1,0 +1,215 @@
+[
+  {
+    "name": "",
+    "baseType": "재껍질 팅크",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YyF7YGsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrslb3stIgg7J6s6ruN7KeIIO2Mhe2BrCAtIOy0ieynhAotLS0tLS0tLQowLjYw7LSI66eI64ukIOuniOuCmCDsl7Dshowg7Jyg67CcCuu5hO2ZnOyEse2ZlCDsi5wg7J6s7IKs7JqpIOuMgOq4sOyLnOqwhCA37LSICi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAzMgotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAzNAotLS0tLS0tLQrqt7zsoJEg66y06riwIOyCrOyaqSDsi5wgMjcl7J2YIO2ZleuloOuhnCDsoJDtmZQg7Jyg67CcCuq3vOygkSDrrLTquLDroZwg7Jyg67Cc7ZWY64qUIOygkO2ZlOydmCDtlLztlbQgNzQlIOymneqwgAotLS0tLS0tLQrtmqjqs7wgMTElIOymneqwgArqt7zsoJEg66y06riwIO2UvO2VtOqwgCDsm5Dshowg7KCA7ZWtIDclIOq0gO2GtQotLS0tLS0tLQrsmrDtgbTrpq3tlbQg7Zmc7ISx7ZmU7ZWY7Iut7Iuc7JikLiDtlZwg67KI7JeQIO2XiOumrOudoOyXkCDsnojripQg7YyF7YGsIOykkSDtlZjrgpjrp4wg7Zmc7ISxIOyDge2DnOydvCDsiJgg7J6I7Iq164uI64ukLiDrp4jrgpgg7Jew7IaMIOykkeyyqSDtlZjrgpjri7kgMey0iOuniOuLpCDrp4jrgpgg7LWc64yA7LmY7J2YIDEl66W8IOyDgeyLpO2VqeuLiOuLpC4g7KeB7KCRIOu5hO2ZnOyEse2ZlO2VoCDsiJgg7J6I7Jy866mwLCDrp4jrgpjqsIAgMOydtCDrkJjslrTrj4Qg7J6Q64+Z7Jy866GcIOu5hO2ZnOyEse2ZlOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3529940209",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2499808413",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_4206255461",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_3935936274",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Tincture",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3529940209",
+        "explicit.stat_2499808413",
+        "implicit.stat_4206255461",
+        "implicit.stat_3935936274"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "철목 팅크",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YyF7YGsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrssqDrqqkg7YyF7YGsIC0g7J6s6rOgIOuztOy2qQotLS0tLS0tLQowLjkw7LSI66eI64ukIOuniOuCmCDsl7Dshowg7Jyg67CcCuu5hO2ZnOyEse2ZlCDsi5wg7J6s7IKs7JqpIOuMgOq4sOyLnOqwhCAxMOy0iAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMTgKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTAKLS0tLS0tLS0K6re87KCRIOustOq4sCDsgqzsmqkg7IucIOyggSDquLDsoIgg7ZWc6rOE7LmYIDQwJSDqsJDshowK6re87KCRIOustOq4sOuhnCDsnKDrsJztlZjripQg6riw7KCI7J2YIOyngOyGjeyLnOqwhCAxOSUg7Kad6rCACi0tLS0tLS0tCuq3vOygkSDrrLTquLAg7LKY7LmY66GcIOyWu+uKlCDtlIzrnbzsiqTtgawg7Lap7KCE65+JIDE0JSDspp3qsIAKLS0tLS0tLS0K7Jqw7YG066at7ZW0IO2ZnOyEse2ZlO2VmOyLreyLnOyYpC4g7ZWcIOuyiOyXkCDtl4jrpqzrnaDsl5Ag7J6I64qUIO2Mhe2BrCDspJEg7ZWY64KY66eMIO2ZnOyEsSDsg4Htg5zsnbwg7IiYIOyeiOyKteuLiOuLpC4g66eI64KYIOyXsOyGjCDspJHssqkg7ZWY64KY64u5IDHstIjrp4jri6Qg66eI64KYIOy1nOuMgOy5mOydmCAxJeulvCDsg4Hsi6Ttlanri4jri6QuIOyngeygkSDruYTtmZzshLHtmZTtlaAg7IiYIOyeiOycvOupsCwg66eI64KY6rCAIDDsnbQg65CY7Ja064+EIOyekOuPmeycvOuhnCDruYTtmZzshLHtmZTrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_6637015",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2791825817",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2912587137",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Tincture",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_6637015",
+        "implicit.stat_2791825817",
+        "implicit.stat_2912587137"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "참나무가지 팅크",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YyF7YGsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrssLjrgpjrrLTqsIDsp4Ag7YyF7YGsCi0tLS0tLS0tCjAuNTDstIjrp4jri6Qg66eI64KYIOyXsOyGjCDsnKDrsJwK67mE7Zmc7ISx7ZmUIOyLnCDsnqzsgqzsmqkg64yA6riw7Iuc6rCEIDjstIgKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzkKLS0tLS0tLS0K6re87KCRIOustOq4sCDrqoXspJEg7IucIOqyqeuFuCAzIO2ajeuTnQotLS0tLS0tLQrrr7jtmZXsnbgKLS0tLS0tLS0K7Jqw7YG066at7ZW0IO2ZnOyEse2ZlO2VmOyLreyLnOyYpC4g7ZWcIOuyiOyXkCDtl4jrpqzrnaDsl5Ag7J6I64qUIO2Mhe2BrCDspJEg7ZWY64KY66eMIO2ZnOyEsSDsg4Htg5zsnbwg7IiYIOyeiOyKteuLiOuLpC4g66eI64KYIOyXsOyGjCDspJHssqkg7ZWY64KY64u5IDHstIjrp4jri6Qg66eI64KYIOy1nOuMgOy5mOydmCAxJeulvCDsg4Hsi6Ttlanri4jri6QuIOyngeygkSDruYTtmZzshLHtmZTtlaAg7IiYIOyeiOycvOupsCwg66eI64KY6rCAIDDsnbQg65CY7Ja064+EIOyekOuPmeycvOuhnCDruYTtmZzshLHtmZTrkKnri4jri6QuCg==",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2012294704",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Tincture",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_2012294704"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "포자꽃 팅크",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YyF7YGsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrtj6zsnpDqvYMg7YyF7YGsIC0g7IK87YisCi0tLS0tLS0tCjAuOTDstIjrp4jri6Qg66eI64KYIOyXsOyGjCDsnKDrsJwK67mE7Zmc7ISx7ZmUIOyLnCDsnqzsgqzsmqkg64yA6riw7Iuc6rCEIDjstIgKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDUyCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDc2Ci0tLS0tLS0tCuq3vOygkSDrrLTquLDroZwg66qF7KSRIOyLnCAyNSXsnZgg7ZmV66Wg66GcIOyggSDsi6TrqoUg7Jyg67CcCuq3vOygkSDrrLTquLDroZwg7Jyg67Cc7ZWcIOyLpOuqhSDtmqjqs7wgMjklIOymneqwgAotLS0tLS0tLQrqt7zsoJEg66y06riw66GcIOyymOy5mO2VnCDsoIEg7ZWY64KY64u5IOuniOuCmCA0IO2ajeuTnQotLS0tLS0tLQrsmrDtgbTrpq3tlbQg7Zmc7ISx7ZmU7ZWY7Iut7Iuc7JikLiDtlZwg67KI7JeQIO2XiOumrOudoOyXkCDsnojripQg7YyF7YGsIOykkSDtlZjrgpjrp4wg7Zmc7ISxIOyDge2DnOydvCDsiJgg7J6I7Iq164uI64ukLiDrp4jrgpgg7Jew7IaMIOykkeyyqSDtlZjrgpjri7kgMey0iOuniOuLpCDrp4jrgpgg7LWc64yA7LmY7J2YIDEl66W8IOyDgeyLpO2VqeuLiOuLpC4g7KeB7KCRIOu5hO2ZnOyEse2ZlO2VoCDsiJgg7J6I7Jy866mwLCDrp4jrgpjqsIAgMOydtCDrkJjslrTrj4Qg7J6Q64+Z7Jy866GcIOu5hO2ZnOyEse2ZlOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2230910022",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2795267150",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_1808507379",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Tincture",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2230910022",
+        "implicit.stat_2795267150",
+        "implicit.stat_1808507379"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "철목 팅크",
+    "sourceIndex": 19,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YyF7YGsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrsmKTrnpjqsIDripQg7LKg66qpIO2Mhe2BrCAtIOyKueumrAotLS0tLS0tLQoxLjA2IChhdWdtZW50ZWQp7LSI66eI64ukIOuniOuCmCDsl7Dshowg7Jyg67CcCuu5hO2ZnOyEse2ZlCDsi5wg7J6s7IKs7JqpIOuMgOq4sOyLnOqwhCAxMOy0iAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjgKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzIKLS0tLS0tLS0K6re87KCRIOustOq4sCDsgqzsmqkg7IucIOyggSDquLDsoIgg7ZWc6rOE7LmYIDQwJSDqsJDshowK6re87KCRIOustOq4sOuhnCDsnKDrsJztlZjripQg6riw7KCI7J2YIOyngOyGjeyLnOqwhCAxNyUg7Kad6rCACi0tLS0tLS0tCuuniOuCmCDsl7Dshowg7IaN64+EIDE1JSDqsJDshowK6re87KCRIOustOq4sOuhnCDsspjsuZjtlZwg7KCBIO2VmOuCmOuLuSDsg53rqoXroKUgMTgg7ZqN65OdCi0tLS0tLS0tCuyasO2BtOumre2VtCDtmZzshLHtmZTtlZjsi63si5zsmKQuIO2VnCDrsojsl5Ag7ZeI66as652g7JeQIOyeiOuKlCDtjIXtgawg7KSRIO2VmOuCmOunjCDtmZzshLEg7IOB7YOc7J28IOyImCDsnojsirXri4jri6QuIOuniOuCmCDsl7Dshowg7KSR7LKpIO2VmOuCmOuLuSAx7LSI66eI64ukIOuniOuCmCDstZzrjIDsuZjsnZggMSXrpbwg7IOB7Iuk7ZWp64uI64ukLiDsp4HsoJEg67mE7Zmc7ISx7ZmU7ZWgIOyImCDsnojsnLzrqbAsIOuniOuCmOqwgCAw7J20IOuQmOyWtOuPhCDsnpDrj5nsnLzroZwg67mE7Zmc7ISx7ZmU65Cp64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_116232170",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2507321875",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2791825817",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2912587137",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Tincture",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_116232170",
+        "explicit.stat_2507321875",
+        "implicit.stat_2791825817",
+        "implicit.stat_2912587137"
+      ],
+      "enabled": []
+    }
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "name": "혼백 올가미",
+    "baseType": "파우아 목걸이",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtmLzrsLEg7Jis6rCA66+4Cu2MjOyasOyVhCDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDUKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNwotLS0tLS0tLQrrp4jrgpgg7J6s7IOdIOyGjeuPhCAyNSUg7Kad6rCACi0tLS0tLS0tCu2emCArOQrsp4DriqUgKzkKMey0iOuniOuLpCDsg53rqoXroKUgNS44IOyerOyDnQrqs7Xqsqkg7Iqk7YKs7J2YIOybkOyGjCDtlLztlbQgNSUg7Kad6rCACg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_328541901",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_387439868",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_789117908",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_328541901",
+        "explicit.stat_3325883026",
+        "explicit.stat_387439868",
+        "implicit.stat_789117908"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "혐오스러운 우상",
+    "baseType": "호박 목걸이",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtmJDsmKTsiqTrn6zsmrQg7Jqw7IOBCu2YuOuwlSDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDUKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjAKLS0tLS0tLS0K7Z6YICszMAotLS0tLS0tLQrtnpggKzkK7KO866y4IO2UvO2VtCA1JSDspp3qsIAK7ZqM7ZS8IDglIOymneqwgArsl5DrhIjsp4Ag67O07Zi466eJIOy1nOuMgOy5mCArMQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2974417149",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2106365538",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3489782002",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_4080418644",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_2974417149",
+        "explicit.stat_2106365538",
+        "explicit.stat_3489782002",
+        "implicit.stat_4080418644"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "망각 갑 목걸이",
+    "baseType": "호박 목걸이",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArrp53qsIEg6rCRIOuqqeqxuOydtArtmLjrsJUg66qp6rG47J20Ci0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAyNAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAzMgotLS0tLS0tLQrtnpggKzI4Ci0tLS0tLS0tCuuvvOyyqSArMjAK6rO16rKpIOyLnCDrsojqsJwg7ZS87ZW0IDF+Mjgg7LaU6rCACuydvOuwmCDsuZjrqoXtg4Ag7ZmV66WgIDIxJSDspp3qsIAK67Cp7Ja064+EIDglIOymneqwgArsl5DrhIjsp4Ag67O07Zi466eJIOy1nOuMgOy5mCArMTUK",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2866361420",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3489782002",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_4080418644",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_1754445556",
+        "explicit.stat_587431675",
+        "explicit.stat_2866361420",
+        "explicit.stat_3489782002",
+        "implicit.stat_4080418644"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "크라켄의 장악",
+    "baseType": "황금 반지",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67CY7KeACuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtgazrnbzsvITsnZgg7J6l7JWFCu2Zqeq4iCDrsJjsp4AKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDI4Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDM5Ci0tLS0tLS0tCuyVhOydtO2FnCDtnazqt4Drj4QgKzEzJQotLS0tLS0tLQrqs7Xqsqkg7IucIOuDieq4sCDtlLztlbQgMTF+MTgg7LaU6rCACuyVhOydtO2FnCDtnazqt4Drj4QgKzglCu2ZlOyXvCDsoIDtla0gKzEyJQrqs7Xqsqkg7Iqk7YKs7J2YIOybkOyGjCDtlLztlbQgMTYlIOymneqwgAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_387439868",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3917489142",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Ring",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4067062424",
+        "explicit.stat_3917489142",
+        "explicit.stat_3372524247",
+        "explicit.stat_387439868",
+        "implicit.stat_3917489142"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "격노 회전",
+    "baseType": "쌍보석 반지",
+    "sourceIndex": 17,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67CY7KeACuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArqsqnrhbgg7ZqM7KCECuyMjeuztOyEnSDrsJjsp4AKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDIzCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDM3Ci0tLS0tLS0tCu2ZlOyXvCDrsI8g64OJ6riwIOyggO2VrSArMTIlCi0tLS0tLS0tCuqzteqyqSDsi5wg64OJ6riwIO2UvO2VtCA3fjE2IOy2lOqwgArsnbzrsJgg7KCV7ZmV64+EIDE0JSDspp3qsIAK7IOd66qF66ClIOy1nOuMgOy5mCArNgrrp4jrgpgg7LWc64yA7LmYICszOArrqqjrk6Ag7JuQ7IaMIOyggO2VrSArNyUK64OJ6riwIOyggO2VrSArMTclCuyLnOyVvCDrsJjqsr0gMjAlIOymneqwgAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_624954515",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1050105434",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2901986750",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1263695895",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2915988346",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Ring",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4067062424",
+        "explicit.stat_624954515",
+        "explicit.stat_3299347043",
+        "explicit.stat_1050105434",
+        "explicit.stat_2901986750",
+        "explicit.stat_4220027924",
+        "explicit.stat_1263695895",
+        "implicit.stat_2915988346"
+      ],
+      "enabled": []
+    }
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "name": "증오의 탄생",
+    "baseType": "고대의 건틀릿",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArspp3smKTsnZgg7YOE7IOdCuqzoOuMgOydmCDqsbTti4Drpr8KLS0tLS0tLS0K67Cp7Ja064+EOiAzODYgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDcyCu2emDogNjgKLS0tLS0tLS0K7ZmIOiBXIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4MQotLS0tLS0tLQrsnqXssKnrkJwg7KCs7JeQIDMw66CI67KoIOKAi+qyqeuFuCDrs7TsobAg67O07KGwIO2aqOqzvCDsoIHsmqkK67Cp7Ja064+EIDE0MSUg7Kad6rCACu2UjOugiOydtOyWtOqwgCDsp4HsoJEg7IKs7Jqp7ZWY64qUIOuwlOyVjCDqs7Xqsqkg7Iqk7YKs7J20IOyYge2YvCDrjIDsi6Ag6rKp64W4IOyGjOuqqArqsqnrhbgg7IaM66qoIO2aqOycqCAyNSUg7Kad6rCACuyYge2YvCDtmo3rk50g67Cp7KeAIOykkSDqsqnrhbgg7ZqN65OdIOu2iOqwgAotLS0tLS0tLQrrsJTslYwg7KCc6rWt7J2YIOuzgOuRkOumrOyXkOyEnCDtg5zslrTrgpwg7LWc7LSI7J2YIOy5tOujqOydtOuKlArtg4Drnb3sl5DshJwg67mE66Gv65CcIO2UvOydmCDsl7Trs5Hsl5Ag6rG466C464ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3512123051",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1062208444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1103075489",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2416650879",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_683365179",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3512123051",
+        "explicit.stat_1062208444",
+        "explicit.stat_1103075489",
+        "explicit.stat_2416650879",
+        "explicit.stat_683365179"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "증오의 탄생",
+    "baseType": "고대의 건틀릿",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArspp3smKTsnZgg7YOE7IOdCuqzoOuMgOydmCDqsbTti4Drpr8KLS0tLS0tLS0K7YCE66as7YuwOiArMjAlIChhdWdtZW50ZWQpCuuwqeyWtOuPhDogNDM0IChhdWdtZW50ZWQpCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA3Mgrtnpg6IDY4Ci0tLS0tLS0tCu2ZiDogUi1SLVItUiAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogODQKLS0tLS0tLS0K7J6l7LCp65CcIOygrOyXkCAzMOugiOuyqCDigIvqsqnrhbgg67O07KGwIOuztOyhsCDtmqjqs7wg7KCB7JqpCuuwqeyWtOuPhCAxMzIlIOymneqwgArtlIzroIjsnbTslrTqsIAg7KeB7KCRIOyCrOyaqe2VmOuKlCDrsJTslYwg6rO16rKpIOyKpO2CrOydtCDsmIHtmLwg64yA7IugIOqyqeuFuCDshozrqqgK6rKp64W4IOyGjOuqqCDtmqjsnKggMjglIOymneqwgArsmIHtmLwg7ZqN65OdIOuwqeyngCDspJEg6rKp64W4IO2ajeuTnSDrtojqsIAKLS0tLS0tLS0K67CU7JWMIOygnOq1reydmCDrs4DrkZDrpqzsl5DshJwg7YOc7Ja064KcIOy1nOy0iOydmCDsubTro6jsnbTripQK7YOA65297JeQ7IScIOu5hOuhr+uQnCDtlLzsnZgg7Je067OR7JeQIOqxuOuguOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3512123051",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1062208444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1103075489",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2416650879",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_683365179",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3512123051",
+        "explicit.stat_1062208444",
+        "explicit.stat_1103075489",
+        "explicit.stat_2416650879",
+        "explicit.stat_683365179"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "증오의 탄생",
+    "baseType": "고대의 건틀릿",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArspp3smKTsnZgg7YOE7IOdCuqzoOuMgOydmCDqsbTti4Drpr8KLS0tLS0tLS0K67Cp7Ja064+EOiAzNzEgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDcyCu2emDogNjgKLS0tLS0tLS0K7ZmIOiBXIFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDg1Ci0tLS0tLS0tCuyepeywqeuQnCDsoKzsl5AgMzDroIjrsqgg4oCL6rKp64W4IOuztOyhsCDrs7TsobAg7Zqo6rO8IOyggeyaqQrrsKnslrTrj4QgMTI1JSDspp3qsIAK7ZSM66CI7J207Ja06rCAIOyngeygkSDsgqzsmqntlZjripQg67CU7JWMIOqzteqyqSDsiqTtgqzsnbQg7JiB7Zi8IOuMgOyLoCDqsqnrhbgg7IaM66qoCuqyqeuFuCDshozrqqgg7Zqo7JyoIDI2JSDspp3qsIAK7JiB7Zi8IO2ajeuTnSDrsKnsp4Ag7KSRIOqyqeuFuCDtmo3rk50g67aI6rCACi0tLS0tLS0tCuuwlOyVjCDsoJzqta3snZgg67OA65GQ66as7JeQ7IScIO2DnOyWtOuCnCDstZzstIjsnZgg7Lm066Oo7J2064qUCu2DgOudveyXkOyEnCDruYTroa/rkJwg7ZS87J2YIOyXtOuzkeyXkCDqsbjroLjri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3512123051",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1062208444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1103075489",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2416650879",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_683365179",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3512123051",
+        "explicit.stat_1062208444",
+        "explicit.stat_1103075489",
+        "explicit.stat_2416650879",
+        "explicit.stat_683365179"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "증오의 탄생",
+    "baseType": "고대의 건틀릿",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArspp3smKTsnZgg7YOE7IOdCuqzoOuMgOydmCDqsbTti4Drpr8KLS0tLS0tLS0K67Cp7Ja064+EOiAzOTkgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDcyCu2emDogNjgKLS0tLS0tLS0K7ZmIOiBXLVIgVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogODQKLS0tLS0tLS0K7J6l7LCp65CcIOygrOyXkCAzMOugiOuyqCDigIvqsqnrhbgg67O07KGwIOuztOyhsCDtmqjqs7wg7KCB7JqpCuuwqeyWtOuPhCAxNDglIOymneqwgArtlIzroIjsnbTslrTqsIAg7KeB7KCRIOyCrOyaqe2VmOuKlCDrsJTslYwg6rO16rKpIOyKpO2CrOydtCDsmIHtmLwg64yA7IugIOqyqeuFuCDshozrqqgK6rKp64W4IOyGjOuqqCDtmqjsnKggMjglIOymneqwgArsmIHtmLwg7ZqN65OdIOuwqeyngCDspJEg6rKp64W4IO2ajeuTnSDrtojqsIAKLS0tLS0tLS0K67CU7JWMIOygnOq1reydmCDrs4DrkZDrpqzsl5DshJwg7YOc7Ja064KcIOy1nOy0iOydmCDsubTro6jsnbTripQK7YOA65297JeQ7IScIOu5hOuhr+uQnCDtlLzsnZgg7Je067OR7JeQIOqxuOuguOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3512123051",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1062208444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1103075489",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2416650879",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_683365179",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3512123051",
+        "explicit.stat_1062208444",
+        "explicit.stat_1103075489",
+        "explicit.stat_2416650879",
+        "explicit.stat_683365179"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "증오의 탄생",
+    "baseType": "고대의 건틀릿",
+    "sourceIndex": 17,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArspp3smKTsnZgg7YOE7IOdCuqzoOuMgOydmCDqsbTti4Drpr8KLS0tLS0tLS0K67Cp7Ja064+EOiAzODYgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDcyCu2emDogNjgKLS0tLS0tLS0K7ZmIOiBXLVcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDcyCi0tLS0tLS0tCuyepeywqeuQnCDsoKzsl5AgMzDroIjrsqgg4oCL6rKp64W4IOuztOyhsCDrs7TsobAg7Zqo6rO8IOyggeyaqQrrsKnslrTrj4QgMTQ2JSDspp3qsIAK7ZSM66CI7J207Ja06rCAIOyngeygkSDsgqzsmqntlZjripQg67CU7JWMIOqzteqyqSDsiqTtgqzsnbQg7JiB7Zi8IOuMgOyLoCDqsqnrhbgg7IaM66qoCuqyqeuFuCDshozrqqgg7Zqo7JyoIDM3JSDspp3qsIAK7JiB7Zi8IO2ajeuTnSDrsKnsp4Ag7KSRIOqyqeuFuCDtmo3rk50g67aI6rCACi0tLS0tLS0tCuuwlOyVjCDsoJzqta3snZgg67OA65GQ66as7JeQ7IScIO2DnOyWtOuCnCDstZzstIjsnZgg7Lm066Oo7J2064qUCu2DgOudveyXkOyEnCDruYTroa/rkJwg7ZS87J2YIOyXtOuzkeyXkCDqsbjroLjri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3512123051",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1062208444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1103075489",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2416650879",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_683365179",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3512123051",
+        "explicit.stat_1062208444",
+        "explicit.stat_1103075489",
+        "explicit.stat_2416650879",
+        "explicit.stat_683365179"
+      ],
+      "enabled": []
+    }
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "name": "정신 추출기",
+    "baseType": "마노 목걸이",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsoJXsi6Ag7LaU7Lac6riwCuuniOuFuCDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDE2Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDczCi0tLS0tLS0tCu2emCDrsI8g7KeA64qlICsyMAotLS0tLS0tLQrtnpggKzM4CuyymOy5mCDsi5wg7IOd66qF66Cl7J2YIDElIO2ajOuztQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg66e56rO1IOyggeyaqQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg7Zi864+I7J2YIOyZhOugpSDsoIHsmqkK7LKY7LmYIOyLnCAxMCXsnZgg7ZmV66Wg66GcIDEw7LSIIOuPmeyViCDrp7nqs7Ug7ZqN65OdCuyymOy5mCDsi5wgMTAl7J2YIO2ZleuloOuhnCAxMOy0iCDrj5nslYgg7Zi864+I7J2YIOyZhOugpSDtmo3rk50KLS0tLS0tLS0K7KO97J6E64u57ZWcIOycoeyLoOydtCDqt7gg66qp7IaM66as66W8IOyeg+uKlOuLpOqzoCDtlbTrj4QsCuyYge2YvOydgCDsl6zsoITtnogg67mE66qF7J2EIOyngOulvCDsiJgg7J6I64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2023107756",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1924591908",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3607444087",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2453026567",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_562371749",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1535626285",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_2023107756",
+        "explicit.stat_1924591908",
+        "explicit.stat_3607444087",
+        "explicit.stat_2453026567",
+        "explicit.stat_562371749",
+        "implicit.stat_1535626285"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "정신 추출기",
+    "baseType": "마노 목걸이",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsoJXsi6Ag7LaU7Lac6riwCuuniOuFuCDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDE2Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQ0Ci0tLS0tLS0tCu2emCDrsI8g7KeA64qlICsxOAotLS0tLS0tLQrtnpggKzMyCuyymOy5mCDsi5wg7IOd66qF66Cl7J2YIDElIO2ajOuztQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg66e56rO1IOyggeyaqQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg7Zi864+I7J2YIOyZhOugpSDsoIHsmqkK7LKY7LmYIOyLnCAxMCXsnZgg7ZmV66Wg66GcIDEw7LSIIOuPmeyViCDrp7nqs7Ug7ZqN65OdCuyymOy5mCDsi5wgMTAl7J2YIO2ZleuloOuhnCAxMOy0iCDrj5nslYgg7Zi864+I7J2YIOyZhOugpSDtmo3rk50KLS0tLS0tLS0K7KO97J6E64u57ZWcIOycoeyLoOydtCDqt7gg66qp7IaM66as66W8IOyeg+uKlOuLpOqzoCDtlbTrj4QsCuyYge2YvOydgCDsl6zsoITtnogg67mE66qF7J2EIOyngOulvCDsiJgg7J6I64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2023107756",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1924591908",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3607444087",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2453026567",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_562371749",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1535626285",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_2023107756",
+        "explicit.stat_1924591908",
+        "explicit.stat_3607444087",
+        "explicit.stat_2453026567",
+        "explicit.stat_562371749",
+        "implicit.stat_1535626285"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "정신 추출기",
+    "baseType": "마노 목걸이",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsoJXsi6Ag7LaU7Lac6riwCuuniOuFuCDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDE2Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDczCi0tLS0tLS0tCu2emCDrsI8g7KeA64qlICsxOQotLS0tLS0tLQrtnpggKzMzCuyymOy5mCDsi5wg7IOd66qF66Cl7J2YIDElIO2ajOuztQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg66e56rO1IOyggeyaqQrsspjsuZgg7IucIDLrr7jthLAg64K07J2YIOyggeyXkOqyjCA1JeydmCDtmZXrpaDroZwg7Zi864+I7J2YIOyZhOugpSDsoIHsmqkK7LKY7LmYIOyLnCAxMCXsnZgg7ZmV66Wg66GcIDEw7LSIIOuPmeyViCDrp7nqs7Ug7ZqN65OdCuyymOy5mCDsi5wgMTAl7J2YIO2ZleuloOuhnCAxMOy0iCDrj5nslYgg7Zi864+I7J2YIOyZhOugpSDtmo3rk50KLS0tLS0tLS0K7KO97J6E64u57ZWcIOycoeyLoOydtCDqt7gg66qp7IaM66as66W8IOyeg+uKlOuLpOqzoCDtlbTrj4QsCuyYge2YvOydgCDsl6zsoITtnogg67mE66qF7J2EIOyngOulvCDsiJgg7J6I64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2023107756",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1924591908",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3607444087",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2453026567",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_562371749",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1535626285",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_2023107756",
+        "explicit.stat_1924591908",
+        "explicit.stat_3607444087",
+        "explicit.stat_2453026567",
+        "explicit.stat_562371749",
+        "implicit.stat_1535626285"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "빅타리오의 예리함",
+    "baseType": "터키석 목걸이",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArruYXtg4DrpqzsmKTsnZgg7JiI66as7ZWoCu2EsO2CpOyEnSDrqqnqsbjsnbQKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDE2Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQ4Ci0tLS0tLS0tCuuvvOyyqSDrsI8g7KeA64qlICsxOQotLS0tLS0tLQrrsojqsJwg7KCA7ZWtICszOCUK7Lm07Jik7IqkIOyggO2VrSArOCUK7LKY7LmYIOyLnCAxMCXsnZgg7ZmV66Wg66GcIOqyqeu2hCDstqnsoIQg7ZqN65OdCuyymOy5mCDsi5wgMTAl7J2YIO2ZleuloOuhnCDqtozriqUg7Lap7KCEIO2ajeuTnQrqsqnrtoQg7Lap7KCEIO2VmOuCmOuLuSDtiKzsgqzssrQg7IaN64+EIDUlIOymneqwgArqtozriqUg7Lap7KCEIO2VmOuCmOuLuSDtiKzsgqzssrQg7ZS87ZW0IDUlIOymneqwgAotLS0tLS0tLQoi66eQ7J2EIOq5juyVhCDsmIjrpqztlZwg7IOd6rCB7Jy866GcIOunjOuTpOyWtOudvC4K7IOd6rCB7J2EIOq5juyVhCDrgqDsubTroZzsmrQg7ZaJ64+Z7Jy866GcIOunjOuTpOyWtOudvC4iCiAtIOuvvOykkeydmCDsi5zsnbgg67mF7YOA66as7JikCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1671376347",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2923486259",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1826802197",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2483795307",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3159161267",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3816512110",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2300185227",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1671376347",
+        "explicit.stat_2923486259",
+        "explicit.stat_1826802197",
+        "explicit.stat_2483795307",
+        "explicit.stat_3159161267",
+        "explicit.stat_3816512110",
+        "implicit.stat_2300185227"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "에일러덱스",
+    "baseType": "마노 목걸이",
+    "sourceIndex": 16,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66qp6rG47J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsl5Dsnbzrn6zrjbHsiqQK66eI64W4IOuqqeqxuOydtAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMzIKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzQKLS0tLS0tLS0K7Z6YIOuwjyDsp4DriqUgKzE5Ci0tLS0tLS0tCuyDneuqheugpSDstZzrjIDsuZggKzMxCuuniOuCmCDstZzrjIDsuZggKzUyCuq2jOuKpSDstqnsoIQg7LWc64yA7LmYICsxCuq2jOuKpSDstqnsoIQg7ZWY64KY64u5IOuniOuCmCDsnqzsg50g7IaN64+EIDEwJSDspp3qsIAK6raM64qlIOy2qeyghCDsp4Dsho3si5zqsIQgODIlIOymneqwgArqtozriqUg7Lap7KCEIO2VmOuCmOuLuSDrsJvripQg7ZS87ZW07J2YIDEl66W8IOyDneuqheugpSDrjIDsi6Ag66eI64KYIOyGjOuqqArqtozriqUg7Lap7KCEIO2VmOuCmOuLuSDsuZjrqoXtg4Ag7ZmV66WgIDQwJSDqsJDshowKLS0tLS0tLS0K7KGx7IeE66W8IOywrCDrtojqvYPsnbQg7Lak7J2EIOy2mOuLpC4K7Jm467aA7J2YIO2emOycvOuhnOu2gO2EsCDrgrTrtoDsnZgg7Z6Y7J20IO2UvOyWtOuCnOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3299347043",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1050105434",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_227523295",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2847548062",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3872306017",
+            [
+              7
+            ]
+          ],
+          [
+            "explicit.stat_1325047894",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2102212273",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1535626285",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Amulet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3299347043",
+        "explicit.stat_1050105434",
+        "explicit.stat_227523295",
+        "explicit.stat_2847548062",
+        "explicit.stat_3872306017",
+        "explicit.stat_1325047894",
+        "explicit.stat_2102212273",
+        "implicit.stat_1535626285"
+      ],
+      "enabled": []
+    }
+  }
+]

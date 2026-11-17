@@ -1,0 +1,376 @@
+[
+  {
+    "name": "유혈 관통",
+    "baseType": "무두질용 단도",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog64uo6rKACuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsnKDtmIgg6rSA7Ya1CuustOuRkOyniOyaqSDri6jrj4QKLS0tLS0tLS0K64uo6rKACuusvOumrCDtlLztlbQ6IDktMzEgKGF1Z21lbnRlZCkK7LmY66qF7YOAIO2ZleuloDogMTAuNDAlIChhdWdtZW50ZWQpCuy0iOuLuSDqs7Xqsqkg7Zqf7IiYOiAxLjQ1CuustOq4sCDrspTsnIQ6IDHrr7jthLAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDUK66+87LKpOiAxNgotLS0tLS0tLQrtmYg6IFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDkKLS0tLS0tLS0K7J2867CYIOy5mOuqhe2DgCDtmZXrpaAgNDUlIOymneqwgAotLS0tLS0tLQrrr7zssqkgKzEzCuusvOumrCDtlLztlbQgNTMlIOymneqwgArrrLzrpqwg7ZS87ZW0IDJ+MyDstpTqsIAK7LmY66qF7YOAIO2ZleuloCAzMCUg7Kad6rCACuy2nO2YiCDspJHsnbgg7KCB7JeQIOuMgO2VnCDqs7Xqsqkg7ZS87ZW0IDQwJSDspp3qsIAK7LmY66qF7YOAIOuqheykkSDsi5wgNTAl7J2YIO2ZleuloOuhnCDstpztmIgg7Jyg67CcCi0tLS0tLS0tCuyWtOq5qOyXkCDthqEK67O87JeQIOyqvQrrhIjsnZgg7JmA7J24IO2VnCDrqqjquIgK67mo6rCb6rOg64+EIOunpOuBiO2VmOq1rOuCmAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1940865751",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2375316951",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3944782785",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_513681673",
+            null
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_587431675",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Dagger",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_1509134228",
+        "explicit.stat_1940865751",
+        "explicit.stat_2375316951",
+        "explicit.stat_3944782785",
+        "explicit.stat_513681673",
+        "implicit.stat_587431675"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "철의 지휘관",
+    "baseType": "죽음의 활",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZmcCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArssqDsnZgg7KeA7ZyY6rSACuyjveydjOydmCDtmZwKLS0tLS0tLS0K7ZmcCuusvOumrCDtlLztlbQ6IDM4LTk0IChhdWdtZW50ZWQpCuy5mOuqhe2DgCDtmZXrpaA6IDYuODUlIChhdWdtZW50ZWQpCuy0iOuLuSDqs7Xqsqkg7Zqf7IiYOiAxLjQxIChhdWdtZW50ZWQpCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAzMgrrr7zssqk6IDEwNwotLS0tLS0tLQrtmYg6IFcgVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzAKLS0tLS0tLS0K7LmY66qF7YOAIO2ZleuloCAzNyUg7Kad6rCACi0tLS0tLS0tCuusvOumrCDtlLztlbQgMTB+MjEg7LaU6rCACuqzteqyqSDsho3rj4QgMTclIOymneqwgArthqDthZwg7IOd66qF66ClIDE4JSDspp3qsIAK7Yag7YWcIOyEpOy5mCDsho3rj4QgMjAlIOymneqwgArrr7zssqkgMjAw64u5IOqzteyEsSDsh6Drh4zsnZgg7IaM7ZmYIOqwgOuKpe2VnCDthqDthZwg7LWc64yA7LmYICsxCuuvvOyyqSAyNeuLuSDqs7Xqsqkg7IucIOusvOumrCDtlLztlbQgMX4zIOy2lOqwgAotLS0tLS0tLQrqsJXroLnsiKDsl5DshJzripQg67aA7Yyo6rCAIO2dlO2eiCDrsJzsg53tlZjqs6Qg7ZWc64ukLgrtlZjsp4Drp4wg7JiB7JuQ7ZWcIOygnOq1reydgCDsnYzsi53rj4QsIOyImOuptOuPhCwg7Zi47Z2h64+EIO2VhOyalCDsl4bripQg6rWw64yA66W8IOydtOuBjOyWtCDrgpjqsJTri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1940865751",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_686254215",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3374165039",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2125178364",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2066426995",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2375316951",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Bow",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1940865751",
+        "explicit.stat_210067635",
+        "explicit.stat_686254215",
+        "explicit.stat_3374165039",
+        "explicit.stat_2125178364",
+        "explicit.stat_2066426995",
+        "implicit.stat_2375316951"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "피의 오락",
+    "baseType": "스틸레토",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog64uo6rKACuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtlLzsnZgg7Jik6529CuyKpO2LuOugiO2GoAotLS0tLS0tLQrri6jqsoAK66y866asIO2UvO2VtDogMTQtNTQgKGF1Z21lbnRlZCkK7LmY66qF7YOAIO2ZleuloDogOC4zMCUK7LSI64u5IOqzteqyqSDtmp/siJg6IDEuNjUgKGF1Z21lbnRlZCkK66y06riwIOuylOychDogMeuvuO2EsAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMTUK66+87LKpOiAzMArsp4DriqU6IDMwCi0tLS0tLS0tCu2ZiDogVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMzMKLS0tLS0tLS0K7J2867CYIOy5mOuqhe2DgCDtmZXrpaAgNDElIOymneqwgAotLS0tLS0tLQrrr7zssqkgKzIwCuusvOumrCDtlLztlbQgMzglIOymneqwgArrrLzrpqwg7ZS87ZW0IDN+MTIg7LaU6rCACuqzteqyqSDsho3rj4QgMTAlIOymneqwgArrqoXspJEg7IucIDMwJeydmCDtmZXrpaDroZwg7Lac7ZiIIOycoOuwnArsnpTsnbjtlagKLS0tLS0tLS0KIuuCmOuKlCDtmZTqsIDri6QuIOyEoO2Zjeu5m+ycvOuhnCDqt7jrprzsnYQg6re466as7KeALiIKLSDsuajrrLXsnZgg7ZiV7KCc64uoIOy9lOuehOumrO2GoAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1940865751",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1519615863",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3403461239",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_587431675",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Dagger",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_1509134228",
+        "explicit.stat_1940865751",
+        "explicit.stat_210067635",
+        "explicit.stat_1519615863",
+        "explicit.stat_3403461239",
+        "implicit.stat_587431675"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "영역 형성자",
+    "baseType": "철제 지팡이",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KCE7J+B7KeA7Yyh7J20CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsmIHsl60g7ZiV7ISx7J6QCuyyoOygnCDsp4DtjKHsnbQKLS0tLS0tLS0K7KCE7J+B7KeA7Yyh7J20CuusvOumrCDtlLztlbQ6IDE0LTQyCuybkOyGjCDtlLztlbQ6IDEyLTIwIChhdWdtZW50ZWQpLCAxMi0yNSAoYXVnbWVudGVkKQrsuZjrqoXtg4Ag7ZmV66WgOiA3LjYwJQrstIjri7kg6rO16rKpIO2an+yImDogMS4zMArrrLTquLAg67KU7JyEOiAxLjPrr7jthLAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDEzCu2emDogMjcK7KeA64qlOiAyNwotLS0tLS0tLQrtmYg6IFctVyBXIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAxNAotLS0tLS0tLQrqs7Xqsqkg7ZS87ZW0IOunieq4sCDtmZXrpaAgKzIwJQotLS0tLS0tLQrsnqXssKnrkJwg7KCs7JeQIDXroIjrsqgg4oCL64OJ6riwIO2ZlOyXvCDsoITtmZgg67O07KGwIOuztOyhsCDtmqjqs7wg7KCB7JqpCuyepeywqeuQnCDtmZTsl7wg7IaN7ISxIOygrCDroIjrsqggKzIK7J6l7LCp65CcIOuDieq4sCDsho3shLEg7KCsIOugiOuyqCArMgrtmZTsl7wg7ZS87ZW0IDEyfjIwIOy2lOqwgArrg4nquLAg7ZS87ZW0IDEyfjI1IOy2lOqwgArsm5Dshowg7ZS87ZW0IDQxJSDspp3qsIAKLS0tLS0tLS0KIuyLoOydmCDssL3sobDripQg7ZWt7IOBIO2ZlOyXvOqzvArslrzsnYzsnLzroZwg7Iuc7J6R7ZWY6rOgIOuBneuCmOuEpC4K65GYIOuLpCDrs7gg7KCB7J20IOyXhuuLpOqzoD8g6re465+8IO2WieyatOycvOuhnCDsl6zqsqjslbwg7ZWgIOqxuOyEuC4iCi0g64yA7KO86rWQIOyhsO2UhOumrAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.effect_3756080110",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_339179093",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1645459191",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_709508406",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1037193709",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3141070085",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1702195217",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Warstaff",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.effect_3756080110",
+        "explicit.stat_339179093",
+        "explicit.stat_1645459191",
+        "explicit.stat_709508406",
+        "explicit.stat_1037193709",
+        "explicit.stat_3141070085",
+        "implicit.stat_1702195217"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "속박된 여신",
+    "baseType": "고래뼈 레이피어",
+    "sourceIndex": 15,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog64Kg7Lm066Gc7Jq0IO2VnOyGkCDqsoAK7JWE7J207YWcIO2drOq3gOuPhDog6rOg7JygCuyGjeuwleuQnCDsl6zsi6AK6rOg656Y67yIIOugiOydtO2UvOyWtAotLS0tLS0tLQrtlZzshpAg6rKACuusvOumrCDtlLztlbQ6IDE1LTYyIChhdWdtZW50ZWQpCuybkOyGjCDtlLztlbQ6IDMtNyAoYXVnbWVudGVkKQrsuZjrqoXtg4Ag7ZmV66WgOiA1LjUwJQrstIjri7kg6rO16rKpIO2an+yImDogMS45MiAoYXVnbWVudGVkKQrrrLTquLAg67KU7JyEOiAxLjTrr7jthLAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDcK66+87LKpOiAzMgotLS0tLS0tLQrtmYg6IFctVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNjYKLS0tLS0tLS0K7J2867CYIOy5mOuqhe2DgCDtlLztlbQg67Cw7JyoICsyNSUKLS0tLS0tLS0K7J6l7LCp65CcIOq3vOygkSDsoKwg66CI67KoICsxCuustOq4sCDsiqzroa8g7JaR7Kq9IOuqqOuRkCDsgqzsmqkK66y866asIO2UvO2VtCAyNjYlIOymneqwgArtmZTsl7wg7ZS87ZW0IDN+NyDstpTqsIAK6rO16rKpIOyGjeuPhCAyMCUg7Kad6rCACuydvOuwmCDsuZjrqoXtg4Ag7ZmV66WgIDMwJSDspp3qsIAK7ZqM7ZS8ICsyOArslYTsnbTthZwg7Z2s6reA64+EIC0yMCUK64Ku7J2AIOyDneuqheugpSDsg4Htg5zsnbwg65WMIOydtOuPmSDsho3rj4QgMzAlIOymneqwgAotLS0tLS0tLQrqt7jrhYDripQg7J6Q7Iug7J2YIOygnOyViOyXkCDsgqzslYXtlZwg7IOJ7J2EIOyehe2eiOqzoCDsnojsl4jri6QuCu2ajOuwseyDiSDrr7jshowsIOyasOyVhO2VnCDsg4HsspguCu2DnOuPme2VmOuKlCDsnqzslZnsl5Ag6re464WA64qUIOuFuOuemO2VmOuTryDsnYrsobDroLjri6QuCiLrgrTqsIAg7J6I7J6W7JWELCDrrZDqsIAg642UIO2VhOyalO2VnOuNsD8iCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_829382474",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_2846730569",
+            [
+              8
+            ]
+          ],
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_709508406",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              6
+            ]
+          ],
+          [
+            "explicit.stat_2144192055",
+            [
+              7
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_649025131",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "One-Handed Sword",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_829382474",
+        "explicit.stat_2846730569",
+        "explicit.stat_1509134228",
+        "explicit.stat_709508406",
+        "explicit.stat_210067635",
+        "explicit.stat_587431675",
+        "explicit.stat_2144192055",
+        "explicit.stat_3917489142",
+        "explicit.stat_649025131",
+        "implicit.stat_3556824919"
+      ],
+      "enabled": []
+    }
+  }
+]

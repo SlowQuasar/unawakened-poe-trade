@@ -1,0 +1,340 @@
+[
+  {
+    "name": "강풍의 증서",
+    "baseType": "계약: 터널",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rOE7JW9CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArqsJXtko3snZgg7Kad7IScCuqzhOyVvTog7YSw64SQCi0tLS0tLS0tCuqzoOqwnTog66eI7IugIO2BtOudvOu2gOyKpArqsJXtg4gg64yA7IOBOiDsiJjsiJjqu5jrgbwg7KGw66a966y8IEIyICjrs7TthrUg6rCA7LmYKQrsp4Dsl60g66CI67KoOiA2OArqs7XtlZkg7ZWE7JqUKDHroIjrsqgpCuyVhOydtO2FnCDtnazqt4Drj4Q6ICs3NCUgKGF1Z21lbnRlZCkK6rK967O0IOugiOuyqCDqsJDshow6ICsyNCUgKGF1Z21lbnRlZCkK7Y+Q7IeE6rmM7KeAIOuCqOydgCDsi5zqsIQ6ICsyNCUgKGF1Z21lbnRlZCkK7LWc64yAIOyDneyhtCDsp4Dsm5DqtbA6ICsyNCUgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNjgKLS0tLS0tLS0K66qs7Iqk7YSwIO2UvO2VtCAxNSUg7Kad6rCACuuqrOyKpO2EsOqwgCDtiKzsgqzssrQgMuqwnCDstpTqsIAg67Cc7IKsCuuqrOyKpO2EsOqwgCA1OSXsnZgg7LaU6rCAIOusvOumrCDtlLztlbTrpbwg64OJ6riwIOyGjeyEseycvOuhnCDqsIDtlagK66qs7Iqk7YSw6rCAIOuqheykkSDsi5wg7Iuk66qFIOycoOuwnAotLS0tLS0tLQoi7J20IOyepey5mOulvCDsmYTshLHtlZjrqbQg7Ja065a76rKMIOuQoOyngCDslYwg7IiYIOyXhuyngOunjCwg6re4656Y64+EIOuCtCDtlYTsg53snZgg7J6R7ZKI7Jy866GcCuyCvOq4sOuhnCDtlojslrQuIOuNlCDquYrsnYAg7J2Y66+46rCAIOyeiOqyoOyngCEiCi0tLS0tLS0tCuqwle2DiOydhCDsp4TtlontlZjroKTrqbQg64+E65GRIO2Vreq1rOyXkCDsnojripQg7JWE65SU7JW87JeQ6rKMIOydtCDqs4Tslb3snYQg6rG064Sk7Iut7Iuc7JikLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1890519597",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1309819744",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3448216135",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Heist Contract",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1890519597",
+        "explicit.stat_1309819744",
+        "explicit.stat_3448216135",
+        "explicit.stat_1629869774"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "거대한 선서",
+    "baseType": "계약: 기록 보관소",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rOE7JW9CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArqsbDrjIDtlZwg7ISg7IScCuqzhOyVvTog6riw66GdIOuztOq0gOyGjAotLS0tLS0tLQrqs6DqsJ06IOyVjOumsCDsvZzsuKAK6rCV7YOIIOuMgOyDgTog7JWE67KE65287Iqk7J2YIOu/lCAo67O07Ya1IOqwgOy5mCkK7KeA7JetIOugiOuyqDogNTAK7JmE66ClIO2VhOyalCgx66CI67KoKQrslYTsnbTthZwg7Z2s6reA64+EOiArNjglIChhdWdtZW50ZWQpCuqyveuztCDroIjrsqgg6rCQ7IaMOiArMjIlIChhdWdtZW50ZWQpCu2PkOyHhOq5jOyngCDrgqjsnYAg7Iuc6rCEOiArMjIlIChhdWdtZW50ZWQpCuy1nOuMgCDsg53sobQg7KeA7JuQ6rWwOiArMjIlIChhdWdtZW50ZWQpCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDUwCi0tLS0tLS0tCuuqrOyKpO2EsOydmCDsnbTrj5kg7IaN64+EIDExJSDspp3qsIAK66qs7Iqk7YSw7J2YIOqzteqyqSDsho3rj4QgMTclIOymneqwgArrqqzsiqTthLDsnZgg7Iuc7KCEIOyGjeuPhCAxOSUg7Kad6rCACuuqrOyKpO2EsOqwgCDrqoXspJEg7IucIDQ4JeydmCDtmZXrpaDroZwg6raM64qlIOy2qeyghCDtmo3rk50K66qs7Iqk7YSw7J2YIOqzteqyqeydtCDrqoXspJEg7IucIDE1JeydmCDtmZXrpaDroZwg6r+w65qr7J2MCuuqqOuToCDrqqzsiqTthLDsnZgg7KCB7KSRIO2UvO2VtOqwgCDtla3sg4Eg7KCQ7ZmUIOycoOuwnAotLS0tLS0tLQoi7IK07JWEIOyeiOuKlCDsgrTsspjrn7wg65Sw65y77ZWY6rOgLCDqsJXtlZwg7JWE7Zmp7IKw7Je8IOuDhOyDiOqwgCDrgpzri6QuCuuzkeyggeyduCDtmLjquLDsi6zsnbQg7J206rKD7J2EIOynhOq4sO2SiCDsu6zroInshZjsl5Ag7LaU6rCA7ZWY652866mwIOuCmOulvCDrtoDstpTquLTri6QuIgotLS0tLS0tLQrqsJXtg4jsnYQg7KeE7ZaJ7ZWY66Ck66m0IOuPhOuRkSDtla3qtazsl5Ag7J6I64qUIOyVhOuUlOyVvOyXkOqyjCDsnbQg6rOE7JW97J2EIOqxtOuEpOyLreyLnOyYpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2306522833",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1913583994",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2488361432",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1541224187",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_816367946",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Heist Contract",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2306522833",
+        "explicit.stat_1913583994",
+        "explicit.stat_2488361432",
+        "explicit.stat_406353061",
+        "explicit.stat_1541224187",
+        "explicit.stat_816367946"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "야수의 증서",
+    "baseType": "계약: 벙커",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rOE7JW9CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArslbzsiJjsnZgg7Kad7IScCuqzhOyVvTog67KZ7LukCi0tLS0tLS0tCuqzoOqwnTog7IKs66y06rSAIOy/vO2KuOudvArqsJXtg4gg64yA7IOBOiDrkqTsp5Htnowg7Jyg66y87J2YIOqygCAo7ZmY7IKwIOu2iOqwgOuKpe2VnCDqsIDsuZgpCuyngOyXrSDroIjrsqg6IDU2CuyekOusvOyHoCDrlLDquLAg7ZWE7JqUKDHroIjrsqgpCuyVhOydtO2FnCDtnazqt4Drj4Q6ICs4NCUgKGF1Z21lbnRlZCkK6rK967O0IOugiOuyqCDqsJDshow6ICsyNyUgKGF1Z21lbnRlZCkK7Y+Q7IeE6rmM7KeAIOuCqOydgCDsi5zqsIQ6ICsyNyUgKGF1Z21lbnRlZCkK7LWc64yAIOyDneyhtCDsp4Dsm5DqtbA6ICsyNyUgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTYKLS0tLS0tLS0K66qs7Iqk7YSw7J2YIO2aqOqzvCDrspTsnIQgMzAlIOymneqwgArsp4Dsm5DqtbDsnZgg6rO16rKpIOyGjeuPhCAzNiUg7Kad6rCACuyngOybkOq1sOydmCDsi5zsoIQg7IaN64+EIDQ0JSDspp3qsIAK7KeA7JuQ6rWw7J2YIOydtOuPmSDsho3rj4QgMjUlIOymneqwgArrqqzsiqTthLDsnZgg6rO16rKp7J20IOuqheykkSDsi5wgMTUl7J2YIO2ZleuloOuhnCDqv7DrmqvsnYwK66qs7Iqk7YSw7J2YIOyjvOusuCDtlLztlbQg7Ja17KCcIO2ZleuloCArMjAlCu2UjOugiOydtOyWtOqwgCDruYQt7KCA7KO8IOyYpOudvCDsiqTtgqzroZwg67Cb64qUIO2aqOqzvCAxNSUg6rCQ7IaMCi0tLS0tLS0tCiLslrTripAg6riw66Gd7J2EIOuztOyVhOuPhCwg65Kk7KeR7Z6MIOycoOusvOydmCDqsoDsnYAg64Kh6rOgIOuFueyKqCDsg4Htg5zroZwg67Cc6rKs65CY7JeI64uk7KeA66eMLArsi5zqsITsnbQg7KeA64Kg7IiY66GdIOyDge2DnOqwgCDsoovslYTsp4Dqs6Ag7J6I7Ja0LiDrsJjrk5zsi5wg7Jew6rWs7ZW0IOu0kOyVvCDtlbQuIgotLS0tLS0tLQrqsJXtg4jsnYQg7KeE7ZaJ7ZWY66Ck66m0IOuPhOuRkSDtla3qtazsl5Ag7J6I64qUIOyVhOuUlOyVvOyXkOqyjCDsnbQg6rOE7JW97J2EIOqxtOuEpOyLreyLnOyYpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1708461270",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1339532482",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1843941387",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1342271987",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1541224187",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2138205941",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2450628570",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Heist Contract",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1708461270",
+        "explicit.stat_1339532482",
+        "explicit.stat_1843941387",
+        "explicit.stat_1342271987",
+        "explicit.stat_1541224187",
+        "explicit.stat_2138205941",
+        "explicit.stat_2450628570"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "최면의 유대",
+    "baseType": "계약: 취약 지점",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rOE7JW9CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArstZzrqbTsnZgg7Jyg64yACuqzhOyVvTog7Leo7JW9IOyngOygkAotLS0tLS0tLQrqs6DqsJ06IOy4oOuyoO2KuCDrp4jtirjrsqDsnbQK6rCV7YOIIOuMgOyDgTog7KCV7IiYIO2ZlOuhnCAo6reA7KSR7ZWcIOqwgOy5mCkK7KeA7JetIOugiOuyqDogNDcK6rO17ZWZIO2VhOyalCgx66CI67KoKQrslYTsnbTthZwg7Z2s6reA64+EOiArOTIlIChhdWdtZW50ZWQpCuqyveuztCDroIjrsqgg6rCQ7IaMOiArMzAlIChhdWdtZW50ZWQpCu2PkOyHhOq5jOyngCDrgqjsnYAg7Iuc6rCEOiArMzAlIChhdWdtZW50ZWQpCuy1nOuMgCDsg53sobQg7KeA7JuQ6rWwOiArMzAlIChhdWdtZW50ZWQpCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQ3Ci0tLS0tLS0tCuuqrOyKpO2EsOydmCDrrLzrpqwg7ZS87ZW0IOqwkOyGjCArMTUlCuqyveuztCDroIjrsqggMjUl64u5IO2UjOugiOydtOyWtOydmCDtmoztlLwgNSUg6rCQ7Y+tCuuqrOyKpO2EsOydmCDsubTsmKTsiqQg7KCA7ZWtICsxMCUK66qs7Iqk7YSw7J2YIOybkOyGjCDsoIDtla0gKzE1JQrrqqzsiqTthLAg64+E67CcIOuptOyXrQrrqqzsiqTthLDqsIAg66qF7KSRIOyLnCDsi6TrqoUg7Jyg67CcCuuqrOyKpO2EsOydmCDrj5nsnpEg7IaN64+E6rCAIOq4sOuzuCDsiJjsuZgg67CR7Jy866GcIOuCtOugpOqwgOyngCDslYrsnYwK66qs7Iqk7YSw7J2YIOydtOuPmSDsho3rj4TqsIAg6riw67O4IOyImOy5mCDrsJHsnLzroZwg64K066Ck6rCA7KeAIOyViuydjArtlIzroIjsnbTslrTsnZgg7IOd66qF66ClIOuwjyDsl5DrhIjsp4Ag67O07Zi466eJIO2ajOuztSDsho3rj4QgMjAlIOqwkO2PrQotLS0tLS0tLQoi6rO87ZWZ7J6Q65Ok7J20IOuNlCDrgpjsnYAg7JW966y8IOymneulmCDrj4Tqtazrpbwg66eM65Ok7Ja07KSEIOqxsOudvOqzoCDrr7/slrQuIOq3uCDsuZzqtazrk6TsnYAg7J6Q6riw65Ok7J20IOqwgOyngOqzoCDsnojripQK7ZuM66Wt7ZWcIOuPhOq1rOydmCDqsIDsuZjrpbwg66qo66W06rOgIOyeiOyngC4g7JWe7Jy866Gc64+EIOuqqOultOqyjCDtlZjsnpDqs6AuIgotLS0tLS0tLQrqsJXtg4jsnYQg7KeE7ZaJ7ZWY66Ck66m0IOuPhOuRkSDtla3qtazsl5Ag7J6I64qUIOyVhOuUlOyVvOyXkOqyjCDsnbQg6rOE7JW97J2EIOqxtOuEpOyLreyLnOyYpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_839186746",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1238382441",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_365540634",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1054098949",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1106651798",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_798009319",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4181072906",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Heist Contract",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_839186746",
+        "explicit.stat_1238382441",
+        "explicit.stat_365540634",
+        "explicit.stat_1054098949",
+        "explicit.stat_1106651798",
+        "explicit.stat_1629869774",
+        "explicit.stat_798009319",
+        "explicit.stat_4181072906"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "룬 문자 선서",
+    "baseType": "계약: 취약 지점",
+    "sourceIndex": 13,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rOE7JW9CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArro6wg66y47J6QIOyEoOyEnArqs4Tslb06IOy3qOyVvSDsp4DsoJAKLS0tLS0tLS0K6rOg6rCdOiDrp4jsi6Ag7YG0652867aA7IqkCuqwle2DiCDrjIDsg4E6IOyImOyImOq7mOuBvCDsobDrpr3rrLwgQzUgKOuztO2GtSDqsIDsuZgpCuyngOyXrSDroIjrsqg6IDQ2CuyZhOugpSDtlYTsmpQoMeugiOuyqCkK7JWE7J207YWcIO2drOq3gOuPhDogKzEwOCUgKGF1Z21lbnRlZCkK6rK967O0IOugiOuyqCDqsJDshow6ICszNSUgKGF1Z21lbnRlZCkK7Y+Q7IeE6rmM7KeAIOuCqOydgCDsi5zqsIQ6ICszNSUgKGF1Z21lbnRlZCkK7LWc64yAIOyDneyhtCDsp4Dsm5DqtbA6ICszNSUgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDYKLS0tLS0tLS0K66qs7Iqk7YSw7J2YIOydtOuPmSDsho3rj4QgMTAlIOymneqwgArrqqzsiqTthLDsnZgg6rO16rKpIOyGjeuPhCAyMCUg7Kad6rCACuuqrOyKpO2EsOydmCDsi5zsoIQg7IaN64+EIDE4JSDspp3qsIAK66qs7Iqk7YSw7J2YIOqzteqyqSDrqoXspJEg7IucIOykkeuPhQrrs7TrrLwg7LC96rOgIOuqrOyKpO2EsOqwgCDrsJvripQg7ZS87ZW0IDE3JSDqsJDshowK6rK967O0IOugiOuyqCAyNSXri7kg7ZSM66CI7J207Ja07J2YIO2ajO2UvCA1JSDqsJDtj60K67O066y8IOywveqzoOydmCDrqqzsiqTthLAgMTQlIOymneqwgArtlIzroIjsnbTslrTsnZgg67Cp7Ja064+EIDE1JSDqsJDtj60K7ZSM66CI7J207Ja07J2YIOunieq4sCDtmZXrpaAgMTAlIOqwkOyGjAotLS0tLS0tLQoi7J20IOyepey5mOulvCDrp4zrk6TquLAg7JyE7ZW0IOyasOumrCDqsIDsobHsnZgg7KCEIOyerOyCsOydhCDsj5/slYTrtoDsl4jslrQuCuydtOygnCDsnqXsuZjrpbwg7KGw66a97ZWY6rOgIOy8nOuKlCDqsoPrp4wg64Ko7JWY7Ja0LiIKLS0tLS0tLS0K6rCV7YOI7J2EIOynhO2Wie2VmOugpOuptCDrj4TrkZEg7ZWt6rWs7JeQIOyeiOuKlCDslYTrlJTslbzsl5Dqsowg7J20IOqzhOyVveydhCDqsbTrhKTsi63si5zsmKQuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2306522833",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1913583994",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2488361432",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3350803563",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_839556554",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1238382441",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_4056408881",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_272758639",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3729221884",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Heist Contract",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2306522833",
+        "explicit.stat_1913583994",
+        "explicit.stat_2488361432",
+        "explicit.stat_3350803563",
+        "explicit.stat_839556554",
+        "explicit.stat_1238382441",
+        "explicit.stat_4056408881",
+        "explicit.stat_272758639",
+        "explicit.stat_3729221884"
+      ],
+      "enabled": []
+    }
+  }
+]

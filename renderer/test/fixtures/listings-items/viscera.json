@@ -1,0 +1,137 @@
+[
+  {
+    "name": "",
+    "baseType": "하위 법관의 투구",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IK0642p7J20Cu2VmOychCDrspXqtIDsnZgg7Yis6rWsCi0tLS0tLS0tCuuouOumrAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA0MQotLS0tLS0tLQrquLDsoIgg7ZWc6rOE7LmYIDE4JSDspp3qsIAKLS0tLS0tLS0K66eI7J2E7J2064KYIOydgOyLoOyymOyXkCDsnojripQg67KE65Ok6rCA7KeAIOygnOybheycvOuhnCDqsIDsoLjqsIDshJwg67aA7LCp7ZWY7Iut7Iuc7JikLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_680068163",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Viscera",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_680068163"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "하위 카오스 골렘의 핵",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IK0642p7J20Cu2VmOychCDsubTsmKTsiqQg6rOo66CY7J2YIO2VtQotLS0tLS0tLQrrqrjthrUKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNjIKLS0tLS0tLS0K67Cb64qUIOyngOyGjSDsubTsmKTsiqQg7ZS87ZW0IDQlIOqwkOyGjAotLS0tLS0tLQrrp4jsnYTsnbTrgpgg7J2A7Iug7LKY7JeQIOyeiOuKlCDrsoTrk6TqsIDsp4Ag7KCc7JuF7Jy866GcIOqwgOyguOqwgOyEnCDrtoDssKntlZjsi63si5zsmKQuCg==",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_3762784591",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Viscera",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3762784591"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "하위 법관의 투구",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IK0642p7J20Cu2VmOychCDrspXqtIDsnZgg7Yis6rWsCi0tLS0tLS0tCuuouOumrAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA0MQotLS0tLS0tLQrquLDsoIgg7ZWc6rOE7LmYIDIxJSDspp3qsIAKLS0tLS0tLS0K66eI7J2E7J2064KYIOydgOyLoOyymOyXkCDsnojripQg67KE65Ok6rCA7KeAIOygnOybheycvOuhnCDqsIDsoLjqsIDshJwg67aA7LCp7ZWY7Iut7Iuc7JikLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_680068163",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Viscera",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_680068163"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "하위 법관의 투구",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IK0642p7J20Cu2VmOychCDrspXqtIDsnZgg7Yis6rWsCi0tLS0tLS0tCuuouOumrAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA0MQotLS0tLS0tLQrquLDsoIgg7ZWc6rOE7LmYIDIzJSDspp3qsIAKLS0tLS0tLS0K66eI7J2E7J2064KYIOydgOyLoOyymOyXkCDsnojripQg67KE65Ok6rCA7KeAIOygnOybheycvOuhnCDqsIDsoLjqsIDshJwg67aA7LCp7ZWY7Iut7Iuc7JikLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_680068163",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Viscera",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_680068163"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "하위 법관의 투구",
+    "sourceIndex": 19,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IK0642p7J20Cu2VmOychCDrspXqtIDsnZgg7Yis6rWsCi0tLS0tLS0tCuuouOumrAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA0MQotLS0tLS0tLQrquLDsoIgg7ZWc6rOE7LmYIDIxJSDspp3qsIAKLS0tLS0tLS0K66eI7J2E7J2064KYIOydgOyLoOyymOyXkCDsnojripQg67KE65Ok6rCA7KeAIOygnOybheycvOuhnCDqsIDsoLjqsIDshJwg67aA7LCp7ZWY7Iut7Iuc7JikLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_680068163",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Viscera",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_680068163"
+      ],
+      "enabled": []
+    }
+  }
+]

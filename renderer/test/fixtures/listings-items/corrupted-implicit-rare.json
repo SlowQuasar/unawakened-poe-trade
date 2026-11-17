@@ -1,0 +1,342 @@
+[
+  {
+    "name": "소름 끼치는 밑창",
+    "baseType": "거인 각반",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l7ZmUCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArshozrpoQg64G87LmY64qUIOuwkeywvQrqsbDsnbgg6rCB67CYCi0tLS0tLS0tCuuwqeyWtOuPhDogMjE5IChhdWdtZW50ZWQpCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA1NArtnpg6IDk1Ci0tLS0tLS0tCu2ZiDogUiBXIFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDU5Ci0tLS0tLS0tCuuwqeyWtOuPhCArMjUK7IOd66qF66ClIOy1nOuMgOy5mCArOTcK7JWE7J207YWcIO2drOq3gOuPhCArOSUK7ZmU7Je8IOyggO2VrSArMTglCuuyiOqwnCDsoIDtla0gKzI0JQrsnbTrj5kg7IaN64+EIDEwJSDspp3qsIAKLS0tLS0tLS0K7YOA6529Cg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3484657501",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_2250533757",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Boots",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3484657501",
+        "explicit.stat_3299347043",
+        "explicit.stat_3917489142",
+        "explicit.stat_3372524247",
+        "explicit.stat_1671376347",
+        "explicit.stat_2250533757"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "적의 수호",
+    "baseType": "병사 투구",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yis6rWsCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArsoIHsnZgg7IiY7Zi4CuuzkeyCrCDtiKzqtawKLS0tLS0tLS0K67Cp7Ja064+EOiA2NCAoYXVnbWVudGVkKQrsl5DrhIjsp4Ag67O07Zi466eJOiAxMCAoYXVnbWVudGVkKQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjQK7Z6YOiAxNgrsp4DriqU6IDE2Ci0tLS0tLS0tCu2ZiDogVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzgKLS0tLS0tLS0K7KCV7ZmV64+EICsxNDUK67Cp7Ja064+EICsyMQrrsKnslrTrj4Qg67CPIOyXkOuEiOyngCDrs7TtmLjrp4kgMTIlIOymneqwgArsg53rqoXroKUg7LWc64yA7LmYICsxOAox7LSI66eI64ukIOyDneuqheugpSAyMS44IOyerOyDnQrrp4jrgpgg7LWc64yA7LmYICsyNgrslYTsnbTthZwg7Z2s6reA64+EICsxMiUK6riw7KCIIOuwjyDrp4nquLAg7ZqM67O1IDYlIOymneqwgAotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_803737631",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3484657501",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_3321629045",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1050105434",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Helmet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_803737631",
+        "explicit.stat_3484657501",
+        "explicit.stat_3321629045",
+        "explicit.stat_3299347043",
+        "explicit.stat_3325883026",
+        "explicit.stat_1050105434",
+        "explicit.stat_3917489142",
+        "explicit.stat_2511217560"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "피의 손",
+    "baseType": "장어가죽 장갑",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtlLzsnZgg7IaQCuyepeyWtOqwgOyjvSDsnqXqsJEKLS0tLS0tLS0K7ZqM7ZS8OiAyMDcgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDM4CuuvvOyyqTogNTYKLS0tLS0tLS0K7ZmIOiBXLVcgVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDYKLS0tLS0tLS0K66+87LKpICsyMArsoJXtmZXrj4QgKzU3Cu2ajO2UvCArNzEK7IOd66qF66ClIOy1nOuMgOy5mCArNTUK7JWE7J207YWcIO2drOq3gOuPhCArMTAlCu2ZlOyXvCDsoIDtla0gKzEzJQotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_803737631",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_53045048",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_803737631",
+        "explicit.stat_53045048",
+        "explicit.stat_3299347043",
+        "explicit.stat_3917489142",
+        "explicit.stat_3372524247"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "기적의 차양",
+    "baseType": "홈이 긴 배서닛",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yis6rWsCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArquLDsoIHsnZgg7LCo7JaRCu2ZiOydtCDquLQg67Cw7ISc64ubCi0tLS0tLS0tCu2AhOumrO2LsDogKzE2JSAoYXVnbWVudGVkKQrrsKnslrTrj4Q6IDMyOSAoYXVnbWVudGVkKQrtmoztlLw6IDM2OSAoYXVnbWVudGVkKQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogNjAK7Z6YOiA2NArrr7zssqk6IDY0Ci0tLS0tLS0tCu2ZiDogVy1SLVcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDgyCi0tLS0tLS0tCuyLnOyVvCDrsJjqsr0gMjUlIOymneqwgAotLS0tLS0tLQrrr7zssqkgKzM4CuuwqeyWtOuPhCArMTA2Cu2ajO2UvCArMTQwCuyDneuqheugpSDsnqzsg50g7IaN64+EIDE4JSDspp3qsIAK6riw7KCIIOuwjyDrp4nquLAg7ZqM67O1IDI0JSDspp3qsIAKLS0tLS0tLS0K7YOA6529Cg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3484657501",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_53045048",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_44972811",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1263695895",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Helmet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_3484657501",
+        "explicit.stat_53045048",
+        "explicit.stat_44972811",
+        "explicit.stat_2511217560",
+        "implicit.stat_1263695895"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "강풍의 장막",
+    "baseType": "경기병 브리간딘",
+    "sourceIndex": 11,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog6rCR7Ji3CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArqsJXtko3snZgg7J6l66eJCuqyveq4sOuzkSDruIzrpqzqsITrlJgKLS0tLS0tLS0K67Cp7Ja064+EOiA0MzAgKGF1Z21lbnRlZCkK7ZqM7ZS8OiA0MjUgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQyCu2emDogNTAgKGF1Z21lbnRlZCkK66+87LKpOiA1MCAoYXVnbWVudGVkKQotLS0tLS0tLQrtmYg6IFctVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDcKLS0tLS0tLS0K64ql66Cl7LmYIOyalOq1rOyCrO2VrSAxOCUg6rCQ7IaMCuuwqeyWtOuPhCArMTAzCu2ajO2UvCArOTkK67Cp7Ja064+EIOuwjyDtmoztlLwgMTQlIOymneqwgArsg53rqoXroKUg7LWc64yA7LmYICs0Ngox7LSI66eI64ukIOyDneuqheugpSAxMyDsnqzsg50K67KI6rCcIOyggO2VrSArMTYlCuq4sOygiCDrsI8g66eJ6riwIO2ajOuztSA5JSDspp3qsIAKLS0tLS0tLS0K7YOA6529Cg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3639275092",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3484657501",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_53045048",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2451402625",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Body Armour",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3639275092",
+        "explicit.stat_3484657501",
+        "explicit.stat_53045048",
+        "explicit.stat_2451402625",
+        "explicit.stat_3299347043",
+        "explicit.stat_3325883026",
+        "explicit.stat_1671376347",
+        "explicit.stat_2511217560"
+      ],
+      "enabled": []
+    }
+  }
+]

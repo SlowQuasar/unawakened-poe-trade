@@ -1,0 +1,306 @@
+[
+  {
+    "name": "불안의 분리",
+    "baseType": "라브리스",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7JaR7IaQIOuPhOuBvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK67aI7JWI7J2YIOu2hOumrArrnbzruIzrpqzsiqQKLS0tLS0tLS0K7JaR7IaQIOuPhOuBvArrrLzrpqwg7ZS87ZW0OiA3NC0xMjMK7JuQ7IaMIO2UvO2VtDogMi02IChhdWdtZW50ZWQpLCAxMS0yMzIgKGF1Z21lbnRlZCkK7LmY66qF7YOAIO2ZleuloDogNS4wMCUK7LSI64u5IOqzteqyqSDtmp/siJg6IDEuMzMgKGF1Z21lbnRlZCkK66y06riwIOuylOychDogMS4z66+47YSwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA0OQrtnpg6IDEyMgrrr7zssqk6IDUzCi0tLS0tLS0tCu2ZiDogVyBXIFcgVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDkKLS0tLS0tLS0K64OJ6riwIO2UvO2VtCAyfjYg7LaU6rCACuuyiOqwnCDtlLztlbQgMTF+MjMyIOy2lOqwgArqs7Xqsqkg7IaN64+EIDExJSDspp3qsIAK7J2867CYIOy5mOuqhe2DgCDtlLztlbQg67Cw7JyoICsxMyUK66qF7KSR7ZWcIOyggSDtlZjrgpjri7kg7IOd66qF66ClIDQg7ZqN65OdCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1037193709",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3336890334",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_821021828",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Two-Handed Axe",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1037193709",
+        "explicit.stat_3336890334",
+        "explicit.stat_210067635",
+        "explicit.stat_3556824919",
+        "explicit.stat_821021828"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "혼란스러운 쐐기털",
+    "baseType": "반곡궁",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZmcCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtmLzrnoDsiqTrn6zsmrQg7JCQ6riw7YS4CuuwmOqzoeq2gQotLS0tLS0tLQrtmZwK66y866asIO2UvO2VtDogMTUtNDUK7JuQ7IaMIO2UvO2VtDogMy00OSAoYXVnbWVudGVkKQrsuZjrqoXtg4Ag7ZmV66WgOiA3LjYzJSAoYXVnbWVudGVkKQrstIjri7kg6rO16rKpIO2an+yImDogMS4yNQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMTgK66+87LKpOiA2NQotLS0tLS0tLQrtmYg6IFctVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjYKLS0tLS0tLS0K7J2867CYIOy5mOuqhe2DgCDtlLztlbQg67Cw7JyoICsyNSUKLS0tLS0tLS0K67KI6rCcIO2UvO2VtCAzfjQ5IOy2lOqwgArsuZjrqoXtg4Ag7ZmV66WgIDE0JSDspp3qsIAK7J2867CYIOy5mOuqhe2DgCDtlLztlbQg67Cw7JyoICsxNyUK7KCV7ZmV64+EICsxOTIK",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3336890334",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2375316951",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Bow",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3336890334",
+        "explicit.stat_2375316951",
+        "explicit.stat_3556824919",
+        "explicit.stat_691932474",
+        "implicit.stat_3556824919"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "비애의 파멸",
+    "baseType": "유리 단도",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog64uo6rKACuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArruYTslaDsnZgg7YyM66m4CuycoOumrCDri6jrj4QKLS0tLS0tLS0K64uo6rKACuusvOumrCDtlLztlbQ6IDctMTIgKGF1Z21lbnRlZCkK7JuQ7IaMIO2UvO2VtDogMS02IChhdWdtZW50ZWQpCuy5mOuqhe2DgCDtmZXrpaA6IDguMDAlCuy0iOuLuSDqs7Xqsqkg7Zqf7IiYOiAxLjUwCuustOq4sCDrspTsnIQ6IDHrr7jthLAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDgKLS0tLS0tLS0K7ZmIOiBXIFcgVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMTUKLS0tLS0tLS0K7J2867CYIOy5mOuqhe2DgCDtmZXrpaAgNDIlIOymneqwgAotLS0tLS0tLQrsnqXssKnrkJwg64OJ6riwIOyGjeyEsSDsoKwg66CI67KoICsxCuyngOuKpSArMTAK66y866asIO2UvO2VtCAyMyUg7Kad6rCACuuyiOqwnCDtlLztlbQgMX42IOy2lOqwgArsoJXtmZXrj4QgKzQzCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1645459191",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_328541901",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3336890334",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_587431675",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Dagger",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1645459191",
+        "explicit.stat_328541901",
+        "explicit.stat_1509134228",
+        "explicit.stat_3336890334",
+        "explicit.stat_691932474",
+        "implicit.stat_587431675"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "독사의 포효",
+    "baseType": "고기 망치",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZWc7IaQIOyyoO2HtArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK64+F7IKs7J2YIO2PrO2aqArqs6DquLAg66ed7LmYCi0tLS0tLS0tCu2VnOyGkCDssqDth7QK66y866asIO2UvO2VtDogNjAtODQgKGF1Z21lbnRlZCkK7LmY66qF7YOAIO2ZleuloDogNS4wMCUK7LSI64u5IOqzteqyqSDtmp/siJg6IDEuNjQgKGF1Z21lbnRlZCkK66y06riwIOuylOychDogMS4x66+47YSwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA1OArtnpg6IDE4NQotLS0tLS0tLQrtmYg6IFItVy1XIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA2OAotLS0tLS0tLQrsoIEg6riw7KCIIO2VnOqzhOy5mCAxMCUg6rCQ7IaMCi0tLS0tLS0tCu2emCArMzIK66y866asIO2UvO2VtCAxMX4yMiDstpTqsIAK6rO16rKpIOyGjeuPhCAxNyUg7Kad6rCACuyggeyXkOqyjCDsoIHsmqnrkJjripQg6riw7KCIIOyngOyGjeyLnOqwhCAzNSUg7Kad6rCACg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1940865751",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2517001139",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1443060084",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "One-Handed Mace",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_1940865751",
+        "explicit.stat_210067635",
+        "explicit.stat_2517001139",
+        "implicit.stat_1443060084"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "거대한 일격",
+    "baseType": "부족 곤봉",
+    "sourceIndex": 10,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZWc7IaQIOyyoO2HtArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK6rGw64yA7ZWcIOydvOqyqQrrtoDsobEg6rOk67SJCi0tLS0tLS0tCu2VnOyGkCDssqDth7QK66y866asIO2UvO2VtDogMTQtMjYgKGF1Z21lbnRlZCkK7LmY66qF7YOAIO2ZleuloDogNS42MCUgKGF1Z21lbnRlZCkK7LSI64u5IOqzteqyqSDtmp/siJg6IDEuNTEgKGF1Z21lbnRlZCkK66y06riwIOuylOychDogMS4x66+47YSwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAxMArtnpg6IDI2Ci0tLS0tLS0tCu2ZiDogVyBXIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAyMAotLS0tLS0tLQrsoIEg6riw7KCIIO2VnOqzhOy5mCAxMCUg6rCQ7IaMCi0tLS0tLS0tCuyepeywqeuQnCDqt7zsoJEg7KCsIOugiOuyqCArMQrrrLzrpqwg7ZS87ZW0IDE2JSDspp3qsIAK66y866asIO2UvO2VtCA0fjkg7LaU6rCACuqzteqyqSDsho3rj4QgOCUg7Kad6rCACuy5mOuqhe2DgCDtmZXrpaAgMTIlIOymneqwgArsoJXtmZXrj4QgKzE5Cg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_829382474",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1509134228",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1940865751",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_210067635",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2375316951",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1443060084",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "One-Handed Mace",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_829382474",
+        "explicit.stat_1509134228",
+        "explicit.stat_1940865751",
+        "explicit.stat_210067635",
+        "explicit.stat_2375316951",
+        "explicit.stat_691932474",
+        "implicit.stat_1443060084"
+      ],
+      "enabled": []
+    }
+  }
+]

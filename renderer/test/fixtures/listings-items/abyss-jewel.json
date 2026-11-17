@@ -1,0 +1,235 @@
+[
+  {
+    "name": "속삭이는 전조",
+    "baseType": "최면 거는 눈 주얼",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Ius7JewIOyjvOyWvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK7IaN7IKt7J2064qUIOyghOyhsArstZzrqbQg6rGw64qUIOuIiCDso7zslrwKLS0tLS0tLS0K7Ius7JewCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA0MAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA1MgotLS0tLS0tLQrso7zrrLgg7Iuc7KCEIOyLnCDsubTsmKTsiqQg7ZS87ZW0IDh+MTIg7LaU6rCACuyLnOyghCDsho3rj4QgMyUg7Kad6rCACuyWkeyGkCDrrLTquLDrpbwg7J6l7LCp7ZWY64qUIOuPmeyViCDso7zrrLgg7Iuc7KCEIOyLnCDtmZTsl7wg7ZS87ZW0IDE1fjIwIOy2lOqwgAox7LSI66eI64ukIOyXkOuEiOyngCDrs7TtmLjrp4kgOSDsnqzsg50KLS0tLS0tLS0K7JWE7J207YWc7J2YIOyLrOyXsCDtmYjsnbTrgpgg7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7Jqw7YG066at7ZWY66m0IO2ZiOyXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2300399854",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2891184298",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2135335407",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2561836520",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Abyss Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2300399854",
+        "explicit.stat_2891184298",
+        "explicit.stat_2135335407",
+        "explicit.stat_2561836520"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "텅 빈 활시위",
+    "baseType": "탐색하는 눈 주얼",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Ius7JewIOyjvOyWvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK7YWFIOu5iCDtmZzsi5zsnIQK7YOQ7IOJ7ZWY64qUIOuIiCDso7zslrwKLS0tLS0tLS0K7Ius7JewCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA1NgotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4MAotLS0tLS0tLQrtnpgg67CPIOyngOuKpSArMTAK7ZmcIOqzteqyqSDsi5wg64OJ6riwIO2UvO2VtCA5fjE0IOy2lOqwgArtmZwg6rO16rKpIOyLnCDrsojqsJwg7ZS87ZW0IDJ+NDAg7LaU6rCACuuyiOqwnCDsg4Htg5wg7J207IOBIO2aqOqzvCAxMiUg7Kad6rCACi0tLS0tLS0tCuyVhOydtO2FnOydmCDsi6zsl7Ag7ZmI7J2064KYIO2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDtmYjsl5DshJwg7KCc6rGw65Cp64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1535626285",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_215124030",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1040269876",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3081816887",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Abyss Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1535626285",
+        "explicit.stat_215124030",
+        "explicit.stat_1040269876",
+        "explicit.stat_3081816887"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "으스스한 눈",
+    "baseType": "최면 거는 눈 주얼",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Ius7JewIOyjvOyWvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK7Jy87Iqk7Iqk7ZWcIOuIiArstZzrqbQg6rGw64qUIOuIiCDso7zslrwKLS0tLS0tLS0K7Ius7JewCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQ1Ci0tLS0tLS0tCuyngOuKpSArMTIK67Cp7Ja064+EICs0MgrsjI3siJgg7J6l7LCpIOyLnCDsp4Dsho0g7ZS87ZW0IDExJSDspp3qsIAK7LWc6re8IDTstIgg7J2064K0IO2UvOqyqSDtlLztlbTrpbwg67Cb7J2AIOqyveyasCDso7zrrLgg7ZS87ZW0IOunieq4sCDtmZXrpaAgKzQlCi0tLS0tLS0tCuyVhOydtO2FnOydmCDsi6zsl7Ag7ZmI7J2064KYIO2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDtmYjsl5DshJwg7KCc6rGw65Cp64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_328541901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_809229260",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_214001793",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1101206134",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Abyss Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_328541901",
+        "explicit.stat_809229260",
+        "explicit.stat_214001793",
+        "explicit.stat_1101206134"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "매혹하는 바늘",
+    "baseType": "살인적인 눈 주얼",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Ius7JewIOyjvOyWvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK66ek7Zi57ZWY64qUIOuwlOuKmArsgrTsnbjsoIHsnbgg64iIIOyjvOyWvAotLS0tLS0tLQrsi6zsl7AKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDM4Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDUyCi0tLS0tLS0tCu2BtOuhnCDqs7Xqsqkg7IucIOuyiOqwnCDtlLztlbQgMn4yOSDstpTqsIAK7YG066GcIOqzteqyqeydmCDsubTsmKTsiqQg7ZS87ZW0IDZ+MTMg7LaU6rCACu2ZlOyXvCDrsI8g67KI6rCcIOyggO2VrSArMTAlCi0tLS0tLS0tCuyVhOydtO2FnOydmCDsi6zsl7Ag7ZmI7J2064KYIO2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDtmYjsl5DshJwg7KCc6rGw65Cp64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4231842891",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4191067677",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3441501978",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Abyss Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4231842891",
+        "explicit.stat_4191067677",
+        "explicit.stat_3441501978"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "매혹하는 갈증",
+    "baseType": "살인적인 눈 주얼",
+    "sourceIndex": 18,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Ius7JewIOyjvOyWvArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK66ek7Zi57ZWY64qUIOqwiOymnQrsgrTsnbjsoIHsnbgg64iIIOyjvOyWvAotLS0tLS0tLQrsi6zsl7AKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQyCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDc2Ci0tLS0tLS0tCuqzteqyqSDsi5wg64OJ6riwIO2UvO2VtCA5fjE1IOy2lOqwgArrj4Trgbwg6rO16rKpIOyLnCDrrLzrpqwg7ZS87ZW0IDN+NCDstpTqsIAK64+E64G8IOqzteqyqSDsi5wg7ZmU7Je8IO2UvO2VtCA3fjE1IOy2lOqwgArsnbTrj5kg7KSR7J28IOuVjCAx7LSI66eI64ukIOyDneuqheugpeydmCAwLjUlIOyerOyDnQotLS0tLS0tLQrslYTsnbTthZzsnZgg7Ius7JewIO2ZiOydtOuCmCDtjKjsi5zruIwg7Iqk7YKsIO2KuOumrOyXkOyEnCDtj6zsnbjtirjrpbwg7ZWg64u57ZWcIOyjvOyWvCDsiqzroa/sl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsmrDtgbTrpq3tlZjrqbQg7ZmI7JeQ7IScIOygnOqxsOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_311030839",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2461965653",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_908516597",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Abyss Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4067062424",
+        "explicit.stat_311030839",
+        "explicit.stat_2461965653",
+        "explicit.stat_908516597"
+      ],
+      "enabled": []
+    }
+  }
+]

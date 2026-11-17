@@ -1,0 +1,337 @@
+[
+  {
+    "name": "불운아의 족쇄",
+    "baseType": "사슬 장갑",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrtojsmrTslYTsnZgg7KGx7IeECuyCrOyKrCDsnqXqsJEKLS0tLS0tLS0K67Cp7Ja064+EOiAxNgrsl5DrhIjsp4Ag67O07Zi466eJOiA1Ci0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA3Ci0tLS0tLS0tCu2ZiDogVy1XIFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDE0Ci0tLS0tLS0tCuyepeywqeuQnCDsoIDso7wg7Iqk7YKs7J2YIOyCrOyIoOydtCDtlIzroIjsnbTslrTsl5Dqsowg67CY7IKs65CoCuq4sOygiCDrsI8g66eJ6riwIO2ajOuztSA1MSUg7Kad6rCACuuDieqwgeuQnCDtm4QgM+y0iCDrj5nslYgg64OJ6rCBIOuptOyXrQrrj5nqsrDrkJwg7ZuEIDPstIgg64+Z7JWIIOuPmeqysCDrqbTsl60K7KCQ7ZmU65CcIO2bhCAz7LSIIOuPmeyViCDsoJDtmZQg66m07JetCuqwkOyghOuQnCDtm4QgM+y0iCDrj5nslYgg6rCQ7KCEIOuptOyXrQrsgqzrp50g7IucIDXrr7jthLAg64K07J2YIOuPmeujjOuTpOyXkOqyjCDqsqnrtoQg7Lap7KCEIDXqsJwg7KCc6rO1Ci0tLS0tLS0tCuqwkOyLuOyllCDqs7Psl5DshJwg7Zmc66Cl7J20IOyDmOyGn+uKlOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_32859524",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              6
+            ]
+          ],
+          [
+            "explicit.stat_2306924373",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3612464552",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_947072590",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_215346464",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2105456174",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_32859524",
+        "explicit.stat_2511217560",
+        "explicit.stat_2306924373",
+        "explicit.stat_3612464552",
+        "explicit.stat_947072590",
+        "explicit.stat_215346464",
+        "explicit.stat_2105456174"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "불운아의 족쇄",
+    "baseType": "사슬 장갑",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrtojsmrTslYTsnZgg7KGx7IeECuyCrOyKrCDsnqXqsJEKLS0tLS0tLS0K67Cp7Ja064+EOiAxNgrsl5DrhIjsp4Ag67O07Zi466eJOiA1Ci0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA3Ci0tLS0tLS0tCu2ZiDogVy1XIFcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDgKLS0tLS0tLS0K7J6l7LCp65CcIOyggOyjvCDsiqTtgqzsnZgg7IKs7Iig7J20IO2UjOugiOydtOyWtOyXkOqyjCDrsJjsgqzrkKgK6riw7KCIIOuwjyDrp4nquLAg7ZqM67O1IDUzJSDspp3qsIAK64OJ6rCB65CcIO2bhCAz7LSIIOuPmeyViCDrg4nqsIEg66m07JetCuuPmeqysOuQnCDtm4QgM+y0iCDrj5nslYgg64+Z6rKwIOuptOyXrQrsoJDtmZTrkJwg7ZuEIDPstIgg64+Z7JWIIOygkO2ZlCDrqbTsl60K6rCQ7KCE65CcIO2bhCAz7LSIIOuPmeyViCDqsJDsoIQg66m07JetCuyCrOunnSDsi5wgNeuvuO2EsCDrgrTsnZgg64+Z66OM65Ok7JeQ6rKMIOqyqeu2hCDstqnsoIQgNOqwnCDsoJzqs7UKLS0tLS0tLS0K6rCQ7Iu47KWUIOqzs+yXkOyEnCDtmZzroKXsnbQg7IOY7Iaf64qU64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_32859524",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              6
+            ]
+          ],
+          [
+            "explicit.stat_2306924373",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3612464552",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_947072590",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_215346464",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2105456174",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_32859524",
+        "explicit.stat_2511217560",
+        "explicit.stat_2306924373",
+        "explicit.stat_3612464552",
+        "explicit.stat_947072590",
+        "explicit.stat_215346464",
+        "explicit.stat_2105456174"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "순리의 운명",
+    "baseType": "호두나무 영혼 방패",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67Cp7YyoCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsiJzrpqzsnZgg7Jq066qFCu2YuOuRkOuCmOustCDsmIHtmLwg67Cp7YyoCi0tLS0tLS0tCuunieq4sCDtmZXrpaA6IDI0JQrsl5DrhIjsp4Ag67O07Zi466eJOiAxMzIgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQ4CuyngOuKpTogOTIKLS0tLS0tLS0K7ZmIOiBXLVctVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTIKLS0tLS0tLS0K7KO866y4IO2UvO2VtCA4JSDspp3qsIAKLS0tLS0tLS0K7Iuc7KCEIOyGjeuPhCAxNSUg7Kad6rCACuyXkOuEiOyngCDrs7TtmLjrp4kg7LWc64yA7LmYICs5NgrqsIEg7KO866y47J2EIOuRkCDrsojsp7jroZwg7Iuc7KCE7ZWgIOuVjOuniOuLpCDqt7gg7KO866y47J2YIOy0iOq4sCDruYTsmqnqs7wg64+Z7J287ZWcIOuniOuCmCDtmo3rk50K6rCBIOyjvOusuOydhCDrhKQg67KI7Ke466GcIOyLnOyghO2VoCDrlYzrp4jri6Qg6re4IOyjvOusuOydmCDrqoXspJEg7ZS87ZW07JeQIO2WieyatCDsoIHsmqkK6rCBIOyjvOusuOydhCDsl6zshK8g67KI7Ke466GcIOyLnOyghO2VoCDrlYzrp4jri6Qg66qo65OgIOuqheykkeydtCDsuZjrqoXtg4AK7J20IO2aqOqzvOuKlCDsoJDsnKAsIOyngOyGjeyLnOqwhCwg7KeR7KSRIOycoOyngOqwgCDsnojripQg7KO866y47JeQ64qUIOyggeyaqeuQmOyngCDslYrsnYwKLS0tLS0tLS0KIuyYiOyWuOydgCDso7zrrLTrpbTquLAg7Im964ukLiDsmIjslrjsnYAg6rCA66eI6rCAIOyVhOuLiOudvCwg7KCQ7Yag64ukLiIKLSDrp4jrhYDri6gg7Jes7JmVCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2891184298",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4052037485",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3334947764",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2100268747",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_4031934041",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2974417149",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Shield",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2891184298",
+        "explicit.stat_4052037485",
+        "explicit.stat_3334947764",
+        "explicit.stat_2100268747",
+        "explicit.stat_4031934041",
+        "implicit.stat_2974417149"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "불운아의 족쇄",
+    "baseType": "사슬 장갑",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrtojsmrTslYTsnZgg7KGx7IeECuyCrOyKrCDsnqXqsJEKLS0tLS0tLS0K67Cp7Ja064+EOiAxOQrsl5DrhIjsp4Ag67O07Zi466eJOiA2Ci0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA3Ci0tLS0tLS0tCu2ZiDogVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzUKLS0tLS0tLS0K7J6l7LCp65CcIOyggOyjvCDsiqTtgqzsnZgg7IKs7Iig7J20IO2UjOugiOydtOyWtOyXkOqyjCDrsJjsgqzrkKgK6riw7KCIIOuwjyDrp4nquLAg7ZqM67O1IDQ2JSDspp3qsIAK64OJ6rCB65CcIO2bhCAz7LSIIOuPmeyViCDrg4nqsIEg66m07JetCuuPmeqysOuQnCDtm4QgM+y0iCDrj5nslYgg64+Z6rKwIOuptOyXrQrsoJDtmZTrkJwg7ZuEIDPstIgg64+Z7JWIIOygkO2ZlCDrqbTsl60K6rCQ7KCE65CcIO2bhCAz7LSIIOuPmeyViCDqsJDsoIQg66m07JetCuyCrOunnSDsi5wgNeuvuO2EsCDrgrTsnZgg64+Z66OM65Ok7JeQ6rKMIOqyqeu2hCDstqnsoIQgNeqwnCDsoJzqs7UKLS0tLS0tLS0K6rCQ7Iu47KWUIOqzs+yXkOyEnCDtmZzroKXsnbQg7IOY7Iaf64qU64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_32859524",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              6
+            ]
+          ],
+          [
+            "explicit.stat_2306924373",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3612464552",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_947072590",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_215346464",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2105456174",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_32859524",
+        "explicit.stat_2511217560",
+        "explicit.stat_2306924373",
+        "explicit.stat_3612464552",
+        "explicit.stat_947072590",
+        "explicit.stat_215346464",
+        "explicit.stat_2105456174"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "검은 섬광",
+    "baseType": "맹렬한 화살통",
+    "sourceIndex": 4,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZmU7IK07Ya1CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqsoDsnYAg7ISs6rSRCuunueugrO2VnCDtmZTsgrTthrUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQ1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDUxCi0tLS0tLS0tCuqzteqyqSDsi5wg7ZmU7Je8IO2UvO2VtCAxM34yNiDstpTqsIAKLS0tLS0tLS0K6rO16rKpIOyGjeuPhCAxMCUg7Kad6rCACu2ajO2UvCArOTgK66eI64KYIOy1nOuMgOy5mCArMjgK66y866asIO2UvO2VtOydmCA1MCXrpbwg7ZmU7Je8IO2UvO2VtOuhnCDsoITtmZgK7ZmcIOqzteqyqSDsi5wg7ZmU7Je8IO2UvO2VtCA1fjEwIOy2lOqwgAotLS0tLS0tLQrquYPthLjsnYAg64W56rOgIOu2iOq9g+ydgCDqt7jrprzsnpDsl5Ag7Iio7Ja0LArslrTrkaAg7IaN7JeQ7IScIO2ZlOyCtOunjOydtCDrgqDslYTrk6Dri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_681332047",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2144192055",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1050105434",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1533563525",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3120164895",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1573130764",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Quiver",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_681332047",
+        "explicit.stat_2144192055",
+        "explicit.stat_1050105434",
+        "explicit.stat_1533563525",
+        "explicit.stat_3120164895",
+        "implicit.stat_1573130764"
+      ],
+      "enabled": []
+    }
+  }
+]

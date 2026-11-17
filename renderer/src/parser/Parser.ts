@@ -136,7 +136,8 @@ export function parseClipboard (clipboard: string): Result<ParsedItem, string> {
 }
 
 function itemTextToSections (text: string) {
-  const lines = text.split(/\r?\n/)
+  // Linked skill labels in ordinary game clipboard text contain U+200B.
+  const lines = text.replace(/\u200B/g, '').split(/\r?\n/)
   if (lines[lines.length - 1] === '') {
     lines.pop()
   }
@@ -843,6 +844,7 @@ function parseModifiers (section: string[], item: ParsedItem) {
   const recognizedLine = section.find(line =>
     line.endsWith(ENCHANT_LINE) ||
     line.endsWith(SCOURGE_LINE) ||
+    line.endsWith(IMPLICIT_LINE) ||
     isModInfoLine(line)
   )
 

@@ -1,0 +1,186 @@
+[
+  {
+    "name": "풍요로운 마음",
+    "baseType": "코발트색 주얼",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtko3smpTroZzsmrQg66eI7J2MCuy9lOuwnO2KuOyDiSDso7zslrwKLS0tLS0tLS0K7KCB7JqpIOuwmOqyvTog64yA7ZiVCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQyCi0tLS0tLS0tCuyngOuKpSArMTcK67CY6rK9IOuCtCDtjKjsi5zruIwg7Iqk7YKs66GcIO2ajeuTne2VmOuKlCDrr7zssqnsnYQg7KeA64ql7Jy866GcIOyghO2ZmAotLS0tLS0tLQoi7KCc67mE64qUIOu5oOultOqyjCDrgqDrqbAg64+M7JWE64uk64WU6rOgLArsi53rrLzsnbQg7J6Q656AIOyggSDsl4bripQg6rOz7JeQIOyUqOyVl+ydhCDtnanrv4zroLjri6QuCuyUqOyVl+ydgCDsnpDrnbzqs6Ag7J6Q6528IOqysOq1rSDsgqzrp4nsnYQg67mE7Jil7ZWY6rKMIOunjOuTpOyXiOuLpC4gCuyekCwg64SI7J2YIOuniOydjCDsl63si5wg7J20IOyUqOyVl+qzvCDqsJnri6QuIiAKLSDrp4jrnbzsvIDsiqQg7IaN64u0Ci0tLS0tLS0tCu2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDsiqzroa/sl5DshJwg7KCc6rGw65Cp64uI64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_328541901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2075199521",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_328541901",
+        "explicit.stat_2075199521"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "앗지리의 치세",
+    "baseType": "진홍색 주얼",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArslZfsp4DrpqzsnZgg7LmY7IS4CuynhO2ZjeyDiSDso7zslrwKLS0tLS0tLS0K7KSR67O1IOyCrOyaqSDsoJztlZw6IDEKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzkKLS0tLS0tLS0K67CU7JWMIOyKpO2CrOydmCDsiqTtgqwg7Zqo6rO8IOyngOyGjeyLnOqwhCAxOSUg7Kad6rCACuuwlOyVjCDsiqTtgqwg7IKs7JqpIOyLnCAxNSXsnZgg7ZmV66Wg66GcIOyGjOuqqO2VnCDsmIHtmLzsnYQg64+M66Ck67Cb7J2MCi0tLS0tLS0tCuyVl+yngOumrOuKlCDrtojrqbjsnYQg7Ja76riwIOychO2VtCDqsIHqs6DsnZgg64W466Cl7J2EIOq4sOyauOyYgOuLpC4K7ZWY7KeA66eMIOyYgeybkO2VnCDqsoPsnYAg7JeG6riwIOuniOugqOydtOuLiC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_547412107",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2833218772",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_547412107",
+        "explicit.stat_2833218772"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "무력함",
+    "baseType": "코발트색 주얼",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrrLTroKXtlagK7L2U67Cc7Yq47IOJIOyjvOyWvAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA3MgotLS0tLS0tLQrqtozriqUg7Lap7KCEIOy1nOuMgOy5mCAtMQotLS0tLS0tLQoi64SI7J2YIOyaleunneydtCDrhIjrpbwg7Jik64+E7ZWgIOqyg+ydtOuLpC4iCi0tLS0tLS0tCu2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDsiqzroa/sl5DshJwg7KCc6rGw65Cp64uI64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_227523295",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_227523295"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "활력의 방어구",
+    "baseType": "진홍색 주얼",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtmZzroKXsnZgg67Cp7Ja06rWsCuynhO2ZjeyDiSDso7zslrwKLS0tLS0tLS0K7KCB7JqpIOuwmOqyvTog64yA7ZiVCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDgwCi0tLS0tLS0tCuuwqeyWtOuPhCAxNiUg7Kad6rCACuuwmOqyvSDrgrQg7JeQ64SI7KeAIOuztO2YuOuniSDspp3qsIAg67CPIOqwkOyGjOqwgCDrs4DtmJXrkJjslrQg7ZW064u5IOqwkuydmCAyMDAl6rCAIOuwqeyWtOuPhOyXkCDsoIHsmqkKLS0tLS0tLS0KIuyXrO2DnOq5jOyngCDquLDrj4TqsIAg7ZmU7IK07J2EIOupiOy2lOuKlCDqsbQg66q7IOu0pOuEpOunjC4iCi0tLS0tLS0tCu2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDsiqzroa/sl5DshJwg7KCc6rGw65Cp64uI64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2866361420",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2605119037",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2866361420",
+        "explicit.stat_2605119037"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "먼지처럼 사라져라",
+    "baseType": "코발트색 주얼",
+    "sourceIndex": 15,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrqLzsp4Dsspjrn7wg7IKs65287KC46528Cuy9lOuwnO2KuOyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzUKLS0tLS0tLS0K7ZW06rOoIOyngOyGjeyLnOqwhCAxOSUg6rCQ7IaMCuyGjO2ZmOyImOqwgCDso7zripQg7ZS87ZW0IDEwJSDspp3qsIAK7ZW06rOo7J2YIOqzteqyqSDsho3rj4QgNyUg7Kad6rCACu2VtOqzqOydmCDsi5zsoIQg7IaN64+EIDklIOymneqwgArtlbTqs6jsnZgg7J2064+ZIOyGjeuPhCAzJSDspp3qsIAKLS0tLS0tLS0K6rKw6rWt7JeULCDsi5zqsITsnYAg7Jqw66asIOuqqOuRkOulvCDsnqHsnLzrn6wg7Jio64ukLgrqt7jrpqzqs6Ag7Ja065akIOydtOuTpOyXkOqyjOuKlCDtm6jslKwg67mg66W06rKMIOyYqOuLpC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1331384105",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1589917703",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3413085237",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2725259389",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3295031203",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1331384105",
+        "explicit.stat_1589917703",
+        "explicit.stat_3413085237",
+        "explicit.stat_2725259389",
+        "explicit.stat_3295031203"
+      ],
+      "enabled": []
+    }
+  }
+]

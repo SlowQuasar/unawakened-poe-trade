@@ -1,0 +1,325 @@
+[
+  {
+    "name": "검은 섬광",
+    "baseType": "맹렬한 화살통",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZmU7IK07Ya1CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqsoDsnYAg7ISs6rSRCuunueugrO2VnCDtmZTsgrTthrUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDIyCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDcxCi0tLS0tLS0tCuusvOumrCDtlLztlbTsnZggOCXrpbwg7LaU6rCAIOuDieq4sCDtlLztlbTroZwg7ZqN65OdCi0tLS0tLS0tCuqzteqyqSDsho3rj4QgMTAlIOymneqwgArtmoztlLwgKzgzCuuniOuCmCDstZzrjIDsuZggKzE0CuusvOumrCDtlLztlbTsnZggNTAl66W8IO2ZlOyXvCDtlLztlbTroZwg7KCE7ZmYCu2ZnCDqs7Xqsqkg7IucIO2ZlOyXvCDtlLztlbQgNX4xMCDstpTqsIAKLS0tLS0tLS0K6rmD7YS47J2AIOuFueqzoCDrtojqvYPsnYAg6re466a87J6Q7JeQIOyIqOyWtCwK7Ja065GgIOyGjeyXkOyEnCDtmZTsgrTrp4zsnbQg64Kg7JWE65Og64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_681332047",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2144192055",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1050105434",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1533563525",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3120164895",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_979246511",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Quiver",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_681332047",
+        "explicit.stat_2144192055",
+        "explicit.stat_1050105434",
+        "explicit.stat_1533563525",
+        "explicit.stat_3120164895",
+        "implicit.stat_979246511"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "새무스의 선물",
+    "baseType": "깃 화살통",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7ZmU7IK07Ya1CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsg4jrrLTsiqTsnZgg7ISg66y8Cuq5gyDtmZTsgrTthrUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQ1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDU1Ci0tLS0tLS0tCuuyiOqwnCDtlLztlbTsnZggMC41JeulvCDsg53rqoXroKXsnLzroZwg7Z2h7IiYCi0tLS0tLS0tCuuvvOyyqSArMzYK7Iuc7KCEIOyGjeuPhCA4JSDspp3qsIAK7IOd66qF66ClIOy1nOuMgOy5mCArMzYK67KI6rCcIOyggO2VrSArMzAlCjIwJeydmCDtmZXrpaDroZwg6riw7KCIIOq4tOq4ie2ajO2UvArsp4DriqUgMTDri7kg67KI6rCcIO2UvO2VtCAxJSDspp3qsIAKLS0tLS0tLS0K7Iuc7ZWp7JeQ7IScIO2MqOuwsO2VmOqzoCDri6Tsi5wg64+E7KCE7ZaI64ukCuuniOuyleydmCDrj4Tsm4DsnLzroZwg66eI7J+I66W064qUIOu5hOuRmOq4sOulvCDqsqjrg6Xtlojri6QK7IOI66y07Iqk7J2YIOyEoOusvOydtCDtlYTsi5wg7KCQ7IiY7JeQIOyYge2WpeydhCDspIQg7YSwCuq3uOugh+qyjCDslrTrkaDsnZgg64+E7JuA7Jy866GcLCDrp4jsn4jrpbTripQg7IKs656R7ZWY64qUIOydtOydmCDtlLzrpbwg7LGE7Jq4IOyImOuwluyXkCDsl4bsl4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2891184298",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_4262448838",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_990219738",
+            [
+              5
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_80079005",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Quiver",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_2891184298",
+        "explicit.stat_3299347043",
+        "explicit.stat_1671376347",
+        "explicit.stat_4262448838",
+        "explicit.stat_990219738",
+        "implicit.stat_80079005"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "샤브론의 보폭",
+    "baseType": "학자 장화",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l7ZmUCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArsg6TruIzroaDsnZgg67O07Y+tCu2VmeyekCDsnqXtmZQKLS0tLS0tLS0K7JeQ64SI7KeAIOuztO2YuOuniTogNTcgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDMyCuyngOuKpTogNTkKLS0tLS0tLS0K7ZmIOiBSIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA3NAotLS0tLS0tLQrsp4DriqUgKzI4CuyXkOuEiOyngCDrs7TtmLjrp4kgMTI3JSDspp3qsIAK7J2064+ZIOyGjeuPhCAxNSUg7Kad6rCACuyDneuqheugpeydtCDstZzrjIDsnbwg65WMIOydtOuPmSDsho3rj4QgMjAlIOymneqwgArquLDsoIgg67CPIOunieq4sCDtmozrs7UgMTY5JSDspp3qsIAKLS0tLS0tLS0K7Lm066Oo7J207J2YIO2MjOuPhOyXkCDrp57shKAg7Jyg7J287ZWcIO2drOunnSwK67iM66Oo7Yis7Iqk7J2YIOqzgeycvOuhnCDsg6TruIzroaDsnYAg64us66Ck6rCU64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_328541901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4015621042",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2250533757",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3393547195",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Boots",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_328541901",
+        "explicit.stat_4015621042",
+        "explicit.stat_2250533757",
+        "explicit.stat_3393547195",
+        "explicit.stat_2511217560"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "노믹의 태풍",
+    "baseType": "끈 장화",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l7ZmUCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArrhbjrr7nsnZgg7YOc7ZKNCuuBiCDsnqXtmZQKLS0tLS0tLS0K7ZqM7ZS8OiA3NyAoYXVnbWVudGVkKQrsl5DrhIjsp4Ag67O07Zi466eJOiAyOCAoYXVnbWVudGVkKQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMTYK66+87LKpOiAxOArsp4DriqU6IDE4Ci0tLS0tLS0tCu2ZiDogVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTQKLS0tLS0tLS0K7J6l7LCp65CcIO2aqOqzvCDrspTsnIQg7KCsIOugiOuyqCArMgotLS0tLS0tLQrrr7zssqkgKzI2Cu2ajO2UvCArNDEK7JeQ64SI7KeAIOuztO2YuOuniSDstZzrjIDsuZggKzIwCuuDieq4sCDsoIDtla0gKzIwJQrsnbTrj5kg7IaN64+EIDIwJSDspp3qsIAK7JeQ64SI7KeAIOuztO2YuOunieydtCDstZzrjIDsnbwg65WMIOuwm+uKlCDtlLztlbQgMTUlIOymneqwgArsl5DrhIjsp4Ag67O07Zi466eJ7J20IOy1nOuMgOydvCDrlYwg7J2064+ZIOyGjeuPhCAyMCUg7Kad6rCACi0tLS0tLS0tCu2Pre2SjeydhCDrspfslrTrgpjquLAg7JyE7ZW07ISc64qUIOuqheuvvO2VnCDsoJXsi6DsnbQg7ZWE7JqU7ZWY64ukLgotLS0tLS0tLQrtg4Drnb0K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3261801346",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_53045048",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4052037485",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2250533757",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_969865219",
+            [
+              6
+            ]
+          ],
+          [
+            "explicit.stat_2825197711",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2551600084",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Boots",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3261801346",
+        "explicit.stat_53045048",
+        "explicit.stat_4052037485",
+        "explicit.stat_4220027924",
+        "explicit.stat_2250533757",
+        "explicit.stat_969865219",
+        "explicit.stat_2825197711",
+        "implicit.stat_2551600084"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "프레시아의 화관",
+    "baseType": "철제 관",
+    "sourceIndex": 4,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yis6rWsCuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtlITroIjsi5zslYTsnZgg7ZmU6rSACuyyoOygnCDqtIAKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDgKLS0tLS0tLS0K7ZmIOiBXLVcgUiAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjEKLS0tLS0tLS0K64ql66Cl7LmYIOyalOq1rOyCrO2VrSDsl4bsnYwK7Iuc7JW8IOuwmOqyvSDspp3qsIAg67CPIOqwkOyGjCDsiJjsuZjsnZggNTAl66W8IO2aqOqzvCDrspTsnITsl5Drj4Qg7KCB7JqpCuyLnOyVvCDrsJjqsr0g7Kad6rCAIOuwjyDqsJDshowg7IiY7LmY66W8IO2UvO2VtOyXkOuPhCDsoIHsmqkK7Iuc7JW8IOuwmOqyvSAxNyUg7Kad6rCACuyjvOuKlCDsubTsmKTsiqQg7ZS87ZW0IOyXhuydjAotLS0tLS0tLQrruZvsnbQg7Jqw66as7J2YIOuVheqzvCDsmrDrpqzsnZgg66eI7J2M7JeQ7IScIOyWtOuRoOydhCDrqrDslYTrgrTsl4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2739148464",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1138742368",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3519807287",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1263695895",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1896269067",
+            [
+              5
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Helmet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2739148464",
+        "explicit.stat_1138742368",
+        "explicit.stat_3519807287",
+        "explicit.stat_1263695895",
+        "explicit.stat_1896269067"
+      ],
+      "enabled": []
+    }
+  }
+]

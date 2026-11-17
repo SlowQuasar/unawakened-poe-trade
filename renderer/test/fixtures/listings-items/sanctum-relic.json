@@ -1,0 +1,172 @@
+[
+  {
+    "name": "",
+    "baseType": "촛대 유물",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Jyg66y8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrstJvrjIAg7Jyg66y8IC0g7ZeM7IugCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDgyCi0tLS0tLS0tCuqzoOuCnOydhCDtmo3rk53tlbTslbwg7ZWgIOuVjCAzJeydmCDtmZXrpaDroZwg7ZqN65Od7ZWY7KeAIOyViuydjAotLS0tLS0tLQrshLHsl60g6rO165617J2EIOyLnOyeke2VoCDrlYzrp4jri6Qg7Jyg66y8IOygnOuLqOyXkCDsnbQg7JWE7J207YWc7J2EIOuGk+ycvOyLreyLnOyYpAotLS0tLS0tLQrsho3shLEg67aA7JesIOu2iOqwgAo=",
+      "hashes": {
+        "sanctum": [
+          [
+            "sanctum.stat_1960517795",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Sanctum Relic",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "sanctum.stat_1960517795"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "촛대 유물",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Jyg66y8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrtg4Dsh4TtlZjripQg7LSb64yAIOycoOusvAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4MgotLS0tLS0tLQrrqqzsiqTthLDqsIAg67Cb64qUIO2UvO2VtCA2JSDspp3qsIAKLS0tLS0tLS0K7ISx7JetIOqzteueteydhCDsi5zsnpHtlaAg65WM66eI64ukIOycoOusvCDsoJzri6jsl5Ag7J20IOyVhOydtO2FnOydhCDrhpPsnLzsi63si5zsmKQKLS0tLS0tLS0K7IaN7ISxIOu2gOyXrCDrtojqsIAK",
+      "hashes": {
+        "sanctum": [
+          [
+            "sanctum.stat_2549512259",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Sanctum Relic",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "sanctum.stat_2549512259"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "최초의 문양",
+    "baseType": "궤짝 유물",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Jyg66y8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArstZzstIjsnZgg66y47JaRCuq2pOynnSDsnKDrrLwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzcKLS0tLS0tLS0K7Iqk7Lus7KeA7J2YIOyghOuguSDsspjsuZgg7IucIOyVhOyasOugiOyasOyKpCDsvZTsnbjsnbQg6rK97ZeY7LmY66GcIOyghO2ZmOuQqArsnbQg7JWE7J207YWc7J2AIOyEseyXreyXkCDsoIHsmqnrkJjrqbQg7YyM6rS065CoCi0tLS0tLS0tCiLqt7jripQg7Iug7ISx7ZWo7J2EIOy2lOq1rO2VmOq4sCDsnITtlbQg7KKF6rWQ66W8IOyEpOumve2VmOqzoOyekCDrrLTrjZjtnogg64W466Cl7ZaI64ukLiDqt7jqsIAg66eM65OgIOy0iOq4sOydmCDsg4Hsp5XsnYQg7LaU7KKF7ZWY642YIOyCrOuejOydgCDqsbDsnZgg7JeG7JeI64ukLiDqt7jripQg642UIOuMgOuLqO2VnCDrrLTslrjqsIDqsIAg7ZWE7JqU7ZWY64uk6rOgIOyDneqwge2WiOuLpC4g64iE6rWs64+EIOu2gOyduO2VoCDsiJgg7JeG64qUIOyDgeynlSDrp5DsnbTri6QuIiAtIOydtOuLqOyekCwg66as7YKk7JWECi0tLS0tLS0tCuyEseyXrSDqs7XrnrXsnYQg7Iuc7J6R7ZWgIOuVjOuniOuLpCDsnKDrrLwg7KCc64uo7JeQIOydtCDslYTsnbTthZzsnYQg64aT7Jy87Iut7Iuc7JikCi0tLS0tLS0tCuyGjeyEsSDrtoDsl6wg67aI6rCACg==",
+      "hashes": {
+        "sanctum": [
+          [
+            "sanctum.stat_1307773596",
+            [
+              1
+            ]
+          ],
+          [
+            "sanctum.stat_3182333322",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Sanctum Relic",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "sanctum.stat_1307773596",
+        "sanctum.stat_3182333322"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "향로 유물",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Jyg66y8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOuniOuylQrtlqXroZwg7Jyg66y8IC0g7ZWY7IKs7ZKICi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDEKLS0tLS0tLS0K7IOB7J6Q7JeQ7IScIDQl7J2YIO2ZleuloOuhnCDslYTsmrDroIjsmrDsiqQg7L2U7J247J20IDLrsLDroZwg65Ox7J6lCi0tLS0tLS0tCuyEseyXrSDqs7XrnrXsnYQg7Iuc7J6R7ZWgIOuVjOuniOuLpCDsnKDrrLwg7KCc64uo7JeQIOydtCDslYTsnbTthZzsnYQg64aT7Jy87Iut7Iuc7JikCi0tLS0tLS0tCuyGjeyEsSDrtoDsl6wg67aI6rCACg==",
+      "hashes": {
+        "sanctum": [
+          [
+            "sanctum.stat_3926246735",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Sanctum Relic",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "sanctum.stat_3926246735"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "힘과 약속",
+    "baseType": "책 유물",
+    "sourceIndex": 14,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Jyg66y8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArtnpjqs7wg7JW97IaNCuyxhSDsnKDrrLwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogODUKLS0tLS0tLS0K7Iqk7Lus7KeA7J2YIOyghOugueydtCDsmIHsm5DtlZwg7KeA7Jil7J2EIOuWqOyWtOucqOumvArsmIHqsJAg7ZqN65OdIOu2iOqwgArtiKzsp4Ag7ZqM67O1IOu2iOqwgAo4MOugiOuyqCDrr7jrp4zsnbgg6rK97JqwIOq4iOyngOuQnCDssYUg7IKs7JqpIOu2iOqwgArsnbQg7JWE7J207YWc7J2AIOyEseyXreyXkCDsoIHsmqnrkJjrqbQg7YyM6rS065CoCi0tLS0tLS0tCiLsnbTrhbjshLzsiqTripQg7J6Q7Iug7J2EIOyLoOqyqe2ZlO2VnCDqs7Xtj6zsmYAg7Kad7Jik66W8IOq4sOuwmOycvOuhnCDsgrzslYQsIOu2iOyLoOyekOuKlCDsmIHsm5DthqDroZ0g67aI7YOA6rKMIOuQoCDqsoPsnbTrnbwg7ZiR67CV7ZaI64ukLiDsiJjsspwg66qF7J2YIOyDiOuhnOyatCDsi6Drj4Trk6TsnbQg7Jq467aA7KeW7Jy866mwIOq3uOydmCDrsJzsuZjsl5Ag66q47J2EIOuNmOyhjOuLpC4iIC0g7J2064uo7J6QIOumrO2CpOyVhAotLS0tLS0tLQrshLHsl60g6rO165617J2EIOyLnOyeke2VoCDrlYzrp4jri6Qg7Jyg66y8IOygnOuLqOyXkCDsnbQg7JWE7J207YWc7J2EIOuGk+ycvOyLreyLnOyYpAotLS0tLS0tLQrsho3shLEg67aA7JesIOu2iOqwgAo=",
+      "hashes": {
+        "sanctum": [
+          [
+            "sanctum.stat_1059486105",
+            [
+              0
+            ]
+          ],
+          [
+            "sanctum.stat_3381591146",
+            [
+              1
+            ]
+          ],
+          [
+            "sanctum.stat_624917333",
+            [
+              2
+            ]
+          ],
+          [
+            "sanctum.stat_1512067281",
+            [
+              4
+            ]
+          ],
+          [
+            "sanctum.stat_3182333322",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Sanctum Relic",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "sanctum.stat_1059486105",
+        "sanctum.stat_3381591146",
+        "sanctum.stat_624917333",
+        "sanctum.stat_1512067281",
+        "sanctum.stat_3182333322"
+      ],
+      "enabled": []
+    }
+  }
+]

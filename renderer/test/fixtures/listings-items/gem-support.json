@@ -1,0 +1,77 @@
+[
+  {
+    "name": "",
+    "baseType": "실명 보조",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67O07KGwIOygrArslYTsnbTthZwg7Z2s6reA64+EOiDsoKwK7Iuk66qFIOuztOyhsAotLS0tLS0tLQrrs7TsobAK66CI67KoOiAxCuyGjOuqqCDrsI8g7KCQ7JygIOuwsOycqDogMTEwJQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogOArrr7zssqk6IDE4Ci0tLS0tLS0tCuyggeydhCDrqoXspJHtlZjripQg66qo65OgIOyKpO2CrOyXkCDsoIHsmqnrkKnri4jri6QuCi0tLS0tLS0tCuuztOyhsCDrjIDsg4Eg7Iqk7YKsIOuqheykkSDsi5wgMTAl7J2YIO2ZleuloOuhnCDsoIEg7Iuk66qFIOycoOuwnAotLS0tLS0tLQrqsr3tl5jsuZg6IDEvMzIzMQotLS0tLS0tLQrrs7TsobAg7KCs7J6F64uI64ukLiDsupDrpq3thLDqsIAg7JWE64uMLCDtmYjsnYQg7Ya17ZW0IOyXsOqysOuQnCDsoKzsnbQg67O07Jyg7ZWcIOyKpO2CrOyXkCDsmIHtlqXsnYQg7KSN64uI64ukLiDqsJXtmZTtlZjqs6Ag7Iu27J2AIOyKpO2CrCDsoKzqs7wg7Jew6rKw65CcIOu5iCDtmYjsl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsoJzqsbDtlZjroKTrqbQg7ZmI7J2EIOyasO2BtOumre2VmOyLreyLnOyYpC4K"
+    },
+    "expectedAudit": {
+      "category": "Gem",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "꿰뚫기 보조",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67O07KGwIOygrArslYTsnbTthZwg7Z2s6reA64+EOiDsoKwK6r+w65qr6riwIOuztOyhsAotLS0tLS0tLQrqs7XqsqksIOusvOumrCwg67O07KGwCuugiOuyqDogMQrshozrqqgg67CPIOygkOycoCDrsLDsnKg6IDEzMCUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDMxCu2emDogMjMK66+87LKpOiAzMwotLS0tLS0tLQrqs7Xqsqkg7Iqk7YKs7JeQIOyggeyaqeuQqeuLiOuLpC4KLS0tLS0tLS0K67O07KGwIOuMgOyDgSDqs7XqsqnsnbQg66qF7KSRIOyLnCA2MCXsnZgg7ZmV66Wg66GcIOyggSDqv7DrmqvsnYwKLS0tLS0tLS0K6rK97ZeY7LmYOiAxLzI4NTgxNQotLS0tLS0tLQrrs7TsobAg7KCs7J6F64uI64ukLiDsupDrpq3thLDqsIAg7JWE64uMLCDtmYjsnYQg7Ya17ZW0IOyXsOqysOuQnCDsoKzsnbQg67O07Jyg7ZWcIOyKpO2CrOyXkCDsmIHtlqXsnYQg7KSN64uI64ukLiDqsJXtmZTtlZjqs6Ag7Iu27J2AIOyKpO2CrCDsoKzqs7wg7Jew6rKw65CcIOu5iCDtmYjsl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsoJzqsbDtlZjroKTrqbQg7ZmI7J2EIOyasO2BtOumre2VmOyLreyLnOyYpC4K"
+    },
+    "expectedAudit": {
+      "category": "Gem",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "에너지 흡수 보조",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67O07KGwIOygrArslYTsnbTthZwg7Z2s6reA64+EOiDsoKwK7JeQ64SI7KeAIO2doeyImCDrs7TsobAKLS0tLS0tLS0K67O07KGwCuugiOuyqDogMQrshozrqqgg67CPIOygkOycoCDrsLDsnKg6IDEzMCUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDMxCuyngOuKpTogNTIKLS0tLS0tLS0K7KCB7J2EIOuqheykke2VmOuKlCDrqqjrk6Ag7Iqk7YKs7JeQIOyggeyaqeuQqeuLiOuLpC4g66qF7KSRIOyLnCwg7KO864qUIO2UvO2VtOyXkCDruYTroYDtlZjsl6wg7JeQ64SI7KeAIOuztO2YuOunieydhCDtmozrs7Xtlanri4jri6QuCi0tLS0tLS0tCuuztOyhsCDrjIDsg4Eg7Iqk7YKs7J20IO2UvO2VtOydmCAxLjUl66W8IOyXkOuEiOyngCDrs7TtmLjrp4nsnLzroZwg7Z2h7IiYCuyXkOuEiOyngCDrs7TtmLjrp4nsnbQg7LWc64yA7J28IOuVjCDrs7TsobAg64yA7IOBIOyKpO2CrOuhnCDso7zripQg7ZS87ZW0IDE1JSDspp3tj60KLS0tLS0tLS0K6rK97ZeY7LmYOiAxLzI4NTgxNQotLS0tLS0tLQrrs7TsobAg7KCs7J6F64uI64ukLiDsupDrpq3thLDqsIAg7JWE64uMLCDtmYjsnYQg7Ya17ZW0IOyXsOqysOuQnCDsoKzsnbQg67O07Jyg7ZWcIOyKpO2CrOyXkCDsmIHtlqXsnYQg7KSN64uI64ukLiDqsJXtmZTtlZjqs6Ag7Iu27J2AIOyKpO2CrCDsoKzqs7wg7Jew6rKw65CcIOu5iCDtmYjsl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsoJzqsbDtlZjroKTrqbQg7ZmI7J2EIOyasO2BtOumre2VmOyLreyLnOyYpC4K"
+    },
+    "expectedAudit": {
+      "category": "Gem",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "정확도 추가 보조",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67O07KGwIOygrArslYTsnbTthZwg7Z2s6reA64+EOiDsoKwK7KCV7ZmV64+EIOy2lOqwgCDrs7TsobAKLS0tLS0tLS0K6rO16rKpLCDrs7TsobAK66CI67KoOiAxCuyGjOuqqCDrsI8g7KCQ7JygIOuwsOycqDogMTEwJQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogOAotLS0tLS0tLQrqs7Xqsqkg7Iqk7YKs7JeQIOyggeyaqeuQqeuLiOuLpC4KLS0tLS0tLS0K67O07KGwIOuMgOyDgSDsiqTtgqzsnZgg7KCV7ZmV64+EICs3NAotLS0tLS0tLQrqsr3tl5jsuZg6IDEvMzIzMQotLS0tLS0tLQrrs7TsobAg7KCs7J6F64uI64ukLiDsupDrpq3thLDqsIAg7JWE64uMLCDtmYjsnYQg7Ya17ZW0IOyXsOqysOuQnCDsoKzsnbQg67O07Jyg7ZWcIOyKpO2CrOyXkCDsmIHtlqXsnYQg7KSN64uI64ukLiDqsJXtmZTtlZjqs6Ag7Iu27J2AIOyKpO2CrCDsoKzqs7wg7Jew6rKw65CcIOu5iCDtmYjsl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsoJzqsbDtlZjroKTrqbQg7ZmI7J2EIOyasO2BtOumre2VmOyLreyLnOyYpC4K"
+    },
+    "expectedAudit": {
+      "category": "Gem",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "분광 격발 보조",
+    "sourceIndex": 19,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67O07KGwIOygrArslYTsnbTthZwg7Z2s6reA64+EOiDsoKwK67aE6rSRIOqyqeuwnCDrs7TsobAKLS0tLS0tLS0K67O07KGwLCDso7zrrLgsIO2aqOqzvCDrspTsnIQsIO2ZlOyXvCwg64OJ6riwLCDrsojqsJwsIOu2hOq0kSwg67Cc64+ZCuugiOuyqDogMQrshozrqqgg67CPIOygkOycoCDrsLDsnKg6IDEzMCUKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDEKLS0tLS0tLS0K6rO16rKp7JeQIOyggeyaqeuQqeuLiOuLpC4g67O07KGwIOuMgOyDgSDsiqTtgqzsnbQg67aE6rSRIOqyqeuwnCDso7zrrLjsnYQg67Cc64+Z7ZWp64uI64ukLiDrsJzrj5ntmJUg6rO16rKp7J2064KYIO2UjOugiOydtOyWtOqwgCDslYTri4wg64uk66W4IOqwnOyytOqwgCDsgqzsmqntlZwg6rO16rKpLCDshoztmZjsiJjqsIAg7IKs7Jqp7ZWY64qUIOyKpO2CrOyXkOuKlCDsoIHsmqnrkJjsp4Ag7JWK7Iq164uI64ukLgotLS0tLS0tLQrrs7TsobAg64yA7IOBIOyKpO2CrOuhnCDrqoXspJEg7IucIOu2hOq0kSDqsqnrsJwg67Cc64+ZCi0tLS0tLS0tCuu2hOq0kSDqsqnrsJwKLS0tLS0tLS0K7J6s7IKs7JqpIOuMgOq4sOyLnOqwhDogMC44MOy0iArsi5zsoIQg7IaN64+EOiAxLjAw7LSICuy5mOuqhe2DgCDtmZXrpaA6IDUuMDAlCi0tLS0tLS0tCuybkOyGjCDtlZjrgpjrpbwg66y07J6R7JyE66GcIOyEoO2Dne2VmOyXrCDsnbzsoJUg67KU7JyE7JeQIO2VtOuLuSDsnKDtmJXsnZgg7ZS87ZW066W8IOykjeuLiOuLpC4g7Z6Y7J20IOuGkuydhOyImOuhnSDtmZTsl7zsnbQsIOuvvOyyqeydtCDrhpLsnYTsiJjroZ0g64OJ6riw6rCALCDsp4DriqXsnbQg64aS7J2E7IiY66GdIOuyiOqwnOqwgCDshKDtg53rkKAg7ZmV66Wg7J20IOuGkuyVhOynkeuLiOuLpC4KLS0tLS0tLS0KM341IOuDieq4sCDtlLztlbQKMX43IOuyiOqwnCDtlLztlbQKM341IO2ZlOyXvCDtlLztlbQK7ISg7YOd65CY7KeAIOyViuydgCDqsIEg7ZS87ZW0IOycoO2YleycvOuhnCDso7zripQg7ZS87ZW0IDEwMCUg6rCQ7Y+tCi0tLS0tLS0tCuqyve2XmOy5mDogMS83MAotLS0tLS0tLQrrs7TsobAg7KCs7J6F64uI64ukLiDsupDrpq3thLDqsIAg7JWE64uMLCDtmYjsnYQg7Ya17ZW0IOyXsOqysOuQnCDsoKzsnbQg67O07Jyg7ZWcIOyKpO2CrOyXkCDsmIHtlqXsnYQg7KSN64uI64ukLiDqsJXtmZTtlZjqs6Ag7Iu27J2AIOyKpO2CrCDsoKzqs7wg7Jew6rKw65CcIOu5iCDtmYjsl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsoJzqsbDtlZjroKTrqbQg7ZmI7J2EIOyasO2BtOumre2VmOyLreyLnOyYpC4K"
+    },
+    "expectedAudit": {
+      "category": "Gem",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [],
+      "enabled": []
+    }
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "name": "엔트로피 돌",
+    "baseType": "코발트색 주얼",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArsl5TtirjroZztlLwg64+MCuy9lOuwnO2KuOyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjMKLS0tLS0tLS0K7KeA7Yyh7J20IOyepeywqSDsi5wg7KO866y4IO2UvO2VtCDrp4nquLAg7ZmV66WgICsyJQrsl5DrhIjsp4Ag67O07Zi466eJIOyerOy2qeyghCDsi5zsnpEg7IaN64+EIDUlIOqwgOyGjQrrsojqsJwg7KCA7ZWtICsxMyUK66eI64KYIOyGjOuqqCDtmqjsnKggMTElIOymneqwgAotLS0tLS0tLQrtjKjsi5zruIwg7Iqk7YKsIO2KuOumrOyXkOyEnCDtj6zsnbjtirjrpbwg7ZWg64u57ZWcIOyjvOyWvCDsiqzroa/sl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsmrDtgbTrpq3tlZjrqbQg7Iqs66Gv7JeQ7IScIOygnOqxsOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2120297997",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1782086450",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_4101445926",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2120297997",
+        "explicit.stat_1782086450",
+        "explicit.stat_1671376347",
+        "explicit.stat_4101445926"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "영혼 그릇",
+    "baseType": "진청록색 주얼",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArsmIHtmLwg6re466aHCuynhOyyreuhneyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDIKLS0tLS0tLS0K6rKAIOyCrOyaqSDsi5wg7ZS87ZW0IDE0JSDspp3qsIAK7ZmU7IOBIO2UvO2VtCAyMCUg7Kad6rCACuuylOychCDtlLztlbQgMTElIOymneqwgAotLS0tLS0tLQrtjKjsi5zruIwg7Iqk7YKsIO2KuOumrOyXkOyEnCDtj6zsnbjtirjrpbwg7ZWg64u57ZWcIOyjvOyWvCDsiqzroa/sl5Ag7J6l7LCp7ZWY7Iut7Iuc7JikLiDsmrDtgbTrpq3tlZjrqbQg7Iqs66Gv7JeQ7IScIOygnOqxsOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_83050999",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1175385867",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4251717817",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_83050999",
+        "explicit.stat_1175385867",
+        "explicit.stat_4251717817"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "찬란한 심장",
+    "baseType": "진홍색 주얼",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArssKzrnoDtlZwg7Ius7J6lCuynhO2ZjeyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjcKLS0tLS0tLS0K67Cp7Yyo66W8IOuTpOqzoCDsnojripQg64+Z7JWIIOyjvOusuCDtlLztlbQg66eJ6riwIO2ZleuloCArMyUK7Z6YIOuwjyDrr7zssqkgKzkK6re87KCRIO2UvO2VtCAxMiUg7Kad6rCACi0tLS0tLS0tCu2MqOyLnOu4jCDsiqTtgqwg7Yq466as7JeQ7IScIO2PrOyduO2KuOulvCDtlaDri7ntlZwg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOyasO2BtOumre2VmOuptCDsiqzroa/sl5DshJwg7KCc6rGw65Cp64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_938645499",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_538848803",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1002362373",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_938645499",
+        "explicit.stat_538848803",
+        "explicit.stat_1002362373"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "휴거 조각",
+    "baseType": "진청록색 주얼",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtnLTqsbAg7KGw6rCBCuynhOyyreuhneyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogMjMKLS0tLS0tLS0K7Z6YIOuwjyDrr7zssqkgKzkK7KeA66KwIO2UvO2VtCAxNiUg7Kad6rCACuyWkeyGkCDrrLTquLAg7ZS87ZW0IDE0JSDspp3qsIAKLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_538848803",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2137912951",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1836374041",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_538848803",
+        "explicit.stat_2137912951",
+        "explicit.stat_1836374041"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "마엘스트롬 꿈",
+    "baseType": "진청록색 주얼",
+    "sourceIndex": 18,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArrp4jsl5jsiqTtirjroawg6r+ICuynhOyyreuhneyDiSDso7zslrwKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNDAKLS0tLS0tLS0K7IyN7IiYIOyepeywqSDsi5wg7KO866y4IO2UvO2VtCDrp4nquLAg7ZmV66WgICszJQrrqqjrk6Ag64ql66Cl7LmYICs4CuyMjeyImCDsnqXssKkg7IucIOqzteqyqSDtlLztlbQgMTMlIOymneqwgArsnbzrsJgg7KCV7ZmV64+EIDEyJSDspp3qsIAKLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_138741818",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1379411836",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_444174528",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_624954515",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_138741818",
+        "explicit.stat_1379411836",
+        "explicit.stat_444174528",
+        "explicit.stat_624954515"
+      ],
+      "enabled": []
+    }
+  }
+]

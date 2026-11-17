@@ -1,0 +1,222 @@
+[
+  {
+    "name": "구역질 나는 씨앗",
+    "baseType": "균사체 핵",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqtazsl63sp4gg64KY64qUIOyUqOyVlwrqt6DsgqzssrQg7ZW1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDg0Ci0tLS0tLS0tCuyEseycoOulvCDrtoDsnLzrqbQg66y07J6R7JyEIO2MqOyLnOu4jCDsiqTtgqwgNOqwnCDshLHsnqUK7ISx7J6l7ZWcIO2MqOyLnOu4jCDsiqTtgqzsnYAg7ISx7Jyg66W8IOu2gOydhCDrlYwg7IKs7Jqp7ZWcIOyEseycoOydmCDsmIHtlqXsnYQg67Cb7J2MCi0tLS0tLS0tCuyVhOustOqyg+uPhCDslYTri4wg65Ov7ZWcIOyUqOyVl+yXkOyEnCDrtoDtjKjtlZjripQg7Jet67OR7J20IOyekOudvOuCmCwK7IiZ7KO866W8IOyjveydjOycvOuhnCDrqrDslYTrhKPqs6AsIOq3uCDsobTsnqwg7J6Q7LK066W8IOqwiOyVhOy5mOyboOuLpC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDrjIDtmJUg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKs7J2AIOyjvOyWvCDrsJjqsr3qs7wg7IOB7Zi47J6R7Jqp7ZWY7KeAIOyViuyKteuLiOuLpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCi0tLS0tLS0tCu2DgOudvQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3418580811",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2255402066",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811",
+        "explicit.stat_2255402066"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "구역질 나는 씨앗",
+    "baseType": "균사체 핵",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqtazsl63sp4gg64KY64qUIOyUqOyVlwrqt6DsgqzssrQg7ZW1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDc2Ci0tLS0tLS0tCuyEseycoOulvCDrtoDsnLzrqbQg66y07J6R7JyEIO2MqOyLnOu4jCDsiqTtgqwgNOqwnCDshLHsnqUK7ISx7J6l7ZWcIO2MqOyLnOu4jCDsiqTtgqzsnYAg7ISx7Jyg66W8IOu2gOydhCDrlYwg7IKs7Jqp7ZWcIOyEseycoOydmCDsmIHtlqXsnYQg67Cb7J2MCi0tLS0tLS0tCuyVhOustOqyg+uPhCDslYTri4wg65Ov7ZWcIOyUqOyVl+yXkOyEnCDrtoDtjKjtlZjripQg7Jet67OR7J20IOyekOudvOuCmCwK7IiZ7KO866W8IOyjveydjOycvOuhnCDrqrDslYTrhKPqs6AsIOq3uCDsobTsnqwg7J6Q7LK066W8IOqwiOyVhOy5mOyboOuLpC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDrjIDtmJUg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKs7J2AIOyjvOyWvCDrsJjqsr3qs7wg7IOB7Zi47J6R7Jqp7ZWY7KeAIOyViuyKteuLiOuLpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3418580811",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2255402066",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811",
+        "explicit.stat_2255402066"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "구역질 나는 씨앗",
+    "baseType": "균사체 핵",
+    "sourceIndex": 4,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqtazsl63sp4gg64KY64qUIOyUqOyVlwrqt6DsgqzssrQg7ZW1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDczCi0tLS0tLS0tCuy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKsIDHqsJzqsIAg7KCE7IKs7J2YIOq4uCAoZW5jaGFudCkK7LaU6rCA65CcIO2MqOyLnOu4jCDsiqTtgqwgMeqwnOqwgCDsoITtiKzsnZgg7Z2Q66aEIChlbmNoYW50KQrstpTqsIDrkJwg7Yyo7Iuc67iMIOyKpO2CrCAx6rCc6rCAIOustOywqOuzhOyggeyduCDrs7XsiJggKGVuY2hhbnQpCuy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKsIDHqsJzqsIAg7KSA67mE65CcIOydkeuLtSAoZW5jaGFudCkKLS0tLS0tLS0K7ISx7Jyg66W8IOu2gOycvOuptCDrrLTsnpHsnIQg7Yyo7Iuc67iMIOyKpO2CrCA06rCcIOyEseyepQrshLHsnqXtlZwg7Yyo7Iuc67iMIOyKpO2CrOydgCDshLHsnKDrpbwg67aA7J2EIOuVjCDsgqzsmqntlZwg7ISx7Jyg7J2YIOyYge2WpeydhCDrsJvsnYwKLS0tLS0tLS0K7JWE66y06rKD64+EIOyVhOuLjCDrk6/tlZwg7JSo7JWX7JeQ7IScIOu2gO2MqO2VmOuKlCDsl63rs5HsnbQg7J6Q652864KYLArsiJnso7zrpbwg7KO97J2M7Jy866GcIOuqsOyVhOuEo+qzoCwg6re4IOyhtOyerCDsnpDssrTrpbwg6rCI7JWE7LmY7Jug64ukLgotLS0tLS0tLQrtjKjsi5zruIwg7Iqk7YKsIO2KuOumrOyXkOyEnCDtj6zsnbjtirjrpbwg7ZWg64u57ZWcIOuMgO2YlSDso7zslrwg7Iqs66Gv7JeQIOyepeywqe2VmOyLreyLnOyYpC4g7LaU6rCA65CcIO2MqOyLnOu4jCDsiqTtgqzsnYAg7KO87Ja8IOuwmOqyveqzvCDsg4HtmLjsnpHsmqntlZjsp4Ag7JWK7Iq164uI64ukLiDsmrDtgbTrpq3tlZjrqbQg7Iqs66Gv7JeQ7IScIOygnOqxsOuQqeuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3418580811",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2255402066",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_3599615742|12702",
+            [
+              0
+            ]
+          ],
+          [
+            "enchant.stat_3599615742|56330",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_3599615742|4918",
+            [
+              2
+            ]
+          ],
+          [
+            "enchant.stat_3599615742|2599",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811",
+        "explicit.stat_2255402066"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "구역질 나는 씨앗",
+    "baseType": "균사체 핵",
+    "sourceIndex": 6,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqtazsl63sp4gg64KY64qUIOyUqOyVlwrqt6DsgqzssrQg7ZW1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDc4Ci0tLS0tLS0tCuy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKsIDHqsJzqsIAg7YOA7IeE7ZWY64qUIOuMgOydkSAoZW5jaGFudCkK7LaU6rCA65CcIO2MqOyLnOu4jCDsiqTtgqwgMeqwnOqwgCDrrLTssKjrs4TsoIHsnbgg67O17IiYIChlbmNoYW50KQrstpTqsIDrkJwg7Yyo7Iuc67iMIOyKpO2CrCAx6rCc6rCAIOyhsOyLrOyKpOufrOyatCDrsJjqsqkgKGVuY2hhbnQpCi0tLS0tLS0tCuyEseycoOulvCDrtoDsnLzrqbQg66y07J6R7JyEIO2MqOyLnOu4jCDsiqTtgqwgNOqwnCDshLHsnqUK7ISx7J6l7ZWcIO2MqOyLnOu4jCDsiqTtgqzsnYAg7ISx7Jyg66W8IOu2gOydhCDrlYwg7IKs7Jqp7ZWcIOyEseycoOydmCDsmIHtlqXsnYQg67Cb7J2MCi0tLS0tLS0tCuyVhOustOqyg+uPhCDslYTri4wg65Ov7ZWcIOyUqOyVl+yXkOyEnCDrtoDtjKjtlZjripQg7Jet67OR7J20IOyekOudvOuCmCwK7IiZ7KO866W8IOyjveydjOycvOuhnCDrqrDslYTrhKPqs6AsIOq3uCDsobTsnqwg7J6Q7LK066W8IOqwiOyVhOy5mOyboOuLpC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDrjIDtmJUg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKs7J2AIOyjvOyWvCDrsJjqsr3qs7wg7IOB7Zi47J6R7Jqp7ZWY7KeAIOyViuyKteuLiOuLpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3418580811",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2255402066",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_3599615742|41305",
+            [
+              0
+            ]
+          ],
+          [
+            "enchant.stat_3599615742|4918",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_3599615742|59976",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811",
+        "explicit.stat_2255402066"
+      ],
+      "enabled": [
+        "enchant.stat_3599615742|41305",
+        "enchant.stat_3599615742|4918",
+        "enchant.stat_3599615742|59976"
+      ]
+    }
+  },
+  {
+    "name": "구역질 나는 씨앗",
+    "baseType": "균사체 핵",
+    "sourceIndex": 19,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7KO87Ja8CuyVhOydtO2FnCDtnazqt4Drj4Q6IOqzoOycoArqtazsl63sp4gg64KY64qUIOyUqOyVlwrqt6DsgqzssrQg7ZW1Ci0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDg1Ci0tLS0tLS0tCuyEseycoOulvCDrtoDsnLzrqbQg66y07J6R7JyEIO2MqOyLnOu4jCDsiqTtgqwgNOqwnCDshLHsnqUK7ISx7J6l7ZWcIO2MqOyLnOu4jCDsiqTtgqzsnYAg7ISx7Jyg66W8IOu2gOydhCDrlYwg7IKs7Jqp7ZWcIOyEseycoOydmCDsmIHtlqXsnYQg67Cb7J2MCi0tLS0tLS0tCuyVhOustOqyg+uPhCDslYTri4wg65Ov7ZWcIOyUqOyVl+yXkOyEnCDrtoDtjKjtlZjripQg7Jet67OR7J20IOyekOudvOuCmCwK7IiZ7KO866W8IOyjveydjOycvOuhnCDrqrDslYTrhKPqs6AsIOq3uCDsobTsnqwg7J6Q7LK066W8IOqwiOyVhOy5mOyboOuLpC4KLS0tLS0tLS0K7Yyo7Iuc67iMIOyKpO2CrCDtirjrpqzsl5DshJwg7Y+s7J247Yq466W8IO2VoOuLue2VnCDrjIDtmJUg7KO87Ja8IOyKrOuhr+yXkCDsnqXssKntlZjsi63si5zsmKQuIOy2lOqwgOuQnCDtjKjsi5zruIwg7Iqk7YKs7J2AIOyjvOyWvCDrsJjqsr3qs7wg7IOB7Zi47J6R7Jqp7ZWY7KeAIOyViuyKteuLiOuLpC4g7Jqw7YG066at7ZWY66m0IOyKrOuhr+yXkOyEnCDsoJzqsbDrkKnri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3418580811",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2255402066",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Jewel",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3418580811",
+        "explicit.stat_2255402066"
+      ],
+      "enabled": []
+    }
+  }
+]

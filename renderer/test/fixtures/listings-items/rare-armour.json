@@ -1,0 +1,283 @@
+[
+  {
+    "name": "기적의 손길",
+    "baseType": "사슬 장갑",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArquLDsoIHsnZgg7IaQ6ri4CuyCrOyKrCDsnqXqsJEKLS0tLS0tLS0K67Cp7Ja064+EOiAyMCAoYXVnbWVudGVkKQrsl5DrhIjsp4Ag67O07Zi466eJOiA2IChhdWdtZW50ZWQpCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA3Ci0tLS0tLS0tCu2ZiDogVyBXIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA3Ci0tLS0tLS0tCuuwqeyWtOuPhCDrsI8g7JeQ64SI7KeAIOuztO2YuOuniSAyOCUg7Kad6rCACuyDneuqheugpSDstZzrjIDsuZggKzE2CuyVhOydtO2FnCDtnazqt4Drj4QgKzclCuq4sOygiCDrsI8g66eJ6riwIO2ajOuztSA2JSDspp3qsIAK",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3321629045",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2511217560",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3321629045",
+        "explicit.stat_3299347043",
+        "explicit.stat_3917489142",
+        "explicit.stat_2511217560"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "격노 곁눈질",
+    "baseType": "왕 시해자 가면",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yis6rWsCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArqsqnrhbgg6rOB64iI7KeICuyZlSDsi5ztlbTsnpAg6rCA66m0Ci0tLS0tLS0tCu2ajO2UvDogMTQzCuyXkOuEiOyngCDrs7TtmLjrp4k6IDI5Ci0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA1Mgrrr7zssqk6IDU4CuyngOuKpTogNTgKLS0tLS0tLS0K7ZmIOiBXLVctVyAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNzEKLS0tLS0tLS0K7KCV7ZmV64+EICsyMDEKMey0iOuniOuLpCDsg53rqoXroKUgMzMuNiDsnqzsg50K7JWE7J207YWcIO2drOq3gOuPhCArMjQlCu2ZlOyXvCDsoIDtla0gKzMzJQo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_803737631",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3917489142",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Helmet",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_803737631",
+        "explicit.stat_3325883026",
+        "explicit.stat_3917489142",
+        "explicit.stat_3372524247"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "휴거 발톱",
+    "baseType": "장어가죽 장갑",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l6rCRCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtnLTqsbAg67Cc7YaxCuyepeyWtOqwgOyjvSDsnqXqsJEKLS0tLS0tLS0K7ZqM7ZS8OiAxMzkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDM4CuuvvOyyqTogNTYKLS0tLS0tLS0K7ZmIOiBXIEcgCi0tLS0tLS0tCuyVhOydtO2FnCDroIjrsqg6IDQwCi0tLS0tLS0tCuqzteqyqSDsi5wg7ZmU7Je8IO2UvO2VtCA0fjgg7LaU6rCACuyDneuqheugpSDstZzrjIDsuZggKzQ4CuuDieq4sCDsoIDtla0gKzI0JQrqs7XqsqnsnLzroZwg66qF7KSR7ZWcIOyggSDtlZjrgpjri7kg7IOd66qF66ClIDIg7ZqN65OdCuyymOy5mO2VnCDsoIEg7ZWY64KY64u5IOyDneuqheugpSAyNiDtmo3rk50K6rO16rKpIOyLnCDrsojqsJwg7ZS87ZW0IDF+MzQg7LaU6rCACg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2797971005",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3695891184",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1754445556",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Gloves",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_1573130764",
+        "explicit.stat_3299347043",
+        "explicit.stat_4220027924",
+        "explicit.stat_2797971005",
+        "explicit.stat_3695891184",
+        "crafted.stat_1754445556"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "진노의 보조",
+    "baseType": "고대 각반",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7J6l7ZmUCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArsp4TrhbjsnZgg67O07KGwCuqzoOuMgCDqsIHrsJgKLS0tLS0tLS0K67Cp7Ja064+EOiAyNTkgKGF1Z21lbnRlZCkKLS0tLS0tLS0K7JqU6rWs7IKs7ZWtOgrroIjrsqg6IDQ2Cu2emDogODIKLS0tLS0tLS0K7ZmIOiBXIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA0NgotLS0tLS0tLQrtnpggKzMxCuuwqeyWtOuPhCArMTA0CuyDneuqheugpSDstZzrjIDsuZggKzIxCuydtOuPmSDsho3rj4QgMTAlIOymneqwgAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4080418644",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3484657501",
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2250533757",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Boots",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_4080418644",
+        "explicit.stat_3484657501",
+        "explicit.stat_3299347043",
+        "explicit.stat_2250533757"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "크라켄의 찬가",
+    "baseType": "방울 영혼 방패",
+    "sourceIndex": 5,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog67Cp7YyoCuyVhOydtO2FnCDtnazqt4Drj4Q6IO2drOq3gArtgazrnbzsvITsnZgg7LCs6rCACuuwqeyauCDsmIHtmLwg67Cp7YyoCi0tLS0tLS0tCuunieq4sCDtmZXrpaA6IDIzJQrsl5DrhIjsp4Ag67O07Zi466eJOiAzOSAoYXVnbWVudGVkKQotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogMjgK7KeA64qlOiA3MQotLS0tLS0tLQrtmYg6IFctVy1XIAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAzOAotLS0tLS0tLQrso7zrrLgg7ZS87ZW0IDEyJSDspp3qsIAKLS0tLS0tLS0KNSXsnZgg7ZmV66Wg66GcIOyjvOusuCDtlLztlbTrpbwg66eJ7JWE64OECuyngOuKpSArMTEK7JeQ64SI7KeAIOuztO2YuOuniSDstZzrjIDsuZggKzEwCuyDneuqheugpSDstZzrjIDsuZggKzIxCjHstIjrp4jri6Qg7IOd66qF66ClIDEuMyDsnqzsg50K66eI64KYIOyerOyDnSDsho3rj4QgMTElIOymneqwgAo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_561307714",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_328541901",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4052037485",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_789117908",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2974417149",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Shield",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_561307714",
+        "explicit.stat_328541901",
+        "explicit.stat_4052037485",
+        "explicit.stat_3299347043",
+        "explicit.stat_3325883026",
+        "explicit.stat_789117908",
+        "implicit.stat_2974417149"
+      ],
+      "enabled": []
+    }
+  }
+]

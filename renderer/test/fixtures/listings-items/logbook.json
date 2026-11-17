@@ -1,0 +1,369 @@
+[
+  {
+    "name": "",
+    "baseType": "탐험 일지",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YOQ7ZeYIOydvOyngArslYTsnbTthZwg7Z2s6reA64+EOiDsnbzrsJgK7YOQ7ZeYIOydvOyngAotLS0tLS0tLQrsp4Dsl60g66CI67KoOiA1OQotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA1OQotLS0tLS0tLQrrgpztjIzshKAg7JWU7LSICuqygOydgCDrgqsg7Jqp67OR64uoCuuqrOyKpO2EsOqwgCDrlqjslrTrnKjrpqzripQg7Jyg66y87J2YIOyImOufiSAyNSUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7Jet7JeQIOuqrOyKpO2EsCDtkZzsi5zrrLwg7IiY65+JIDI4JSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrsubTro6jsnbQg7KCE7J+BIOustOuNpArrgYrslrTsp4Qg7JuQ7J2YIOuTnOujqOydtOuTnArsp4Dsl63sl5Ag66OsIOuqrOyKpO2EsCDtkZzsi5zrrLwg7IiY65+JIDE5JSDspp3qsIAgKGltcGxpY2l0KQrtj63rsJzrrLwg6rCc7IiYIDM5JSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrsnbQg7JWE7J207YWc7J2EIOydgOyLoOyymOydmCDrjIDri4nsl5Dqsowg6rCA7KC46rCA66m0IO2DkO2XmCDtj6ztg4jsnYQg7Je0IOyImCDsnojsirXri4jri6QuCg==",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_4219583418",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_1915989164",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_1640965354",
+            [
+              3
+            ]
+          ],
+          [
+            "implicit.stat_3051490307",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Expedition Logbook",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_1915989164",
+        "implicit.stat_1640965354",
+        "implicit.stat_3051490307"
+      ],
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    }
+  },
+  {
+    "name": "",
+    "baseType": "탐험 일지",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YOQ7ZeYIOydvOyngArslYTsnbTthZwg7Z2s6reA64+EOiDsnbzrsJgK7YOQ7ZeYIOydvOyngAotLS0tLS0tLQrsp4Dsl60g66CI67KoOiA4MwotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4NQotLS0tLS0tLQrrp5DrnbzrtpnsnYAg6rCV67CU64ulCu2DnOyWkeydmCDquLDsgqzri6gK66qs7Iqk7YSw6rCAIOuWqOyWtOucqOumrOuKlCDsnKDrrLzsnZgg7IiY65+JIDM2JSDspp3qsIAgKGltcGxpY2l0KQrtj63rsJzrrLwg6rCc7IiYIDM0JSDspp3qsIAgKGltcGxpY2l0KQrsp4Dsl63sl5Ag66qs7Iqk7YSwIO2RnOyLnOusvCDsiJjrn4kgMjglIOymneqwgCAoaW1wbGljaXQpCi0tLS0tLS0tCuybg+yekOyVjCDsmbjqs70K6rKA7J2AIOuCqyDsmqnrs5Hri6gK7Jyg7KCB7JeQIDM4JeydmCDtmZXrpaDroZwg7KCR66+47Ja0IOyGjeyEsSAx6rCcIOy2lOqwgCDrtoDsl6wgKGltcGxpY2l0KQrtj63rsJzrrLwg7ISk7LmYIOuylOychCAzNCUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7JetIOuCtCDsnKDsoIEg7IiYIDM3JSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrsgqzslYgg67mI66+86rCACuuBiuyWtOynhCDsm5DsnZgg65Oc66Oo7J2065OcCuuqrOyKpO2EsOqwgCDrlqjslrTrnKjrpqzripQg7Jyg66y87J2YIOyImOufiSAyMyUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7Jet7JeQIOujrCDrqqzsiqTthLAg7ZGc7Iuc66y8IOyImOufiSAzMyUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7Jet7JeQIOuqrOyKpO2EsCDtkZzsi5zrrLwg7IiY65+JIDI1JSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrsnbQg7JWE7J207YWc7J2EIOydgOyLoOyymOydmCDrjIDri4nsl5Dqsowg6rCA7KC46rCA66m0IO2DkO2XmCDtj6ztg4jsnYQg7Je0IOyImCDsnojsirXri4jri6QuCg==",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_4219583418",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_3051490307",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_1915989164",
+            [
+              2
+            ]
+          ],
+          [
+            "implicit.stat_1871805225",
+            [
+              3
+            ]
+          ],
+          [
+            "implicit.stat_1539368271",
+            [
+              4
+            ]
+          ],
+          [
+            "implicit.stat_2991413918",
+            [
+              5
+            ]
+          ],
+          [
+            "implicit.stat_4219583418",
+            [
+              7
+            ]
+          ],
+          [
+            "implicit.stat_1640965354",
+            [
+              6
+            ]
+          ],
+          [
+            "implicit.stat_1915989164",
+            [
+              8
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Expedition Logbook",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_4219583418",
+        "implicit.stat_3051490307",
+        "implicit.stat_1915989164",
+        "implicit.stat_1871805225",
+        "implicit.stat_1539368271",
+        "implicit.stat_2991413918",
+        "implicit.stat_1640965354"
+      ],
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_knights"
+      ]
+    }
+  },
+  {
+    "name": "",
+    "baseType": "탐험 일지",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YOQ7ZeYIOydvOyngArslYTsnbTthZwg7Z2s6reA64+EOiDsnbzrsJgK7YOQ7ZeYIOydvOyngAotLS0tLS0tLQrsp4Dsl60g66CI67KoOiA1MQotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA1MQotLS0tLS0tLQrrp5DrnbzrtpnsnYAg6rCV67CU64ulCuqygOydgCDrgqsg7Jqp67OR64uoCuyngOyXreyXkCDrqqzsiqTthLAg7ZGc7Iuc66y8IOyImOufiSAzNSUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7JetIOuCtCDsnKDsoIEg7IiYIDMwJSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrqs7Xrj5nrrJjsp4AK64GK7Ja07KeEIOybkOydmCDrk5zro6jsnbTrk5wK66qs7Iqk7YSw6rCAIOuWqOyWtOucqOumrOuKlCDsnKDrrLzsnZgg7IiY65+JIDI4JSDspp3qsIAgKGltcGxpY2l0KQrsp4Dsl63sl5Ag7KeA7ZWYIOyngOyXrSAx6rCcIOy2lOqwgCDrk7HsnqUgKGltcGxpY2l0KQotLS0tLS0tLQrsiLIg7Y+Q7ZeICuqygOydgCDrgqsg7Jqp67OR64uoCu2PreuwnOusvCDqsJzsiJggMjYlIOymneqwgCAoaW1wbGljaXQpCuyngOyXrSDrgrQg7Jyg7KCBIOyImCA0MCUg7Kad6rCAIChpbXBsaWNpdCkKLS0tLS0tLS0K7J20IOyVhOydtO2FnOydhCDsnYDsi6DsspjsnZgg64yA64uJ7JeQ6rKMIOqwgOyguOqwgOuptCDtg5Dtl5gg7Y+s7YOI7J2EIOyXtCDsiJgg7J6I7Iq164uI64ukLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_1915989164",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_2991413918",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_4219583418",
+            [
+              3
+            ]
+          ],
+          [
+            "implicit.stat_1160596338",
+            [
+              2
+            ]
+          ],
+          [
+            "implicit.stat_3051490307",
+            [
+              5
+            ]
+          ],
+          [
+            "implicit.stat_2991413918",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Expedition Logbook",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1915989164",
+        "implicit.stat_2991413918",
+        "implicit.stat_4219583418",
+        "implicit.stat_1160596338",
+        "implicit.stat_3051490307"
+      ],
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_mercenaries"
+      ]
+    }
+  },
+  {
+    "name": "",
+    "baseType": "탐험 일지",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YOQ7ZeYIOydvOyngArslYTsnbTthZwg7Z2s6reA64+EOiDsnbzrsJgK7YOQ7ZeYIOydvOyngAotLS0tLS0tLQrsp4Dsl60g66CI67KoOiA4MwotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4NAotLS0tLS0tLQrqs7Xrj5nrrJjsp4AK64GK7Ja07KeEIOybkOydmCDrk5zro6jsnbTrk5wK7KeA7Jet7JeQIOujrCDrqqzsiqTthLAg7ZGc7Iuc66y8IOyImOufiSAyMyUg7Kad6rCAIChpbXBsaWNpdCkK7Y+t67Cc66y8IOyEpOy5mCDrspTsnIQgNDUlIOymneqwgCAoaW1wbGljaXQpCi0tLS0tLS0tCuyCrOuniSDtj5Dtl4gK64GK7Ja07KeEIOybkOydmCDrk5zro6jsnbTrk5wK7YyM64K4IOyDgeyekOyXkOyEnCAxNSXsnZgg7ZmV66Wg66GcIOyVhOydtO2FnCAy67CwIOuTseyepSAoaW1wbGljaXQpCuyngOyXrSDrgrQg7Jyg7KCBIOyImCAyNCUg7Kad6rCAIChpbXBsaWNpdCkKLS0tLS0tLS0K7KCI67K9CuuBiuyWtOynhCDsm5DsnZgg65Oc66Oo7J2065OcCuuqrOyKpO2EsOqwgCDrlqjslrTrnKjrpqzripQg7Jyg66y87J2YIOyImOufiSAzOSUg7Kad6rCAIChpbXBsaWNpdCkK7KeA7Jet7JeQIOyDgeyekCDtkZzsi5zrrLwgOOqwnCDstpTqsIAg65Ox7J6lIChpbXBsaWNpdCkKLS0tLS0tLS0K7J20IOyVhOydtO2FnOydhCDsnYDsi6DsspjsnZgg64yA64uJ7JeQ6rKMIOqwgOyguOqwgOuptCDtg5Dtl5gg7Y+s7YOI7J2EIOyXtCDsiJgg7J6I7Iq164uI64ukLgo=",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_1640965354",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_1539368271",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_3239978999",
+            [
+              3
+            ]
+          ],
+          [
+            "implicit.stat_2991413918",
+            [
+              2
+            ]
+          ],
+          [
+            "implicit.stat_4219583418",
+            [
+              5
+            ]
+          ],
+          [
+            "implicit.stat_4160330571",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Expedition Logbook",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_1640965354",
+        "implicit.stat_1539368271",
+        "implicit.stat_3239978999",
+        "implicit.stat_2991413918",
+        "implicit.stat_4219583418",
+        "implicit.stat_4160330571"
+      ],
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_druids"
+      ]
+    }
+  },
+  {
+    "name": "전설적인 유물",
+    "baseType": "탐험 일지",
+    "sourceIndex": 16,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7YOQ7ZeYIOydvOyngArslYTsnbTthZwg7Z2s6reA64+EOiDtnazqt4AK7KCE7ISk7KCB7J24IOycoOusvArtg5Dtl5gg7J287KeACi0tLS0tLS0tCuyVhO2LgOudvOyKpCDtmo3rk53rrLw6ICs1MiUgKGF1Z21lbnRlZCkK7JWE7J207YWcIO2drOq3gOuPhDogKzMxJSAoYXVnbWVudGVkKQrrqqzsiqTthLAg66y066asIOq3nOuqqDogKzIwJSAoYXVnbWVudGVkKQrsp4Dsl60g66CI67KoOiA4MAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA4MAotLS0tLS0tLQrqs7Xrj5nrrJjsp4AK7YOc7JaR7J2YIOq4sOyCrOuLqArtj63rsJzrrLwg6rCc7IiYIDE3JSDspp3qsIAgKGltcGxpY2l0KQrsnKDsoIHsl5AgMzEl7J2YIO2ZleuloOuhnCDsoJHrr7jslrQg7IaN7ISxIDHqsJwg7LaU6rCAIOu2gOyXrCAoaW1wbGljaXQpCi0tLS0tLS0tCuyCrOuniSDtj5Dtl4gK7ISx67Cw64uoCuyngOyXreyXkCDsg4HsnpAg7ZGc7Iuc66y8IDEw6rCcIOy2lOqwgCDrk7HsnqUgKGltcGxpY2l0KQrtj63rsJwg67CY6rK9IDE4JSDspp3qsIAgKGltcGxpY2l0KQotLS0tLS0tLQrsubTro6jsnbQg7KCE7J+BIOustOuNpArshLHrsLDri6gK7Jyg7KCB7JeQIDEzJeydmCDtmZXrpaDroZwg7KCR66+47Ja0IOyGjeyEsSAx6rCcIOy2lOqwgCDrtoDsl6wgKGltcGxpY2l0KQrtj63rsJzrrLwg7ISk7LmYIOuylOychCA0NSUg7Kad6rCAIChpbXBsaWNpdCkKLS0tLS0tLS0K7ZSM66CI7J207Ja06rCAIOuFuOy2nCDsnKDrsJwg67aI6rCACu2UjOugiOydtOyWtOqwgCDsh6Dslb3tmZQg7KCA7KO87JeQIOqxuOumvArrqqzsiqTthLDsnZgg7J2064+ZIOyGjeuPhCAyNyUg7Kad6rCACuuqrOyKpO2EsOydmCDqs7Xqsqkg7IaN64+EIDM5JSDspp3qsIAK66qs7Iqk7YSw7J2YIOyLnOyghCDsho3rj4QgMzclIOymneqwgArrqqzsiqTthLDqsIAg66qF7KSRIOyLnCDsi6TrqoUg7Jyg67CcCi0tLS0tLS0tCuydtCDslYTsnbTthZzsnYQg7J2A7Iug7LKY7J2YIOuMgOuLieyXkOqyjCDqsIDsoLjqsIDrqbQg7YOQ7ZeYIO2PrO2DiOydhCDsl7Qg7IiYIOyeiOyKteuLiOuLpC4K",
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_3051490307",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_1871805225",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_4160330571",
+            [
+              3
+            ]
+          ],
+          [
+            "implicit.stat_3289828378",
+            [
+              2
+            ]
+          ],
+          [
+            "implicit.stat_1871805225",
+            [
+              4
+            ]
+          ],
+          [
+            "implicit.stat_1539368271",
+            [
+              5
+            ]
+          ]
+        ],
+        "explicit": [
+          [
+            "explicit.stat_1026390635",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4103440490",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2306522833",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1913583994",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2488361432",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Expedition Logbook",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "implicit.stat_3051490307",
+        "implicit.stat_1871805225",
+        "implicit.stat_4160330571",
+        "implicit.stat_3289828378",
+        "implicit.stat_1539368271",
+        "explicit.stat_1026390635",
+        "explicit.stat_4103440490",
+        "explicit.stat_2306522833",
+        "explicit.stat_1913583994",
+        "explicit.stat_2488361432",
+        "explicit.stat_1629869774"
+      ],
+      "enabled": [
+        "pseudo.pseudo_logbook_faction_knights"
+      ]
+    }
+  }
+]

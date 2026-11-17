@@ -5,6 +5,8 @@ import fnv1a from '../../../../renderer/node_modules/@sindresorhus/fnv1a/index.j
 import { readSources } from './source.mjs';
 import { parseCsd, makeMatcher, uniqueMatchers, plainText } from './csd.mjs';
 import { readAreaMods, classifyArea } from './area-mods.mjs';
+import { readSupportEffects, expandSupportDescription } from './support-effects.mjs';
+import { readPassiveOptions, expandPassiveDescription, addMixedClusterMatchers } from './item-options.mjs';
 
 const root = new URL('../../../../', import.meta.url);
 const staging = new URL('tools/data-generator/out/staging/', root);
@@ -145,6 +147,7 @@ function compile(description, tradeByText, report) {
     // semantics. Do not merge it into a numeric ref without a group policy.
     if (ref.includes('#') && !matcher.string.includes('#')) continue;
     for (const entry of tradeByText.get(key(matcher.string)) ?? []) {
+      if (description.supportEffect && entry.id.includes('.effect_') && !entry.id.endsWith(`.effect_${description.supportEffect.hash}`)) continue;
       (ids[entry.type] ??= []).push(entry.id);
     }
   }
@@ -174,6 +177,10 @@ function merge(rows, generated, lang, report) {
     if (!targets) {
       const matches = new Set(candidate.matchers.en.flatMap(m => [...(byEnglish.get(key(m.string)) ?? [])]));
       if (matches.size === 1) { targets = byRef.get([...matches][0]); method = 'english-matcher'; }
+    }
+    if (!targets && candidate.description.supportEffect) {
+      targets = byRef.get(candidate.ref.replace(/ Support$/, ''));
+      method = 'support-name-legacy';
     }
     const independentRefs = new Set(candidate.matchers.en.flatMap(m => [...(byEnglish.get(key(m.string)) ?? [])]));
     // Existing groups own deliberately ambiguous text; their structure stays
@@ -253,7 +260,11 @@ function merge(rows, generated, lang, report) {
         // different equipment-context ID through an unqualified text match.
         if (!(type in stat.trade.ids) && /\((?:Local|Global)\)/i.test(stat.ref)) continue;
         const dest = stat.trade.ids[type] ??= [];
-        for (const id of ids) if (!dest.includes(id)) { dest.push(id); changed.add(stat.ref); }
+        for (const id of ids) if (!dest.includes(id)) {
+          dest.push(id);
+          changed.add(stat.ref);
+        }
+        if (candidate.description.supportEffect) dest.sort((a, b) => Number(b.includes('.effect_')) - Number(a.includes('.effect_')));
       }
     }
   }
@@ -280,11 +291,13 @@ export async function build() {
   report.areaMods = { ...area.evidence, added: [], baselineMatches: [], descriptions: [] };
   const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-17/stats.json');
   const byText = tradeIndex(snapshot);
+  const supportEffects = await readSupportEffects(process.argv[2]);
+  const passiveOptions = await readPassiveOptions(snapshot, process.argv[2]);
   const generated = [];
   for (const source of await readSources(process.argv[2])) {
     const parsed = parseCsd(source.text, source.path);
     report.sources.push({ path: source.path, descriptions: parsed.descriptions.length, includes: parsed.includes, suppressed: parsed.suppressed });
-    for (const description of parsed.descriptions.flatMap(d => expandCitadelDescription(d, report.englishBaseline, snapshot)).flatMap(splitStaticDescription)) {
+    for (const description of parsed.descriptions.flatMap(d => expandSupportDescription(d, supportEffects)).flatMap(d => expandPassiveDescription(d, passiveOptions)).flatMap(d => expandCitadelDescription(d, report.englishBaseline, snapshot)).flatMap(splitStaticDescription)) {
       const classification = classifyArea(description, area.byStat);
       const candidate = preserveMapTradeIdentity(compile(description, byText, report), report.englishBaseline);
       if (classification) report.areaMods.descriptions.push({ stats: description.stats, source: description.source, ref: candidate?.ref, compiled: !!candidate, ...classification });
@@ -293,6 +306,7 @@ export async function build() {
     }
   }
   const outputs = Object.fromEntries(['en', 'ko'].map(lang => [lang, merge(baseline[lang], generated, lang, report)]));
+  addMixedClusterMatchers(outputs.ko, report.englishBaseline, snapshot);
   // A ref is a cross-language identity. If a newly generated row is ambiguous
   // in either language, defer it in both rather than ship asymmetric ref sets.
   const refSets = Object.fromEntries(['en', 'ko'].map(lang => [lang, new Set(flatten(outputs[lang]).map(s => s.ref))]));

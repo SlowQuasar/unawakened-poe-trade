@@ -1,0 +1,207 @@
+[
+  {
+    "name": "",
+    "baseType": "초대형 마나 플라스크",
+    "sourceIndex": 0,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66eI64KYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDrp4jrspUK64GT7Ja07Jik66W064qUIOy0iOuMgO2YlSDrp4jrgpgg7ZSM65287Iqk7YGsIC0g7J2064+ZCi0tLS0tLS0tCjXstIgg64+Z7JWIIDExOSAoYXVnbWVudGVkKSDrp4jrgpgg7ZqM67O1CuyCrOyaqSDsi5wg7Lap7KCEIDM4IOykkSA4IOyGjOuqqArtmITsnqwg7Lap7KCE65+JOiAwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAzMAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAzNAotLS0tLS0tLQrtmozrs7Xrn4kgNjYlIOqwkOyGjArsponsi5wg7ZqM67O1CuydtOuPmSDrsKntlbQg7IOB7YOc7JeQ7IScIOyCrOyaqSDsi5wgNuy0iCDrj5nslYgg7J2064+ZIOuwqe2VtCDrqbTsl60g67aA7JesCu2emOykhCDsoIjri6gg7IOB7YOc7JeQ7IScIOyCrOyaqSDsi5wgNuy0iCDrj5nslYgg7Z6Y7KSEIOygiOuLqCDrqbTsl60g67aA7JesCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_700317374",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1526933524",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4003593289",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4232582040",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_700317374",
+        "explicit.stat_1526933524",
+        "explicit.stat_4003593289",
+        "explicit.stat_4232582040"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "영원의 마나 플라스크",
+    "sourceIndex": 1,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66eI64KYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDrp4jrspUK67O06riA6rGw66as64qUIOyYgeybkOydmCDrp4jrgpgg7ZSM65287Iqk7YGsCi0tLS0tLS0tCjMgKGF1Z21lbnRlZCnstIgg64+Z7JWIIDg0NiAoYXVnbWVudGVkKSDrp4jrgpgg7ZqM67O1CuyCrOyaqSDsi5wg7Lap7KCEIDQyIOykkSA4IOyGjOuqqArtmITsnqwg7Lap7KCE65+JOiAwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA2NQotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA3MAotLS0tLS0tLQrtmozrs7Xrn4kgNTMlIOqwkOyGjArtmozrs7Ug7IaN64+EIDEzNSUg7Kad6rCACu2ajOuzteufieydmCA1MCXrpbwg7KaJ7IucIO2ajOuztQotLS0tLS0tLQrrp4jsi5zroKTrqbQg7Jqw7YG066at7ZWY7Iut7Iuc7JikLiDtl4jrpqzrnaDsl5Ag7J6l7LCpIOykkeydvCDrlYzrp4wg7Lap7KCE7J20IOycoOyngOuQqeuLiOuLpC4g66qs7Iqk7YSw66W8IOyymOy5mO2VmOuptCDstqnsoITrn4nsnbQg7LCo7Jik66aF64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_700317374",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_173226756",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2503377690",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_700317374",
+        "explicit.stat_173226756",
+        "explicit.stat_2503377690"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "축성된 생명력 플라스크",
+    "sourceIndex": 2,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7IOd66qF66ClIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDrp4jrspUK7LaV7ISx65CcIOyDneuqheugpSDtlIzrnbzsiqTtgawgLSDsp5PriITrpbTquLAKLS0tLS0tLS0KMS41MOy0iCDrj5nslYggMTQ2MCDsg53rqoXroKUg7ZqM67O1CuyCrOyaqSDsi5wg7Lap7KCEIDMwIOykkSAxNSDshozrqqgK7ZiE7J6sIOy2qeyghOufiTogMAotLS0tLS0tLQrsmpTqtazsgqztla06CuugiOuyqDogNTAKLS0tLS0tLS0K7JWE7J207YWcIOugiOuyqDogNTAKLS0tLS0tLS0K7KCQ7ZmUIOyDge2DnOyXkOyEnCDsgqzsmqkg7IucIDEx7LSIIOuPmeyViCDsoJDtmZQg66m07JetIOu2gOyXrArsgqzsmqkg7IucIOuqqOuToCDtmZTsg4Eg7KCc6rGwCi0tLS0tLS0tCuuniOyLnOugpOuptCDsmrDtgbTrpq3tlZjsi63si5zsmKQuIO2XiOumrOudoOyXkCDsnqXssKkg7KSR7J28IOuVjOunjCDstqnsoITsnbQg7Jyg7KeA65Cp64uI64ukLiDrqqzsiqTthLDrpbwg7LKY7LmY7ZWY66m0IOy2qeyghOufieydtCDssKjsmKTrpoXri4jri6QuCg==",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2361218755",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_2361218755"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "강옥 플라스크",
+    "sourceIndex": 3,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog7Yq57IiYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDrp4jrspUK7Lih7KCV65CY64qUIOqwleyYpSDtlIzrnbzsiqTtgawgLSDshKDtmIgKLS0tLS0tLS0KNy41MOy0iCDsp4Dsho0K7IKs7JqpIOyLnCDstqnsoIQgNTAg7KSRIDIwIOyGjOuqqArtmITsnqwg7Lap7KCE65+JOiAwCuq4sOygiCDtlZzqs4TsuZggMzAlIOymneqwgArtmqjqs7zrpbwg67Cb64qUIOuPmeyViCDquLDsoIjtlZjripQg6rK97JqwIOq4sOygiO2VoCDsiJgg7JeG7J2MCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiA0MQotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiA3NAotLS0tLS0tLQrstqnsoIQg7ZqM67O1IDU0JSDspp3qsIAK7Zqo6rO8IDI1JSDqsJDshowK7Zqo6rO866W8IOuwm+uKlCDrj5nslYgg6rO16rKpIO2UvO2VtOydmCAwLjUl66W8IOyDneuqheugpeycvOuhnCDtnaHsiJgKLS0tLS0tLS0K66eI7Iuc66Ck66m0IOyasO2BtOumre2VmOyLreyLnOyYpC4g7ZeI66as652g7JeQIOyepeywqSDspJHsnbwg65WM66eMIOy2qeyghOydtCDsnKDsp4DrkKnri4jri6QuIOuqrOyKpO2EsOulvCDsspjsuZjtlZjrqbQg7Lap7KCE65+J7J20IOywqOyYpOumheuLiOuLpC4K",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3196823591",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2448920197",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1173558568",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_3196823591",
+        "explicit.stat_2448920197",
+        "explicit.stat_1173558568"
+      ],
+      "enabled": []
+    }
+  },
+  {
+    "name": "",
+    "baseType": "거대 마나 플라스크",
+    "sourceIndex": 17,
+    "extended": {
+      "text": "7JWE7J207YWcIOyiheulmDog66eI64KYIO2UjOudvOyKpO2BrArslYTsnbTthZwg7Z2s6reA64+EOiDrp4jrspUK67aI6ri47ZWcIOqxsOuMgCDrp4jrgpgg7ZSM65287Iqk7YGsIC0g7J2064+ZCi0tLS0tLS0tCu2AhOumrO2LsDogKzYlIChhdWdtZW50ZWQpCjQuNTDstIgg64+Z7JWIIDI5OSAoYXVnbWVudGVkKSDrp4jrgpgg7ZqM67O1CuyCrOyaqSDsi5wg7Lap7KCEIDMwIOykkSA3IOyGjOuqqArtmITsnqwg7Lap7KCE65+JOiAwCi0tLS0tLS0tCuyalOq1rOyCrO2VrToK66CI67KoOiAxOAotLS0tLS0tLQrslYTsnbTthZwg66CI67KoOiAxOAotLS0tLS0tLQrtmozrs7Xrn4kgNjYlIOymneqwgArtmqjqs7zqsIAg64Gd64KY66m0IOuniOuCmCDtmozrs7Ug7KaJ7IucIOuwnOuPmQrsnbTrj5kg67Cp7ZW0IOyDge2DnOyXkOyEnCDsgqzsmqkg7IucIDfstIgg64+Z7JWIIOydtOuPmSDrsKntlbQg66m07JetIOu2gOyXrArtnpjspIQg7KCI64uoIOyDge2DnOyXkOyEnCDsgqzsmqkg7IucIDbstIgg64+Z7JWIIO2emOykhCDsoIjri6gg66m07JetIOu2gOyXrAotLS0tLS0tLQrrp4jsi5zroKTrqbQg7Jqw7YG066at7ZWY7Iut7Iuc7JikLiDtl4jrpqzrnaDsl5Ag7J6l7LCpIOykkeydvCDrlYzrp4wg7Lap7KCE7J20IOycoOyngOuQqeuLiOuLpC4g66qs7Iqk7YSw66W8IOyymOy5mO2VmOuptCDstqnsoITrn4nsnbQg7LCo7Jik66aF64uI64ukLgo=",
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_700317374",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4204954479",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4003593289",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4232582040",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "expectedAudit": {
+      "category": "Flask",
+      "unknown": [],
+      "mismatched": [],
+      "missing": [
+        "explicit.stat_700317374",
+        "explicit.stat_4204954479",
+        "explicit.stat_4003593289",
+        "explicit.stat_4232582040"
+      ],
+      "enabled": []
+    }
+  }
+]
