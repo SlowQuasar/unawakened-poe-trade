@@ -1,0 +1,848 @@
+[
+  {
+    "name": "천공인 자취",
+    "typeLine": "역병 걸린 지도 (15등급)",
+    "baseType": "역병 걸린 지도 (15등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 82,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "진흙 간헐천",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      },
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+55%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+44%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+21%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "아이템 희귀도 +11%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_190932737",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 생명력 40% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "다산의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스가 주는 피해 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_124877078",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스의 공격 및 시전 속도 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2109106920",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터에게 걸리는 저주 효과 60% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3796523155",
+        "mods": [
+          {
+            "name": "사술 수호의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 방어도 30% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_272758639",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 막기 확률 40% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3729221884",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_124877078",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2109106920",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3796523155",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_272758639",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3729221884",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_190932737",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "얼룩진 책략",
+    "typeLine": "지도 (4등급)",
+    "baseType": "지도 (4등급)",
+    "frameType": 2,
+    "ilvl": 82,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 71,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+74%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+43%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+28%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 효과 범위 45% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1708461270",
+        "mods": [
+          {
+            "name": "- 거인",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "45",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 51%의 추가 물리 피해를 화염 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1497673356",
+        "mods": [
+          {
+            "name": "불타는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "69"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스가 사로잡힘",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2588474575",
+        "mods": [
+          {
+            "name": "예속된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능, 격분, 인내 충전 강탈",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3222482040",
+        "mods": [
+          {
+            "name": "- 피폐",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1708461270",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1309819744",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1497673356",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2588474575",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3222482040",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "초월한 선택",
+    "typeLine": "지도 (11등급)",
+    "baseType": "지도 (11등급)",
+    "frameType": 2,
+    "ilvl": 78,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 78,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+78%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+46%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+30%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 등장하는 몬스터 종류 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3561450806",
+        "mods": [
+          {
+            "name": "다양한",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 시간의 사슬 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2326202293",
+        "mods": [
+          {
+            "name": "- 시간의 사슬",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 모든 저항 최대치 -12%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-12",
+                "max": "-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스가 주는 피해 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_124877078",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스의 공격 및 시전 속도 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2109106920",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 50%의 확률로 중독, 꿰뚫기, 출혈 회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_144665660",
+        "mods": [
+          {
+            "name": "뚫리지 않는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3561450806",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2326202293",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3376488707",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_124877078",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2109106920",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_144665660",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "훼손된 일거리",
+    "typeLine": "지도 (9등급)",
+    "baseType": "지도 (9등급)",
+    "frameType": 2,
+    "ilvl": 76,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 76,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+80%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+47%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+30%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 염소인간 서식",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1813544255",
+        "mods": [
+          {
+            "name": "변덕스러운",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 모든 저항 최대치 -6%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-8",
+                "max": "-5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스가 주는 피해 20% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_124877078",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스의 공격 및 시전 속도 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2109106920",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 재사용 대기시간 회복 속도 30% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_941368244",
+        "mods": [
+          {
+            "name": "- 피로",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-30",
+                "max": "-30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1813544255",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3376488707",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1309819744",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_124877078",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2109106920",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_941368244",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

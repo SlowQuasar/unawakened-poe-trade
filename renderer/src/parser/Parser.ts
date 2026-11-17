@@ -474,6 +474,11 @@ function parseCorrupted (section: string[], item: ParsedItem) {
   if (section[0] === _$.CORRUPTED) {
     item.isCorrupted = true
     return 'SECTION_PARSED'
+  } else if (section[0] === _$.TWICE_CORRUPTED) {
+    // 3.30: corrupting an already corrupted item makes it "Twice Corrupted"
+    item.isCorrupted = true
+    item.isTwiceCorrupted = true
+    return 'SECTION_PARSED'
   } else if (section[0] === _$.UNMODIFIABLE) {
     item.isCorrupted = true
     item.isUnmodifiable = true

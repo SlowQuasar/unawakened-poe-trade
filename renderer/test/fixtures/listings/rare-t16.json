@@ -1,0 +1,792 @@
+[
+  {
+    "name": "공허에 닿은 영역",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+68%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+40%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+26%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 생명력 25% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "변함없는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 치명타 확률 377% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2753083623",
+        "mods": [
+          {
+            "name": "- 치명성",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "360",
+                "max": "400"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 치명타 피해 배율 +41%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_57326096",
+        "mods": [
+          {
+            "name": "- 치명성",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "41",
+                "max": "45"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 물리 피해 감소 +40%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_839186746",
+        "mods": [
+          {
+            "name": "장갑을 두른",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 기절 면역",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1041951480",
+        "mods": [
+          {
+            "name": "변함없는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 도발 면역",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1106651798",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 동작 속도가 기본 수치 밑으로 내려가지 않음\n몬스터의 이동 속도가 기본 수치 밑으로 내려가지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_798009319",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 생명력 및 에너지 보호막 회복 속도 60% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4181072906",
+        "mods": [
+          {
+            "name": "- 질식",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_95249895",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2753083623",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_57326096",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_839186746",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1041951480",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1106651798",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_798009319",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4181072906",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "고대의 촉발",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+68%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+41%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+26%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 악마 서식",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3916182167",
+        "mods": [
+          {
+            "name": "악마의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 모든 저항 최대치 -9%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-12",
+                "max": "-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "희귀 몬스터가 원소 가시를 보유하고 1500의 원소 피해 반사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3938822425",
+        "mods": [
+          {
+            "name": "반사된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1500",
+                "max": "1500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 인내 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_687813731",
+        "mods": [
+          {
+            "name": "- 인내",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 카오스 저항 +25%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_365540634",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 원소 저항 +40%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1054098949",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3916182167",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3376488707",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3938822425",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_687813731",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_365540634",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1054098949",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "승리자의 갈망",
+    "typeLine": "쉐이퍼 수호자 지도",
+    "baseType": "쉐이퍼 수호자 지도",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+65%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+38%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+25%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 쉐이퍼의 영향을 받음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_1792283443|1",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 훼손된 지대 존재",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3577222856",
+        "mods": [
+          {
+            "name": "- 모독",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "14000",
+                "max": "14000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 다수의 토템 존재",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1000591322",
+        "mods": [
+          {
+            "name": "의식의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "마법 몬스터 29% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1821565133",
+        "mods": [
+          {
+            "name": "- 혈맹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 100%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "name": "감전의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3577222856",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1000591322",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1821565133",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1309819744",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1792283443|1",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "행성의 땅",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 85,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+74%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+43%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+28%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터는 흡수 대상이 되지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1140978125",
+        "mods": [
+          {
+            "name": "- 응고",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격이 명중 시 60%의 확률로 꿰뚫음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1541224187",
+        "mods": [
+          {
+            "name": "꿰뚫는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 20%의 확률로 점화, 동결, 감전 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2553656203",
+        "mods": [
+          {
+            "name": "강화된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 생명력 및 에너지 보호막 회복 속도 60% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4181072906",
+        "mods": [
+          {
+            "name": "- 질식",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1140978125",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1541224187",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2553656203",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4181072906",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

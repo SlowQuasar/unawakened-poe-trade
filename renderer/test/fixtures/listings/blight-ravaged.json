@@ -1,0 +1,546 @@
+[
+  {
+    "name": "",
+    "typeLine": "역병에 유린당한 지도 (16등급)",
+    "baseType": "역병에 유린당한 지도 (16등급)",
+    "frameType": 0,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 85,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "유황 분출구",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "몬스터 레벨: 85",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_284496119",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "85",
+                "max": "85"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 생명력 200% 증폭",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_95249895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "200",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 20% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2306522833",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 9번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_284496119",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2306522833",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "역병에 유린당한 지도 (16등급)",
+    "baseType": "역병에 유린당한 지도 (16등급)",
+    "frameType": 0,
+    "ilvl": 81,
+    "identified": true,
+    "monsterLevel": 85,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "광물층",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "몬스터 레벨: 85",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_284496119",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "85",
+                "max": "85"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 생명력 200% 증폭",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_95249895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "200",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 20% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2306522833",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 9번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_284496119",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2306522833",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "역병에 유린당한 지도 (16등급)",
+    "baseType": "역병에 유린당한 지도 (16등급)",
+    "frameType": 0,
+    "ilvl": 81,
+    "identified": true,
+    "monsterLevel": 85,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "유황 분출구",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "몬스터 레벨: 85",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_284496119",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "85",
+                "max": "85"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 생명력 200% 증폭",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_95249895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "200",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 20% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2306522833",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 9번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_284496119",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2306522833",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "역병에 유린당한 지도 (16등급)",
+    "baseType": "역병에 유린당한 지도 (16등급)",
+    "frameType": 0,
+    "ilvl": 82,
+    "identified": true,
+    "monsterLevel": 85,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "칼데라",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "몬스터 레벨: 85",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_284496119",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "85",
+                "max": "85"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 생명력 200% 증폭",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_95249895",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "200",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 20% 증가",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2306522833",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 9번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "9",
+                "max": "9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_284496119",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2306522833",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

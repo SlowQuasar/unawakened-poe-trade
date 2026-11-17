@@ -1,0 +1,352 @@
+[
+  {
+    "name": "",
+    "typeLine": "불타는 지도 (1등급)",
+    "baseType": "지도 (1등급)",
+    "frameType": 1,
+    "ilvl": 66,
+    "identified": true,
+    "monsterLevel": 68,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+16%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+9%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+6%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터가 63%의 추가 물리 피해를 화염 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1497673356",
+        "mods": [
+          {
+            "name": "불타는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "69"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1497673356",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "연쇄의 지도 (4등급)",
+    "baseType": "지도 (4등급)",
+    "frameType": 1,
+    "ilvl": 85,
+    "identified": true,
+    "monsterLevel": 71,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+16%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+9%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+6%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 스킬 2회 추가 연쇄",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3183973644",
+        "mods": [
+          {
+            "name": "연쇄의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3183973644",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "다양한 지도 - 질식 (5등급)",
+    "baseType": "지도 (5등급)",
+    "frameType": 1,
+    "ilvl": 74,
+    "identified": true,
+    "monsterLevel": 72,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+26%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+15%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+10%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 등장하는 몬스터 종류 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3561450806",
+        "mods": [
+          {
+            "name": "다양한",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 생명력 및 에너지 보호막 회복 속도 20% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4181072906",
+        "mods": [
+          {
+            "name": "- 질식",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3561450806",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4181072906",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "연회의 지도 - 독액 (3등급)",
+    "baseType": "지도 (3등급)",
+    "frameType": 1,
+    "ilvl": 73,
+    "identified": true,
+    "monsterLevel": 70,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+32%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+18%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+12%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 공격 명중 시 중독",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3350803563",
+        "mods": [
+          {
+            "name": "- 독액",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 키타바 광신자 거주",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4252630904",
+        "mods": [
+          {
+            "name": "연회의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3350803563",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4252630904",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

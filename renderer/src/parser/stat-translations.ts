@@ -45,7 +45,10 @@ export function * linesToStatStrings (lines: string[]): Generator<StatString, st
       continue
     }
 
-    for (let end = start; end < lines.length; end += 1) {
+    // A map modifier can have both a combined trade stat and independently
+    // searchable single-line stats. Prefer the complete modifier so its trade
+    // identity is preserved (for example the two Unstoppable speed lines).
+    for (let end = lines.length - 1; end >= start; end -= 1) {
       let str = lines.slice(start, end + 1).join('\n')
 
       const unscalable = str.endsWith(_$.UNSCALABLE_VALUE)

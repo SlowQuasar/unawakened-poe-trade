@@ -1,7 +1,16 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseCsd, range, makeMatcher, plainText, tokens } from './csd.mjs';
-import { splitStaticDescription } from './build.mjs';
+import { splitStaticDescription, preserveMapTradeIdentity } from './build.mjs';
+
+test('Blighted Map wording changes retain its historical trade identity', () => {
+  const baseline = [{ ref: 'historical three-line Blight wording', trade: { ids: { implicit: ['implicit.stat_299373046'] } } }];
+  const candidate = { description: { stats: ['is_blighted_map'] }, ids: {} };
+  assert.deepEqual(preserveMapTradeIdentity(candidate, baseline).ids.implicit, ['implicit.stat_299373046']);
+  assert.deepEqual(preserveMapTradeIdentity(candidate, baseline).ids.implicit, ['implicit.stat_299373046']);
+  assert.throws(() => preserveMapTradeIdentity(candidate, []), /Missing baseline/);
+  assert.equal(preserveMapTradeIdentity(undefined, baseline), undefined);
+});
 
 test('CSD ranges preserve bounds, exclusions and shipped anomalous suffix', () => {
   assert.deepEqual(range('#'), { min: null, max: null });

@@ -1,0 +1,487 @@
+[
+  {
+    "name": "금단의 궤적",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+53%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+32%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+21%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 바란의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|1",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "마법 몬스터 26% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1821565133",
+        "mods": [
+          {
+            "name": "- 혈맹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 노출 유발 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1026390635",
+        "mods": [
+          {
+            "name": "- 균형",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 쇠약화 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4103440490",
+        "mods": [
+          {
+            "name": "- 쇠약",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "희귀 몬스터가 물리 가시를 보유하고 800의 물리 피해 반사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3278889477",
+        "mods": [
+          {
+            "name": "응징하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "800",
+                "max": "800"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 도발 면역",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1106651798",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 동작 속도가 기본 수치 밑으로 내려가지 않음\n몬스터의 이동 속도가 기본 수치 밑으로 내려가지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_798009319",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1821565133",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1026390635",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4103440490",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3278889477",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1106651798",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_798009319",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|1",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 바란의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|1",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|1",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "악취 나는 진로",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+58%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+34%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+22%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 바란의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|1",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역이 태초자의 기억의 영향을 받음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2696470877",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 등장하는 몬스터 종류 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3561450806",
+        "mods": [
+          {
+            "name": "다양한",
+            "tier": "P0",
+            "magnitudes": [
+              {
+                "min": "3",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 모든 저항 최대치 -11%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S0",
+            "magnitudes": [
+              {
+                "min": "-12",
+                "max": "-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 94%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "name": "감전의",
+            "tier": "P0",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S0",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3561450806",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3376488707",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|1",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2696470877",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 바란의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|1",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|1",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

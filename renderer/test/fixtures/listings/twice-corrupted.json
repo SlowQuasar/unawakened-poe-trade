@@ -1,0 +1,801 @@
+[
+  {
+    "name": "행성의 선택",
+    "typeLine": "지도 (6등급)",
+    "baseType": "지도 (6등급)",
+    "frameType": 2,
+    "ilvl": 76,
+    "identified": true,
+    "corrupted": true,
+    "doubleCorrupted": true,
+    "monsterLevel": 73,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+52%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+45%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+20%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "아이템 희귀도 +14%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_190932737",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 몬스터가 타락한 아이템을 떨어뜨림",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_804187877",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어가 취약성 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1366534040",
+        "mods": [
+          {
+            "name": "- 취약성",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 79%의 추가 물리 피해를 냉기 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3448216135",
+        "mods": [
+          {
+            "name": "동결의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "89"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 정확도 40% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1588049749",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 방지하는 억제된 주문 피해 -15%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_286947568",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-15",
+                "max": "-15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1366534040",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3448216135",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1588049749",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_286947568",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_190932737",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_804187877",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "비전의 연결부",
+    "typeLine": "지도 (4등급)",
+    "baseType": "지도 (4등급)",
+    "frameType": 2,
+    "ilvl": 73,
+    "identified": true,
+    "corrupted": true,
+    "doubleCorrupted": true,
+    "monsterLevel": 71,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+78%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+47%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+30%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "플레이어가 사용하는 바알 스킬에 영혼 획득 방지가 적용되지 않음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_977063976",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터 피해 17% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1890519597",
+        "mods": [
+          {
+            "name": "야만적인",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "14",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 물리 피해 감소 +20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_839186746",
+        "mods": [
+          {
+            "name": "장갑을 두른",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 인내 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_687813731",
+        "mods": [
+          {
+            "name": "- 인내",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 20%의 확률로 중독, 꿰뚫기, 출혈 회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_144665660",
+        "mods": [
+          {
+            "name": "뚫리지 않는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 실명 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1629869774",
+        "mods": [
+          {
+            "name": "- 실명",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터에게 걸리는 저주 효과 25% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3796523155",
+        "mods": [
+          {
+            "name": "사술 수호의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1890519597",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_839186746",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_687813731",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_144665660",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1629869774",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3796523155",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_977063976",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "증오의 길",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 84,
+    "identified": true,
+    "corrupted": true,
+    "doubleCorrupted": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+58%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+33%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+32%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "무리 규모 +10%",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_948600126",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터가 70%의 확률로 원소 상태 이상 긴급회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_322206271",
+        "mods": [
+          {
+            "name": "- 절연",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 94%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "name": "감전의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 물리 피해의 35%를 추가 카오스 피해로 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1840747977",
+        "mods": [
+          {
+            "name": "모독적인",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "31",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 2초 동안 위축 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3044826007",
+        "mods": [
+          {
+            "name": "모독적인",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 생명력, 마나 또는 에너지 보호막 재생 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1910157106",
+        "mods": [
+          {
+            "name": "- 정체",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_322206271",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1840747977",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3044826007",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1910157106",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_948600126",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "텅 빈 경로",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 84,
+    "identified": true,
+    "corrupted": true,
+    "doubleCorrupted": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+74%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+43%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+28%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터가 96%의 추가 물리 피해를 냉기 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3448216135",
+        "mods": [
+          {
+            "name": "동결의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 스킬 2회 추가 연쇄",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3183973644",
+        "mods": [
+          {
+            "name": "연쇄의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 20%의 확률로 점화, 동결, 감전 유발",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2553656203",
+        "mods": [
+          {
+            "name": "강화된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 생명력 및 에너지 보호막 회복 속도 60% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4181072906",
+        "mods": [
+          {
+            "name": "- 질식",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3448216135",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3183973644",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2553656203",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4181072906",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

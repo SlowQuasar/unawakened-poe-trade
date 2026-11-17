@@ -1,0 +1,466 @@
+[
+  {
+    "name": "초월한 촉발",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+55%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+33%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+21%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 드록스의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|4",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어가 노출 유발 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1026390635",
+        "mods": [
+          {
+            "name": "- 균형",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 원소 약화 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_558910024",
+        "mods": [
+          {
+            "name": "- 원소 약화",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 고유 보스 2마리 등장",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_799271621",
+        "mods": [
+          {
+            "name": "이중",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 재사용 대기시간 회복 속도 40% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_941368244",
+        "mods": [
+          {
+            "name": "- 피로",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-40",
+                "max": "-40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1026390635",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_558910024",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_799271621",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_941368244",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|4",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 드록스의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|4",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|4",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 드록스의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|4",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|4",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "부정한 도전",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+96%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+56%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+36%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 드록스의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|4",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어의 모든 저항 최대치 -11%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-12",
+                "max": "-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 91%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "name": "감전의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 격분 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1742567045",
+        "mods": [
+          {
+            "name": "- 격분",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 고유 보스 2마리 등장",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_799271621",
+        "mods": [
+          {
+            "name": "이중",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 흉물 서식",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2961018200",
+        "mods": [
+          {
+            "name": "혐오스러운",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 재사용 대기시간 회복 속도 40% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_941368244",
+        "mods": [
+          {
+            "name": "- 피로",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-40",
+                "max": "-40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3376488707",
+            [
+              5
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1742567045",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_799271621",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2961018200",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_941368244",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|4",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "name": "",
+    "typeLine": "지도 (2등급)",
+    "baseType": "지도 (2등급)",
+    "frameType": 3,
+    "ilvl": 69,
+    "identified": false,
+    "monsterLevel": 69,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "명인의 전당",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 3,
+    "ilvl": 85,
+    "identified": true,
+    "monsterLevel": 83,
+    "explicitMods": [
+      {
+        "description": "불멸의 명인 포함\nPvP 피해 조정 적용",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3787670808",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3787670808",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "아룬의 기둥",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 3,
+    "ilvl": 85,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+116%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+143%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "경험치 획득 164% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_57434274",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 다리 없이 건너야 하는 곳 존재",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_860864690",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 50%의 확률로 상태 이상 긴급회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_376585490",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 이동 속도 24% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2306522833",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 속도 23% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1913583994",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 시전 속도 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2488361432",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "20",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어 이동 스킬의 재사용 대기시간 회복 속도 200% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2159994279",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "200",
+                "max": "200"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_57434274",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_860864690",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_376585490",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2306522833",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1913583994",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2488361432",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2159994279",
+            [
+              4
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "마오 쿤",
+    "typeLine": "지도 (7등급)",
+    "baseType": "지도 (7등급)",
+    "frameType": 3,
+    "ilvl": 75,
+    "identified": true,
+    "monsterLevel": 74,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+104%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "경험치 획득 99% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_57434274",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 190%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "175",
+                "max": "190"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 인내 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_687813731",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_57434274",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_687813731",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

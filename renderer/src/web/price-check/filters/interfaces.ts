@@ -33,6 +33,7 @@ export interface ItemFilters {
   corrupted?: {
     value: boolean
     exact?: boolean
+    twice?: boolean
   }
   fractured?: {
     value: false

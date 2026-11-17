@@ -1,0 +1,645 @@
+[
+  {
+    "name": "",
+    "typeLine": "역병 걸린 지도 (14등급)",
+    "baseType": "역병 걸린 지도 (14등급)",
+    "frameType": 0,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 81,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "성벽",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "역병 걸린 지도 (11등급)",
+    "baseType": "역병 걸린 지도 (11등급)",
+    "frameType": 0,
+    "ilvl": 79,
+    "identified": true,
+    "monsterLevel": 78,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "경주장",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "불안의 도전",
+    "typeLine": "역병 걸린 지도 (13등급)",
+    "baseType": "역병 걸린 지도 (13등급)",
+    "frameType": 2,
+    "ilvl": 82,
+    "identified": true,
+    "monsterLevel": 80,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "감염된 계곡",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      },
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+61%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+36%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+23%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 효과 범위 100% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1708461270",
+        "mods": [
+          {
+            "name": "- 거인",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스가 주는 피해 25% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_124877078",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스의 공격 및 시전 속도 30% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2109106920",
+        "mods": [
+          {
+            "name": "대군주의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 카오스 저항 +25%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_365540634",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "25",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 원소 저항 +40%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1054098949",
+        "mods": [
+          {
+            "name": "저항하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1708461270",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1309819744",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_124877078",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2109106920",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_365540634",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1054098949",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "몽환의 일거리",
+    "typeLine": "역병 걸린 지도 (14등급)",
+    "baseType": "역병 걸린 지도 (14등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "corrupted": true,
+    "monsterLevel": 81,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "빌라",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      },
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+74%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+44%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+28%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터가 투사체 2개 추가 발사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1309819744",
+        "mods": [
+          {
+            "name": "분할의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 고유 보스 2마리 등장",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_799271621",
+        "mods": [
+          {
+            "name": "이중",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 정확도 50% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1588049749",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터에게 걸리는 저주 효과 60% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3796523155",
+        "mods": [
+          {
+            "name": "사술 수호의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어에게 적용되는 버프가 70% 더 빠르게 만료됨",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1217583941",
+        "mods": [
+          {
+            "name": "- 덧없음",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 방지하는 억제된 주문 피해 -20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_286947568",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-20",
+                "max": "-20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1309819744",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_799271621",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1588049749",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3796523155",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1217583941",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_286947568",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

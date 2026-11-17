@@ -4,7 +4,7 @@
       :class="{ 'border-gray-500': showAsActive, 'border-gray-900': !showAsActive }"
       @click="toggleAccuracy">{{ label }}</button>
     <button v-if="filters.corrupted" class="px-2" @click="corrupted = !corrupted">
-      <span v-if="corrupted" class="text-red-500">{{ t('item.corrupted') }}</span>
+      <span v-if="corrupted" class="text-red-500">{{ t(filters.corrupted.twice ? 'item.twice_corrupted' : 'item.corrupted') }}</span>
       <span v-else class="text-gray-600">{{ t('item.not_corrupted') }}</span>
     </button>
   </div>

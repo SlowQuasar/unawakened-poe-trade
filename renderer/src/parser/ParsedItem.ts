@@ -76,6 +76,7 @@ export interface ParsedItem {
   stackSize?: { value: number, max: number }
   isUnidentified: boolean
   isCorrupted: boolean
+  isTwiceCorrupted?: boolean
   isUnmodifiable?: boolean
   isMirrored?: boolean
   isSplit?: boolean

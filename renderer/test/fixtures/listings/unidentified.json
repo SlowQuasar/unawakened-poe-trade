@@ -1,0 +1,101 @@
+[
+  {
+    "name": "",
+    "typeLine": "용병 소환장",
+    "baseType": "용병 소환장",
+    "frameType": 0,
+    "ilvl": 0,
+    "identified": true,
+    "properties": [
+      {
+        "name": "",
+        "values": [
+          [
+            "비브 - 아자디의 떠버리",
+            0
+          ]
+        ],
+        "displayMode": 0
+      },
+      {
+        "name": "",
+        "values": [],
+        "displayMode": 4
+      },
+      {
+        "name": "빌드",
+        "values": [
+          [
+            "악명 높은 칼날 매복자",
+            0
+          ]
+        ],
+        "displayMode": 0
+      },
+      {
+        "name": "용병 레벨",
+        "values": [
+          [
+            "82",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 78
+      }
+    ],
+    "descrText": "이 아이템을 우클릭하여 용병 정보를 확인할 수 있습니다.\r\n전용 지도 장치에서 해당 아이템을 사용해 시험장으로 가는 포탈을 열 수 있습니다. 전에 싸운 적이 있는 이 용병이 해당 지역에 다시 나타나 재대결할 수 있습니다. 아틀라스를 보는 동안 이 아이템을 우클릭하면 위치를 찾을 수 있습니다."
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (2등급)",
+    "baseType": "지도 (2등급)",
+    "frameType": 3,
+    "ilvl": 69,
+    "identified": false,
+    "monsterLevel": 69,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (4등급)",
+    "baseType": "지도 (4등급)",
+    "frameType": 2,
+    "ilvl": 78,
+    "identified": false,
+    "monsterLevel": 71,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (4등급)",
+    "baseType": "지도 (4등급)",
+    "frameType": 1,
+    "ilvl": 79,
+    "identified": false,
+    "monsterLevel": 71,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (9등급)",
+    "baseType": "지도 (9등급)",
+    "frameType": 1,
+    "ilvl": 85,
+    "identified": false,
+    "monsterLevel": 76,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  }
+]

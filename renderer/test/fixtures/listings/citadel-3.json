@@ -1,0 +1,512 @@
+[
+  {
+    "name": "최면의 결의",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+56%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+34%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+22%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 알-헤즈민의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|3",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 다수의 토템 존재",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1000591322",
+        "mods": [
+          {
+            "name": "의식의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 70%의 확률로 원소 상태 이상 긴급회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_322206271",
+        "mods": [
+          {
+            "name": "- 절연",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 격분 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1742567045",
+        "mods": [
+          {
+            "name": "- 격분",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 도발 면역",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1106651798",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 동작 속도가 기본 수치 밑으로 내려가지 않음\n몬스터의 이동 속도가 기본 수치 밑으로 내려가지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_798009319",
+        "mods": [
+          {
+            "name": "폭주",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 방어도 30% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_272758639",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 막기 확률 40% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3729221884",
+        "mods": [
+          {
+            "name": "- 녹",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1000591322",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_322206271",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1742567045",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1106651798",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_798009319",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_272758639",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3729221884",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|3",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 0,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 알-헤즈민의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|3",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|3",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 알-헤즈민의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|3",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|3",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "경악의 촉발",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+58%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+35%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+22%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 알-헤즈민의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|3",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 생명력 49% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "다산의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터 피해 22% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1890519597",
+        "mods": [
+          {
+            "name": "야만적인",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "22",
+                "max": "25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 정확도 50% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1588049749",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 플라스크 충전량 50% 감소",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2549889921",
+        "mods": [
+          {
+            "name": "- 가뭄",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "50",
+                "max": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 방지하는 억제된 주문 피해 -20%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_286947568",
+        "mods": [
+          {
+            "name": "- 수렁",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-20",
+                "max": "-20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1890519597",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1588049749",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2549889921",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_286947568",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|3",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

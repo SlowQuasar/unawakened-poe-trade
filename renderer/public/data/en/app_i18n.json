@@ -100,6 +100,7 @@
     "info": "Item info",
     "corrupted": "Corrupted",
     "not_corrupted": "Not Corrupted",
+    "twice_corrupted": "Twice Corrupted",
     "mod_tier": "Tier: {0}",
     "mod_rank": "Rank: {0}",
     "mod_pseudo": "Pseudo",

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "",
+    "typeLine": "지도 (2등급)",
+    "baseType": "지도 (2등급)",
+    "frameType": 0,
+    "ilvl": 74,
+    "identified": true,
+    "monsterLevel": 69,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (13등급)",
+    "baseType": "지도 (13등급)",
+    "frameType": 0,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 80,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (12등급)",
+    "baseType": "지도 (12등급)",
+    "frameType": 0,
+    "ilvl": 82,
+    "identified": true,
+    "monsterLevel": 79,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (9등급)",
+    "baseType": "지도 (9등급)",
+    "frameType": 0,
+    "ilvl": 80,
+    "identified": true,
+    "monsterLevel": 76,
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {}
+    }
+  }
+]

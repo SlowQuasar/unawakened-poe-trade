@@ -1,0 +1,662 @@
+[
+  {
+    "name": "고통 유물",
+    "typeLine": "역병 걸린 지도 (14등급)",
+    "baseType": "역병 걸린 지도 (14등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 81,
+    "properties": [
+      {
+        "name": "지도 지역",
+        "values": [
+          [
+            "빌라",
+            0
+          ]
+        ],
+        "displayMode": 0,
+        "type": 105
+      },
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+71%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+41%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+27%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지역이 번식하는 진균에 오염\n최대 3번까지 성유 부을 수 있음",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_299373046",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "해당 지역의 자연적인 몬스터 제거됨",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2656027173",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "지역에 얼음 지대 존재",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_349586058",
+        "mods": [
+          {
+            "name": "- 얼음",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "30",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 모든 저항 최대치 -11%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3376488707",
+        "mods": [
+          {
+            "name": "- 노출",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-12",
+                "max": "-9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "희귀 몬스터가 원소 가시를 보유하고 1500의 원소 피해 반사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3938822425",
+        "mods": [
+          {
+            "name": "반사된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1500",
+                "max": "1500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 명중 시 중독",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3350803563",
+        "mods": [
+          {
+            "name": "- 독액",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 사술 방지 보유",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4154059009",
+        "mods": [
+          {
+            "name": "사술 방지",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_349586058",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3376488707",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3938822425",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3350803563",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4154059009",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_299373046",
+            [
+              0
+            ]
+          ],
+          [
+            "implicit.stat_2656027173",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "기적의 진로",
+    "typeLine": "지도 (12등급)",
+    "baseType": "지도 (12등급)",
+    "frameType": 2,
+    "ilvl": 85,
+    "identified": true,
+    "monsterLevel": 79,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+52%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+31%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+20%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어가 취약성 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1366534040",
+        "mods": [
+          {
+            "name": "- 취약성",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 생명력 46% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "다산의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "희귀 몬스터가 원소 가시를 보유하고 1500의 원소 피해 반사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3938822425",
+        "mods": [
+          {
+            "name": "반사된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1500",
+                "max": "1500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 생명력, 마나 또는 에너지 보호막 재생 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1910157106",
+        "mods": [
+          {
+            "name": "- 정체",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1366534040",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_95249895",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3938822425",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1910157106",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "외딴 제어",
+    "typeLine": "지도 (12등급)",
+    "baseType": "지도 (12등급)",
+    "frameType": 2,
+    "ilvl": 85,
+    "identified": true,
+    "monsterLevel": 79,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+55%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+32%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+21%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 생명력 43% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "다산의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 70%의 확률로 원소 상태 이상 긴급회피",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_322206271",
+        "mods": [
+          {
+            "name": "- 절연",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터는 흡수 대상이 되지 않음",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1140978125",
+        "mods": [
+          {
+            "name": "- 응고",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 스킬 2회 추가 연쇄",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3183973644",
+        "mods": [
+          {
+            "name": "연쇄의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "2",
+                "max": "2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_95249895",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_322206271",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1140978125",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3183973644",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "휘어진 길",
+    "typeLine": "지도 (12등급)",
+    "baseType": "지도 (12등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 79,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+46%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+28%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+18%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어가 노출 유발 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1026390635",
+        "mods": [
+          {
+            "name": "- 균형",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어가 쇠약화 저주에 걸림",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_4103440490",
+        "mods": [
+          {
+            "name": "- 쇠약",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "희귀 몬스터가 원소 가시를 보유하고 1500의 원소 피해 반사",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3938822425",
+        "mods": [
+          {
+            "name": "반사된",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1500",
+                "max": "1500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1026390635",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4103440490",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3938822425",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

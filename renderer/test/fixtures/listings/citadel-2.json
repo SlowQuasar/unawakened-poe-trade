@@ -1,0 +1,597 @@
+[
+  {
+    "name": "피의 여정",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+52%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+32%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+20%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 베리타니아의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|2",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "고유 보스의 생명력 35% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1959158336",
+        "mods": [
+          {
+            "name": "거신의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "35",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "고유 보스의 효과 범위 70% 증가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3040667106",
+        "mods": [
+          {
+            "name": "거신의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "70",
+                "max": "70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 최대 생명력의 40%를 추가 에너지 보호막 최대치로 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2887760183",
+        "mods": [
+          {
+            "name": "강해진",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 주문 피해 억제 확률 +60%",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_2138205941",
+        "mods": [
+          {
+            "name": "억제하는",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "60",
+                "max": "60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 정확도 25% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3667574329",
+        "mods": [
+          {
+            "name": "- 비정밀함",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-25",
+                "max": "-25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1959158336",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3040667106",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2887760183",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2138205941",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3667574329",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|2",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "몰락한 심연",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+71%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+42%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+27%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 베리타니아의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|2",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "플레이어가 노출 유발 불가",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_1026390635",
+        "mods": [
+          {
+            "name": "- 균형",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 93%의 추가 물리 피해를 냉기 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3448216135",
+        "mods": [
+          {
+            "name": "동결의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 권능 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_406353061",
+        "mods": [
+          {
+            "name": "- 권능",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "지역에 고유 보스 2마리 등장",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_799271621",
+        "mods": [
+          {
+            "name": "이중",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "플레이어의 재사용 대기시간 회복 속도 40% 감폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_941368244",
+        "mods": [
+          {
+            "name": "- 피로",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "-40",
+                "max": "-40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1026390635",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3448216135",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_406353061",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_799271621",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_941368244",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|2",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": false,
+    "monsterLevel": 83,
+    "implicitMods": [
+      {
+        "description": "지도에 베리타니아의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|2",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "implicit": [
+          [
+            "implicit.stat_2563183002|2",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "name": "텅 빈 결의",
+    "typeLine": "지도 (16등급)",
+    "baseType": "지도 (16등급)",
+    "frameType": 2,
+    "ilvl": 83,
+    "identified": true,
+    "monsterLevel": 83,
+    "properties": [
+      {
+        "name": "[AtlasDropScaling|아틀라스 획득물]",
+        "values": [
+          [
+            "+58%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 112
+      },
+      {
+        "name": "아이템 희귀도",
+        "values": [
+          [
+            "+34%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 3
+      },
+      {
+        "name": "몬스터 무리 규모",
+        "values": [
+          [
+            "+22%",
+            1
+          ]
+        ],
+        "displayMode": 0,
+        "type": 4
+      }
+    ],
+    "implicitMods": [
+      {
+        "description": "지도에 베리타니아의 시타델 등장",
+        "domain": "implicit",
+        "hash": "stat.implicit.stat_2563183002|2",
+        "mods": [
+          {
+            "magnitudes": [
+              {
+                "min": 1,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "explicitMods": [
+      {
+        "description": "몬스터의 생명력 45% 증폭",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_95249895",
+        "mods": [
+          {
+            "name": "다산의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "40",
+                "max": "49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터의 공격 명중 시 중독",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3350803563",
+        "mods": [
+          {
+            "name": "- 독액",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 103%의 추가 물리 피해를 번개 속성으로 가함",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_3416853625",
+        "mods": [
+          {
+            "name": "감전의",
+            "tier": "P1",
+            "magnitudes": [
+              {
+                "min": "90",
+                "max": "110"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "몬스터가 명중 시 인내 충전 획득",
+        "domain": "explicit",
+        "hash": "stat.explicit.stat_687813731",
+        "mods": [
+          {
+            "name": "- 인내",
+            "tier": "S1",
+            "magnitudes": [
+              {
+                "min": "100",
+                "max": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "descrText": "전용 지도 장치에서 이 아이템을 사용해 이 등급 이하의 지도 안으로 이동할 수 있습니다. 한 번만 사용할 수 있습니다.",
+    "extended": {
+      "hashes": {
+        "explicit": [
+          [
+            "explicit.stat_95249895",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3350803563",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3416853625",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_687813731",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2563183002|2",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  }
+]

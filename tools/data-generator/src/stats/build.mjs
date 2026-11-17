@@ -94,6 +94,18 @@ export function expandCitadelDescription(description, englishBaseline, snapshot)
   return variants;
 }
 
+// 3.30 removed the Blight chest-count sentence, while the cached trade schema
+// still uses the historical three-line text. Preserve the established ID/ref
+// using the game stat identity, rather than inventing a new trade stat or text.
+export function preserveMapTradeIdentity(candidate, englishBaseline) {
+  if (!candidate || candidate.description.stats.length !== 1 || candidate.description.stats[0] !== 'is_blighted_map') return candidate;
+  const id = 'implicit.stat_299373046';
+  const existing = englishBaseline.find(stat => stat.trade.ids.implicit?.includes(id));
+  if (!existing) throw new Error('Missing baseline Blighted Map trade identity');
+  candidate.ids.implicit = [...new Set([...(candidate.ids.implicit ?? []), id])];
+  return candidate;
+}
+
 function compile(description, tradeByText, report) {
   const canonicalVariant = canonical(description);
   if (!canonicalVariant) return;
@@ -274,7 +286,7 @@ export async function build() {
     report.sources.push({ path: source.path, descriptions: parsed.descriptions.length, includes: parsed.includes, suppressed: parsed.suppressed });
     for (const description of parsed.descriptions.flatMap(d => expandCitadelDescription(d, report.englishBaseline, snapshot)).flatMap(splitStaticDescription)) {
       const classification = classifyArea(description, area.byStat);
-      const candidate = compile(description, byText, report);
+      const candidate = preserveMapTradeIdentity(compile(description, byText, report), report.englishBaseline);
       if (classification) report.areaMods.descriptions.push({ stats: description.stats, source: description.source, ref: candidate?.ref, compiled: !!candidate, ...classification });
       if (candidate) candidate.area = classification;
       if (candidate) generated.push(candidate);
