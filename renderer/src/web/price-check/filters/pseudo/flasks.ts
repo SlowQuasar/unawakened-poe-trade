@@ -9,7 +9,6 @@ const STATS = {
   INCR_EFFECT: stat('#% increased effect')
 }
 
-// https://github.com/SnosMe/awakened-poe-trade/issues/758
 export function applyFlaskHybridMod (ctx: FiltersCreationContext) {
   const applicable = ctx.item.rarity === ItemRarity.Magic &&
     ctx.filters.some(filter => filter.statRef === STATS.INCR_CHARGE_RECOVERY) &&

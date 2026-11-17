@@ -1,5 +1,8 @@
+# Publish/update ONLY to our own repository. Never infer it from package.json.
 publish:
-  - "github"
+  - provider: "github"
+    owner: "SlowQuasar"
+    repo: "unawakened-poe-trade"
 productName: "Awakened PoE Trade"
 npmRebuild: false
 toolsets:

@@ -17,7 +17,10 @@
     "version": "버전 {0}",
     "release_notes": "릴리즈 노트",
     "report_bug": "버그 발생 시 GitHub에 보고해주세요",
-    "quit": "종료"
+    "quit": "종료",
+    "tagline": "아직 덜 깼습니다. 그래도 시세는 봅니다.",
+    "footer_joke": "버그는 아직 각성하지 못한 기능일 뿐입니다.",
+    "disclaimer": "비공식 도구입니다. Grinding Gear Games, 카카오게임즈와 관련이 없습니다."
   },
 
   "map.mods.heist": "강탈",
@@ -293,7 +296,7 @@
     "market_ratio": "시장 비율"
   },
   "settings": {
-    "title": "세팅 - Awakened PoE Trade",
+    "title": "세팅 - Unawakened PoE Trade",
     "language": "언어",
     "private_league": "개인리그",
     "account_name": "계정명",

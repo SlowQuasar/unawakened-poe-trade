@@ -19,7 +19,10 @@
     "version": "Version {0}",
     "release_notes": "Release notes",
     "report_bug": "Report a bug on GitHub",
-    "quit": "Quit"
+    "quit": "Quit",
+    "tagline": "Not quite awakened. Still checks prices.",
+    "footer_joke": "Bugs are just features that haven't awakened yet.",
+    "disclaimer": "Unofficial. Not affiliated with Grinding Gear Games or Kakao Games."
   },
 
   "map.mods.heist": "heist",
@@ -318,7 +321,7 @@
     "market_ratio": "Market Ratio"
   },
   "settings": {
-    "title": "Settings - Awakened PoE Trade",
+    "title": "Settings - Unawakened PoE Trade",
     "language": "Language",
     "private_league": "or Private League",
     "account_name": "Account name",

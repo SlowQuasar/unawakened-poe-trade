@@ -1,15 +1,14 @@
 import { defineConfig } from 'vitepress'
 
-const BASE = '/awakened-poe-trade/'
+const BASE = '/unawakened-poe-trade/'
 
 export default defineConfig({
-  title: 'Awakened PoE Trade',
-  description: 'App for price-checking items in Path of Exile',
+  title: 'Unawakened PoE Trade',
+  description: 'Not quite awakened. Still checks prices. (Path of Exile price-checking app)',
   base: BASE,
   mpa: true,
   head: [
-    ['link', { rel: 'shortcut icon', type: 'image/png', href: `${BASE}favicon.png` }],
-    ['meta', { name: 'google-site-verification', content: 'R0xdvBEYFTxfn0RxHhquiA6tBgvshYv3ODk-oNSuq4g' }]
+    ['link', { rel: 'shortcut icon', type: 'image/png', href: `${BASE}favicon.png` }]
   ],
   markdown: {
     theme: 'light-plus',
@@ -22,23 +21,13 @@ export default defineConfig({
     // logo: 'TODO', https://github.com/vuejs/vitepress/issues/1401
     appVersion: '3.29.108',
     github: {
-      releasesUrl: 'https://github.com/SnosMe/awakened-poe-trade/releases'
+      releasesUrl: 'https://github.com/SlowQuasar/unawakened-poe-trade/releases'
     },
     socialLinks: [
       {
-        text: 'Discord',
-        color: '#7289DA',
-        link: 'https://github.com/SnosMe/awakened-poe-trade/issues/22'
-      },
-      {
-        text: 'Patreon',
-        color: '#FF424D',
-        link: 'https://patreon.com/awakened_poe_trade'
-      },
-      {
         text: 'GitHub',
         color: '#181717',
-        link: 'https://github.com/SnosMe/awakened-poe-trade'
+        link: 'https://github.com/SlowQuasar/unawakened-poe-trade'
       }
     ],
     sidebar: [

@@ -11,7 +11,7 @@ title: Common issues
 
 3. Are you playing with Vulkan renderer? Update GPU drivers.
 
-    If Awakened works for you with DirectX11/12 renderer,
+    If the app works for you with DirectX11/12 renderer,
     then problem is old Vulkan drivers for sure.
 
 4. Delete `%appdata%\awakened-poe-trade`
@@ -22,7 +22,7 @@ title: Common issues
 
     Launch them later one at a time to identify **conflict**.
 
-6. Restart Awakened PoE Trade.
+6. Restart Unawakened PoE Trade.
 
     *(don't forget to quit first, otherwise launching second instance will do nothing).*
 
@@ -33,15 +33,15 @@ title: Common issues
 
 - 🔥[There are no stats to select from when price checking](/no-item-mods)
 - [Failed to load leagues](/failed-load-leagues)
-- [How to remove the stopwatch in center of screen?](https://github.com/SnosMe/awakened-poe-trade/issues/219)
-- [Sends a whisper when doing price-check](https://github.com/SnosMe/awakened-poe-trade/issues/178)
+- How to remove the stopwatch in center of screen?
+- Sends a whisper when doing price-check
 
 ## Windows
 
 - 🔥[Nothing happens when I try to price check](/nothing-happens)
-- [Can't open settings via tray icon when game is active](https://github.com/SnosMe/awakened-poe-trade/issues/265)
+- Can't open settings via tray icon when game is active
 
 ## Linux
 
-- [Tray icon is not shown](https://github.com/SnosMe/awakened-poe-trade/issues/106)
-- 🔥[Screen is black](https://github.com/SnosMe/awakened-poe-trade/issues/185)
+- Tray icon is not shown
+- 🔥Screen is black
