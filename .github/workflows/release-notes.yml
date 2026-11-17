@@ -7,6 +7,7 @@ on:
       - 'master'
     paths:
       - 'release-notes/**'
+      - '.github/workflows/release-notes.yml'
   workflow_dispatch:
 
 permissions:
