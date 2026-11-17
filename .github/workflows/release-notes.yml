@@ -1,0 +1,34 @@
+name: Release notes
+
+# Sync release-notes/<tag>.md into the body of already published GitHub Releases.
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'release-notes/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # edit release bodies
+    steps:
+    - uses: actions/checkout@v6
+    - name: Update release bodies
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        for f in release-notes/v*.md; do
+          tag="$(basename "$f" .md)"
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --notes-file "$f"
+            echo "updated $tag"
+          else
+            echo "skip $tag (no release yet)"
+          fi
+        done

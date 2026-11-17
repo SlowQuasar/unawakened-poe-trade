@@ -11,6 +11,7 @@ on:
     paths-ignore:
       - 'docs/**'
       - README.md
+      - 'release-notes/**'
   workflow_dispatch:
 
 permissions:
@@ -49,7 +50,10 @@ jobs:
     - name: Create draft release
       if: ${{ startsWith(github.ref, 'refs/tags/v') }}
       shell: pwsh
-      run: gh release create "${{ github.ref_name }}" --draft --title "${{ github.ref_name }}" --notes "Unawakened PoE Trade ${{ github.ref_name }}" --repo "${{ github.repository }}"
+      run: |
+        $notes = "release-notes/${{ github.ref_name }}.md"
+        if (-not (Test-Path $notes)) { throw "Missing $notes - write the Korean patch notes before tagging" }
+        gh release create "${{ github.ref_name }}" --draft --title "${{ github.ref_name }}" --notes-file $notes --repo "${{ github.repository }}"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Package and upload to the draft
