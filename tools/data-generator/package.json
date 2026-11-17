@@ -1,0 +1,13 @@
+{
+  "name": "unawakened-data-generator",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Dev-only tool: extracts game data to build renderer/public/data/*.ndjson. Not shipped with the app.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "pathofexile-dat": "16.0.1"
+  }
+}
