@@ -294,6 +294,10 @@ function parseMap (section: string[], item: ParsedItem) {
     } else if (line.startsWith(_$.MAP_MORE_MAPS)) {
       item.mapMoreMaps = parseInt(line.slice(_$.MAP_MORE_MAPS.length), 10)
       isParsed = 'SECTION_PARSED'
+    } else if (line.startsWith(_$.MAP_MORE_THREADS)) {
+      // In 3.30 Threads use pseudo_map_more_scarab_drops on the trade site.
+      item.mapMoreScarabs = parseInt(line.slice(_$.MAP_MORE_THREADS.length), 10)
+      isParsed = 'SECTION_PARSED'
     } else if (line.startsWith(_$.MAP_MORE_SCARABS)) {
       item.mapMoreScarabs = parseInt(line.slice(_$.MAP_MORE_SCARABS.length), 10)
       isParsed = 'SECTION_PARSED'

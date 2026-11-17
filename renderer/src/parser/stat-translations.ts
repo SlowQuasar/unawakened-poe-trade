@@ -85,6 +85,7 @@ function * _statPlaceholderGenerator (stat: string) {
     bounds?: { min: number, max: number }
   }> = []
   const withPlaceholders = stat
+    .replace(/\(\.\.\.\)/gm, '') // 3.30 textual advanced ranges
     .replace(/\(\)/gm, '') // when GGG didn't provide advanced desc, like in "Passives in Radius of Wicked Ward() can be Allocated"
     .replace(/(?<value>(?<!\d|\))[+-]?\d+(?:\.\d+)?)(?:\((?<min>.[^)-]*)(?:-(?<max>[^)]+))?\))?/gm, (_, roll: string, min?: string, max?: string) => {
       if (min != null && max == null) {

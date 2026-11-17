@@ -33,6 +33,7 @@ export function createExactStatFilters (
     item.category === ItemCategory.Invitation
   ) return []
 
+  const rareMap = item.category === ItemCategory.Map && item.rarity === ItemRarity.Rare && opts.mode !== 'bulk'
   const keepByType = [ModifierType.Pseudo, ModifierType.Fractured, ModifierType.Enchant, ModifierType.Necropolis, ModifierType.Imbued]
 
   if (
@@ -56,6 +57,10 @@ export function createExactStatFilters (
     keepByType.push(ModifierType.Explicit)
   } else if (item.rarity === ItemRarity.Rare && item.category === ItemCategory.Idol) {
     keepByType.push(ModifierType.Explicit)
+  }
+
+  if (rareMap) {
+    keepByType.push(ModifierType.Implicit, ModifierType.Explicit)
   }
 
   if (item.category === ItemCategory.Flask) {
@@ -96,7 +101,11 @@ export function createExactStatFilters (
 
     filter.hidden = undefined
 
-    if (filter.tag === FilterTag.Explicit) {
+    if (rareMap && filter.sources.some(source =>
+      source.modifier.info.type === ModifierType.Implicit || source.modifier.info.type === ModifierType.Explicit
+    )) {
+      filter.disabled = !isMapContentFilter(filter)
+    } else if (filter.tag === FilterTag.Explicit) {
       filter.disabled = !filter.sources.some(source =>
         source.modifier.info.tier != null &&
         source.modifier.info.tier <= 2
@@ -133,6 +142,24 @@ export function createExactStatFilters (
   }
 
   return ctx.filters
+}
+
+// Stable refs/IDs avoid enabling unrelated "Area contains" danger modifiers.
+const MAP_CONTENT_REFS = new Set([
+  'Area contains the Viridian Wildwood',
+  'Area contains a buried Pandemonium Sentinel',
+  'Area contains a buried Apex Sentinel',
+  'Area contains a buried Stalker Sentinel',
+  'Area contains an Evocator of Beidat',
+  "Area contains an Evocator of K'Tash",
+  'Area contains an Evocator of Ghorr',
+  'Area contains an Empowered Mirage which covers the entire Map',
+  'Areas contain a Mirror of Delirium'
+])
+
+function isMapContentFilter (filter: StatFilter): boolean {
+  return MAP_CONTENT_REFS.has(filter.statRef) ||
+    filter.tradeId.some(id => id.startsWith('implicit.stat_2563183002|'))
 }
 
 export function initUiModFilters (

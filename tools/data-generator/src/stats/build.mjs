@@ -67,6 +67,33 @@ export function splitStaticDescription(description) {
   });
 }
 
+// 3.30's Citadel name-table handler needs domain-specific expansion. Preserve
+// historical refs; names come from baseline English and verified Kakao options.
+export function expandCitadelDescription(description, englishBaseline, snapshot) {
+  if (description.stats.length !== 1 || description.stats[0] !== 'map_contains_citadel') return [description];
+  const variants = [];
+  const entries = snapshot.result.flatMap(group => group.entries);
+  for (const stat of englishBaseline) {
+    const id = stat.trade.ids.implicit?.find(id => id.startsWith('implicit.stat_2563183002|'));
+    if (!id) continue;
+    const entry = entries.find(entry => entry.id === id);
+    if (!entry) throw new Error(`Missing Citadel snapshot option ${id}`);
+    const texts = { English: stat.ref.split('\n')[0], Korean: entry.text };
+    const languages = {};
+    for (const [language, text] of Object.entries(texts)) {
+      const source = description.languages[language].find(v => v.handlers.some(h => h.name === 'atlas_exile_citadel_index'));
+      if (!source) throw new Error(`Missing Citadel CSD handler: ${language}`);
+      const [prefix, suffix] = source.template.split('{0}');
+      if (suffix === undefined || !text.startsWith(prefix) || !text.endsWith(suffix)) throw new Error(`Citadel template mismatch: ${text}`);
+      const option = Number(id.split('|')[1]);
+      languages[language] = [{ ...source, template: text, handlers: [], conditions: [{ min: option, max: option }] }];
+    }
+    variants.push({ ...description, languages });
+  }
+  if (variants.length !== 4) throw new Error('Expected all four Citadel options');
+  return variants;
+}
+
 function compile(description, tradeByText, report) {
   const canonicalVariant = canonical(description);
   if (!canonicalVariant) return;
@@ -239,12 +266,13 @@ export async function build() {
   const report = { sources: [], languages: {}, generated: [], unsupported: {}, deferred: [], englishBaseline: flatten(baseline.en) };
   const area = await readAreaMods(process.argv[2]);
   report.areaMods = { ...area.evidence, added: [], baselineMatches: [], descriptions: [] };
-  const byText = tradeIndex(await load('tools/data-generator/snapshots/kakao-2026-11-17/stats.json'));
+  const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-17/stats.json');
+  const byText = tradeIndex(snapshot);
   const generated = [];
   for (const source of await readSources(process.argv[2])) {
     const parsed = parseCsd(source.text, source.path);
     report.sources.push({ path: source.path, descriptions: parsed.descriptions.length, includes: parsed.includes, suppressed: parsed.suppressed });
-    for (const description of parsed.descriptions.flatMap(splitStaticDescription)) {
+    for (const description of parsed.descriptions.flatMap(d => expandCitadelDescription(d, report.englishBaseline, snapshot)).flatMap(splitStaticDescription)) {
       const classification = classifyArea(description, area.byStat);
       const candidate = compile(description, byText, report);
       if (classification) report.areaMods.descriptions.push({ stats: description.stats, source: description.source, ref: candidate?.ref, compiled: !!candidate, ...classification });

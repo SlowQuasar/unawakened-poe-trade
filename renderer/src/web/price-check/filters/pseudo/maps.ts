@@ -29,7 +29,8 @@ function areaProps (
       tradeId: 'item.map_atlas_drops',
       roll: { min: 0, max: Number.MAX_SAFE_INTEGER, value: item.areaAtlasDrops },
       sources: [],
-      disabled: disabled.itemQuantity
+      // trade site does not index Atlas Drops as of 3.30 (verified 2026-11-18)
+      disabled: true
     }, ctx))
   }
   if (item.areaItemQuantity) {

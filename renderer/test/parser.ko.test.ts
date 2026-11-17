@@ -61,7 +61,9 @@ describe('Korean 3.30 real clipboard samples', () => {
     const ctx: FiltersCreationContext = { item, searchInRange: 0, filters: [], groups: [], statsByType: item.statsByType }
     mapProps(false, ctx)
     const atlas = ctx.filters.find(filter => filter.tradeId.includes('item.map_atlas_drops'))!
-    expect(atlas.disabled).toBe(false)
+    expect(atlas.disabled).toBe(true)
+    expect(createTradeRequest(createFilters(item, filterOptions), ctx.filters).query.filters.map_filters?.filters.map_bonus).toBeUndefined()
+    atlas.disabled = false
     expect(atlas.roll?.value).toBe(64)
     atlas.roll!.min = 60
     atlas.roll!.max = 80
