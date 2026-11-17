@@ -1,0 +1,25 @@
+Item Class: Body Armours
+Rarity: Unique
+Cloak of Flame
+Scholar's Robe
+--------
+Quality: +7% (augmented)
+Energy Shield: 48 (augmented)
+--------
+Requirements:
+Level: 70
+Str: 111
+Int: 155
+--------
+Sockets: B-B-W-W-W-W
+--------
+Item Level: 85
+--------
+{ Unique Modifier — Elemental, Fire, Resistance }
++66(50-75)% to Fire Resistance
+{ Unique Modifier — Elemental, Fire, Ailment }
+70(40-75)% increased Ignite Duration on Enemies
+{ Unique Modifier }
+40% of Physical Damage taken as Fire Damage
+{ Unique Modifier — Damage, Elemental, Fire }
+Reflects 100 Fire Damage to Melee Attackers

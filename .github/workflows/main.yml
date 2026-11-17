@@ -30,6 +30,8 @@ jobs:
       working-directory: ./renderer
     - run: npm run lint
       working-directory: ./renderer
+    - run: npm test
+      working-directory: ./renderer
     - run: npm run build
       working-directory: ./renderer
     - run: npm ci
