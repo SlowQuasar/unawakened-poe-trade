@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write  # edit release bodies
     steps:
@@ -23,12 +23,16 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        for f in release-notes/v*.md; do
-          tag="$(basename "$f" .md)"
-          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --notes-file "$f"
-            echo "updated $tag"
+        # Edit by release id: a tag can have more than one release (v3.30.0 has a duplicate).
+        failed=0
+        gh api "repos/$GITHUB_REPOSITORY/releases?per_page=100" --paginate --jq '.[] | "\(.id) \(.tag_name)"' > releases.txt
+        while read -r id tag; do
+          f="release-notes/$tag.md"
+          [ -f "$f" ] || { echo "skip $tag (no notes)"; continue; }
+          if jq -n --rawfile body "$f" '{body: $body}' | gh api -X PATCH "repos/$GITHUB_REPOSITORY/releases/$id" --input - >/dev/null; then
+            echo "updated $tag (release $id)"
           else
-            echo "skip $tag (no release yet)"
+            echo "::error::failed to update $tag (release $id)"; failed=1
           fi
-        done
+        done < releases.txt
+        exit $failed
