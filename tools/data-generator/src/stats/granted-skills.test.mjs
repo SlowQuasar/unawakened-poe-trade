@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 
 const root = new URL('../../../../', import.meta.url);
 const read = path => readFileSync(new URL(path, root), 'utf8');
-const entries = JSON.parse(read('tools/data-generator/snapshots/kakao-2026-11-17/stats.json')).result.flatMap(g => g.entries);
+const entries = JSON.parse(read('tools/data-generator/snapshots/kakao-2026-11-18/stats.json')).result.flatMap(g => g.entries);
 const flatten = path => read(path).trimEnd().split('\n').map(JSON.parse).flatMap(row => row.stats ?? [row]);
 
 test('current granted-skill wording keeps legacy refs and uses cached effect identities', () => {

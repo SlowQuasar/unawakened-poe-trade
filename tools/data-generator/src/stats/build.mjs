@@ -109,7 +109,22 @@ export function preserveMapTradeIdentity(candidate, englishBaseline) {
   return candidate;
 }
 
+// Some stats are listed on trade only by their fixed wording (e.g. 100%:
+// "Gain Bitterblood equal to Life spent", 1: "Arc Chains an additional
+// time"). When no numeric wording maps to a trade ID, take the ID from the
+// fixed wording; the numeric ref stays and the fixed matcher keeps its value.
+// Only for trade IDs no baseline ref owns yet: otherwise an existing ref
+// already covers the fixed wording.
 function compile(description, tradeByText, report) {
+  const candidate = compileWith(description, tradeByText, report, false);
+  if (!candidate || Object.keys(candidate.ids).length || !candidate.ref.includes('#')) return candidate;
+  report.baselineIds ??= new Set(report.englishBaseline.flatMap(stat => Object.values(stat.trade.ids).flat().map(id => id.replace(/^[a-z]+\./, ''))));
+  const fixed = compileWith(description, tradeByText, { unsupported: {}, deferred: [] }, true);
+  const ids = fixed ? Object.values(fixed.ids).flat().map(id => id.replace(/^[a-z]+\./, '')) : [];
+  return ids.length && !ids.some(id => report.baselineIds.has(id)) ? fixed : candidate;
+}
+
+function compileWith(description, tradeByText, report, fixedIds) {
   const canonicalVariant = canonical(description);
   if (!canonicalVariant) return;
   const canonicalResult = makeMatcher(canonicalVariant, { ref: true });
@@ -146,7 +161,7 @@ function compile(description, tradeByText, report) {
     if (matcher.negate) continue;
     // Fixed flag variants can have a separate trade stat with boolean request
     // semantics. Do not merge it into a numeric ref without a group policy.
-    if (ref.includes('#') && !matcher.string.includes('#')) continue;
+    if (!fixedIds && ref.includes('#') && !matcher.string.includes('#')) continue;
     for (const entry of tradeByText.get(key(matcher.string)) ?? []) {
       if (description.supportEffect && entry.id.includes('.effect_') && !entry.id.endsWith(`.effect_${description.supportEffect.hash}`)) continue;
       if (description.grantedEffect && entry.id.includes('.effect_') && !entry.id.endsWith(`.effect_${description.grantedEffect}`)) continue;
@@ -291,7 +306,7 @@ export async function build() {
   const report = { sources: [], languages: {}, generated: [], unsupported: {}, deferred: [], englishBaseline: flatten(baseline.en) };
   const area = await readAreaMods(process.argv[2]);
   report.areaMods = { ...area.evidence, added: [], baselineMatches: [], descriptions: [] };
-  const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-17/stats.json');
+  const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-18/stats.json');
   const byText = tradeIndex(snapshot);
   const supportEffects = await readSupportEffects(process.argv[2]);
   const passiveOptions = await readPassiveOptions(snapshot, process.argv[2]);
