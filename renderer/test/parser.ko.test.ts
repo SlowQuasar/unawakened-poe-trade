@@ -102,8 +102,12 @@ describe('Korean 3.30 real clipboard samples', () => {
       expect(item.newMods).toHaveLength(1)
       expect(item.newMods[0].info.type).toBe(ModifierType.Implicit)
       if (slot === 'head') {
-        expect(item.unknownModifiers).toHaveLength(2)
-        expect(item.unknownModifiers.every(mod => mod.type === ModifierType.Implicit)).toBe(true)
+        // 3.30 "within 5 metres" wording, provided by the generated stats data
+        expect(item.unknownModifiers).toEqual([])
+        expect(item.newMods[0].stats.map(stat => stat.stat.trade.ids.implicit)).toEqual([
+          ['implicit.stat_3764198549'],
+          ['implicit.stat_1645957840']
+        ])
       } else {
         expect(item.unknownModifiers).toEqual([])
         expect(item.newMods[0].stats.map(stat => stat.stat.ref)).toEqual([
