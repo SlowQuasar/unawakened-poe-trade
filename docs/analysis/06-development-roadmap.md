@@ -31,7 +31,7 @@
 **작음.** 새 파서나 새 내부 모델은 필요 없다(언어별로 파서가 갈라지면 리그마다 두 벌을 유지해야 한다). 사용자 제공 실제 샘플 3건(고유 갑옷·레어 목걸이·결합 셉터)이 **3.29 한국어 데이터와 정적 대조에서 전부 매칭**됐다(`03 §8`). 필요한 것: ① 남은 유형 샘플로 실제 파서 실행 검증, ② 3.30 한국어 데이터 갱신, ③ ~~영어 하드코딩 접미사 이전~~ → 샘플로 **불필요 확인**(`(augmented)`/`(enchant)`는 한국어 클라이언트도 영어), ④ 감지된 클라이언트 언어 ≠ 설정 언어일 때 안내/자동 전환, ⑤ 한국어 bulk 귓속말 정규식, ⑥ UI 누락 27키. ❓ `poe.kakaogames.com` 거래소의 현재 운영/호환 여부가 최대 불확실성. 상세: `03-localization.md`.
 
 ### Q4. 기존 빌드와 자동 업데이트 시스템을 재사용할 수 있는가?
-**예, 구조는 재사용한다**(esbuild + Vite + electron-builder NSIS/portable + electron-updater GitHub provider + GitHub Actions). 단 PHASE 4에서 반드시: owner/repo 명시(`SlowQuasar/unawakened-poe-trade`), `appId`·`productName`·`executableName`·`artifactName`·package `name` 변경(→ userData 경로와 단일 인스턴스 락 분리), Actions 권한 최소화·SHA 고정, **Windows 코드 서명 적용(사용자 결정)**. 원본 사용자 설정은 덮어쓰지 않고 "가져오기"를 별도 제공. 상세: `04-build-and-update.md`.
+**예, 구조는 재사용한다**(esbuild + Vite + electron-builder NSIS/portable + electron-updater GitHub provider + GitHub Actions). 단 PHASE 4에서 반드시: owner/repo 명시(`SlowQuasar/unawakened-poe-trade`), `appId`·`productName`·`executableName`·`artifactName`·package `name` 변경(→ userData 경로와 단일 인스턴스 락 분리), Actions 권한 최소화·SHA 고정. **Windows 코드 서명은 하지 않음(사용자 재결정, §6)** — 아래 제약은 참고용. 원본 사용자 설정은 덮어쓰지 않고 "가져오기"를 별도 제공. 상세: `04-build-and-update.md`.
 
 **코드 서명 설계 제약** 🔶(PHASE 4에서 최신 정보로 재확인):
 - 2023년 6월 이후 발급되는 코드 서명 인증서는 개인키를 하드웨어(HSM/토큰)에 보관해야 한다는 업계 요건이 있어, **`.pfx`를 GitHub Secret에 넣고 CI에서 서명하는 전통 방식은 신규 인증서로는 불가**한 것으로 알고 있다. → **클라우드 서명 서비스**(CA의 클라우드 HSM, Azure Artifact Signing(구 Trusted Signing), SignPath 등)를 electron-builder `win.signtoolOptions`/커스텀 `sign` 훅으로 연결하는 구조가 필요.
@@ -106,7 +106,7 @@
 | 3-0 | — | 사용자 | 한국어 샘플 수집(`03 §7`) — **3건 확보**(고유 갑옷·레어 목걸이·결합 셉터), 나머지 유형은 아이템마다 형식이 달라 진행하면서 수시 수집 | 유형별 샘플 확보 |
 | 3-1 | `feat/ko-verify` | Codex | ko Fixture 테스트, 하드코딩 접미사 처리, 언어 불일치 감지/안내 | en/ko 쌍 Fixture 통과 |
 | 3-2 | `feat/ko-polish` | Codex | bulk 귓속말 정규식, UI 누락 키, kakao/국제 거래소 경로 정리 | |
-| 4 | `release/branding` | Codex → Claude 리뷰 | 이름·appId·executableName·artifactName·publish owner/repo·트레이/About/README, 설정 가져오기, Actions(Windows 빌드·테스트·draft Release·해시), **Windows 코드 서명(클라우드 서명 서비스 연동, 사용자 인증서 확보 후)** | 서명된 draft Release 생성, 원본과 동시 설치 확인 |
+| 4 | `release/branding` | Codex → Claude 리뷰 | 이름·appId·executableName·artifactName·publish owner/repo·트레이/About/README, 버전 `3.30.x`, 설정 가져오기, Actions(**Windows 전용** 빌드·테스트·draft Release·sha256 해시 게시), macOS/Linux 타깃 제거. 코드 서명 없음 | draft Release 생성, 원본과 동시 설치·자동 업데이트 확인 |
 | 5 | `security/hardening` | Codex 구현, Claude 리뷰 | WS/HTTP 세션 토큰+Origin, 경로 정규화, logKeys 제한, OCR 무결성, Electron 옵션 명시·CSP·webview allowlist, Actions SHA 고정·권한 최소화, 의존성 감사 | `05` 항목별 재현→차단 확인 |
 
 (보안 Critical 후보는 PHASE 5까지 미루지 말고 **PHASE 4 첫 배포 전에** 수정하는 것을 권장.)
@@ -119,12 +119,15 @@
 |---|---|
 | 한국어 샘플 | 3건 제공(`docs/analysis/samples/ko`). 아이템마다 형식이 달라 유형별로 진행하며 추가 수집 |
 | upstream 전략 | **추종하지 않음 — 독자 노선** (§4) |
-| Windows 코드 서명 | **적용** (Q4 제약 참조, PHASE 4) |
-| PHASE 0 산출물 | 커밋·푸시 승인 |
+| Windows 코드 서명 | ~~적용~~ → **하지 않음** (2026-11-17 재결정: 개인 설치용이므로 불필요). Q4의 서명 설계 제약은 참고용으로만 남김. 대신 업데이트 무결성은 electron-updater sha512 + GitHub Release 계정 보호(2FA, 최소 권한 토큰)로 확보하고, SmartScreen 경고는 감수 |
+| 버전 체계 | **`3.30.x`** — 리그 버전을 앞자리로 따름 (원본과 같은 방식, 업데이트 채널은 분리) |
+| 대상 플랫폼 | **Windows 전용.** macOS/Linux 빌드·코드 경로는 정리 대상(CI 매트릭스에서 제외, 플랫폼 분기 코드는 회귀 위험을 봐 가며 단계적으로 제거) |
+| PHASE 0 산출물 | 커밋·푸시 완료 (`7ce1c56`) |
+| 데이터 원천 | 로컬 한국어 클라이언트(`C:\Daum Games\Path of Exile`, Kakao) + **PoEDB 사이트** 조사 (PHASE 1) |
+
+**브라우저 "웹 버전"이란** ✅: 별도 제품이 아니라, 앱이 띄우는 로컬 서버(`http://localhost:<포트>`)를 **일반 브라우저로 열어 같은 UI를 쓰는 모드**다. 트레이 메뉴 "Open in Browser"(`main/src/AppTray.ts:48-50`)로 열리고, `--no-overlay`·`--listen` 옵션(`docs/cmd-flags.md`)과 함께 오버레이가 안 뜨는 환경(주로 Linux, VPN 문제, 듀얼 모니터)의 대안으로 쓰인다. 렌더러 코드의 `Host.isElectron` 분기(`IPC.ts:78`, `OverlayWindow.vue:56` 등)가 이 모드를 지원한다.
+→ **권장: 유지하되 보안 수정과 함께.** 추가 비용이 거의 없고(같은 코드), Windows에서도 오버레이가 붙지 않을 때(관리자 권한/전체화면 문제)의 비상 수단이 된다. 단 C1/H1 수정 시 **세션 토큰을 URL에 포함**(오버레이 로드 URL과 트레이 "Open in Browser" URL 모두)하고 WebSocket은 토큰 + Origin 검사를 통과해야만 연결되게 한다. 이렇게 하면 웹 버전을 유지하면서 악성 웹페이지 접근을 막을 수 있다.
 
 **남은 결정**
 
-1. **버전 체계** — 예: `3.30.x`(리그 기준) 또는 독자 체계(`1.0.0`부터). 업데이트 채널이 원본과 분리되므로 어느 쪽이든 가능
-2. **macOS/Linux 빌드 유지 여부** — Windows 우선이면 CI에서 제외해 공급망·비용 축소 가능
-3. 렌더러의 **브라우저 "웹 버전"/Pages 문서 사이트 유지 여부** — 보안 설계(H1)와 브랜딩 범위에 영향
-4. 코드 서명 서비스 선택 및 인증서 구매(사용자 직접) — PHASE 4 착수 시 후보 비교표 제공 예정
+1. 웹 버전 유지(권장안) 확정 여부
