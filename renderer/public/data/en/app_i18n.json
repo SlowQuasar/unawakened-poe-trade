@@ -110,6 +110,8 @@
     "mod_crafted": "Crafted",
     "mod_scourge": "Scourge",
     "unidentified": "Unidentified",
+    "unidentified_tier": "Unidentified Tier: {0}",
+    "fated": "Fated",
     "veiled": "Veiled",
     "foil_unique": "Foil Unique",
     "mirrored": "Mirrored",

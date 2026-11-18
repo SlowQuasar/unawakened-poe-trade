@@ -47,6 +47,8 @@ export default {
   CORRUPTED: 'Corrupted',
   TWICE_CORRUPTED: 'Twice Corrupted', // 3.30 patch notes wording, unverified in a real English clipboard
   UNIDENTIFIED: 'Unidentified',
+  UNIDENTIFIED_TIER: /^Unidentified \(Tier (\d+)\)$/,
+  ITEM_FATED: /^Fated (.*)$/,
   ITEM_SUPERIOR: /^Superior (.*)$/,
   MAP_BLIGHTED: /^Blighted (.*)$/,
   MAP_BLIGHT_RAVAGED: /^Blight-ravaged (.*)$/,

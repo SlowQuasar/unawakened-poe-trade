@@ -110,6 +110,8 @@
     "mod_crafted": "제작된 속성",
     "mod_scourge": "스컬지",
     "unidentified": "미확인",
+    "unidentified_tier": "미확인 등급: {0}",
+    "fated": "예견된",
     "veiled": "장막 속성",
     "foil_unique": "반짝이",
     "mirrored": "복제된",

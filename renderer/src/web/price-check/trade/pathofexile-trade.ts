@@ -140,6 +140,8 @@ interface TradeRequest {
           memory_level?: FilterRange
           foulborn_item?: FilterBoolean
           vestigial?: FilterBoolean
+          unidentified_tier?: FilterRange
+          fated?: FilterBoolean
         }
       }
       armour_filters?: {
@@ -408,6 +410,17 @@ export function createTradeRequest (filters: ItemFilters, stats: FilterOrGroup[]
 
   if (filters.unidentified && !filters.unidentified.disabled) {
     propSet(query.filters, 'misc_filters.filters.identified.option', String(false))
+  }
+
+  if (filters.unidentifiedTier && !filters.unidentifiedTier.disabled) {
+    propSet(query.filters, 'misc_filters.filters.unidentified_tier.min', filters.unidentifiedTier.value)
+    if (filters.unidentifiedTier.max) {
+      propSet(query.filters, 'misc_filters.filters.unidentified_tier.max', filters.unidentifiedTier.max)
+    }
+  }
+
+  if (filters.fated && !filters.fated.disabled) {
+    propSet(query.filters, 'misc_filters.filters.fated.option', String(true))
   }
 
   if (filters.areaLevel && !filters.areaLevel.disabled) {

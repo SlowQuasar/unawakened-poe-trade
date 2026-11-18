@@ -35,6 +35,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   { virtual: parseFoulborn },
   { virtual: parseVestigial },
   parseSynthesised,
+  { virtual: parseFated },
   parseCategoryByHelpText,
   { virtual: parseMapTier },
   { virtual: normalizeName },
@@ -502,6 +503,13 @@ function parseFoil (section: string[], item: ParsedItem) {
 function parseUnidentified (section: string[], item: ParsedItem) {
   if (section[0] === _$.UNIDENTIFIED) {
     item.isUnidentified = true
+    return 'SECTION_PARSED'
+  }
+  // 3.30 unidentified items show a tier: "Unidentified (Tier 5)"
+  const tier = _$.UNIDENTIFIED_TIER.exec(section[0])
+  if (tier) {
+    item.isUnidentified = true
+    item.unidentifiedTier = Number(tier[1])
     return 'SECTION_PARSED'
   }
   return 'SECTION_SKIPPED'
@@ -989,6 +997,22 @@ function parseSuperior (item: ParserState) {
       item.name = _$.ITEM_SUPERIOR.exec(item.name)![1]
     }
   }
+}
+
+// "Fated Manifold Ring": the Fated prefix is on the base type line (or on the
+// only name line of unidentified and normal items). Strip it only when the
+// line is not itself a known item, e.g. the unique "Fated End".
+function parseFated (item: ParserState) {
+  if (item.rarity === ItemRarity.Unique && !item.isUnidentified && !item.baseType) return
+  const key = item.baseType ? 'baseType' : 'name'
+  const line = item[key]
+  const match = line && _$.ITEM_FATED.exec(line)
+  if (!match) return
+  if (key === 'baseType' || item.rarity !== ItemRarity.Magic) {
+    if (ITEM_BY_TRANSLATED('ITEM', line!)?.length) return
+  }
+  item[key] = match[1]
+  item.isFated = true
 }
 
 function parseFoulborn (item: ParserState) {

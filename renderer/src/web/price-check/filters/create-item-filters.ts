@@ -417,6 +417,19 @@ export function createFilters (
     }
   }
 
+  if (item.unidentifiedTier != null) {
+    filters.unidentifiedTier = {
+      value: item.unidentifiedTier,
+      disabled: false
+    }
+  }
+
+  if (item.isFated) {
+    filters.fated = {
+      disabled: false
+    }
+  }
+
   if (item.isVeiled) {
     filters.veiled = {
       statRefs: item.statsByType

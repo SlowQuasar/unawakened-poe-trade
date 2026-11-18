@@ -78,6 +78,10 @@ export interface ItemFilters {
     value: true
     disabled: boolean
   }
+  unidentifiedTier?: FilterNumeric
+  fated?: {
+    disabled: boolean
+  }
   veiled?: {
     statRefs: string[]
     disabled: boolean
