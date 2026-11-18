@@ -424,9 +424,11 @@ export function createFilters (
     }
   }
 
+  // Kakao trade lists no item under its "fated" filter yet (0 in every
+  // league), so offer it but leave it off; the tier is what drives the price.
   if (item.isFated) {
     filters.fated = {
-      disabled: false
+      disabled: true
     }
   }
 
