@@ -4279,7 +4279,6 @@
       "enabled": [
         "explicit.stat_2416650879",
         "explicit.effect_3512123051",
-        "explicit.stat_369650395",
         "explicit.indexable_support_28"
       ]
     },
@@ -5194,10 +5193,9 @@
       "missing": [],
       "requestError": "",
       "enabled": [
-        "explicit.stat_2923486259",
-        "explicit.stat_2250533757",
         "explicit.effect_388828889",
-        "explicit.stat_636370122"
+        "explicit.stat_2923486259",
+        "explicit.stat_2250533757"
       ]
     },
     {
@@ -6148,7 +6146,6 @@
         "explicit.stat_983749596",
         "explicit.stat_2748665614",
         "explicit.effect_1854569159",
-        "explicit.stat_1122134690",
         "explicit.indexable_support_8"
       ]
     },
@@ -6204,7 +6201,6 @@
         "explicit.stat_1645459191",
         "explicit.stat_3141070085",
         "explicit.effect_3756080110",
-        "explicit.stat_550444281",
         "explicit.indexable_support_99"
       ]
     },
@@ -6295,8 +6291,7 @@
       "missing": [],
       "requestError": "",
       "enabled": [
-        "implicit.effect_3737592146",
-        "implicit.stat_3720936304"
+        "implicit.effect_3737592146"
       ]
     },
     {
@@ -6315,7 +6310,6 @@
         "explicit.stat_983749596",
         "explicit.stat_2748665614",
         "explicit.effect_1854569159",
-        "explicit.stat_1122134690",
         "explicit.indexable_support_8"
       ]
     },
@@ -6437,7 +6431,6 @@
         "explicit.stat_1645459191",
         "explicit.stat_3141070085",
         "explicit.effect_3756080110",
-        "explicit.stat_550444281",
         "explicit.indexable_support_99"
       ]
     },

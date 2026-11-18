@@ -32,3 +32,10 @@ it('takes trade IDs from fixed wording when trade lists only that form', () => {
   expect(arc?.stat.trade.ids.enchant).toContain('enchant.stat_2461552986')
   expect(arc?.roll?.value).toBe(1)
 })
+
+it('drops pre-3.30 trade IDs the trade site rejects', () => {
+  // "Unknown stat provided: explicit.stat_2341269061" on a Shaper amulet
+  const discipline = parse('22레벨 단련 부여', ModifierType.Explicit)
+  expect(discipline?.stat.trade.ids.explicit).toContain('explicit.effect_599791292')
+  expect(discipline?.stat.trade.ids.explicit).not.toContain('explicit.stat_2341269061')
+})

@@ -33,6 +33,24 @@ export function collisions(rows) {
   return [...new Map(result.map(r => [JSON.stringify(r), r])).values()];
 }
 
+// Baseline IDs the Kakao trade site no longer lists are rejected by its search
+// API ("Unknown stat provided"), e.g. the pre-3.30 explicit.stat_2341269061 of
+// "Grants Level # Discipline Skill". Drop every ID the snapshot does not know.
+export function pruneRetiredTradeIds(rows, snapshot) {
+  const live = new Set(snapshot.result.flatMap(group => group.entries.map(entry => entry.id)));
+  const removed = [];
+  for (const stat of flatten(rows)) {
+    for (const [type, ids] of Object.entries(stat.trade.ids)) {
+      // Snapshot IDs may already carry an option suffix (enchant.stat_3599615742|25970).
+      const kept = ids.filter(id => live.has(id) || live.has(id.split('|')[0]));
+      for (const id of ids) if (!kept.includes(id)) removed.push({ ref: stat.ref, id });
+      if (kept.length) stat.trade.ids[type] = kept;
+      else delete stat.trade.ids[type];
+    }
+  }
+  return removed;
+}
+
 function tradeIndex(snapshot) {
   const byText = new Map();
   for (const group of snapshot.result) for (const entry of group.entries) {
@@ -328,6 +346,7 @@ export async function build() {
   }
   const outputs = Object.fromEntries(['en', 'ko'].map(lang => [lang, merge(baseline[lang], generated, lang, report)]));
   addMixedClusterMatchers(outputs.ko, report.englishBaseline, snapshot);
+  report.removedTradeIds = Object.fromEntries(['en', 'ko'].map(lang => [lang, pruneRetiredTradeIds(outputs[lang], snapshot)]));
   // A ref is a cross-language identity. If a newly generated row is ambiguous
   // in either language, defer it in both rather than ship asymmetric ref sets.
   const refSets = Object.fromEntries(['en', 'ko'].map(lang => [lang, new Set(flatten(outputs[lang]).map(s => s.ref))]));

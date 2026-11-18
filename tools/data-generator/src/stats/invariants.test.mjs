@@ -54,3 +54,13 @@ test('en/ko share identical ref sets and ordering is ordinal by row head ref', a
     assert.deepEqual(refs, [...refs].sort());
   }
 });
+
+test('every trade ID exists on the Kakao trade site snapshot', async () => {
+  const snapshot = JSON.parse(await readFile(new URL('tools/data-generator/snapshots/kakao-2026-11-18/stats.json', root), 'utf8'));
+  const live = new Set(snapshot.result.flatMap(group => group.entries.map(entry => entry.id)));
+  for (const lang of ['en', 'ko']) {
+    const output = await read(`tools/data-generator/out/staging/${lang}/stats.ndjson`);
+    const retired = flatten(output.rows).flatMap(s => Object.values(s.trade.ids).flat()).filter(id => !live.has(id) && !live.has(id.split('|')[0]));
+    assert.deepEqual(retired, [], `${lang}: IDs the trade search rejects`);
+  }
+});

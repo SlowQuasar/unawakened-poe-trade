@@ -830,10 +830,9 @@
       "mismatched": [],
       "missing": [],
       "enabled": [
-        "explicit.stat_2923486259",
-        "explicit.stat_2250533757",
         "explicit.effect_388828889",
-        "explicit.stat_636370122"
+        "explicit.stat_2923486259",
+        "explicit.stat_2250533757"
       ]
     }
   }

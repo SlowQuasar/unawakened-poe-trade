@@ -26,7 +26,8 @@ test('current granted-skill wording keeps legacy refs and uses cached effect ide
     }
     const ravenous = stats.find(stat => stat.ref === 'Grants Level # Ravenous Skill');
     assert.equal(ravenous.trade.ids.explicit[0], 'explicit.effect_388828889');
-    assert.ok(ravenous.trade.ids.explicit.includes('explicit.stat_636370122'));
+    // The pre-3.30 explicit.stat_636370122 is gone from trade ("Unknown stat provided").
+    assert.ok(!ravenous.trade.ids.explicit.includes('explicit.stat_636370122'));
     assert.ok(ravenous.matchers.some(m => m.string === (lang === 'ko' ? '#레벨 굶주림 스킬 사용 가능' : 'Grants Level # Ravenous Skill')));
   }
 });
