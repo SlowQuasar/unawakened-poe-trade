@@ -413,14 +413,18 @@ export function createFilters (
   if (item.isUnidentified) {
     filters.unidentified = {
       value: true,
-      disabled: (item.rarity !== ItemRarity.Unique)
+      // A tiered drop (3.30) is sold unidentified, so compare it with other
+      // unidentified listings of its base.
+      disabled: (item.rarity !== ItemRarity.Unique && item.unidentifiedTier == null)
     }
   }
 
+  // Few Kakao listings carry a tier (Heavy Belt: 42 of 929 unidentified), so
+  // the tier filter alone usually empties the search. Offer it, off by default.
   if (item.unidentifiedTier != null) {
     filters.unidentifiedTier = {
       value: item.unidentifiedTier,
-      disabled: false
+      disabled: true
     }
   }
 

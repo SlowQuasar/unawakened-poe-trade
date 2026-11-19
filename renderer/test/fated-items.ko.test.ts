@@ -39,7 +39,10 @@ it('parses an unidentified Fated rare with an unidentified tier', () => {
   const preset = presets.presets.find(preset => preset.id === presets.active)!
   const query = createTradeRequest(preset.filters, preset.stats).query
   expect(query.type).toBe('Manifold Ring')
-  expect(query.filters.misc_filters?.filters.unidentified_tier).toEqual({ min: 5 })
+  expect(query.filters.misc_filters?.filters.unidentified_tier).toBeUndefined()
+  expect(query.filters.misc_filters?.filters.identified).toEqual({ option: 'false' })
+  preset.filters.unidentifiedTier!.disabled = false
+  expect(createTradeRequest(preset.filters, preset.stats).query.filters.misc_filters?.filters.unidentified_tier).toEqual({ min: 5 })
   expect(query.filters.misc_filters?.filters.fated).toBeUndefined()
   preset.filters.fated!.disabled = false
   expect(createTradeRequest(preset.filters, preset.stats).query.filters.misc_filters?.filters.fated).toEqual({ option: 'true' })
@@ -79,6 +82,9 @@ it('reads the tier of unidentified magic and Fated rare drops', () => {
     expect(result.value.unknownModifiers).toEqual([])
     const presets = createPresets(result.value, options)
     const preset = presets.presets.find(preset => preset.id === presets.active)!
-    expect(createTradeRequest(preset.filters, preset.stats).query.filters.misc_filters?.filters.unidentified_tier).toEqual({ min: tier })
+    const misc = createTradeRequest(preset.filters, preset.stats).query.filters.misc_filters?.filters
+    expect(misc?.identified).toEqual({ option: 'false' })
+    expect(misc?.unidentified_tier).toBeUndefined()
+    expect(preset.filters.unidentifiedTier).toEqual({ value: tier, disabled: true })
   }
 })
