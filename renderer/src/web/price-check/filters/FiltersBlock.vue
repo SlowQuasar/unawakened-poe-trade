@@ -74,7 +74,7 @@
             :show-sources="showFilterSources" />
         </template>
         <div v-if="!filteredStats.length && !showUnknownMods"
-          class="border-b border-gray-700 py-2">{{ t('filters.empty') }}</div>
+          class="border-b border-gray-700 py-2">{{ t(stats.length ? 'filters.all_hidden' : 'filters.empty') }}</div>
         <template v-if="showUnknownMods">
           <unknown-modifier v-for="stat of item.unknownModifiers" :key="stat.type + '/' + stat.text"
             :stat="stat" />

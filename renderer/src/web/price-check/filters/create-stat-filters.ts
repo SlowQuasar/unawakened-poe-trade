@@ -218,6 +218,13 @@ export function initUiModFilters (
 
   finalFilterTweaks(ctx)
 
+  // A viscera's implicits are its whole value: check them by default.
+  if (item.category === ItemCategory.Viscera) {
+    for (const filter of ctx.filters) {
+      if (filter.tag === FilterTag.Implicit) filter.disabled = false
+    }
+  }
+
   return [...ctx.filters, ...ctx.groups]
 }
 

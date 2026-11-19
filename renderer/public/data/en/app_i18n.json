@@ -173,6 +173,7 @@
     "collapse": "Collapse",
     "mods_toggle": "Mods",
     "empty": "No relevant stats were found",
+    "all_hidden": "All stats have fixed values and are hidden. Searching by item name.",
     "tier": "Tier {0}",
     "tier_gilded": "Unique",
     "preset_pseudo": "Pseudo",

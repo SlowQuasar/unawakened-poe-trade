@@ -173,6 +173,7 @@
     "collapse": "접기",
     "mods_toggle": "모드",
     "empty": "관련 속성을 찾지 못했습니다.",
+    "all_hidden": "모든 속성이 고정값이라 숨겼습니다. 아이템 이름으로 검색합니다.",
     "tier": "티어 {0}",
     "tier_gilded": "고유",
     "preset_pseudo": "유사 속성",

@@ -24,6 +24,15 @@ describe('Korean stat filters', () => {
     expect(refs.some(ref => ref.includes('total'))).toBe(false)
   })
 
+  it('Viscera check their implicits by default', () => {
+    for (const file of ['3.30-viscera-head-hungry-skull.txt', '3.30-viscera-arm-lesser-swordsman-blade.txt', '3.30-viscera-body-elemental-essence.txt']) {
+      const filters = initUiModFilters(sample(file), { searchStatRange: 10 })
+        .flatMap(f => ('filters' in f) ? f.filters : [f])
+      expect(filters.length, file).toBeGreaterThan(0)
+      for (const filter of filters) expect(filter.disabled, `${file}: ${filter.text}`).toBe(false)
+    }
+  })
+
   it('rare equipment still uses the pseudo total resistance', () => {
     const item = sample('rare-amulet-anointed-crafted.txt')
     const refs = initUiModFilters(item, { searchStatRange: 10 })

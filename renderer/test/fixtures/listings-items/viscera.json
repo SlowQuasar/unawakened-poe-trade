@@ -21,7 +21,9 @@
       "unknown": [],
       "mismatched": [],
       "missing": [],
-      "enabled": []
+      "enabled": [
+        "implicit.stat_680068163"
+      ]
     },
     "frameType": 15,
     "implicitMods": [
@@ -64,7 +66,9 @@
       "unknown": [],
       "mismatched": [],
       "missing": [],
-      "enabled": []
+      "enabled": [
+        "implicit.stat_3762784591"
+      ]
     },
     "frameType": 15,
     "implicitMods": [
@@ -107,7 +111,9 @@
       "unknown": [],
       "mismatched": [],
       "missing": [],
-      "enabled": []
+      "enabled": [
+        "implicit.stat_680068163"
+      ]
     },
     "frameType": 15,
     "implicitMods": [
@@ -150,7 +156,9 @@
       "unknown": [],
       "mismatched": [],
       "missing": [],
-      "enabled": []
+      "enabled": [
+        "implicit.stat_680068163"
+      ]
     },
     "frameType": 15,
     "implicitMods": [
@@ -193,7 +201,9 @@
       "unknown": [],
       "mismatched": [],
       "missing": [],
-      "enabled": []
+      "enabled": [
+        "implicit.stat_680068163"
+      ]
     },
     "frameType": 15,
     "implicitMods": [
