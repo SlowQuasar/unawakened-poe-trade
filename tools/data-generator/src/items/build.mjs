@@ -19,7 +19,7 @@ for (const lang of langs) {
   baselineGroups[lang] = group(baseline[lang], key);
 }
 const snapshotBytes = {};
-for (const n of ['items','static','filters']) snapshotBytes[n] = await read(`tools/data-generator/snapshots/kakao-2026-11-17/${n}.json`);
+for (const n of ['items','static','filters']) snapshotBytes[n] = await read(`tools/data-generator/snapshots/kakao-2026-11-20/${n}.json`);
 const trade = JSON.parse(snapshotBytes.items).result.flatMap(g => g.entries.map(e => ({ ...e, group: g.id })));
 const bulk = JSON.parse(snapshotBytes.static).result.flatMap(g => g.entries);
 const filters = JSON.parse(snapshotBytes.filters).result.flatMap(g => g.filters).flatMap(f => f.option?.options ?? []);
