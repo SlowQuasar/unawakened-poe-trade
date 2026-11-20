@@ -78,7 +78,7 @@ it('enables each requested map content modifier in the props preset', () => {
   for (const text of [
     '지역에 묻힌 대혼란 파수꾼 등장', '지역에 묻힌 거물 파수꾼 등장', '지역에 묻힌 추적자 파수꾼 등장',
     '지역에 베이다트의 환기자 1마리 등장', '지역에 크타쉬의 환기자 1마리 등장', '지역에 고르의 환기자 1마리 등장',
-    '지역에 신기루 등장', '지역에 환영의 거울 등장'
+    '지역에 허상 등장', '지역에 환영의 거울 등장'
   ]) {
     const result = parseClipboard(original.replace('지역에 취록의 야생림 등장', text))
     if (result.isErr()) throw new Error(result.error)

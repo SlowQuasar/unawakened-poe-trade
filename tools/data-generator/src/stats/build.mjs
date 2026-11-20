@@ -324,7 +324,7 @@ export async function build() {
   const report = { sources: [], languages: {}, generated: [], unsupported: {}, deferred: [], englishBaseline: flatten(baseline.en) };
   const area = await readAreaMods(process.argv[2]);
   report.areaMods = { ...area.evidence, added: [], baselineMatches: [], descriptions: [] };
-  const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-18/stats.json');
+  const snapshot = await load('tools/data-generator/snapshots/kakao-2026-11-20/stats.json');
   const byText = tradeIndex(snapshot);
   const supportEffects = await readSupportEffects(process.argv[2]);
   const passiveOptions = await readPassiveOptions(snapshot, process.argv[2]);

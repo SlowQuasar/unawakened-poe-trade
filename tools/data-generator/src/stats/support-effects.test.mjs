@@ -18,11 +18,11 @@ test('both random support slots expand names without a second numeric roll', () 
   }
 });
 
-test('all 228 cached support effect IDs have current Korean matchers and legacy Rage is retained', () => {
+test('all 230 cached support effect IDs have current Korean matchers and legacy Rage is retained', () => {
   const stats = readFileSync(new URL('tools/data-generator/out/staging/ko/stats.ndjson', root), 'utf8').trim().split('\n').map(JSON.parse).flatMap(r => r.stats ?? [r]);
-  const entries = json('tools/data-generator/snapshots/kakao-2026-11-18/stats.json').result.flatMap(g => g.entries);
+  const entries = json('tools/data-generator/snapshots/kakao-2026-11-20/stats.json').result.flatMap(g => g.entries);
   const effects = entries.filter(e => e.id.includes('.effect_') && e.text.startsWith('장착된 젬에 #레벨') && e.text.endsWith('보조 효과 적용'));
-  assert.equal(effects.length, 228);
+  assert.equal(effects.length, 230); // 3.30 added Congregation and Greater Unleash (2026-11-20 snapshot)
   for (const entry of effects) assert.ok(stats.some(s => Object.values(s.trade.ids).flat().includes(entry.id) && s.matchers.some(m => m.string === entry.text)), entry.id);
   const rage = stats.find(s => s.ref === 'Socketed Gems are Supported by Level # Rage');
   assert.equal(rage.trade.ids.explicit[0], 'explicit.effect_3512123051');
