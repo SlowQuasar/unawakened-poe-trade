@@ -120,7 +120,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 19,
+  configVersion: 20,
   overlayKey: 'Shift + Space',
   overlayBackground: 'rgba(129, 139, 149, 0.15)',
   overlayBackgroundClose: true,
@@ -434,6 +434,14 @@ export function upgradeConfig (_config: Config): Config {
     }
     delete config.realm
     config.configVersion = 19
+  }
+  if (config.configVersion < 20) {
+    // the old default of +-10% becomes "exact roll"; custom ranges are kept
+    const priceCheck = config.widgets.find(w => w.wmType === 'price-check')
+    if (priceCheck && priceCheck.searchStatRange === 10) {
+      priceCheck.searchStatRange = 0
+    }
+    config.configVersion = 20
   }
   /* eslint-enable */
 

@@ -112,7 +112,7 @@ export default defineComponent({
         hotkeyHold: 'Ctrl',
         hotkeyLocked: 'Ctrl + Alt + D',
         showSeller: false,
-        searchStatRange: 10,
+        searchStatRange: 0,
         showCursor: true,
         requestPricePrediction: false,
         merchantOnly: true,
