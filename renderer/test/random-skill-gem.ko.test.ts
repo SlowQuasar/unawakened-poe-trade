@@ -59,3 +59,12 @@ it('has no 3.29-style textual ranges left in advanced matchers', async () => {
     expect(text.match(/"advanced":"[^"]*\([^()\d#"]+-[^()\d#"]+\)/g) ?? []).toEqual([])
   }
 })
+
+// Trade API text and some clipboards drop the "(...)"; the plain text still
+// finds the random skill gem stat when no fixed mod shares the wording.
+it('falls back to plain text when "(...)" is missing', () => {
+  const result = parseClipboard(ITEM.replace('모든 번개 첨탑 덫(...) 젬 레벨 +3', '모든 얼음 덫 젬 레벨 +3'))
+  if (result.isErr()) throw new Error(String(result.error))
+  expect(result.value.unknownModifiers).toEqual([])
+  expect(result.value.statsByType.map(s => s.stat.ref)).toContain('+# to Level of all Ice Trap Gems (Random Skill Gem)')
+})

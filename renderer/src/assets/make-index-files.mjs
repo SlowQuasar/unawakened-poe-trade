@@ -38,6 +38,32 @@ export function makeIndexFiles () {
         }
         start = (end + 1)
       }
+
+      // Advanced text is the primary key. Plain text of advanced matchers is a
+      // fallback for clipboards where the game omits the "(...)" range, but only
+      // when no other line already owns that text (fixed mods stay preferred).
+      const owned = new Set(lineStarts.matchers.map(m => m.hash))
+      const fallback = new Map()
+      start = 0
+      while (start !== ndjson.length) {
+        const end = ndjson.indexOf('\n', start)
+        /** @type {import('./data/interfaces').StatOrGroup} */
+        const statOrGroup = JSON.parse(ndjson.slice(start, end))
+        const stats = ('stats' in statOrGroup) ? statOrGroup.stats : [statOrGroup]
+        for (const stat of stats) {
+          for (const matcher of stat.matchers) {
+            if (!matcher.advanced || matcher.advanced === matcher.string) continue
+            const hash = Number(fnv1a(matcher.string, { size: 32 }))
+            if (owned.has(hash)) continue
+            // ambiguous between lines -> no fallback at all
+            fallback.set(hash, (fallback.has(hash) && fallback.get(hash) !== start) ? -1 : start)
+          }
+        }
+        start = (end + 1)
+      }
+      for (const [hash, lineStart] of fallback) {
+        if (lineStart !== -1) lineStarts.matchers.push({ start: lineStart, hash })
+      }
     }
 
     {
