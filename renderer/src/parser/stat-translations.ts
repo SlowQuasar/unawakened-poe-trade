@@ -80,15 +80,14 @@ const PLACEHOLDER_MAP = [
   [[0, 1, 2, 3], [1, 2, 3], [0, 2, 3], [0, 1, 3], [0, 1, 2], [2, 3], [1, 3], [1, 2], [0, 3], [0, 2], [0, 1]]
 ]
 
-function * _statPlaceholderGenerator (stat: string) {
+function * _statPlaceholderGenerator (stat: string, keepEllipsis = false) {
   const matches: Array<{
     roll: number
     rollStr: string
     decimal: boolean
     bounds?: { min: number, max: number }
   }> = []
-  const withPlaceholders = stat
-    .replace(/\(\.\.\.\)/gm, '') // 3.30 textual advanced ranges
+  const withPlaceholders = (keepEllipsis ? stat : stat.replace(/\(\.\.\.\)/gm, '')) // 3.30 textual advanced ranges
     .replace(/\(\)/gm, '') // when GGG didn't provide advanced desc, like in "Passives in Radius of Wicked Ward() can be Allocated"
     .replace(/(?<value>(?<!\d|\))[+-]?\d+(?:\.\d+)?)(?:\((?<min>.[^)-]*)(?:-(?<max>[^)]+))?\))?/gm, (_, roll: string, min?: string, max?: string) => {
       if (min != null && max == null) {
@@ -136,12 +135,21 @@ function * _statPlaceholderGenerator (stat: string) {
   yield { stat, values: [] }
 }
 
+// 3.30 shows textual advanced ranges as "(...)", e.g. "all Lightning Spire
+// Trap(...) Gems" on random skill gem mods. The advanced matcher keeps the
+// "(...)" so it can tell them apart from fixed mods; the stripped text is the
+// fallback for stats without an advanced matcher.
+function * _statCombinations (stat: string) {
+  if (stat.includes('(...)')) yield * _statPlaceholderGenerator(stat, true)
+  yield * _statPlaceholderGenerator(stat)
+}
+
 export function tryParseTranslation (
   stat: StatString,
   modType: ModifierType,
   itemCategory: ItemCategory | undefined
 ): ParsedStat | undefined {
-  for (const combination of _statPlaceholderGenerator(stat.string)) {
+  for (const combination of _statCombinations(stat.string)) {
     const found = findAndResolveTranslation({
       matchStr: combination.stat,
       modType: modType,
