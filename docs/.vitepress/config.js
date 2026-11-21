@@ -19,7 +19,7 @@ export default defineConfig({
   },
   themeConfig: {
     // logo: 'TODO', https://github.com/vuejs/vitepress/issues/1401
-    appVersion: '3.30.11',
+    appVersion: '3.30.12',
     github: {
       releasesUrl: 'https://github.com/SlowQuasar/unawakened-poe-trade/releases'
     },

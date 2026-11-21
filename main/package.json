@@ -1,6 +1,6 @@
 {
   "name": "unawakened-poe-trade",
-  "version": "3.30.11",
+  "version": "3.30.12",
   "private": true,
   "scripts": {
     "dev": "node build/script.mjs",
