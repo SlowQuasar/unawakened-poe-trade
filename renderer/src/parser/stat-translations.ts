@@ -263,8 +263,10 @@ function findAndResolveTranslation (
   }
 
   if (stat) {
-    const matcher = stat.matchers.find(m =>
-      m.string === matchStr || m.advanced === matchStr)
+    const isMatch = (m: StatMatcher) => m.string === matchStr || m.advanced === matchStr
+    // a merged group can resolve to a stat other than the one owning the text
+    const matcher = stat.matchers.find(isMatch) ??
+      (('stats' in statOrGroup) ? statOrGroup.stats.flatMap(s => s.matchers).find(isMatch) : undefined)
     if (!matcher) return undefined
     return { stat, matcher }
   }
@@ -315,11 +317,15 @@ export function _resolveTranslation (
     return stats.find(stat =>
       stat.matchers.some(m => m.string === matchStr || m.advanced === matchStr))
   } else if (resolve.strat === 'flag-merge') {
-    if (roll === undefined) return undefined
     const valStat = stats[resolve.kind.indexOf('value')]
     const flagStat = stats[resolve.kind.indexOf('flag')]
     const flagRoll = flagStat.matchers[0].value!
-    if (roll === flagRoll) {
+    // Korean words the fixed value differently from the ranged stat
+    // ("동결된 적이 받는 피해 20% 증가" vs "플레이어가 동결시킨 적이 받는 피해 #% 증가"),
+    // so the exact flag text arrives without a roll.
+    const flagText = flagStat.matchers.some(m => m.string === matchStr || m.advanced === matchStr)
+    if (roll === undefined && !flagText) return undefined
+    if (flagText || roll === flagRoll) {
       _mergeTradeIdsInto(valStat, flagStat, '{empty}')
     }
     return valStat
